@@ -39,6 +39,7 @@
 
   <div class="actions">
     <button class="btn" id="hint"></button>
+    <button class="btn" id="giveup" data-i18n="giveUp"></button>
   </div>
   <div class="hint-box" id="hint-box" hidden></div>
 
@@ -78,6 +79,14 @@
   <div class="dist" id="st-dist"></div>
   <div class="actions" style="margin-top:16px;justify-content:flex-end">
     <button class="btn" id="close-stats" data-i18n="close"></button>
+  </div>
+</dialog>
+
+<dialog id="confirm-giveup">
+  <p data-i18n="giveUpConfirm" style="margin:0 0 16px"></p>
+  <div class="actions" style="justify-content:flex-end">
+    <button class="btn" id="giveup-no" data-i18n="cancel"></button>
+    <button class="btn primary" id="giveup-yes" data-i18n="giveUpYes"></button>
   </div>
 </dialog>
 

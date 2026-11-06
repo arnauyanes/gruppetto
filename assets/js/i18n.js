@@ -4,6 +4,7 @@ export const LANGS = { ca: "Català", es: "Español", en: "English", fr: "Franç
 
 const T = {
   ca: {
+    giveUp: "Em rendeixo", giveUpConfirm: "Segur? Es mostrarà la solució i comptarà com a derrota.", giveUpYes: "Sí, mostra-la", cancel: "Continua jugant", gaveUp: "T'has retirat", share: "Comparteix el resultat", shareOn: "Comparteix a", copyText: "Copia el text", shareInvite: "Saps qui és el corredor d'avui?",
     tagline: "Jocs diaris per a aficionats al ciclisme",
     gamesTitle: "Jocs",
     soon: "Aviat",
@@ -29,10 +30,11 @@ const T = {
     played: "Jugades", winPct: "% victòries", streak: "Ratxa", maxStreak: "Millor ratxa", distribution: "Intents per victòria",
     nextIn: "Nou corredor en {t}",
     sampleNote: "Versió de proves amb dades de mostra (fins a 2025). Equips 2026.",
-    spec: { gv: "Gran volta", climber: "Escalador", puncheur: "Puncheur", classics: "Clàssiques", sprinter: "Esprintador", tt: "Contrarellotge", domestique: "Gregari" },
+    spec: { gv: "Gran volta", climber: "Escalador", puncheur: "Puncheur", classics: "Clàssiques", sprinter: "Esprintador", tt: "Crono", domestique: "Gregari" },
     cont: { EU: "Europa", AM: "Amèrica", AF: "Àfrica", AS: "Àsia", OC: "Oceania" }
   },
   es: {
+    giveUp: "Me rindo", giveUpConfirm: "¿Seguro? Se mostrará la solución y contará como derrota.", giveUpYes: "Sí, muéstrala", cancel: "Seguir jugando", gaveUp: "Te has retirado", share: "Comparte tu resultado", shareOn: "Compartir en", copyText: "Copiar texto", shareInvite: "¿Sabes quién es el corredor de hoy?",
     tagline: "Juegos diarios para aficionados al ciclismo",
     gamesTitle: "Juegos",
     soon: "Pronto",
@@ -58,10 +60,11 @@ const T = {
     played: "Jugadas", winPct: "% victorias", streak: "Racha", maxStreak: "Mejor racha", distribution: "Intentos por victoria",
     nextIn: "Nuevo corredor en {t}",
     sampleNote: "Versión de pruebas con datos de muestra (hasta 2025). Equipos 2026.",
-    spec: { gv: "Gran vuelta", climber: "Escalador", puncheur: "Puncheur", classics: "Clásicas", sprinter: "Esprínter", tt: "Contrarreloj", domestique: "Gregario" },
+    spec: { gv: "Gran vuelta", climber: "Escalador", puncheur: "Puncheur", classics: "Clásicas", sprinter: "Esprínter", tt: "Crono", domestique: "Gregario" },
     cont: { EU: "Europa", AM: "América", AF: "África", AS: "Asia", OC: "Oceanía" }
   },
   en: {
+    giveUp: "Give up", giveUpConfirm: "Sure? The answer will be shown and it counts as a loss.", giveUpYes: "Yes, show it", cancel: "Keep playing", gaveUp: "Abandoned", share: "Share your score", shareOn: "Share on", copyText: "Copy text", shareInvite: "Can you guess today's rider?",
     tagline: "Daily games for cycling fans",
     gamesTitle: "Games",
     soon: "Soon",
@@ -87,10 +90,11 @@ const T = {
     played: "Played", winPct: "Win %", streak: "Streak", maxStreak: "Best streak", distribution: "Guesses per win",
     nextIn: "New rider in {t}",
     sampleNote: "Test version with sample data (up to 2025). 2026 teams.",
-    spec: { gv: "Grand Tour", climber: "Climber", puncheur: "Puncheur", classics: "Classics", sprinter: "Sprinter", tt: "Time trial", domestique: "Domestique" },
+    spec: { gv: "Grand Tour", climber: "Climber", puncheur: "Puncheur", classics: "Classics", sprinter: "Sprinter", tt: "TT", domestique: "Domestique" },
     cont: { EU: "Europe", AM: "Americas", AF: "Africa", AS: "Asia", OC: "Oceania" }
   },
   fr: {
+    giveUp: "J'abandonne", giveUpConfirm: "Sûr ? La solution sera affichée et comptera comme une défaite.", giveUpYes: "Oui, montre-la", cancel: "Continuer", gaveUp: "Abandon", share: "Partage ton score", shareOn: "Partager sur", copyText: "Copier le texte", shareInvite: "Sauras-tu trouver le coureur du jour ?",
     tagline: "Jeux quotidiens pour les fans de cyclisme",
     gamesTitle: "Jeux",
     soon: "Bientôt",
@@ -116,10 +120,11 @@ const T = {
     played: "Parties", winPct: "% victoires", streak: "Série", maxStreak: "Meilleure série", distribution: "Essais par victoire",
     nextIn: "Nouveau coureur dans {t}",
     sampleNote: "Version de test avec des données d'exemple (jusqu'à 2025). Équipes 2026.",
-    spec: { gv: "Grand Tour", climber: "Grimpeur", puncheur: "Puncheur", classics: "Classiques", sprinter: "Sprinteur", tt: "Contre-la-montre", domestique: "Équipier" },
+    spec: { gv: "Grand Tour", climber: "Grimpeur", puncheur: "Puncheur", classics: "Classiques", sprinter: "Sprinteur", tt: "Chrono", domestique: "Équipier" },
     cont: { EU: "Europe", AM: "Amérique", AF: "Afrique", AS: "Asie", OC: "Océanie" }
   },
   it: {
+    giveUp: "Mi arrendo", giveUpConfirm: "Sicuro? Verrà mostrata la soluzione e conterà come sconfitta.", giveUpYes: "Sì, mostrala", cancel: "Continua a giocare", gaveUp: "Ritirato", share: "Condividi il punteggio", shareOn: "Condividi su", copyText: "Copia il testo", shareInvite: "Sai chi è il corridore di oggi?",
     tagline: "Giochi quotidiani per gli appassionati di ciclismo",
     gamesTitle: "Giochi",
     soon: "Presto",
@@ -145,7 +150,7 @@ const T = {
     played: "Giocate", winPct: "% vittorie", streak: "Serie", maxStreak: "Serie migliore", distribution: "Tentativi per vittoria",
     nextIn: "Nuovo corridore tra {t}",
     sampleNote: "Versione di prova con dati di esempio (fino al 2025). Squadre 2026.",
-    spec: { gv: "Grandi giri", climber: "Scalatore", puncheur: "Puncheur", classics: "Classiche", sprinter: "Velocista", tt: "Cronoman", domestique: "Gregario" },
+    spec: { gv: "Grandi giri", climber: "Scalatore", puncheur: "Puncheur", classics: "Classiche", sprinter: "Velocista", tt: "Crono", domestique: "Gregario" },
     cont: { EU: "Europa", AM: "America", AF: "Africa", AS: "Asia", OC: "Oceania" }
   }
 };

@@ -89,7 +89,7 @@ a.game-card:hover { border-color: var(--accent); }
 .suggest li[aria-selected="true"], .suggest li:hover { background: var(--line); }
 
 .actions { display: flex; gap: 8px; flex-wrap: wrap; }
-.btn { border: 1px solid var(--line-strong); background: var(--surface); color: var(--fg); padding: 8px 14px; border-radius: var(--radius);
+.btn { text-decoration: none; display: inline-flex; align-items: center; border: 1px solid var(--line-strong); background: var(--surface); color: var(--fg); padding: 8px 14px; border-radius: var(--radius);
   cursor: pointer; font-weight: 600; font-size: .95rem; }
 .btn:hover { border-color: var(--accent); }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }

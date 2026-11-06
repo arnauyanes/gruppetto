@@ -31,7 +31,7 @@ function ageOf(born, now = new Date()) {
 const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
 let riders, teams, countries, byId;
-let mode = "daily", target, guesses = [], hintUsed = false, done = false;
+let mode = "daily", target, guesses = [], hintUsed = false, done = false, gaveUp = false;
 const today = dayIndexOf();
 
 async function load() {
@@ -87,16 +87,18 @@ function addGuess(g) {
   guesses.push(g);
   renderGuess(g);
   const won = g.id === target.id;
-  if (mode === "daily") saveDay(GAME, { day: today, guesses: guesses.map(x => x.id), hint: hintUsed });
+  if (mode === "daily") saveDay(GAME, { day: today, guesses: guesses.map(x => x.id), hint: hintUsed, gaveUp });
   if (won || guesses.length >= MAX) finish(won, true);
   update();
 }
 
+function gameUrl() { return location.origin + location.pathname; }
+
 function shareText(won) {
   const icon = { ok: "🟩", near: "🟨", miss: "⬛" };
   const rows = guesses.map(g => Object.values(evaluate(g)).map(k => icon[k]).join(""));
-  const head = `Gruppetto · ${t("whoName")} ${mode === "daily" ? "#" + (today + 1) : ""} ${won ? guesses.length : "X"}/${MAX}${hintUsed ? " 💡" : ""}`;
-  return `${head}\n${rows.join("\n")}`;
+  const head = `Gruppetto · ${t("whoName")} ${mode === "daily" ? "#" + (today + 1) : ""} ${won ? guesses.length : (gaveUp ? "🏳️" : "X")}/${MAX}${hintUsed ? " 💡" : ""}`;
+  return `${head}\n${rows.join("\n")}\n${t("shareInvite")} ${gameUrl()}`;
 }
 
 function finish(won, fresh) {
@@ -104,22 +106,28 @@ function finish(won, fresh) {
   if (mode === "daily" && fresh) recordDaily(GAME, today, won, guesses.length);
   const r = $("result");
   r.innerHTML = "";
-  const h = document.createElement("h2"); h.textContent = won ? t("won") : t("lost");
+  const h = document.createElement("h2"); h.textContent = won ? t("won") : (gaveUp ? t("gaveUp") : t("lost"));
   const p = document.createElement("p");
   p.textContent = won ? `${t("wonText", { n: guesses.length })} ` : `${t("lostText")} `;
   const b = document.createElement("strong"); b.textContent = `${target.name} · ${teams[target.team]?.name || ""}`;
   p.appendChild(b);
   const pre = document.createElement("pre"); pre.className = "share"; pre.textContent = shareText(won);
   const row = document.createElement("div"); row.className = "actions";
-  const copy = document.createElement("button"); copy.className = "btn primary"; copy.textContent = t("copy");
-  copy.onclick = () => {
-    navigator.clipboard?.writeText(pre.textContent).then(() => { copy.textContent = t("copied"); }).catch(() => {
-      const sel = getSelection(), rg = document.createRange(); rg.selectNodeContents(pre); sel.removeAllRanges(); sel.addRange(rg);
-    });
+  const text = pre.textContent;
+  const share = document.createElement("button"); share.className = "btn primary"; share.textContent = t("share");
+  share.onclick = async () => {
+    if (navigator.share) { try { await navigator.share({ text }); return; } catch (e) { if (e.name === "AbortError") return; } }
+    copyToClipboard(text, share);
   };
+  const wa = document.createElement("a"); wa.className = "btn"; wa.target = "_blank"; wa.rel = "noopener";
+  wa.href = `https://wa.me/?text=${encodeURIComponent(text)}`; wa.textContent = "WhatsApp";
+  const x = document.createElement("a"); x.className = "btn"; x.target = "_blank"; x.rel = "noopener";
+  x.href = `https://x.com/intent/post?text=${encodeURIComponent(text)}`; x.textContent = "X";
+  const copy = document.createElement("button"); copy.className = "btn"; copy.textContent = t("copyText");
+  copy.onclick = () => copyToClipboard(text, copy);
   const again = document.createElement("button"); again.className = "btn"; again.textContent = t("playFree");
   again.onclick = () => start("free");
-  row.append(copy, again);
+  row.append(share, wa, x, copy, again);
   r.append(h, p, pre, row);
   if (mode === "daily") {
     const next = document.createElement("p"); next.className = "counter"; r.appendChild(next);
@@ -134,6 +142,19 @@ function finish(won, fresh) {
   r.hidden = false;
 }
 
+function copyToClipboard(text, btn) {
+  const ok = () => { btn.textContent = t("copied"); };
+  if (navigator.clipboard) navigator.clipboard.writeText(text).then(ok).catch(() => {});
+}
+
+function giveUp() {
+  if (done) return;
+  gaveUp = true;
+  if (mode === "daily") saveDay(GAME, { day: today, guesses: guesses.map(x => x.id), hint: hintUsed, gaveUp: true });
+  finish(false, true);
+  update();
+}
+
 function update() {
   $("tries").textContent = t("tries", { n: guesses.length, max: MAX });
   $("q").disabled = done;
@@ -141,6 +162,7 @@ function update() {
   const hb = $("hint");
   hb.disabled = done || hintUsed;
   hb.textContent = hintUsed ? t("hintUsed") : t("hintBtn");
+  $("giveup").disabled = done;
   $("hint-box").hidden = !hintUsed;
   if (hintUsed) $("hint-box").textContent = t("hintTeam", { team: teams[target.team]?.name || "" });
 }
@@ -151,14 +173,14 @@ function start(m) {
   $("m-free").setAttribute("aria-pressed", m === "free");
   document.querySelectorAll("#grid .row-cell").forEach(e => e.remove());
   $("result").hidden = true;
-  guesses = []; done = false; hintUsed = false;
+  guesses = []; done = false; hintUsed = false; gaveUp = false;
   if (m === "daily") {
     target = dailyTarget();
     const saved = loadDay(GAME, today);
-    hintUsed = saved.hint;
+    hintUsed = saved.hint; gaveUp = !!saved.gaveUp;
     saved.guesses.map(id => byId[id]).filter(Boolean).forEach(g => { guesses.push(g); renderGuess(g); });
     const won = guesses.some(g => g.id === target.id);
-    if (won || guesses.length >= MAX) finish(won, false);
+    if (won || gaveUp || guesses.length >= MAX) finish(won, false);
   } else {
     target = riders[Math.floor(Math.random() * riders.length)];
   }
@@ -192,7 +214,7 @@ function showHintAd() {
     n--; count.textContent = n;
     if (n <= 0) {
       clearInterval(iv); dlg.close(); hintUsed = true;
-      if (mode === "daily") saveDay(GAME, { day: today, guesses: guesses.map(x => x.id), hint: true });
+      if (mode === "daily") saveDay(GAME, { day: today, guesses: guesses.map(x => x.id), hint: true, gaveUp });
       update();
     }
   }, 1000);
@@ -231,6 +253,9 @@ async function init() {
   $("m-daily").onclick = () => start("daily");
   $("m-free").onclick = () => start("free");
   $("hint").onclick = showHintAd;
+  $("giveup").onclick = () => $("confirm-giveup").showModal();
+  $("giveup-yes").onclick = () => { $("confirm-giveup").close(); giveUp(); };
+  $("giveup-no").onclick = () => $("confirm-giveup").close();
   $("open-stats").onclick = showStats;
   $("close-stats").onclick = () => $("stats").close();
   start("daily");

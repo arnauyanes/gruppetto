@@ -1,0 +1,190 @@
+{
+ "SI": {
+  "code": "SLO",
+  "continent": "EU"
+ },
+ "PT": {
+  "code": "POR",
+  "continent": "EU"
+ },
+ "MX": {
+  "code": "MEX",
+  "continent": "AM"
+ },
+ "DK": {
+  "code": "DEN",
+  "continent": "EU"
+ },
+ "BE": {
+  "code": "BEL",
+  "continent": "EU"
+ },
+ "US": {
+  "code": "USA",
+  "continent": "AM"
+ },
+ "DE": {
+  "code": "GER",
+  "continent": "EU"
+ },
+ "NL": {
+  "code": "NED",
+  "continent": "EU"
+ },
+ "ES": {
+  "code": "ESP",
+  "continent": "EU"
+ },
+ "IT": {
+  "code": "ITA",
+  "continent": "EU"
+ },
+ "CO": {
+  "code": "COL",
+  "continent": "AM"
+ },
+ "EC": {
+  "code": "ECU",
+  "continent": "AM"
+ },
+ "IE": {
+  "code": "IRL",
+  "continent": "EU"
+ },
+ "FR": {
+  "code": "FRA",
+  "continent": "EU"
+ },
+ "GB": {
+  "code": "GBR",
+  "continent": "EU"
+ },
+ "CH": {
+  "code": "SUI",
+  "continent": "EU"
+ },
+ "AU": {
+  "code": "AUS",
+  "continent": "OC"
+ },
+ "NO": {
+  "code": "NOR",
+  "continent": "EU"
+ },
+ "KZ": {
+  "code": "KAZ",
+  "continent": "AS"
+ },
+ "AE": {
+  "code": "UAE",
+  "continent": "AS"
+ },
+ "BH": {
+  "code": "BRN",
+  "continent": "AS"
+ },
+ "ER": {
+  "code": "ERI",
+  "continent": "AF"
+ },
+ "ZA": {
+  "code": "RSA",
+  "continent": "AF"
+ },
+ "NZ": {
+  "code": "NZL",
+  "continent": "OC"
+ },
+ "CA": {
+  "code": "CAN",
+  "continent": "AM"
+ },
+ "AT": {
+  "code": "AUT",
+  "continent": "EU"
+ },
+ "PL": {
+  "code": "POL",
+  "continent": "EU"
+ },
+ "CZ": {
+  "code": "CZE",
+  "continent": "EU"
+ },
+ "SK": {
+  "code": "SVK",
+  "continent": "EU"
+ },
+ "LU": {
+  "code": "LUX",
+  "continent": "EU"
+ },
+ "VE": {
+  "code": "VEN",
+  "continent": "AM"
+ },
+ "EE": {
+  "code": "EST",
+  "continent": "EU"
+ },
+ "LV": {
+  "code": "LAT",
+  "continent": "EU"
+ },
+ "LT": {
+  "code": "LTU",
+  "continent": "EU"
+ },
+ "SE": {
+  "code": "SWE",
+  "continent": "EU"
+ },
+ "FI": {
+  "code": "FIN",
+  "continent": "EU"
+ },
+ "HU": {
+  "code": "HUN",
+  "continent": "EU"
+ },
+ "HR": {
+  "code": "CRO",
+  "continent": "EU"
+ },
+ "UA": {
+  "code": "UKR",
+  "continent": "EU"
+ },
+ "JP": {
+  "code": "JPN",
+  "continent": "AS"
+ },
+ "CN": {
+  "code": "CHN",
+  "continent": "AS"
+ },
+ "AR": {
+  "code": "ARG",
+  "continent": "AM"
+ },
+ "BR": {
+  "code": "BRA",
+  "continent": "AM"
+ },
+ "CR": {
+  "code": "CRC",
+  "continent": "AM"
+ },
+ "ET": {
+  "code": "ETH",
+  "continent": "AF"
+ },
+ "RW": {
+  "code": "RWA",
+  "continent": "AF"
+ },
+ "IL": {
+  "code": "ISR",
+  "continent": "AS"
+ }
+}

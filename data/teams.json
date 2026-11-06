@@ -1,0 +1,113 @@
+{
+ "season": 2026,
+ "teams": [
+  {
+   "id": "alpecin",
+   "name": "Alpecin–Premier Tech",
+   "short": "Alpecin",
+   "country": "BE"
+  },
+  {
+   "id": "decathlon",
+   "name": "Decathlon CMA CGM",
+   "short": "Decathlon",
+   "country": "FR"
+  },
+  {
+   "id": "ef",
+   "name": "EF Education–EasyPost",
+   "short": "EF",
+   "country": "US"
+  },
+  {
+   "id": "groupama",
+   "name": "Groupama–FDJ United",
+   "short": "Groupama",
+   "country": "FR"
+  },
+  {
+   "id": "lidl",
+   "name": "Lidl–Trek",
+   "short": "Lidl-Trek",
+   "country": "DE"
+  },
+  {
+   "id": "lotto",
+   "name": "Lotto–Intermarché",
+   "short": "Lotto",
+   "country": "BE"
+  },
+  {
+   "id": "movistar",
+   "name": "Movistar Team",
+   "short": "Movistar",
+   "country": "ES"
+  },
+  {
+   "id": "ineos",
+   "name": "Netcompany INEOS",
+   "short": "INEOS",
+   "country": "GB"
+  },
+  {
+   "id": "nsn",
+   "name": "NSN Cycling Team",
+   "short": "NSN",
+   "country": "CH"
+  },
+  {
+   "id": "redbull",
+   "name": "Red Bull–Bora–Hansgrohe",
+   "short": "Red Bull",
+   "country": "DE"
+  },
+  {
+   "id": "soudal",
+   "name": "Soudal–Quick-Step",
+   "short": "Soudal QS",
+   "country": "BE"
+  },
+  {
+   "id": "bahrain",
+   "name": "Team Bahrain Victorious",
+   "short": "Bahrain",
+   "country": "BH"
+  },
+  {
+   "id": "jayco",
+   "name": "Team Jayco–AlUla",
+   "short": "Jayco",
+   "country": "AU"
+  },
+  {
+   "id": "picnic",
+   "name": "Team Picnic–PostNL",
+   "short": "Picnic",
+   "country": "NL"
+  },
+  {
+   "id": "visma",
+   "name": "Visma–Lease a Bike",
+   "short": "Visma",
+   "country": "NL"
+  },
+  {
+   "id": "uae",
+   "name": "UAE Team Emirates XRG",
+   "short": "UAE",
+   "country": "AE"
+  },
+  {
+   "id": "unox",
+   "name": "Uno-X Mobility",
+   "short": "Uno-X",
+   "country": "NO"
+  },
+  {
+   "id": "astana",
+   "name": "XDS Astana Team",
+   "short": "Astana",
+   "country": "KZ"
+  }
+ ]
+}

@@ -1,0 +1,281 @@
+{
+ "source": "sample",
+ "note": "Dades de mostra. Palmarès fins a final de 2025.",
+ "riders": [
+  {
+   "id": "tadej-pogacar",
+   "name": "Tadej Pogačar",
+   "country": "SI",
+   "team": "uae",
+   "born": "1998",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 5,
+   "monuments": 9
+  },
+  {
+   "id": "joao-almeida",
+   "name": "João Almeida",
+   "country": "PT",
+   "team": "uae",
+   "born": "1998",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "isaac-del-toro",
+   "name": "Isaac del Toro",
+   "country": "MX",
+   "team": "uae",
+   "born": "2003",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jonas-vingegaard",
+   "name": "Jonas Vingegaard",
+   "country": "DK",
+   "team": "visma",
+   "born": "1996",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 3,
+   "monuments": 0
+  },
+  {
+   "id": "wout-van-aert",
+   "name": "Wout van Aert",
+   "country": "BE",
+   "team": "visma",
+   "born": "1994",
+   "spec": "classics",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 1
+  },
+  {
+   "id": "matteo-jorgenson",
+   "name": "Matteo Jorgenson",
+   "country": "US",
+   "team": "visma",
+   "born": "1999",
+   "spec": "gv",
+   "specConfidence": "probable",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "remco-evenepoel",
+   "name": "Remco Evenepoel",
+   "country": "BE",
+   "team": "redbull",
+   "born": "2000",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 1,
+   "monuments": 2
+  },
+  {
+   "id": "primoz-roglic",
+   "name": "Primož Roglič",
+   "country": "SI",
+   "team": "redbull",
+   "born": "1989",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 5,
+   "monuments": 1
+  },
+  {
+   "id": "florian-lipowitz",
+   "name": "Florian Lipowitz",
+   "country": "DE",
+   "team": "redbull",
+   "born": "2000",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mathieu-van-der-poel",
+   "name": "Mathieu van der Poel",
+   "country": "NL",
+   "team": "alpecin",
+   "born": "1995",
+   "spec": "classics",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 8
+  },
+  {
+   "id": "jasper-philipsen",
+   "name": "Jasper Philipsen",
+   "country": "BE",
+   "team": "alpecin",
+   "born": "1998",
+   "spec": "sprinter",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 1
+  },
+  {
+   "id": "juan-ayuso",
+   "name": "Juan Ayuso",
+   "country": "ES",
+   "team": "lidl",
+   "born": "2002",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jonathan-milan",
+   "name": "Jonathan Milan",
+   "country": "IT",
+   "team": "lidl",
+   "born": "2000",
+   "spec": "sprinter",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mads-pedersen",
+   "name": "Mads Pedersen",
+   "country": "DK",
+   "team": "lidl",
+   "born": "1995",
+   "spec": "classics",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "enric-mas",
+   "name": "Enric Mas",
+   "country": "ES",
+   "team": "movistar",
+   "born": "1995",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "nairo-quintana",
+   "name": "Nairo Quintana",
+   "country": "CO",
+   "team": "movistar",
+   "born": "1990",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 2,
+   "monuments": 0
+  },
+  {
+   "id": "ivan-romeo",
+   "name": "Iván Romeo",
+   "country": "ES",
+   "team": "movistar",
+   "born": "2003",
+   "spec": "tt",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "cian-uijtdebroeks",
+   "name": "Cian Uijtdebroeks",
+   "country": "BE",
+   "team": "movistar",
+   "born": "2003",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tim-merlier",
+   "name": "Tim Merlier",
+   "country": "BE",
+   "team": "soudal",
+   "born": "1992",
+   "spec": "sprinter",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mikel-landa",
+   "name": "Mikel Landa",
+   "country": "ES",
+   "team": "soudal",
+   "born": "1989",
+   "spec": "climber",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "filippo-ganna",
+   "name": "Filippo Ganna",
+   "country": "IT",
+   "team": "ineos",
+   "born": "1996",
+   "spec": "tt",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "carlos-rodriguez",
+   "name": "Carlos Rodríguez",
+   "country": "ES",
+   "team": "ineos",
+   "born": "2001",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "egan-bernal",
+   "name": "Egan Bernal",
+   "country": "CO",
+   "team": "ineos",
+   "born": "1997",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 2,
+   "monuments": 0
+  },
+  {
+   "id": "richard-carapaz",
+   "name": "Richard Carapaz",
+   "country": "EC",
+   "team": "ef",
+   "born": "1993",
+   "spec": "gv",
+   "specConfidence": "sure",
+   "gtWins": 1,
+   "monuments": 0
+  },
+  {
+   "id": "ben-healy",
+   "name": "Ben Healy",
+   "country": "IE",
+   "team": "ef",
+   "born": "2000",
+   "spec": "puncheur",
+   "specConfidence": "probable",
+   "gtWins": 0,
+   "monuments": 0
+  }
+ ]
+}

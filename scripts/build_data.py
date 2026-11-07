@@ -194,16 +194,24 @@ SELECT ?item ?birth ?ioc1 ?ioc2 WHERE {{
 
 def race_wins(race_titles, report):
     """Compta edicions guanyades (classificació general / guanyador) per corredor."""
-    race_ids = wikidata_ids(race_titles)
+    race_ids = wikidata_ids(race_titles + [f"2025 {t}" for t in race_titles])
     wins = defaultdict(int)
     for title in race_titles:
-        rq = race_ids.get(title)
-        if not rq:
+        classes = set()
+        if race_ids.get(title):
+            classes.add(race_ids[title])
+        ed = race_ids.get(f"2025 {title}")
+        if ed:
+            for r in sparql(f"SELECT ?c WHERE {{ wd:{ed} wdt:P31|wdt:P179|wdt:P3450 ?c }}"):
+                classes.add(qid_of(r["c"]["value"]))
+        if not classes:
             report.append(f"- ⚠️ {title}: no s'ha trobat a Wikidata")
             continue
+        values = " ".join(f"wd:{c}" for c in sorted(classes))
         rows = sparql(f"""
 SELECT ?edition ?elabel ?date ?st ?winner ?qlabel WHERE {{
-  {{ ?edition wdt:P31 wd:{rq} }} UNION {{ ?edition wdt:P179 wd:{rq} }} UNION {{ ?edition wdt:P3450 wd:{rq} }}
+  VALUES ?race {{ {values} }}
+  ?edition wdt:P31|wdt:P179|wdt:P3450 ?race .
   ?edition p:P1346 ?st .
   ?st ps:P1346 ?winner ; wikibase:rank ?rank .
   FILTER(?rank != wikibase:DeprecatedRank)

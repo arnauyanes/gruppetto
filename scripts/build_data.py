@@ -35,7 +35,7 @@ TEAM_KEYS = {
     "astana": ["astana"],
 }
 SKIP_SUBSECTIONS = re.compile(r"stagiaire|trainee|depart|left|transfer", re.I)
-REJECT_QUALIFIER = re.compile(r"point|mountain|king of|young|youth|team|combin|sprint|stage|intermediate|combativ|fighting|best ", re.I)
+WINNER_QUALIFIER = re.compile(r"overall winner|winner general classification", re.I)
 
 S = requests.Session()
 S.headers["User-Agent"] = UA
@@ -89,68 +89,59 @@ def team_for_heading(text):
 
 def parse_rosters(season):
     page = f"List of {season} UCI WorldTeams and riders"
-    j = get(WP, {"action": "parse", "page": page, "prop": "text", "format": "json",
+    j = get(WP, {"action": "parse", "page": page, "prop": "wikitext", "format": "json",
                  "formatversion": 2, "redirects": 1}).json()
     if "error" in j:
         raise RuntimeError(f"No s'ha trobat la pàgina '{page}': {j['error']}")
-    soup = BeautifulSoup(j["parse"]["text"], "html.parser")
-
+    text = j["parse"]["wikitext"]
     riders, unknown_headings = [], []
-    team, skip = None, False
-    for el in soup.find_all(["h2", "h3", "h4", "h5", "table"]):
-        if el.name != "table":
-            text = el.get_text(" ", strip=True)
-            tid = team_for_heading(text)
-            if tid:
-                team, skip = tid, False
-            elif SKIP_SUBSECTIONS.search(text):
-                skip = True
-            elif el.name in ("h2", "h3"):
-                team, skip = None, False
-                unknown_headings.append(text)
+    team = None
+    for line in text.splitlines():
+        h = re.match(r"^(=+)\s*(.*?)\s*\1\s*$", line)
+        if h:
+            level, title = len(h.group(1)), h.group(2)
+            tid = team_for_heading(title)
+            if level <= 3:
+                team = tid
+                if not tid and level == 3:
+                    unknown_headings.append(title)
+            elif SKIP_SUBSECTIONS.search(title):
+                team = None
             continue
-        if not team or skip or "wikitable" not in (el.get("class") or []):
+        if not team:
             continue
-        for tr in el.find_all("tr"):
-            cells = tr.find_all("td")
-            if not cells:
-                continue
-            rider = parse_row(tr, cells)
+        for m in RIDER_TPL.finditer(line):
+            rider = parse_rider_template(m.group(1) or m.group(2))
             if rider:
                 rider["team"] = team
                 riders.append(rider)
     return riders, unknown_headings
 
 
-def parse_row(tr, cells):
-    anchor, name = None, None
-    for cell in cells:
-        for a in cell.find_all("a"):
-            if a.find_parent(class_="flagicon") or a.find("img"):
-                continue
-            href = a.get("href", "")
-            if href.startswith("/wiki/") and ":" not in href[6:] or "redlink=1" in href:
-                anchor = a
-                break
-        if anchor:
-            break
-    if anchor:
-        name = anchor.get_text(" ", strip=True)
-    else:
-        txt = cells[0].get_text(" ", strip=True)
-        txt = re.sub(r"\([A-Z]{3}\)", "", txt).strip()
-        if len(txt.split()) >= 2:
-            name = txt
-    if not name or len(name) < 4:
+RIDER_TPL = re.compile(r"\{\{\s*Cycling squad rider\s*\|(.*?)\}\}\}\}|\{\{\s*Cycling squad rider\s*\|([^{}]*)\}\}", re.I)
+
+
+def parse_rider_template(body):
+    name_m = re.search(r"name\s*=\s*(.*?)(?:\|\s*(?:nat|birthdate|note)\s*=|$)", body)
+    if not name_m:
         return None
-    row_text = tr.get_text(" ", strip=True)
-    ioc = re.search(r"\(([A-Z]{3})\)", row_text)
-    born = re.search(r"((?:19|20)\d\d-\d\d-\d\d)", str(tr))
-    title = None
-    if anchor is not None and "redlink=1" not in anchor.get("href", ""):
-        title = anchor.get("title") or anchor["href"][6:].replace("_", " ")
-    return {"name": name, "title": title, "ioc": ioc.group(1) if ioc else None,
-            "born": born.group(1) if born else None}
+    raw = name_m.group(1).strip()
+    link = re.search(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]", raw)
+    if link:
+        title = link.group(1).strip()
+        name = link.group(2).strip() if link.group(2) else re.sub(r"\s*\(.*?\)\s*$", "", title)
+    else:
+        title, name = None, re.sub(r"<.*?>|'{2,3}", "", raw).strip()
+    nat = re.search(r"nat\s*=\s*([A-Z]{3})", body)
+    born = None
+    if "birthdate" in body:
+        nums = re.findall(r"\|\s*(\d{1,4})(?=\s*(?:\||$))", body.split("birthdate", 1)[1])
+        if len(nums) >= 3 and len(nums[-3]) == 4:
+            y, mth, d = nums[-3:]
+            born = f"{y}-{int(mth):02d}-{int(d):02d}"
+    if len(name) < 4:
+        return None
+    return {"name": name, "title": title, "ioc": nat.group(1) if nat else None, "born": born}
 
 
 def wikidata_ids(titles):
@@ -212,7 +203,7 @@ def race_wins(race_titles, report):
             continue
         rows = sparql(f"""
 SELECT ?edition ?elabel ?date ?st ?winner ?qlabel WHERE {{
-  {{ ?edition wdt:P3450 wd:{rq} }} UNION {{ ?edition wdt:P179 wd:{rq} }} UNION {{ ?edition wdt:P361 wd:{rq} }}
+  {{ ?edition wdt:P31 wd:{rq} }} UNION {{ ?edition wdt:P179 wd:{rq} }} UNION {{ ?edition wdt:P3450 wd:{rq} }}
   ?edition p:P1346 ?st .
   ?st ps:P1346 ?winner ; wikibase:rank ?rank .
   FILTER(?rank != wikibase:DeprecatedRank)
@@ -236,24 +227,28 @@ SELECT ?edition ?elabel ?date ?st ?winner ?qlabel WHERE {{
                 y = m.group(0) if m else None
             s["year"] = s["year"] or y
         per_edition = defaultdict(list)
-        for s in stmts.values():
-            if any(REJECT_QUALIFIER.search(l) for l in s["labels"]):
-                continue
-            per_edition[s["edition"]].append(s)
-        years, ambiguous = [], []
+        for x in stmts.values():
+            per_edition[x["edition"]].append(x)
+        years, ambiguous, no_label = [], [], 0
         for ed, ss in per_edition.items():
-            general = [s for s in ss if any("general" in l.lower() or "overall" in l.lower() for l in s["labels"])]
-            chosen = general or ss
-            winners = {s["winner"] for s in chosen}
+            labelled = [x for x in ss if x["labels"]]
+            if labelled:
+                chosen = [x for x in labelled if any(WINNER_QUALIFIER.search(l) for l in x["labels"])]
+            else:
+                chosen = ss
+                no_label += 1
+            winners = {x["winner"] for x in chosen}
+            if not winners:
+                continue
             if len(winners) > 1:
                 ambiguous.append(chosen[0]["year"] or ed)
-            for w in winners:
-                wins[w] += 1
+                continue
+            wins[winners.pop()] += 1
             if chosen[0]["year"]:
                 years.append(int(chosen[0]["year"]))
         span = f"{min(years)}–{max(years)}" if years else "?"
-        report.append(f"- {title}: {len(per_edition)} edicions amb guanyador ({span})"
-                      + (f" · ⚠️ edicions amb més d'un guanyador: {sorted(map(str, ambiguous))}" if ambiguous else ""))
+        report.append(f"- {title}: {len(years)} edicions comptades ({span}), {no_label} sense qualificador"
+                      + (f" · ⚠️ ignorades per tenir més d'un guanyador: {sorted(map(str, ambiguous))}" if ambiguous else ""))
         time.sleep(1)
     return wins
 

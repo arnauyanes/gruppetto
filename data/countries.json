@@ -1,190 +1,486 @@
 {
- "SI": {
-  "code": "SLO",
+ "ALB": {
+  "code": "ALB",
   "continent": "EU"
  },
- "PT": {
-  "code": "POR",
+ "AND": {
+  "code": "AND",
   "continent": "EU"
  },
- "MX": {
-  "code": "MEX",
-  "continent": "AM"
- },
- "DK": {
-  "code": "DEN",
+ "ARM": {
+  "code": "ARM",
   "continent": "EU"
  },
- "BE": {
-  "code": "BEL",
-  "continent": "EU"
- },
- "US": {
-  "code": "USA",
-  "continent": "AM"
- },
- "DE": {
-  "code": "GER",
-  "continent": "EU"
- },
- "NL": {
-  "code": "NED",
-  "continent": "EU"
- },
- "ES": {
-  "code": "ESP",
-  "continent": "EU"
- },
- "IT": {
-  "code": "ITA",
-  "continent": "EU"
- },
- "CO": {
-  "code": "COL",
-  "continent": "AM"
- },
- "EC": {
-  "code": "ECU",
-  "continent": "AM"
- },
- "IE": {
-  "code": "IRL",
-  "continent": "EU"
- },
- "FR": {
-  "code": "FRA",
-  "continent": "EU"
- },
- "GB": {
-  "code": "GBR",
-  "continent": "EU"
- },
- "CH": {
-  "code": "SUI",
-  "continent": "EU"
- },
- "AU": {
-  "code": "AUS",
-  "continent": "OC"
- },
- "NO": {
-  "code": "NOR",
-  "continent": "EU"
- },
- "KZ": {
-  "code": "KAZ",
-  "continent": "AS"
- },
- "AE": {
-  "code": "UAE",
-  "continent": "AS"
- },
- "BH": {
-  "code": "BRN",
-  "continent": "AS"
- },
- "ER": {
-  "code": "ERI",
-  "continent": "AF"
- },
- "ZA": {
-  "code": "RSA",
-  "continent": "AF"
- },
- "NZ": {
-  "code": "NZL",
-  "continent": "OC"
- },
- "CA": {
-  "code": "CAN",
-  "continent": "AM"
- },
- "AT": {
+ "AUT": {
   "code": "AUT",
   "continent": "EU"
  },
- "PL": {
-  "code": "POL",
+ "AZE": {
+  "code": "AZE",
   "continent": "EU"
  },
- "CZ": {
-  "code": "CZE",
+ "BEL": {
+  "code": "BEL",
   "continent": "EU"
  },
- "SK": {
-  "code": "SVK",
+ "BIH": {
+  "code": "BIH",
   "continent": "EU"
  },
- "LU": {
-  "code": "LUX",
+ "BLR": {
+  "code": "BLR",
   "continent": "EU"
  },
- "VE": {
-  "code": "VEN",
-  "continent": "AM"
- },
- "EE": {
-  "code": "EST",
+ "BUL": {
+  "code": "BUL",
   "continent": "EU"
  },
- "LV": {
-  "code": "LAT",
-  "continent": "EU"
- },
- "LT": {
-  "code": "LTU",
-  "continent": "EU"
- },
- "SE": {
-  "code": "SWE",
-  "continent": "EU"
- },
- "FI": {
-  "code": "FIN",
-  "continent": "EU"
- },
- "HU": {
-  "code": "HUN",
-  "continent": "EU"
- },
- "HR": {
+ "CRO": {
   "code": "CRO",
   "continent": "EU"
  },
- "UA": {
+ "CYP": {
+  "code": "CYP",
+  "continent": "EU"
+ },
+ "CZE": {
+  "code": "CZE",
+  "continent": "EU"
+ },
+ "DEN": {
+  "code": "DEN",
+  "continent": "EU"
+ },
+ "ESP": {
+  "code": "ESP",
+  "continent": "EU"
+ },
+ "EST": {
+  "code": "EST",
+  "continent": "EU"
+ },
+ "FIN": {
+  "code": "FIN",
+  "continent": "EU"
+ },
+ "FRA": {
+  "code": "FRA",
+  "continent": "EU"
+ },
+ "GBR": {
+  "code": "GBR",
+  "continent": "EU"
+ },
+ "GEO": {
+  "code": "GEO",
+  "continent": "EU"
+ },
+ "GER": {
+  "code": "GER",
+  "continent": "EU"
+ },
+ "GRE": {
+  "code": "GRE",
+  "continent": "EU"
+ },
+ "HUN": {
+  "code": "HUN",
+  "continent": "EU"
+ },
+ "IRL": {
+  "code": "IRL",
+  "continent": "EU"
+ },
+ "ISL": {
+  "code": "ISL",
+  "continent": "EU"
+ },
+ "ITA": {
+  "code": "ITA",
+  "continent": "EU"
+ },
+ "KOS": {
+  "code": "KOS",
+  "continent": "EU"
+ },
+ "LAT": {
+  "code": "LAT",
+  "continent": "EU"
+ },
+ "LIE": {
+  "code": "LIE",
+  "continent": "EU"
+ },
+ "LTU": {
+  "code": "LTU",
+  "continent": "EU"
+ },
+ "LUX": {
+  "code": "LUX",
+  "continent": "EU"
+ },
+ "MDA": {
+  "code": "MDA",
+  "continent": "EU"
+ },
+ "MKD": {
+  "code": "MKD",
+  "continent": "EU"
+ },
+ "MLT": {
+  "code": "MLT",
+  "continent": "EU"
+ },
+ "MNE": {
+  "code": "MNE",
+  "continent": "EU"
+ },
+ "MON": {
+  "code": "MON",
+  "continent": "EU"
+ },
+ "NED": {
+  "code": "NED",
+  "continent": "EU"
+ },
+ "NOR": {
+  "code": "NOR",
+  "continent": "EU"
+ },
+ "POL": {
+  "code": "POL",
+  "continent": "EU"
+ },
+ "POR": {
+  "code": "POR",
+  "continent": "EU"
+ },
+ "ROU": {
+  "code": "ROU",
+  "continent": "EU"
+ },
+ "RUS": {
+  "code": "RUS",
+  "continent": "EU"
+ },
+ "SMR": {
+  "code": "SMR",
+  "continent": "EU"
+ },
+ "SRB": {
+  "code": "SRB",
+  "continent": "EU"
+ },
+ "SLO": {
+  "code": "SLO",
+  "continent": "EU"
+ },
+ "SVK": {
+  "code": "SVK",
+  "continent": "EU"
+ },
+ "SUI": {
+  "code": "SUI",
+  "continent": "EU"
+ },
+ "SWE": {
+  "code": "SWE",
+  "continent": "EU"
+ },
+ "TUR": {
+  "code": "TUR",
+  "continent": "EU"
+ },
+ "UKR": {
   "code": "UKR",
   "continent": "EU"
  },
- "JP": {
-  "code": "JPN",
-  "continent": "AS"
- },
- "CN": {
-  "code": "CHN",
-  "continent": "AS"
- },
- "AR": {
+ "ARG": {
   "code": "ARG",
   "continent": "AM"
  },
- "BR": {
+ "BAR": {
+  "code": "BAR",
+  "continent": "AM"
+ },
+ "BOL": {
+  "code": "BOL",
+  "continent": "AM"
+ },
+ "BRA": {
   "code": "BRA",
   "continent": "AM"
  },
- "CR": {
+ "CAN": {
+  "code": "CAN",
+  "continent": "AM"
+ },
+ "CHI": {
+  "code": "CHI",
+  "continent": "AM"
+ },
+ "COL": {
+  "code": "COL",
+  "continent": "AM"
+ },
+ "CRC": {
   "code": "CRC",
   "continent": "AM"
  },
- "ET": {
+ "CUB": {
+  "code": "CUB",
+  "continent": "AM"
+ },
+ "DOM": {
+  "code": "DOM",
+  "continent": "AM"
+ },
+ "ECU": {
+  "code": "ECU",
+  "continent": "AM"
+ },
+ "ESA": {
+  "code": "ESA",
+  "continent": "AM"
+ },
+ "GUA": {
+  "code": "GUA",
+  "continent": "AM"
+ },
+ "HON": {
+  "code": "HON",
+  "continent": "AM"
+ },
+ "JAM": {
+  "code": "JAM",
+  "continent": "AM"
+ },
+ "MEX": {
+  "code": "MEX",
+  "continent": "AM"
+ },
+ "NCA": {
+  "code": "NCA",
+  "continent": "AM"
+ },
+ "PAN": {
+  "code": "PAN",
+  "continent": "AM"
+ },
+ "PAR": {
+  "code": "PAR",
+  "continent": "AM"
+ },
+ "PER": {
+  "code": "PER",
+  "continent": "AM"
+ },
+ "PUR": {
+  "code": "PUR",
+  "continent": "AM"
+ },
+ "TTO": {
+  "code": "TTO",
+  "continent": "AM"
+ },
+ "URU": {
+  "code": "URU",
+  "continent": "AM"
+ },
+ "USA": {
+  "code": "USA",
+  "continent": "AM"
+ },
+ "VEN": {
+  "code": "VEN",
+  "continent": "AM"
+ },
+ "ALG": {
+  "code": "ALG",
+  "continent": "AF"
+ },
+ "BUR": {
+  "code": "BUR",
+  "continent": "AF"
+ },
+ "CIV": {
+  "code": "CIV",
+  "continent": "AF"
+ },
+ "CMR": {
+  "code": "CMR",
+  "continent": "AF"
+ },
+ "EGY": {
+  "code": "EGY",
+  "continent": "AF"
+ },
+ "ERI": {
+  "code": "ERI",
+  "continent": "AF"
+ },
+ "ETH": {
   "code": "ETH",
   "continent": "AF"
  },
- "RW": {
+ "GAB": {
+  "code": "GAB",
+  "continent": "AF"
+ },
+ "KEN": {
+  "code": "KEN",
+  "continent": "AF"
+ },
+ "MAR": {
+  "code": "MAR",
+  "continent": "AF"
+ },
+ "NAM": {
+  "code": "NAM",
+  "continent": "AF"
+ },
+ "NGR": {
+  "code": "NGR",
+  "continent": "AF"
+ },
+ "RSA": {
+  "code": "RSA",
+  "continent": "AF"
+ },
+ "RWA": {
   "code": "RWA",
   "continent": "AF"
  },
- "IL": {
+ "SEN": {
+  "code": "SEN",
+  "continent": "AF"
+ },
+ "TUN": {
+  "code": "TUN",
+  "continent": "AF"
+ },
+ "UGA": {
+  "code": "UGA",
+  "continent": "AF"
+ },
+ "ZIM": {
+  "code": "ZIM",
+  "continent": "AF"
+ },
+ "BRN": {
+  "code": "BRN",
+  "continent": "AS"
+ },
+ "CHN": {
+  "code": "CHN",
+  "continent": "AS"
+ },
+ "HKG": {
+  "code": "HKG",
+  "continent": "AS"
+ },
+ "INA": {
+  "code": "INA",
+  "continent": "AS"
+ },
+ "IND": {
+  "code": "IND",
+  "continent": "AS"
+ },
+ "IRI": {
+  "code": "IRI",
+  "continent": "AS"
+ },
+ "IRQ": {
+  "code": "IRQ",
+  "continent": "AS"
+ },
+ "ISR": {
   "code": "ISR",
   "continent": "AS"
+ },
+ "JPN": {
+  "code": "JPN",
+  "continent": "AS"
+ },
+ "KAZ": {
+  "code": "KAZ",
+  "continent": "AS"
+ },
+ "KGZ": {
+  "code": "KGZ",
+  "continent": "AS"
+ },
+ "KOR": {
+  "code": "KOR",
+  "continent": "AS"
+ },
+ "KSA": {
+  "code": "KSA",
+  "continent": "AS"
+ },
+ "KUW": {
+  "code": "KUW",
+  "continent": "AS"
+ },
+ "LBN": {
+  "code": "LBN",
+  "continent": "AS"
+ },
+ "MAS": {
+  "code": "MAS",
+  "continent": "AS"
+ },
+ "MGL": {
+  "code": "MGL",
+  "continent": "AS"
+ },
+ "PHI": {
+  "code": "PHI",
+  "continent": "AS"
+ },
+ "QAT": {
+  "code": "QAT",
+  "continent": "AS"
+ },
+ "SGP": {
+  "code": "SGP",
+  "continent": "AS"
+ },
+ "SRI": {
+  "code": "SRI",
+  "continent": "AS"
+ },
+ "SYR": {
+  "code": "SYR",
+  "continent": "AS"
+ },
+ "THA": {
+  "code": "THA",
+  "continent": "AS"
+ },
+ "TPE": {
+  "code": "TPE",
+  "continent": "AS"
+ },
+ "UAE": {
+  "code": "UAE",
+  "continent": "AS"
+ },
+ "UZB": {
+  "code": "UZB",
+  "continent": "AS"
+ },
+ "VIE": {
+  "code": "VIE",
+  "continent": "AS"
+ },
+ "AUS": {
+  "code": "AUS",
+  "continent": "OC"
+ },
+ "NZL": {
+  "code": "NZL",
+  "continent": "OC"
  }
 }

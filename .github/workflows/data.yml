@@ -1,0 +1,42 @@
+name: Actualitza dades
+
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Temporada de les plantilles"
+        default: "2026"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "data/overrides.json"
+      - ".github/workflows/data.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - run: python scripts/build_data.py --season "${{ github.event.inputs.season || '2026' }}"
+      - name: Desa les dades al repositori
+        if: always()
+        run: |
+          git config user.name "gruppetto-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "Actualitza dades dels corredors"
+          git pull --rebase origin main
+          git push origin HEAD:main

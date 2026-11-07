@@ -35,15 +35,19 @@ let mode = "daily", target, guesses = [], hintUsed = false, done = false, gaveUp
 const today = dayIndexOf();
 
 async function load() {
-  const [r, tm, c] = await Promise.all(["riders", "teams", "countries"].map(f => fetch(`../data/${f}.json`).then(x => x.json())));
+  const [r, tm, c, sp] = await Promise.all(["riders", "teams", "countries", "specialties"].map(f => fetch(`../data/${f}.json`).then(x => x.json())));
   teams = Object.fromEntries(tm.teams.map(x => [x.id, x]));
   countries = c;
-  riders = r.riders.map(x => ({ ...x, age: ageOf(x.born) }));
+  riders = r.riders.filter(x => x.born && x.country).map(x => {
+    const s = sp.riders[x.id] || {};
+    return { ...x, age: ageOf(x.born), spec: s.spec || "domestique", specConfidence: s.confidence || "unknown" };
+  });
   byId = Object.fromEntries(riders.map(x => [x.id, x]));
 }
 
 function dailyTarget() {
-  const pool = riders.filter(r => r.specConfidence === "sure").map(r => r.id).sort();
+  let pool = riders.filter(r => r.specConfidence === "sure").map(r => r.id).sort();
+  if (!pool.length) pool = riders.map(r => r.id).sort();
   const order = seededShuffle(pool, 20260101);
   return byId[order[((today % order.length) + order.length) % order.length]];
 }

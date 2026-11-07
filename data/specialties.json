@@ -1,0 +1,105 @@
+{
+ "_info": "Especialitat de cada corredor. spec: gv, climber, puncheur, classics, sprinter, tt, domestique. confidence: sure, probable, unknown. Només els 'sure' poden ser el corredor del dia.",
+ "riders": {
+  "tadej-pogacar": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "joao-almeida": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "isaac-del-toro": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "jonas-vingegaard": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "wout-van-aert": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "matteo-jorgenson": {
+   "spec": "gv",
+   "confidence": "probable"
+  },
+  "remco-evenepoel": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "primoz-roglic": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "florian-lipowitz": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "mathieu-van-der-poel": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "jasper-philipsen": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "juan-ayuso": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "jonathan-milan": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "mads-pedersen": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "enric-mas": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "nairo-quintana": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "ivan-romeo": {
+   "spec": "tt",
+   "confidence": "sure"
+  },
+  "cian-uijtdebroeks": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "tim-merlier": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "mikel-landa": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "filippo-ganna": {
+   "spec": "tt",
+   "confidence": "sure"
+  },
+  "carlos-rodriguez": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "egan-bernal": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "richard-carapaz": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "ben-healy": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  }
+ }
+}

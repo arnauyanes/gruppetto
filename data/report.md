@@ -1,5 +1,5 @@
 # Informe de dades · temporada 2026
-Generat: 2026-11-07 11:49 UTC
+Generat: 2026-11-07 11:50 UTC
 
 **❌ Dades insuficients: no s'ha actualitzat riders.json.**
 

@@ -119,15 +119,9 @@ function finish(won, fresh) {
     if (navigator.share) { try { await navigator.share({ text }); return; } catch (e) { if (e.name === "AbortError") return; } }
     copyToClipboard(text, share);
   };
-  const wa = document.createElement("a"); wa.className = "btn"; wa.target = "_blank"; wa.rel = "noopener";
-  wa.href = `https://wa.me/?text=${encodeURIComponent(text)}`; wa.textContent = "WhatsApp";
-  const x = document.createElement("a"); x.className = "btn"; x.target = "_blank"; x.rel = "noopener";
-  x.href = `https://x.com/intent/post?text=${encodeURIComponent(text)}`; x.textContent = "X";
-  const copy = document.createElement("button"); copy.className = "btn"; copy.textContent = t("copyText");
-  copy.onclick = () => copyToClipboard(text, copy);
   const again = document.createElement("button"); again.className = "btn"; again.textContent = t("playFree");
   again.onclick = () => start("free");
-  row.append(share, wa, x, copy, again);
+  row.append(share, again);
   r.append(h, p, pre, row);
   if (mode === "daily") {
     const next = document.createElement("p"); next.className = "counter"; r.appendChild(next);

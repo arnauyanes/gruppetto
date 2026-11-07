@@ -68,8 +68,12 @@ def sparql(query):
     return r.json()["results"]["bindings"]
 
 
+TRANSLIT = str.maketrans({"ø": "o", "Ø": "O", "æ": "ae", "Æ": "Ae", "ł": "l", "Ł": "L", "ß": "ss",
+                          "đ": "d", "Đ": "D", "þ": "th", "œ": "oe"})
+
+
 def slug(s):
-    s = unicodedata.normalize("NFD", s).encode("ascii", "ignore").decode().lower()
+    s = unicodedata.normalize("NFD", s.translate(TRANSLIT)).encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
@@ -313,6 +317,8 @@ def main():
                 "gtWins": gt.get(r["qid"], 0), "monuments": mon.get(r["qid"], 0),
             }
             rec.update(overrides.get("riders", {}).get(rid, {}))
+            rec["monuments"] += overrides.get("extraMonuments", {}).get(rid, 0)
+            rec["gtWins"] += overrides.get("extraGrandTours", {}).get(rid, 0)
             out.append(rec)
 
         by_team = defaultdict(int)

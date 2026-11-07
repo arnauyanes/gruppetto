@@ -1,51 +1,959 @@
 {
  "_info": "Especialitat de cada corredor. spec: gv, climber, puncheur, classics, sprinter, tt, domestique. confidence: sure, probable, unknown. Només els 'sure' poden ser el corredor del dia.",
  "riders": {
-  "tadej-pogacar": {
+  "aaron-dockx": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "aaron-gate": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "adam-yates": {
    "spec": "gv",
+   "confidence": "sure"
+  },
+  "adne-holter": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "adria-pericas": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "adrien-boichis": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "afonso-eulalio": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "alan-hatherly": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "alastair-mackellar": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "albert-torres": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "albert-withen-philipsen": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "alberto-bettiol": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "alberto-bruttomesso": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "alberto-dainese": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "alec-segaert": {
+   "spec": "tt",
+   "confidence": "sure"
+  },
+  "aleksandr-vlasov": {
+   "spec": "gv",
+   "confidence": "probable"
+  },
+  "alessandro-borgo": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "alessandro-covi": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "alessandro-pinarello": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "alessandro-romele": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "alex-baudin": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "alexander-hajek": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "alexander-kamp": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "alexey-lutsenko": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "alexy-faure-prost": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "amanuel-ghebreigzabhier": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "amaury-capiot": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "anders-foldager": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "anders-halland-johannessen": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "anders-skaarseth": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "andrea-bagioli": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "andrea-raccagni-noviero": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "andrea-vendrame": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "andreas-kron": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "andreas-leknessund": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "andrew-august": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "anthon-charmig": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "antoine-l-hote": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "anton-kuzmin": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "anton-schiffer": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "antonio-morgado": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "antonio-tiberi": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "archie-ryan": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "arjen-livyns": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "arnaud-de-lie": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "arne-marit": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "artem-shmidt": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "asbjorn-hellemose": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "attila-valter": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "aurelien-paret-peintre": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "axel-huens": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "axel-laurance": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "axel-zingle": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "ayco-bastiaens": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "baptiste-veistroffer": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "bart-lemmen": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "bastien-tronchon": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "bauke-mollema": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "ben-healy": {
+   "spec": "puncheur",
+   "confidence": "sure"
+  },
+  "ben-o-connor": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "ben-swift": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "ben-tulett": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "ben-turner": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "ben-zwiehoff": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "benoit-cosnefroy": {
+   "spec": "puncheur",
+   "confidence": "sure"
+  },
+  "bert-van-lerberghe": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "biniam-girmay": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "bjoern-koerdt": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "bob-jungels": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "brady-gilmore": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "bram-welten": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "brandon-mcnulty": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "brandon-rivera": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "brieuc-rolland": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "bruno-armirail": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "callum-scotson": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "callum-thornley": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "carl-frederik-bevort": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "carlos-canal": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "carlos-rodriguez": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "carlos-verona": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "casper-pedersen": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "casper-van-uden": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "cedric-beullens": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "cees-bol": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "chris-hamilton": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "christian-scaroni": {
+   "spec": "puncheur",
+   "confidence": "sure"
+  },
+  "christophe-laporte": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "christopher-juul-jensen": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "cian-uijtdebroeks": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "clement-berthet": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "clement-braz-afonso": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "clement-champoussin": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "clement-russo": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "colby-simmons": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "connor-swift": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "corbin-strong": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "cristian-rodriguez": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "cyril-barthe": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "daan-hoole": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "damiano-caruso": {
+   "spec": "gv",
+   "confidence": "probable"
+  },
+  "daniel-martinez": {
+   "spec": "gv",
+   "confidence": "probable"
+  },
+  "daniel-skerl": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "danny-van-poppel": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "darren-rafferty": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "darren-van-bekkum": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "david-gaudu": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "davide-ballerini": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "davide-de-pretto": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "davide-formolo": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "davide-piganzoli": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "davide-toneatti": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "diego-pescador": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "diego-ulissi": {
+   "spec": "puncheur",
+   "confidence": "sure"
+  },
+  "dillon-corkery": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "domen-novak": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "dorian-godon": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "dries-de-bondt": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "dries-de-pooter": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "dries-van-gestel": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "dylan-van-baarle": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "edoardo-affini": {
+   "spec": "tt",
+   "confidence": "sure"
+  },
+  "edoardo-zambanini": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "edward-planckaert": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "edward-theuns": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "egan-bernal": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "einer-rubio": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "embret-svestad-bardseng": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "emiel-verstrynge": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "emil-herzog": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "enric-mas": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "enzo-paleni": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "erik-nordsaeter-resell": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "erlend-blikra": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "ethan-hayter": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "ethan-vernon": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "ewen-costiou": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "fabio-jakobsen": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "fabio-van-den-bossche": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "felix-engelhardt": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "felix-gall": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "felix-grossschartner": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "felix-orn-kristoff": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "filippo-baroncini": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "filippo-conca": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "filippo-fiorelli": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "filippo-ganna": {
+   "spec": "tt",
+   "confidence": "sure"
+  },
+  "filippo-zana": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "finlay-pickering": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "finn-fisher-black": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "florian-lipowitz": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "florian-samuel-kajamini": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "florian-senechal": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "florian-vermeersch": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "floris-van-tricht": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "fran-miholjevic": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "francesco-busatto": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "frank-van-den-broek": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "frederik-wandahl": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "fredrik-dversnes": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "frits-biesterbos": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "gal-glivar": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "georg-steinhauser": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "georg-zimmermann": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "george-bennett": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "gerben-thijssen": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "gianluca-pollefliet": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "gianmarco-garofoli": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "gianni-moscon": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "gianni-vermeersch": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "gijs-leemreize": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "gil-gelders": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "giovanni-aleotti": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "giulio-ciccone": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "giulio-pellizzari": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "gleb-syritsa": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "gonzalo-serrano": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "gregor-muhlberger": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "guillaume-boivin": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "guillaume-martin": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "guillermo-thomas-silva": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "haimar-etxeberria": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "hamish-mckenzie": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "harold-martin-lopez": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "harold-tejada": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "harry-sweeny": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "henok-mulubrhan": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "henri-francois-renard-haquin": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "henri-uhlig": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "henrik-pedersen": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "hugo-hofstetter": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "hugo-houle": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "huub-artz": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "igor-arrieta": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "ilan-van-wilder": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "isaac-del-toro": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "itamar-einhorn": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "ivan-garcia-cortina": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "ivan-romeo": {
+   "spec": "tt",
+   "confidence": "sure"
+  },
+  "ivo-oliveira": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "jack-haig": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "jacopo-mosca": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "jai-hindley": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "jake-stewart": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "jakob-omrzel": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "jakob-soderqvist": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "james-knox": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "james-shaw": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "jan-christen": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "jan-hirt": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "jan-tratnik": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "jardi-christiaan-van-der-lee": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "jarno-widar": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "jarrad-drizners": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "jasha-sutterlin": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "jasper-de-buyst": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "jasper-philipsen": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "jasper-stuyven": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "javier-romo": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "jay-vine": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "jefferson-alexander-cepeda": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "jefferson-alveiro-cepeda": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "jelte-krijnsen": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "jenno-berckmoes": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "jensen-plowright": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "jhonatan-narvaez": {
+   "spec": "puncheur",
    "confidence": "sure"
   },
   "joao-almeida": {
    "spec": "gv",
    "confidence": "sure"
   },
-  "isaac-del-toro": {
-   "spec": "gv",
-   "confidence": "sure"
-  },
-  "jonas-vingegaard": {
-   "spec": "gv",
-   "confidence": "sure"
-  },
-  "wout-van-aert": {
-   "spec": "classics",
-   "confidence": "sure"
-  },
-  "matteo-jorgenson": {
-   "spec": "gv",
+  "johan-jacobs": {
+   "spec": "domestique",
    "confidence": "probable"
   },
-  "remco-evenepoel": {
-   "spec": "gv",
-   "confidence": "sure"
+  "johan-price-pejtersen": {
+   "spec": "tt",
+   "confidence": "probable"
   },
-  "primoz-roglic": {
-   "spec": "gv",
-   "confidence": "sure"
+  "johannes-kulset": {
+   "spec": "climber",
+   "confidence": "probable"
   },
-  "florian-lipowitz": {
-   "spec": "gv",
-   "confidence": "sure"
+  "johannes-staune-mittet": {
+   "spec": "climber",
+   "confidence": "probable"
   },
-  "mathieu-van-der-poel": {
+  "john-degenkolb": {
    "spec": "classics",
    "confidence": "sure"
   },
-  "jasper-philipsen": {
-   "spec": "sprinter",
+  "jon-barrenetxea": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "jonas-abrahamsen": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "jonas-geens": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "jonas-iversby-hvideberg": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "jonas-rickaert": {
+   "spec": "domestique",
    "confidence": "sure"
   },
-  "juan-ayuso": {
+  "jonas-rutsch": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "jonas-vingegaard": {
    "spec": "gv",
    "confidence": "sure"
   },
@@ -53,53 +961,1129 @@
    "spec": "sprinter",
    "confidence": "sure"
   },
+  "jonathan-vervenne": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "jordan-labrosse": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "jordi-meeus": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "jorge-arcas": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "jorgen-nordhagen": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "joseph-blackmore": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "josh-kench": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "joshua-giddings": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "joshua-tarling": {
+   "spec": "tt",
+   "confidence": "sure"
+  },
+  "juan-ayuso": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "juan-guillermo-martinez": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "juan-pedro-lopez": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "juan-sebastian-molano": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "julien-bernard": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "julius-johansen": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "julius-van-den-berg": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "junior-lecerf": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "kaden-groves": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "kamil-gradek": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "kasper-asgreen": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "kelland-o-brien": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "kevin-geniets": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "kevin-vauquelin": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "kevin-vermaerke": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "kim-heiduk": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "koen-bouwman": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "krists-neilands": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "lars-craps": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "laurence-pithie": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "laurens-de-plus": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "laurenz-rex": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "lennard-kamna": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "lennert-belmans": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "lennert-van-eetvelt": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "lenny-martinez": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "leo-bisiaux": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "lev-gonov": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "lewis-askey": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "lewis-bower": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "liam-slock": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "lindsay-de-vylder": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "lionel-taminiaux": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "loe-van-belle": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "lorenzo-fortunato": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "lorenzo-germani": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "lorenzo-milesi": {
+   "spec": "tt",
+   "confidence": "sure"
+  },
+  "lorenzo-rota": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "louis-barre": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "louis-vervaeke": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "luca-van-boven": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "luca-vergallito": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "lucas-hamilton": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "luka-mezgec": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "lukas-nerurkar": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "luke-durbridge": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "luke-lamperti": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "luke-plapp": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "luke-tuckwell": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "madis-mihkels": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
   "mads-pedersen": {
    "spec": "classics",
    "confidence": "sure"
   },
-  "enric-mas": {
-   "spec": "gv",
+  "magnus-cort": {
+   "spec": "puncheur",
    "confidence": "sure"
   },
-  "nairo-quintana": {
-   "spec": "gv",
-   "confidence": "sure"
+  "magnus-sheffield": {
+   "spec": "classics",
+   "confidence": "probable"
   },
-  "ivan-romeo": {
-   "spec": "tt",
-   "confidence": "sure"
+  "manlio-moro": {
+   "spec": "sprinter",
+   "confidence": "probable"
   },
-  "cian-uijtdebroeks": {
-   "spec": "gv",
-   "confidence": "sure"
+  "marc-soler": {
+   "spec": "climber",
+   "confidence": "probable"
   },
-  "tim-merlier": {
+  "marco-frigo": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "marco-schrettl": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "marijn-van-den-berg": {
    "spec": "sprinter",
    "confidence": "sure"
+  },
+  "markel-beloki": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "markus-hoelgaard": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "martin-svrcek": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "martin-tjotta": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "martin-urianstad": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "matej-mohoric": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "matevz-govekar": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "mathias-norsgaard": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "mathias-vacek": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "mathieu-kockelmann": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "mathieu-van-der-poel": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "mathijs-paasschens": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "matis-louvel": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "matteo-jorgenson": {
+   "spec": "gv",
+   "confidence": "probable"
+  },
+  "matteo-malucelli": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "matteo-milan": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "matteo-sobrero": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "matthew-brennan": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "matthew-dinham": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "matthew-fox": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "matthew-riccitello": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "matthias-schwarzbacher": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "mattia-agostinacchio": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "mattia-cattaneo": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "mattia-gaffuri": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "mattias-skjelmose": {
+   "spec": "gv",
+   "confidence": "probable"
+  },
+  "matys-grisel": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "mauri-vansevenant": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "maurice-ballerstedt": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "mauro-schmid": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "max-kanter": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "max-poole": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "max-van-der-meulen": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "max-walker": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "max-walscheid": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "maxim-van-gils": {
+   "spec": "puncheur",
+   "confidence": "sure"
+  },
+  "maxime-decomble": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "maximilian-schachmann": {
+   "spec": "puncheur",
+   "confidence": "sure"
+  },
+  "menno-huising": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "michael-gogl": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "michael-leonard": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "michael-matthews": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "michael-valgren": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "michal-kwiatkowski": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "michel-hessmann": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "mick-van-dijke": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "mike-teunissen": {
+   "spec": "classics",
+   "confidence": "probable"
   },
   "mikel-landa": {
    "spec": "climber",
    "confidence": "sure"
   },
-  "filippo-ganna": {
+  "mikkel-bjerg": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "mikkel-frolich-honore": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "milan-menten": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "nadav-raisberg": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "nairo-quintana": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "natnael-tesfatsion": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "neilson-powless": {
+   "spec": "puncheur",
+   "confidence": "sure"
+  },
+  "nelson-oliveira": {
    "spec": "tt",
    "confidence": "sure"
   },
-  "carlos-rodriguez": {
+  "nick-schultz": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "nico-denz": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "nicola-conci": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "nicolas-prodhomme": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "nicolas-vinokurov": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "nikias-arndt": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "niklas-behrens": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "niklas-markl": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "nils-eekhoff": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "nils-politt": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "noa-isidore": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "noah-hobbs": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "oded-kogut": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "olav-kooij": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "oliver-naesen": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "oliver-peace": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "oliver-stockwell": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "olivier-le-gac": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "orluis-aular": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "oscar-chamberlain": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "oscar-onley": {
    "spec": "gv",
    "confidence": "sure"
   },
-  "egan-bernal": {
+  "oscar-riesebeek": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "oscar-rodriguez": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "otto-vergaerde": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "owain-doull": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "pablo-castrillo": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "pablo-torres": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "pascal-ackermann": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "pascal-eenkhoorn": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "patrick-gamper": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "patrick-konrad": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "pau-marti": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "pau-miquel": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "paul-double": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "paul-lapeira": {
+   "spec": "puncheur",
+   "confidence": "sure"
+  },
+  "paul-magnier": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "paul-penhoet": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "paul-seixas": {
    "spec": "gv",
    "confidence": "sure"
+  },
+  "pavel-bittner": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "pavel-novak": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "pavel-sivakov": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "pelayo-sanchez": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "pello-bilbao": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "pepijn-reinderink": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "per-strand-hagenes": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "peter-oxenberg": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "phil-bauhaus": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "pier-andre-cote": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "pierre-gautherat": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "pietro-mattio": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "primoz-roglic": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "quentin-pacher": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "quinn-simmons": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "rainer-kepplinger": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "ramses-debruyne": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "rasmus-sojberg-pedersen": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "rasmus-tiller": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "raul-garcia-pierna": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "remco-evenepoel": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "remi-cavagna": {
+   "spec": "tt",
+   "confidence": "sure"
+  },
+  "remy-rochas": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "reuben-thompson": {
+   "spec": "climber",
+   "confidence": "probable"
   },
   "richard-carapaz": {
    "spec": "gv",
    "confidence": "sure"
   },
-  "ben-healy": {
+  "riley-sheehan": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "robbe-dhondt": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "robbe-ghys": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "robert-donaldson": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "robert-stannard": {
    "spec": "puncheur",
    "confidence": "probable"
+  },
+  "robin-orins": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "roel-van-sintmaartensdijk": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "roger-adria": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "romain-gregoire": {
+   "spec": "puncheur",
+   "confidence": "sure"
+  },
+  "roman-ermakov": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "rudy-molard": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "rudy-porter": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "rui-oliveira": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "rune-herregodts": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "ryan-mullen": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "sakarias-koller-loland": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "sam-oomen": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "sam-welsford": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "samuel-watson": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "samuele-battistella": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "sander-de-pestel": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "santiago-buitrago": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "sean-flynn": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "sean-quinn": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "sebastien-grignard": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "senna-remijn": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "sente-sentjens": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "sepp-kuss": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "sergio-higuita": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "silvan-dillier": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "simon-clarke": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "simon-dalby": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "simon-dehairs": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "simone-consonni": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "simone-gualdi": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "simone-velasco": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "soren-kragh-andersen": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "soren-waerenskjold": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "stan-dewulf": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "stefan-bissegger": {
+   "spec": "tt",
+   "confidence": "sure"
+  },
+  "steff-cras": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "steffen-de-schuyteneer": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "stephen-williams": {
+   "spec": "puncheur",
+   "confidence": "sure"
+  },
+  "steven-kruijswijk": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "stian-fredheim": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "storm-ingebrigtsen": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "su-haoyu": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "sven-erik-bystrom": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "taco-van-der-hoorn": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "tadej-pogacar": {
+   "spec": "gv",
+   "confidence": "sure"
+  },
+  "tao-geoghegan-hart": {
+   "spec": "gv",
+   "confidence": "probable"
+  },
+  "thibau-nys": {
+   "spec": "puncheur",
+   "confidence": "probable"
+  },
+  "thibaud-gruel": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "thymen-arensman": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "tibor-del-grosso": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "tiesj-benoot": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "tijmen-graat": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "tim-marsman": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "tim-merlier": {
+   "spec": "sprinter",
+   "confidence": "sure"
+  },
+  "tim-naberman": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "tim-rex": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "tim-torn-teutenberg": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "tim-van-dijke": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "tim-wellens": {
+   "spec": "puncheur",
+   "confidence": "sure"
+  },
+  "timo-de-jong": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "timo-kielich": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "timo-roosen": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "titouan-fontaine": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "tobias-bayer": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "tobias-foss": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "tobias-halland-johannessen": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "tobias-lund-andresen": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "tobias-svarre": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "tom-donnenwirth": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "tom-van-asbroeck": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "toms-skujins": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "toon-aerts": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "tord-gudmestad": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "torstein-traeen": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "valentin-madouas": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "valentin-paret-peintre": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "vegard-stake-laengen": {
+   "spec": "domestique",
+   "confidence": "sure"
+  },
+  "victor-campenaerts": {
+   "spec": "tt",
+   "confidence": "probable"
+  },
+  "victor-langellotti": {
+   "spec": "climber",
+   "confidence": "probable"
+  },
+  "vincenzo-albanese": {
+   "spec": "puncheur",
+   "confidence": "sure"
+  },
+  "vito-braet": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "vlad-van-mechelen": {
+   "spec": "classics",
+   "confidence": "probable"
+  },
+  "warre-vangheluwe": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "warren-barguil": {
+   "spec": "climber",
+   "confidence": "sure"
+  },
+  "wilco-kelderman": {
+   "spec": "domestique",
+   "confidence": "probable"
+  },
+  "william-blume-levy": {
+   "spec": "sprinter",
+   "confidence": "probable"
+  },
+  "wout-van-aert": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "yevgeniy-fedorov": {
+   "spec": "domestique",
+   "confidence": "unknown"
+  },
+  "yves-lampaert": {
+   "spec": "classics",
+   "confidence": "sure"
+  },
+  "zak-erzen": {
+   "spec": "domestique",
+   "confidence": "unknown"
   }
  }
 }

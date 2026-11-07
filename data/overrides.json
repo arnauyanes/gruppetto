@@ -1,4 +1,12 @@
 {
- "_info": "Correccions manuals que l'script aplica sobre les dades generades. Clau: id del corredor.",
- "riders": {}
+ "_info": "Correccions manuals. 'riders': substitueix camps per id. 'extraMonuments' i 'extraGrandTours': victòries que se sumen a les de Wikidata.",
+ "_flandes": "Wikidata no té bé els guanyadors del Tour de Flandes. Aquí hi ha els dels corredors actuals fins al 2025. Falta el del 2026.",
+ "riders": {},
+ "extraMonuments": {
+  "tadej-pogacar": 2,
+  "mathieu-van-der-poel": 3,
+  "kasper-asgreen": 1,
+  "alberto-bettiol": 1
+ },
+ "extraGrandTours": {}
 }

@@ -1,5 +1,5 @@
 # Informe de dades · temporada 2026
-Generat: 2026-11-07 11:52 UTC
+Generat: 2026-11-07 11:53 UTC
 
 **✅ riders.json actualitzat.**
 
@@ -74,5 +74,6 @@ Llegint plantilles de la Viquipèdia…
 Buscant identificadors de Wikidata…
 Llegint naixement i nacionalitat…
 Comptant grans voltes i monuments…
+  reintent en 10s (HTTP 504)
 Escrit riders.json amb 521 corredors
 ```

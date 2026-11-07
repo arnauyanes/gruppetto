@@ -1,5 +1,5 @@
 # Informe de dades · temporada 2026
-Generat: 2026-11-07 11:53 UTC
+Generat: 2026-11-07 11:58 UTC
 
 **✅ riders.json actualitzat.**
 
@@ -44,7 +44,7 @@ Total: **521** corredors
 ## Sense país (0)
 
 ## Corredors amb grans voltes o monuments
-- Tadej Pogačar: 6 GV, 10 monuments
+- Tadej Pogačar: 6 GV, 12 monuments
 - Primož Roglič: 5 GV, 1 monuments
 - Jonas Vingegaard: 4 GV, 0 monuments
 - Nairo Quintana: 2 GV, 0 monuments
@@ -55,17 +55,19 @@ Total: **521** corredors
 - Enric Mas: 1 GV, 0 monuments
 - Jai Hindley: 1 GV, 0 monuments
 - Sepp Kuss: 1 GV, 0 monuments
-- Mathieu van der Poel: 0 GV, 5 monuments
+- Mathieu van der Poel: 0 GV, 8 monuments
 - John Degenkolb: 0 GV, 2 monuments
 - Wout van Aert: 0 GV, 2 monuments
 - Jasper Philipsen: 0 GV, 1 monuments
 - Paul Seixas: 0 GV, 1 monuments
+- Kasper Asgreen: 0 GV, 1 monuments
 - Bauke Mollema: 0 GV, 1 monuments
 - Bob Jungels: 0 GV, 1 monuments
 - Michał Kwiatkowski: 0 GV, 1 monuments
 - Jasper Stuyven: 0 GV, 1 monuments
 - Dylan van Baarle: 0 GV, 1 monuments
 - Matej Mohorič: 0 GV, 1 monuments
+- Alberto Bettiol: 0 GV, 1 monuments
 
 ## Registre
 ```

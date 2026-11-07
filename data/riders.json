@@ -191,7 +191,7 @@
    "team": "alpecin",
    "born": "1995-01-19",
    "gtWins": 0,
-   "monuments": 5
+   "monuments": 8
   },
   {
    "id": "maurice-ballerstedt",
@@ -321,7 +321,7 @@
    "team": "astana",
    "born": "1993-10-29",
    "gtWins": 0,
-   "monuments": 0
+   "monuments": 1
   },
   {
    "id": "alessandro-romele",
@@ -1084,7 +1084,7 @@
    "monuments": 0
   },
   {
-   "id": "rasmus-sjberg-pedersen",
+   "id": "rasmus-sojberg-pedersen",
    "name": "Rasmus Søjberg Pedersen",
    "qid": "Q106366863",
    "country": "DEN",
@@ -1281,7 +1281,7 @@
    "team": "ef",
    "born": "1995-02-08",
    "gtWins": 0,
-   "monuments": 0
+   "monuments": 1
   },
   {
    "id": "lukas-nerurkar",
@@ -1384,7 +1384,7 @@
    "monuments": 0
   },
   {
-   "id": "mikkel-frlich-honore",
+   "id": "mikkel-frolich-honore",
    "name": "Mikkel Frølich Honoré",
    "qid": "Q29462362",
    "country": "DEN",
@@ -1944,7 +1944,7 @@
    "monuments": 0
   },
   {
-   "id": "micha-kwiatkowski",
+   "id": "michal-kwiatkowski",
    "name": "Michał Kwiatkowski",
    "qid": "Q956591",
    "country": "POL",
@@ -1964,7 +1964,7 @@
    "monuments": 0
   },
   {
-   "id": "peter-xenberg",
+   "id": "peter-oxenberg",
    "name": "Peter Øxenberg",
    "qid": "Q112755895",
    "country": "DEN",
@@ -2084,7 +2084,7 @@
    "monuments": 0
   },
   {
-   "id": "asbjrn-hellemose",
+   "id": "asbjorn-hellemose",
    "name": "Asbjørn Hellemose",
    "qid": "Q98915714",
    "country": "DEN",
@@ -2564,7 +2564,7 @@
    "monuments": 0
   },
   {
-   "id": "sren-kragh-andersen",
+   "id": "soren-kragh-andersen",
    "name": "Søren Kragh Andersen",
    "qid": "Q3511555",
    "country": "DEN",
@@ -2644,7 +2644,7 @@
    "monuments": 0
   },
   {
-   "id": "felix-rn-kristoff",
+   "id": "felix-orn-kristoff",
    "name": "Felix Ørn-Kristoff",
    "qid": "Q121218472",
    "country": "NOR",
@@ -4404,7 +4404,7 @@
    "monuments": 0
   },
   {
-   "id": "felix-groschartner",
+   "id": "felix-grossschartner",
    "name": "Felix Großschartner",
    "qid": "Q1403486",
    "country": "AUT",
@@ -4611,7 +4611,7 @@
    "team": "uae",
    "born": "1998-09-21",
    "gtWins": 6,
-   "monuments": 10
+   "monuments": 12
   },
   {
    "id": "tim-wellens",
@@ -4704,7 +4704,7 @@
    "monuments": 0
   },
   {
-   "id": "erik-nordster-resell",
+   "id": "erik-nordsaeter-resell",
    "name": "Erik Nordsæter Resell",
    "qid": "Q29877936",
    "country": "NOR",
@@ -4794,7 +4794,7 @@
    "monuments": 0
   },
   {
-   "id": "martin-tjtta",
+   "id": "martin-tjotta",
    "name": "Martin Tjøtta",
    "qid": "Q108221864",
    "country": "NOR",
@@ -4824,7 +4824,7 @@
    "monuments": 0
   },
   {
-   "id": "sakarias-koller-lland",
+   "id": "sakarias-koller-loland",
    "name": "Sakarias Koller Løland",
    "qid": "Q104623447",
    "country": "NOR",
@@ -4864,7 +4864,7 @@
    "monuments": 0
   },
   {
-   "id": "sven-erik-bystrm",
+   "id": "sven-erik-bystrom",
    "name": "Sven Erik Bystrøm",
    "qid": "Q12004294",
    "country": "NOR",
@@ -4874,7 +4874,7 @@
    "monuments": 0
   },
   {
-   "id": "sren-wrenskjold",
+   "id": "soren-waerenskjold",
    "name": "Søren Wærenskjold",
    "qid": "Q53744100",
    "country": "NOR",
@@ -4904,7 +4904,7 @@
    "monuments": 0
   },
   {
-   "id": "torstein-tren",
+   "id": "torstein-traeen",
    "name": "Torstein Træen",
    "qid": "Q23014031",
    "country": "NOR",
@@ -5034,7 +5034,7 @@
    "monuments": 0
   },
   {
-   "id": "jrgen-nordhagen",
+   "id": "jorgen-nordhagen",
    "name": "Jørgen Nordhagen",
    "qid": "Q112960261",
    "country": "NOR",

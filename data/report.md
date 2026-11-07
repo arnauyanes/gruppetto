@@ -1,5 +1,5 @@
 # Informe de dades · temporada 2026
-Generat: 2026-11-07 12:09 UTC
+Generat: 2026-11-07 12:11 UTC
 
 **✅ riders.json actualitzat.**
 
@@ -44,7 +44,7 @@ Total: **521** corredors
 ## Sense país (0)
 
 ## Corredors amb grans voltes o monuments
-- Tadej Pogačar: 6 GV, 14 monuments
+- Tadej Pogačar: 6 GV, 13 monuments
 - Primož Roglič: 5 GV, 1 monuments
 - Jonas Vingegaard: 4 GV, 0 monuments
 - Nairo Quintana: 2 GV, 0 monuments
@@ -76,5 +76,6 @@ Llegint plantilles de la Viquipèdia…
 Buscant identificadors de Wikidata…
 Llegint naixement i nacionalitat…
 Comptant grans voltes i monuments…
+  reintent en 10s (HTTP 504)
 Escrit riders.json amb 521 corredors
 ```

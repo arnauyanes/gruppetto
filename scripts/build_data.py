@@ -30,8 +30,8 @@ TEAM_KEYS = {
     "alpecin": ["alpecin"], "decathlon": ["decathlon"], "ef": ["ef education", "easypost"],
     "groupama": ["groupama", "fdj"], "lidl": ["lidl"], "lotto": ["lotto", "intermarch"],
     "movistar": ["movistar"], "ineos": ["ineos"], "nsn": ["nsn"], "redbull": ["red bull", "bora"],
-    "soudal": ["soudal", "quick-step", "quick step"], "bahrain": ["bahrain"], "jayco": ["jayco", "alula"],
-    "picnic": ["picnic", "postnl"], "visma": ["visma"], "uae": ["uae"], "unox": ["uno-x", "uno x"],
+    "soudal": ["soudal", "quick-step", "quick step", "safety jogger"], "bahrain": ["bahrain"], "jayco": ["jayco", "alula"],
+    "picnic": ["picnic", "postnl"], "visma": ["visma", "yellow b"], "uae": ["uae"], "unox": ["uno-x", "uno x"],
     "astana": ["astana"],
 }
 SKIP_SUBSECTIONS = re.compile(r"stagiaire|trainee|depart|left|transfer", re.I)

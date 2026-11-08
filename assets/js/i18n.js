@@ -29,7 +29,7 @@ const T = {
     stats: "Estadístiques", close: "Tanca",
     played: "Jugades", winPct: "% victòries", streak: "Ratxa", maxStreak: "Millor ratxa", distribution: "Intents per victòria",
     nextIn: "Nou corredor en {t}",
-    sampleNote: "Versió de proves amb dades de mostra (fins a 2025). Equips 2026.",
+    sampleNote: "Versió de proves. Plantilles 2027 provisionals.",
     spec: { gv: "Gran volta", climber: "Escalador", puncheur: "Puncheur", classics: "Clàssiques", sprinter: "Esprintador", tt: "Crono", domestique: "Gregari" },
     cont: { EU: "Europa", AM: "Amèrica", AF: "Àfrica", AS: "Àsia", OC: "Oceania" }
   },
@@ -59,7 +59,7 @@ const T = {
     stats: "Estadísticas", close: "Cerrar",
     played: "Jugadas", winPct: "% victorias", streak: "Racha", maxStreak: "Mejor racha", distribution: "Intentos por victoria",
     nextIn: "Nuevo corredor en {t}",
-    sampleNote: "Versión de pruebas con datos de muestra (hasta 2025). Equipos 2026.",
+    sampleNote: "Versión de pruebas. Plantillas 2027 provisionales.",
     spec: { gv: "Gran vuelta", climber: "Escalador", puncheur: "Puncheur", classics: "Clásicas", sprinter: "Esprínter", tt: "Crono", domestique: "Gregario" },
     cont: { EU: "Europa", AM: "América", AF: "África", AS: "Asia", OC: "Oceanía" }
   },
@@ -89,7 +89,7 @@ const T = {
     stats: "Statistics", close: "Close",
     played: "Played", winPct: "Win %", streak: "Streak", maxStreak: "Best streak", distribution: "Guesses per win",
     nextIn: "New rider in {t}",
-    sampleNote: "Test version with sample data (up to 2025). 2026 teams.",
+    sampleNote: "Test version. Provisional 2027 rosters.",
     spec: { gv: "Grand Tour", climber: "Climber", puncheur: "Puncheur", classics: "Classics", sprinter: "Sprinter", tt: "TT", domestique: "Domestique" },
     cont: { EU: "Europe", AM: "Americas", AF: "Africa", AS: "Asia", OC: "Oceania" }
   },
@@ -119,7 +119,7 @@ const T = {
     stats: "Statistiques", close: "Fermer",
     played: "Parties", winPct: "% victoires", streak: "Série", maxStreak: "Meilleure série", distribution: "Essais par victoire",
     nextIn: "Nouveau coureur dans {t}",
-    sampleNote: "Version de test avec des données d'exemple (jusqu'à 2025). Équipes 2026.",
+    sampleNote: "Version de test. Effectifs 2027 provisoires.",
     spec: { gv: "Grand Tour", climber: "Grimpeur", puncheur: "Puncheur", classics: "Classiques", sprinter: "Sprinteur", tt: "Chrono", domestique: "Équipier" },
     cont: { EU: "Europe", AM: "Amérique", AF: "Afrique", AS: "Asie", OC: "Océanie" }
   },
@@ -149,7 +149,7 @@ const T = {
     stats: "Statistiche", close: "Chiudi",
     played: "Giocate", winPct: "% vittorie", streak: "Serie", maxStreak: "Serie migliore", distribution: "Tentativi per vittoria",
     nextIn: "Nuovo corridore tra {t}",
-    sampleNote: "Versione di prova con dati di esempio (fino al 2025). Squadre 2026.",
+    sampleNote: "Versione di prova. Rose 2027 provvisorie.",
     spec: { gv: "Grandi giri", climber: "Scalatore", puncheur: "Puncheur", classics: "Classiche", sprinter: "Velocista", tt: "Crono", domestique: "Gregario" },
     cont: { EU: "Europa", AM: "America", AF: "Africa", AS: "Asia", OC: "Oceania" }
   }

@@ -138,6 +138,15 @@ def main():
                           "font_url": UCI_2027_URL, "altres_fonts": "", "font_tipus": "premsa", "num_fonts": 1,
                           "data_verificacio": today, "estat_confirmacio": "pendent", "nota": "", "motiu": why})
 
+    sizes = Counter(r["team"] for r in riders.values())
+    for team, n in sorted(sizes.items()):
+        if n > 30 or n < 27:
+            incidents.append({"id": "", "nom": "", "moviment": "mida_plantilla", "equip_2026": team, "equip_2027": team,
+                              "font_url": "", "altres_fonts": "", "font_tipus": "pendent", "num_fonts": 0,
+                              "data_verificacio": today, "estat_confirmacio": "pendent", "nota": f"{n} corredors",
+                              "motiu": ("Més de 30 corredors: segurament hi ha baixes que encara no surten a les fonts"
+                                        if n > 30 else "Menys de 27 corredors: segurament falten altes per anunciar")})
+
     # Base nova
     out = sorted(riders.values(), key=lambda r: (r["team"], r["name"]))
     payload = {"source": "wikipedia+wikidata+moviments-premsa", "season": int(season), "status": "provisional",

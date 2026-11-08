@@ -1,5 +1,5 @@
 {
- "season": 2026,
+ "season": 2027,
  "teams": [
   {
    "id": "alpecin",
@@ -65,7 +65,8 @@
    "id": "soudal",
    "name": "Soudal–Quick-Step",
    "short": "Soudal QS",
-   "country": "BE"
+   "country": "BE",
+   "note2027": "Apareix com a 'Soudal-Safety Jogger' a la llista UCI de sol·licituds 2027."
   },
   {
    "id": "bahrain",
@@ -77,19 +78,22 @@
    "id": "jayco",
    "name": "Team Jayco–AlUla",
    "short": "Jayco",
-   "country": "AU"
+   "country": "AU",
+   "note2027": "Registre UCI 2027 pendent: no va presentar els documents el 15/10/2026."
   },
   {
    "id": "picnic",
    "name": "Team Picnic–PostNL",
    "short": "Picnic",
-   "country": "NL"
+   "country": "NL",
+   "note2027": "Registre UCI 2027 pendent: no va presentar els documents el 15/10/2026."
   },
   {
    "id": "visma",
    "name": "Visma–Lease a Bike",
    "short": "Visma",
-   "country": "NL"
+   "country": "NL",
+   "note2027": "Registrat per al 2027 com a 'Yellow B. Cycling' mentre busca un patrocinador que substitueixi Visma."
   },
   {
    "id": "uae",
@@ -109,5 +113,8 @@
    "short": "Astana",
    "country": "KZ"
   }
- ]
+ ],
+ "status": "provisional",
+ "source": "https://www.cyclingnews.com/pro-cycling/transfers/theres-still-hope-for-totalenergies-as-uci-announces-team-registrations-for-2027/",
+ "checked": "2026-11-08"
 }

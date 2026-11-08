@@ -1,0 +1,63 @@
+name: Revisió setmanal de dades
+
+# Cada dilluns compara les plantilles amb la Viquipèdia i refà el palmarès
+# des de Wikidata. El resultat va a una branca nova i, si GitHub ho permet,
+# a una Pull Request. Mai modifica main directament.
+#
+# Perquè pugui obrir la PR sol: Settings → Actions → General →
+# "Allow GitHub Actions to create and approve pull requests".
+on:
+  schedule:
+    - cron: "23 5 * * 1"
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Temporada de les plantilles a comparar"
+        default: "2027"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: weekly-review
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - name: Compara plantilles
+        run: python scripts/roster_2027.py --season "${{ github.event.inputs.season || '2027' }}"
+      - name: Valida les dades actuals
+        run: python scripts/validate_data.py
+      - name: Desa l'informe
+        uses: actions/upload-artifact@v4
+        with:
+          name: revisio-setmanal
+          path: work/
+      - name: Obre una PR si hi ha canvis a revisar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! ls work/roster_*_candidates.csv >/dev/null 2>&1; then
+            echo "No hi ha plantilles noves a comparar. Informe a l'artefacte."
+            exit 0
+          fi
+          BRANCH="bot/revisio-$(date +%Y-%m-%d)"
+          git config user.name "gruppetto-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add work
+          git commit -m "Revisió setmanal de plantilles" || exit 0
+          git push origin "$BRANCH"
+          gh pr create --base main --head "$BRANCH" \
+            --title "Revisió setmanal de plantilles $(date +%Y-%m-%d)" \
+            --body-file work/roster_*_report.md \
+            || echo "::warning::No s'ha pogut obrir la PR. Activa 'Allow GitHub Actions to create and approve pull requests' o obre-la a mà des de la branca $BRANCH."

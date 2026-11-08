@@ -9,7 +9,7 @@ Corredors 2026: 521 → 2027: 546
 - canvi: 50
 - renovacio: 10
 - retirada: 3
-- incidències: 9
+- incidències: 20
 
 ## Corredors per equip
 - alpecin: 33

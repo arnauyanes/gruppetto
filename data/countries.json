@@ -1,486 +1,607 @@
 {
  "ALB": {
   "code": "ALB",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "AL"
  },
  "AND": {
   "code": "AND",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "AD"
  },
  "ARM": {
   "code": "ARM",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "AM"
  },
  "AUT": {
   "code": "AUT",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "AT"
  },
  "AZE": {
   "code": "AZE",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "AZ"
  },
  "BEL": {
   "code": "BEL",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "BE"
  },
  "BIH": {
   "code": "BIH",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "BA"
  },
  "BLR": {
   "code": "BLR",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "BY"
  },
  "BUL": {
   "code": "BUL",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "BG"
  },
  "CRO": {
   "code": "CRO",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "HR"
  },
  "CYP": {
   "code": "CYP",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "CY"
  },
  "CZE": {
   "code": "CZE",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "CZ"
  },
  "DEN": {
   "code": "DEN",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "DK"
  },
  "ESP": {
   "code": "ESP",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "ES"
  },
  "EST": {
   "code": "EST",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "EE"
  },
  "FIN": {
   "code": "FIN",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "FI"
  },
  "FRA": {
   "code": "FRA",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "FR"
  },
  "GBR": {
   "code": "GBR",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "GB"
  },
  "GEO": {
   "code": "GEO",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "GE"
  },
  "GER": {
   "code": "GER",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "DE"
  },
  "GRE": {
   "code": "GRE",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "GR"
  },
  "HUN": {
   "code": "HUN",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "HU"
  },
  "IRL": {
   "code": "IRL",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "IE"
  },
  "ISL": {
   "code": "ISL",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "IS"
  },
  "ITA": {
   "code": "ITA",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "IT"
  },
  "KOS": {
   "code": "KOS",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "XK"
  },
  "LAT": {
   "code": "LAT",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "LV"
  },
  "LIE": {
   "code": "LIE",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "LI"
  },
  "LTU": {
   "code": "LTU",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "LT"
  },
  "LUX": {
   "code": "LUX",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "LU"
  },
  "MDA": {
   "code": "MDA",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "MD"
  },
  "MKD": {
   "code": "MKD",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "MK"
  },
  "MLT": {
   "code": "MLT",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "MT"
  },
  "MNE": {
   "code": "MNE",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "ME"
  },
  "MON": {
   "code": "MON",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "MC"
  },
  "NED": {
   "code": "NED",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "NL"
  },
  "NOR": {
   "code": "NOR",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "NO"
  },
  "POL": {
   "code": "POL",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "PL"
  },
  "POR": {
   "code": "POR",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "PT"
  },
  "ROU": {
   "code": "ROU",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "RO"
  },
  "RUS": {
   "code": "RUS",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "RU"
  },
  "SMR": {
   "code": "SMR",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "SM"
  },
  "SRB": {
   "code": "SRB",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "RS"
  },
  "SLO": {
   "code": "SLO",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "SI"
  },
  "SVK": {
   "code": "SVK",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "SK"
  },
  "SUI": {
   "code": "SUI",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "CH"
  },
  "SWE": {
   "code": "SWE",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "SE"
  },
  "TUR": {
   "code": "TUR",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "TR"
  },
  "UKR": {
   "code": "UKR",
-  "continent": "EU"
+  "continent": "EU",
+  "iso2": "UA"
  },
  "ARG": {
   "code": "ARG",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "AR"
  },
  "BAR": {
   "code": "BAR",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "BB"
  },
  "BOL": {
   "code": "BOL",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "BO"
  },
  "BRA": {
   "code": "BRA",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "BR"
  },
  "CAN": {
   "code": "CAN",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "CA"
  },
  "CHI": {
   "code": "CHI",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "CL"
  },
  "COL": {
   "code": "COL",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "CO"
  },
  "CRC": {
   "code": "CRC",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "CR"
  },
  "CUB": {
   "code": "CUB",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "CU"
  },
  "DOM": {
   "code": "DOM",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "DO"
  },
  "ECU": {
   "code": "ECU",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "EC"
  },
  "ESA": {
   "code": "ESA",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "SV"
  },
  "GUA": {
   "code": "GUA",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "GT"
  },
  "HON": {
   "code": "HON",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "HN"
  },
  "JAM": {
   "code": "JAM",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "JM"
  },
  "MEX": {
   "code": "MEX",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "MX"
  },
  "NCA": {
   "code": "NCA",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "NI"
  },
  "PAN": {
   "code": "PAN",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "PA"
  },
  "PAR": {
   "code": "PAR",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "PY"
  },
  "PER": {
   "code": "PER",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "PE"
  },
  "PUR": {
   "code": "PUR",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "PR"
  },
  "TTO": {
   "code": "TTO",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "TT"
  },
  "URU": {
   "code": "URU",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "UY"
  },
  "USA": {
   "code": "USA",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "US"
  },
  "VEN": {
   "code": "VEN",
-  "continent": "AM"
+  "continent": "AM",
+  "iso2": "VE"
  },
  "ALG": {
   "code": "ALG",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "DZ"
  },
  "BUR": {
   "code": "BUR",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "BF"
  },
  "CIV": {
   "code": "CIV",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "CI"
  },
  "CMR": {
   "code": "CMR",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "CM"
  },
  "EGY": {
   "code": "EGY",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "EG"
  },
  "ERI": {
   "code": "ERI",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "ER"
  },
  "ETH": {
   "code": "ETH",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "ET"
  },
  "GAB": {
   "code": "GAB",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "GA"
  },
  "KEN": {
   "code": "KEN",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "KE"
  },
  "MAR": {
   "code": "MAR",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "MA"
  },
  "NAM": {
   "code": "NAM",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "NA"
  },
  "NGR": {
   "code": "NGR",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "NG"
  },
  "RSA": {
   "code": "RSA",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "ZA"
  },
  "RWA": {
   "code": "RWA",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "RW"
  },
  "SEN": {
   "code": "SEN",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "SN"
  },
  "TUN": {
   "code": "TUN",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "TN"
  },
  "UGA": {
   "code": "UGA",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "UG"
  },
  "ZIM": {
   "code": "ZIM",
-  "continent": "AF"
+  "continent": "AF",
+  "iso2": "ZW"
  },
  "BRN": {
   "code": "BRN",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "BH"
  },
  "CHN": {
   "code": "CHN",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "CN"
  },
  "HKG": {
   "code": "HKG",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "HK"
  },
  "INA": {
   "code": "INA",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "ID"
  },
  "IND": {
   "code": "IND",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "IN"
  },
  "IRI": {
   "code": "IRI",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "IR"
  },
  "IRQ": {
   "code": "IRQ",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "IQ"
  },
  "ISR": {
   "code": "ISR",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "IL"
  },
  "JPN": {
   "code": "JPN",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "JP"
  },
  "KAZ": {
   "code": "KAZ",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "KZ"
  },
  "KGZ": {
   "code": "KGZ",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "KG"
  },
  "KOR": {
   "code": "KOR",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "KR"
  },
  "KSA": {
   "code": "KSA",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "SA"
  },
  "KUW": {
   "code": "KUW",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "KW"
  },
  "LBN": {
   "code": "LBN",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "LB"
  },
  "MAS": {
   "code": "MAS",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "MY"
  },
  "MGL": {
   "code": "MGL",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "MN"
  },
  "PHI": {
   "code": "PHI",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "PH"
  },
  "QAT": {
   "code": "QAT",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "QA"
  },
  "SGP": {
   "code": "SGP",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "SG"
  },
  "SRI": {
   "code": "SRI",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "LK"
  },
  "SYR": {
   "code": "SYR",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "SY"
  },
  "THA": {
   "code": "THA",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "TH"
  },
  "TPE": {
   "code": "TPE",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "TW"
  },
  "UAE": {
   "code": "UAE",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "AE"
  },
  "UZB": {
   "code": "UZB",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "UZ"
  },
  "VIE": {
   "code": "VIE",
-  "continent": "AS"
+  "continent": "AS",
+  "iso2": "VN"
  },
  "AUS": {
   "code": "AUS",
-  "continent": "OC"
+  "continent": "OC",
+  "iso2": "AU"
  },
  "NZL": {
   "code": "NZL",
-  "continent": "OC"
+  "continent": "OC",
+  "iso2": "NZ"
  }
 }

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contrarellotge · Gruppetto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="topbar">
+    <a class="logo" href="../">Gruppe<span>tto</span></a>
+    <div class="topbar-actions">
+      <button class="icon-btn" id="open-stats" data-i18n="stats">Estadístiques</button>
+      <select class="lang" aria-label="Idioma"></select>
+    </div>
+  </header>
+
+  <div>
+    <h1 data-i18n="ctName">Contrarellotge</h1>
+    <p class="lead" data-i18n="ct.intro"></p>
+  </div>
+
+  <div class="mode-bar">
+    <div class="segmented" role="group">
+      <button id="m-daily" aria-pressed="true" data-i18n="modeDaily">Diari</button>
+      <button id="m-free" aria-pressed="false" data-i18n="modeFree">Lliure</button>
+    </div>
+    <span class="counter" id="count"></span>
+  </div>
+
+  <section class="challenge" aria-live="polite">
+    <h2 id="challenge"></h2>
+    <div class="timer" id="timer">2:00</div>
+  </section>
+
+  <div class="actions">
+    <button class="btn primary" id="start" data-i18n="ct.start">Comença</button>
+    <button class="btn" id="stop" data-i18n="ct.finish" hidden>Acaba ara</button>
+  </div>
+
+  <div class="search">
+    <input id="q" type="text" autocomplete="off" spellcheck="false" disabled data-i18n-placeholder="ct.placeholder" aria-label="Corredor">
+  </div>
+  <p class="flash" id="flash" aria-live="polite"></p>
+
+  <ul class="found-list" id="found" aria-live="polite"></ul>
+
+  <section class="result" id="result" hidden></section>
+
+  <footer data-i18n="sampleNote"></footer>
+</div>
+
+<dialog id="stats">
+  <h2 data-i18n="stats"></h2>
+  <div class="stats-row">
+    <div><b id="st-played">0</b><span data-i18n="played"></span></div>
+    <div><b id="st-best">0</b><span data-i18n="ct.best"></span></div>
+    <div><b id="st-avg">0</b><span data-i18n="ct.avg"></span></div>
+    <div><b id="st-streak">0</b><span data-i18n="streak"></span></div>
+  </div>
+  <div class="actions" style="justify-content:flex-end">
+    <button class="btn" id="close-stats" data-i18n="close"></button>
+  </div>
+</dialog>
+
+<script type="module" src="../assets/js/contrarellotge.js"></script>
+</body>
+</html>

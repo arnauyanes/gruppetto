@@ -40,7 +40,7 @@ async function load() {
   countries = c;
   riders = r.riders.filter(x => x.born && x.country).map(x => {
     const s = sp.riders[x.id] || {};
-    return { ...x, age: ageOf(x.born), spec: s.spec || "domestique", specConfidence: s.confidence || "unknown" };
+    return { ...x, age: ageOf(x.born), spec: s.spec || null, specConfidence: s.spec ? (s.confidence || "unknown") : "unknown" };
   });
   byId = Object.fromEntries(riders.map(x => [x.id, x]));
 }
@@ -58,7 +58,7 @@ function evaluate(g) {
     country: g.country === T.country ? "ok" : (cg?.continent && cg.continent === ct?.continent ? "near" : "miss"),
     team: g.team === T.team ? "ok" : "miss",
     age: g.age === T.age ? "ok" : (Math.abs(g.age - T.age) <= 2 ? "near" : "miss"),
-    spec: g.spec === T.spec ? "ok" : "miss",
+    spec: g.spec && g.spec === T.spec ? "ok" : "miss",
     gt: g.gtWins === T.gtWins ? "ok" : "miss",
     mon: g.monuments === T.monuments ? "ok" : "miss",
   };
@@ -82,7 +82,7 @@ function renderGuess(g) {
   grid.appendChild(tile(e.country, c?.code || g.country, c ? t(`cont.${c.continent}`) : ""));
   grid.appendChild(tile(e.team, teams[g.team]?.short || g.team));
   grid.appendChild(tile(e.age, g.age + arrow(g.age, target.age), t("years")));
-  grid.appendChild(tile(e.spec, t(`spec.${g.spec}`)));
+  grid.appendChild(tile(e.spec, g.spec ? t(`spec.${g.spec}`) : "?"));
   grid.appendChild(tile(e.gt, g.gtWins + arrow(g.gtWins, target.gtWins)));
   grid.appendChild(tile(e.mon, g.monuments + arrow(g.monuments, target.monuments)));
 }

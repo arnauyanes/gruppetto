@@ -1,0 +1,46 @@
+name: Aplica moviments de plantilla
+
+# S'executa només a branques de dades (data/**). Desa el resultat a la mateixa
+# branca perquè es revisi en una Pull Request. Mai escriu a main.
+on:
+  push:
+    branches: ["data/**"]
+    paths:
+      - "scripts/apply_moves.py"
+      - "data/*/moves_input_*.csv"
+      - ".github/workflows/apply-moves.yml"
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Temporada"
+        default: "2027"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apply-moves-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    if: github.ref != 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - run: python scripts/apply_moves.py --season "${{ github.event.inputs.season || '2027' }}"
+      - run: python scripts/validate_data.py
+        continue-on-error: true
+      - name: Desa els resultats a la branca
+        run: |
+          git config user.name "gruppetto-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "Aplica moviments de plantilla"
+          git push origin HEAD:${GITHUB_REF_NAME}

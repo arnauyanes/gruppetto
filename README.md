@@ -24,13 +24,19 @@ data/riders.json      Corredors (ara mateix, dades de mostra)
 |---|---|---|
 | `id` | `enric-mas` | Únic |
 | `name` | `Enric Mas` | |
-| `country` | `ES` | Codi ISO de 2 lletres |
+| `country` | `ESP` | Codi COI de 3 lletres (vegeu `countries.json`) |
 | `team` | `movistar` | `id` de `teams.json` |
 | `born` | `1995-01-07` o `1995` | |
-| `spec` | `gv` | `gv`, `climber`, `puncheur`, `classics`, `sprinter`, `tt`, `domestique` |
+| `spec` | `gv` | `gv`, `climber`, `puncheur`, `classics`, `sprinter`, `tt`, `domestique`, o `null` si està pendent (a `specialties.json`) |
 | `specConfidence` | `sure` | `sure`, `probable` o `unknown`. Només els `sure` poden ser el corredor del dia |
 | `gtWins` | `0` | Grans voltes guanyades |
 | `monuments` | `0` | Monuments guanyats |
+
+## Dades
+La base de dades, les fonts i el procés d'actualització estan explicats a [DATA_SOURCES.md](DATA_SOURCES.md). Abans de fusionar canvis de dades, executa:
+```
+python3 scripts/validate_data.py
+```
 
 ## Provar-ho en local
 Cal un servidor (els mòduls JS no funcionen obrint el fitxer directament):

@@ -1,0 +1,5217 @@
+{
+ "source": "wikipedia+wikidata",
+ "season": 2026,
+ "generated": "2026-11-07",
+ "riders": [
+  {
+   "id": "aaron-dockx",
+   "name": "Aaron Dockx",
+   "qid": "Q111077092",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "2004-06-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "edward-planckaert",
+   "name": "Edward Planckaert",
+   "qid": "Q24262390",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "1995-02-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "emiel-verstrynge",
+   "name": "Emiel Verstrynge",
+   "qid": "Q105163127",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "2002-02-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "florian-senechal",
+   "name": "Florian Sénéchal",
+   "qid": "Q3074228",
+   "country": "FRA",
+   "team": "alpecin",
+   "born": "1993-07-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "francesco-busatto",
+   "name": "Francesco Busatto",
+   "qid": "Q111085741",
+   "country": "ITA",
+   "team": "alpecin",
+   "born": "2002-11-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "gal-glivar",
+   "name": "Gal Glivar",
+   "qid": "Q105946298",
+   "country": "SLO",
+   "team": "alpecin",
+   "born": "2002-05-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "gerben-thijssen",
+   "name": "Gerben Thijssen",
+   "qid": "Q27886462",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "1998-06-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "henri-uhlig",
+   "name": "Henri Uhlig",
+   "qid": "Q108030781",
+   "country": "GER",
+   "team": "alpecin",
+   "born": "2001-08-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "hugo-houle",
+   "name": "Hugo Houle",
+   "qid": "Q555276",
+   "country": "CAN",
+   "team": "alpecin",
+   "born": "1990-09-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jasper-philipsen",
+   "name": "Jasper Philipsen",
+   "qid": "Q29061920",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "1998-03-02",
+   "gtWins": 0,
+   "monuments": 1
+  },
+  {
+   "id": "jensen-plowright",
+   "name": "Jensen Plowright",
+   "qid": "Q60809091",
+   "country": "AUS",
+   "team": "alpecin",
+   "born": "2000-05-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "johan-price-pejtersen",
+   "name": "Johan Price-Pejtersen",
+   "qid": "Q42310154",
+   "country": "DEN",
+   "team": "alpecin",
+   "born": "1999-05-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jonas-geens",
+   "name": "Jonas Geens",
+   "qid": "Q115520677",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "1999-01-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jonas-rickaert",
+   "name": "Jonas Rickaert",
+   "qid": "Q15991765",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "1994-02-07",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "kaden-groves",
+   "name": "Kaden Groves",
+   "qid": "Q30156666",
+   "country": "AUS",
+   "team": "alpecin",
+   "born": "1998-12-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lennert-belmans",
+   "name": "Lennert Belmans",
+   "qid": "Q110832125",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "2002-02-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lindsay-de-vylder",
+   "name": "Lindsay De Vylder",
+   "qid": "Q24045794",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "1995-05-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "luca-vergallito",
+   "name": "Luca Vergallito",
+   "qid": "Q115748405",
+   "country": "ITA",
+   "team": "alpecin",
+   "born": "1997-09-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mathieu-van-der-poel",
+   "name": "Mathieu van der Poel",
+   "qid": "Q3078910",
+   "country": "NED",
+   "team": "alpecin",
+   "born": "1995-01-19",
+   "gtWins": 0,
+   "monuments": 8
+  },
+  {
+   "id": "maurice-ballerstedt",
+   "name": "Maurice Ballerstedt",
+   "qid": "Q60438993",
+   "country": "GER",
+   "team": "alpecin",
+   "born": "2001-01-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "michael-gogl",
+   "name": "Michael Gogl",
+   "qid": "Q18331888",
+   "country": "AUT",
+   "team": "alpecin",
+   "born": "1993-11-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "oscar-riesebeek",
+   "name": "Oscar Riesebeek",
+   "qid": "Q15880359",
+   "country": "NED",
+   "team": "alpecin",
+   "born": "1992-12-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ramses-debruyne",
+   "name": "Ramses Debruyne",
+   "qid": "Q104500680",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "2002-08-31",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "senna-remijn",
+   "name": "Senna Remijn",
+   "qid": "Q132131446",
+   "country": "NED",
+   "team": "alpecin",
+   "born": "2006-01-22",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "sente-sentjens",
+   "name": "Sente Sentjens",
+   "qid": "Q118597031",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "2005-09-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "silvan-dillier",
+   "name": "Silvan Dillier",
+   "qid": "Q2286427",
+   "country": "SUI",
+   "team": "alpecin",
+   "born": "1990-08-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "simon-dehairs",
+   "name": "Simon Dehairs",
+   "qid": "Q110768699",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "2001-06-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tibor-del-grosso",
+   "name": "Tibor Del Grosso",
+   "qid": "Q112803957",
+   "country": "NED",
+   "team": "alpecin",
+   "born": "2003-07-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tim-marsman",
+   "name": "Tim Marsman",
+   "qid": "Q99232795",
+   "country": "NED",
+   "team": "alpecin",
+   "born": "2000-10-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tobias-bayer",
+   "name": "Tobias Bayer",
+   "qid": "Q56705068",
+   "country": "AUT",
+   "team": "alpecin",
+   "born": "1999-11-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "aaron-gate",
+   "name": "Aaron Gate",
+   "qid": "Q302046",
+   "country": "NZL",
+   "team": "astana",
+   "born": "1990-11-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alberto-bettiol",
+   "name": "Alberto Bettiol",
+   "qid": "Q16525836",
+   "country": "ITA",
+   "team": "astana",
+   "born": "1993-10-29",
+   "gtWins": 0,
+   "monuments": 1
+  },
+  {
+   "id": "alessandro-romele",
+   "name": "Alessandro Romele",
+   "qid": "Q113582993",
+   "country": "ITA",
+   "team": "astana",
+   "born": "2003-08-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "anton-kuzmin",
+   "name": "Anton Kuzmin",
+   "qid": "Q24262499",
+   "country": "KAZ",
+   "team": "astana",
+   "born": "1996-11-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "arjen-livyns",
+   "name": "Arjen Livyns",
+   "qid": "Q26461227",
+   "country": "BEL",
+   "team": "astana",
+   "born": "1994-09-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "christian-scaroni",
+   "name": "Christian Scaroni",
+   "qid": "Q36471684",
+   "country": "ITA",
+   "team": "astana",
+   "born": "1997-10-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "clement-champoussin",
+   "name": "Clément Champoussin",
+   "qid": "Q30118202",
+   "country": "FRA",
+   "team": "astana",
+   "born": "1998-05-29",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "cristian-rodriguez",
+   "name": "Cristián Rodríguez",
+   "qid": "Q21091416",
+   "country": "ESP",
+   "team": "astana",
+   "born": "1995-03-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "darren-van-bekkum",
+   "name": "Darren van Bekkum",
+   "qid": "Q109816763",
+   "country": "NED",
+   "team": "astana",
+   "born": "2002-03-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "davide-ballerini",
+   "name": "Davide Ballerini",
+   "qid": "Q17496883",
+   "country": "ITA",
+   "team": "astana",
+   "born": "1994-09-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "davide-toneatti",
+   "name": "Davide Toneatti",
+   "qid": "Q110872500",
+   "country": "ITA",
+   "team": "astana",
+   "born": "2001-04-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "diego-ulissi",
+   "name": "Diego Ulissi",
+   "qid": "Q440041",
+   "country": "ITA",
+   "team": "astana",
+   "born": "1989-07-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "florian-samuel-kajamini",
+   "name": "Florian Samuel Kajamini",
+   "qid": "Q113579852",
+   "country": "ITA",
+   "team": "astana",
+   "born": "2003-02-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "gleb-syritsa",
+   "name": "Gleb Syritsa",
+   "qid": "Q55777637",
+   "country": "RUS",
+   "team": "astana",
+   "born": "2000-04-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "guillermo-thomas-silva",
+   "name": "Guillermo Thomas Silva",
+   "qid": "Q114771192",
+   "country": "URU",
+   "team": "astana",
+   "born": "2001-12-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "harold-martin-lopez",
+   "name": "Harold Martín López",
+   "qid": "Q84632377",
+   "country": "ECU",
+   "team": "astana",
+   "born": "2000-12-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "harold-tejada",
+   "name": "Harold Tejada",
+   "qid": "Q28055682",
+   "country": "COL",
+   "team": "astana",
+   "born": "1997-04-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "henok-mulubrhan",
+   "name": "Henok Mulubrhan",
+   "qid": "Q47403643",
+   "country": "ERI",
+   "team": "astana",
+   "born": "1999-11-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lev-gonov",
+   "name": "Lev Gonov",
+   "qid": "Q42849429",
+   "country": "RUS",
+   "team": "astana",
+   "born": "2000-01-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lorenzo-fortunato",
+   "name": "Lorenzo Fortunato",
+   "qid": "Q27117863",
+   "country": "ITA",
+   "team": "astana",
+   "born": "1996-05-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "marco-schrettl",
+   "name": "Marco Schrettl",
+   "qid": "Q113574355",
+   "country": "AUT",
+   "team": "astana",
+   "born": "2003-09-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "matteo-malucelli",
+   "name": "Matteo Malucelli",
+   "qid": "Q20127294",
+   "country": "ITA",
+   "team": "astana",
+   "born": "1993-10-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "max-kanter",
+   "name": "Max Kanter",
+   "qid": "Q23563453",
+   "country": "GER",
+   "team": "astana",
+   "born": "1997-10-22",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mike-teunissen",
+   "name": "Mike Teunissen",
+   "qid": "Q923744",
+   "country": "NED",
+   "team": "astana",
+   "born": "1992-08-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "nicola-conci",
+   "name": "Nicola Conci",
+   "qid": "Q29109966",
+   "country": "ITA",
+   "team": "astana",
+   "born": "1997-01-05",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "nicolas-vinokurov",
+   "name": "Nicolas Vinokurov",
+   "qid": "Q110872621",
+   "country": "KAZ",
+   "team": "astana",
+   "born": "2002-07-07",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "sergio-higuita",
+   "name": "Sergio Higuita",
+   "qid": "Q28026420",
+   "country": "COL",
+   "team": "astana",
+   "born": "1997-08-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "simone-velasco",
+   "name": "Simone Velasco",
+   "qid": "Q20727821",
+   "country": "ITA",
+   "team": "astana",
+   "born": "1995-12-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "su-haoyu",
+   "name": "Su Haoyu",
+   "qid": "Q120491955",
+   "country": "CHN",
+   "team": "astana",
+   "born": "2000-10-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "yevgeniy-fedorov",
+   "name": "Yevgeniy Fedorov",
+   "qid": "Q65559052",
+   "country": "KAZ",
+   "team": "astana",
+   "born": "2000-02-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "afonso-eulalio",
+   "name": "Afonso Eulálio",
+   "qid": "Q110942452",
+   "country": "POR",
+   "team": "bahrain",
+   "born": "2001-09-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alberto-bruttomesso",
+   "name": "Alberto Bruttomesso",
+   "qid": "Q112585390",
+   "country": "ITA",
+   "team": "bahrain",
+   "born": "2003-10-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alec-segaert",
+   "name": "Alec Segaert",
+   "qid": "Q108458135",
+   "country": "BEL",
+   "team": "bahrain",
+   "born": "2003-01-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alessandro-borgo",
+   "name": "Alessandro Borgo",
+   "qid": "Q124388016",
+   "country": "ITA",
+   "team": "bahrain",
+   "born": "2005-02-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "antonio-tiberi",
+   "name": "Antonio Tiberi",
+   "qid": "Q56760322",
+   "country": "ITA",
+   "team": "bahrain",
+   "born": "2001-06-24",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "attila-valter",
+   "name": "Attila Valter",
+   "qid": "Q50378458",
+   "country": "HUN",
+   "team": "bahrain",
+   "born": "1998-06-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "damiano-caruso",
+   "name": "Damiano Caruso",
+   "qid": "Q956604",
+   "country": "ITA",
+   "team": "bahrain",
+   "born": "1987-10-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "daniel-skerl",
+   "name": "Daniel Skerl",
+   "qid": "Q113376353",
+   "country": "ITA",
+   "team": "bahrain",
+   "born": "2003-03-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "edoardo-zambanini",
+   "name": "Edoardo Zambanini",
+   "qid": "Q98925954",
+   "country": "ITA",
+   "team": "bahrain",
+   "born": "2001-04-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "fran-miholjevic",
+   "name": "Fran Miholjević",
+   "qid": "Q108344049",
+   "country": "CRO",
+   "team": "bahrain",
+   "born": "2002-08-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jakob-omrzel",
+   "name": "Jakob Omrzel",
+   "qid": "Q125524007",
+   "country": "SLO",
+   "team": "bahrain",
+   "born": "2006-03-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "kamil-gradek",
+   "name": "Kamil Gradek",
+   "qid": "Q17350622",
+   "country": "POL",
+   "team": "bahrain",
+   "born": "1990-09-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lenny-martinez",
+   "name": "Lenny Martinez",
+   "qid": "Q108525409",
+   "country": "FRA",
+   "team": "bahrain",
+   "born": "2003-07-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "matej-mohoric",
+   "name": "Matej Mohorič",
+   "qid": "Q3298399",
+   "country": "SLO",
+   "team": "bahrain",
+   "born": "1994-10-19",
+   "gtWins": 0,
+   "monuments": 1
+  },
+  {
+   "id": "matevz-govekar",
+   "name": "Matevž Govekar",
+   "qid": "Q106755942",
+   "country": "SLO",
+   "team": "bahrain",
+   "born": "2000-04-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mathijs-paasschens",
+   "name": "Mathijs Paasschens",
+   "qid": "Q55438023",
+   "country": "NED",
+   "team": "bahrain",
+   "born": "1996-03-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "max-van-der-meulen",
+   "name": "Max van der Meulen",
+   "qid": "Q114349973",
+   "country": "NED",
+   "team": "bahrain",
+   "born": "2004-01-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "nikias-arndt",
+   "name": "Nikias Arndt",
+   "qid": "Q90403",
+   "country": "GER",
+   "team": "bahrain",
+   "born": "1991-11-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "oliver-stockwell",
+   "name": "Oliver Stockwell",
+   "qid": "Q108178897",
+   "country": "GBR",
+   "team": "bahrain",
+   "born": "2002-06-07",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pau-miquel",
+   "name": "Pau Miquel",
+   "qid": "Q108458242",
+   "country": "ESP",
+   "team": "bahrain",
+   "born": "2000-08-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pello-bilbao",
+   "name": "Pello Bilbao",
+   "qid": "Q1067547",
+   "country": "ESP",
+   "team": "bahrain",
+   "born": "1990-02-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "phil-bauhaus",
+   "name": "Phil Bauhaus",
+   "qid": "Q17295843",
+   "country": "GER",
+   "team": "bahrain",
+   "born": "1994-07-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "rainer-kepplinger",
+   "name": "Rainer Kepplinger",
+   "qid": "Q81492059",
+   "country": "AUT",
+   "team": "bahrain",
+   "born": "1997-08-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "robert-stannard",
+   "name": "Robert Stannard",
+   "qid": "Q29474877",
+   "country": "AUS",
+   "team": "bahrain",
+   "born": "1998-09-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "roman-ermakov",
+   "name": "Roman Ermakov",
+   "qid": "Q124388036",
+   "country": "RUS",
+   "team": "bahrain",
+   "born": "2004-10-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "santiago-buitrago",
+   "name": "Santiago Buitrago",
+   "qid": "Q56192417",
+   "country": "COL",
+   "team": "bahrain",
+   "born": "1999-09-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "vlad-van-mechelen",
+   "name": "Vlad Van Mechelen",
+   "qid": "Q108675205",
+   "country": "BEL",
+   "team": "bahrain",
+   "born": "2004-06-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "zak-erzen",
+   "name": "Žak Eržen",
+   "qid": "Q124215155",
+   "country": "SLO",
+   "team": "bahrain",
+   "born": "2005-10-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "antoine-l-hote",
+   "name": "Antoine L'Hote",
+   "qid": "Q123378314",
+   "country": "FRA",
+   "team": "decathlon",
+   "born": "2005-05-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "aurelien-paret-peintre",
+   "name": "Aurélien Paret-Peintre",
+   "qid": "Q24509899",
+   "country": "FRA",
+   "team": "decathlon",
+   "born": "1996-02-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "callum-scotson",
+   "name": "Callum Scotson",
+   "qid": "Q18402440",
+   "country": "AUS",
+   "team": "decathlon",
+   "born": "1996-08-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "cees-bol",
+   "name": "Cees Bol",
+   "qid": "Q21157748",
+   "country": "NED",
+   "team": "decathlon",
+   "born": "1995-07-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "daan-hoole",
+   "name": "Daan Hoole",
+   "qid": "Q47001778",
+   "country": "NED",
+   "team": "decathlon",
+   "born": "1999-02-22",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "felix-gall",
+   "name": "Felix Gall",
+   "qid": "Q23781412",
+   "country": "AUT",
+   "team": "decathlon",
+   "born": "1998-02-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "gianluca-pollefliet",
+   "name": "Gianluca Pollefliet",
+   "qid": "Q111133754",
+   "country": "BEL",
+   "team": "decathlon",
+   "born": "2002-01-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "gregor-muhlberger",
+   "name": "Gregor Mühlberger",
+   "qid": "Q16069426",
+   "country": "AUT",
+   "team": "decathlon",
+   "born": "1994-04-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "johannes-staune-mittet",
+   "name": "Johannes Staune-Mittet",
+   "qid": "Q107109107",
+   "country": "NOR",
+   "team": "decathlon",
+   "born": "2002-01-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jordan-labrosse",
+   "name": "Jordan Labrosse",
+   "qid": "Q99901527",
+   "country": "FRA",
+   "team": "decathlon",
+   "born": "2002-09-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "leo-bisiaux",
+   "name": "Léo Bisiaux",
+   "qid": "Q113009175",
+   "country": "FRA",
+   "team": "decathlon",
+   "born": "2005-02-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "matthew-riccitello",
+   "name": "Matthew Riccitello",
+   "qid": "Q106782995",
+   "country": "USA",
+   "team": "decathlon",
+   "born": "2002-03-05",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "nicolas-prodhomme",
+   "name": "Nicolas Prodhomme",
+   "qid": "Q36473421",
+   "country": "FRA",
+   "team": "decathlon",
+   "born": "1997-02-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "noa-isidore",
+   "name": "Noa Isidore",
+   "qid": "Q114342427",
+   "country": "FRA",
+   "team": "decathlon",
+   "born": "2004-09-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "olav-kooij",
+   "name": "Olav Kooij",
+   "qid": "Q87069488",
+   "country": "NED",
+   "team": "decathlon",
+   "born": "2001-10-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "oliver-naesen",
+   "name": "Oliver Naesen",
+   "qid": "Q17476630",
+   "country": "BEL",
+   "team": "decathlon",
+   "born": "1990-09-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "oscar-chamberlain",
+   "name": "Oscar Chamberlain",
+   "qid": "Q116971559",
+   "country": "AUS",
+   "team": "decathlon",
+   "born": "2005-01-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "paul-lapeira",
+   "name": "Paul Lapeira",
+   "qid": "Q106840528",
+   "country": "FRA",
+   "team": "decathlon",
+   "born": "2000-05-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "paul-seixas",
+   "name": "Paul Seixas",
+   "qid": "Q125848633",
+   "country": "FRA",
+   "team": "decathlon",
+   "born": "2006-09-24",
+   "gtWins": 0,
+   "monuments": 1
+  },
+  {
+   "id": "pierre-gautherat",
+   "name": "Pierre Gautherat",
+   "qid": "Q113377183",
+   "country": "FRA",
+   "team": "decathlon",
+   "born": "2003-01-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "rasmus-sojberg-pedersen",
+   "name": "Rasmus Søjberg Pedersen",
+   "qid": "Q106366863",
+   "country": "DEN",
+   "team": "decathlon",
+   "born": "2002-07-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "robbe-ghys",
+   "name": "Robbe Ghys",
+   "qid": "Q26690093",
+   "country": "BEL",
+   "team": "decathlon",
+   "born": "1997-01-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "sander-de-pestel",
+   "name": "Sander De Pestel",
+   "qid": "Q71848347",
+   "country": "BEL",
+   "team": "decathlon",
+   "born": "1998-10-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "stan-dewulf",
+   "name": "Stan Dewulf",
+   "qid": "Q29082792",
+   "country": "BEL",
+   "team": "decathlon",
+   "born": "1997-12-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "stefan-bissegger",
+   "name": "Stefan Bissegger",
+   "qid": "Q27892515",
+   "country": "SUI",
+   "team": "decathlon",
+   "born": "1998-09-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tiesj-benoot",
+   "name": "Tiesj Benoot",
+   "qid": "Q17473716",
+   "country": "BEL",
+   "team": "decathlon",
+   "born": "1994-03-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tobias-lund-andresen",
+   "name": "Tobias Lund Andresen",
+   "qid": "Q98918621",
+   "country": "DEN",
+   "team": "decathlon",
+   "born": "2002-08-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tord-gudmestad",
+   "name": "Tord Gudmestad",
+   "qid": "Q98716203",
+   "country": "NOR",
+   "team": "decathlon",
+   "born": "2001-05-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alastair-mackellar",
+   "name": "Alastair Mackellar",
+   "qid": "Q108822928",
+   "country": "AUS",
+   "team": "ef",
+   "born": "2002-01-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alex-baudin",
+   "name": "Alex Baudin",
+   "qid": "Q107206621",
+   "country": "FRA",
+   "team": "ef",
+   "born": "2001-05-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "archie-ryan",
+   "name": "Archie Ryan",
+   "qid": "Q98931255",
+   "country": "IRL",
+   "team": "ef",
+   "born": "2001-11-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ben-healy",
+   "name": "Ben Healy",
+   "qid": "Q66639018",
+   "country": "IRL",
+   "team": "ef",
+   "born": "2000-09-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "colby-simmons",
+   "name": "Colby Simmons",
+   "qid": "Q109817143",
+   "country": "USA",
+   "team": "ef",
+   "born": "2003-10-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "darren-rafferty",
+   "name": "Darren Rafferty",
+   "qid": "Q111233133",
+   "country": "IRL",
+   "team": "ef",
+   "born": "2003-07-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "georg-steinhauser",
+   "name": "Georg Steinhauser",
+   "qid": "Q106760696",
+   "country": "GER",
+   "team": "ef",
+   "born": "2001-10-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "harry-sweeny",
+   "name": "Harry Sweeny",
+   "qid": "Q47088532",
+   "country": "AUS",
+   "team": "ef",
+   "born": "1998-07-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "james-shaw",
+   "name": "James Shaw",
+   "qid": "Q25172277",
+   "country": "GBR",
+   "team": "ef",
+   "born": "1996-06-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jardi-christiaan-van-der-lee",
+   "name": "Jardi Christiaan van der Lee",
+   "qid": "Q121094539",
+   "country": "NED",
+   "team": "ef",
+   "born": "2001-08-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jefferson-alexander-cepeda",
+   "name": "Jefferson Alexander Cepeda",
+   "qid": "Q62576160",
+   "country": "ECU",
+   "team": "ef",
+   "born": "1998-06-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "kasper-asgreen",
+   "name": "Kasper Asgreen",
+   "qid": "Q23950146",
+   "country": "DEN",
+   "team": "ef",
+   "born": "1995-02-08",
+   "gtWins": 0,
+   "monuments": 1
+  },
+  {
+   "id": "lukas-nerurkar",
+   "name": "Lukas Nerurkar",
+   "qid": "Q113573856",
+   "country": "GBR",
+   "team": "ef",
+   "born": "2003-11-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "luke-lamperti",
+   "name": "Luke Lamperti",
+   "qid": "Q106844557",
+   "country": "USA",
+   "team": "ef",
+   "born": "2002-12-31",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "madis-mihkels",
+   "name": "Madis Mihkels",
+   "qid": "Q108673958",
+   "country": "EST",
+   "team": "ef",
+   "born": "2003-05-31",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "marijn-van-den-berg",
+   "name": "Marijn van den Berg",
+   "qid": "Q64032838",
+   "country": "NED",
+   "team": "ef",
+   "born": "1999-07-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "markel-beloki",
+   "name": "Markel Beloki",
+   "qid": "Q122878661",
+   "country": "ESP",
+   "team": "ef",
+   "born": "2005-07-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "matthias-schwarzbacher",
+   "name": "Matthias Schwarzbacher",
+   "qid": "Q125282516",
+   "country": "SVK",
+   "team": "ef",
+   "born": "2005-12-22",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mattia-agostinacchio",
+   "name": "Mattia Agostinacchio",
+   "qid": "Q134082418",
+   "country": "ITA",
+   "team": "ef",
+   "born": "2007-09-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "max-walker",
+   "name": "Max Walker",
+   "qid": "Q107036155",
+   "country": "GBR",
+   "team": "ef",
+   "born": "2001-07-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "michael-leonard",
+   "name": "Michael Leonard",
+   "qid": "Q114451140",
+   "country": "CAN",
+   "team": "ef",
+   "born": "2004-03-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "michael-valgren",
+   "name": "Michael Valgren",
+   "qid": "Q1926802",
+   "country": "DEN",
+   "team": "ef",
+   "born": "1992-02-07",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mikkel-frolich-honore",
+   "name": "Mikkel Frølich Honoré",
+   "qid": "Q29462362",
+   "country": "DEN",
+   "team": "ef",
+   "born": "1997-01-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "neilson-powless",
+   "name": "Neilson Powless",
+   "qid": "Q21887367",
+   "country": "USA",
+   "team": "ef",
+   "born": "1996-09-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "noah-hobbs",
+   "name": "Noah Hobbs",
+   "qid": "Q115788283",
+   "country": "GBR",
+   "team": "ef",
+   "born": "2004-07-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "richard-carapaz",
+   "name": "Richard Carapaz",
+   "qid": "Q16298132",
+   "country": "ECU",
+   "team": "ef",
+   "born": "1993-05-29",
+   "gtWins": 1,
+   "monuments": 0
+  },
+  {
+   "id": "samuele-battistella",
+   "name": "Samuele Battistella",
+   "qid": "Q54634025",
+   "country": "ITA",
+   "team": "ef",
+   "born": "1998-11-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "sean-quinn",
+   "name": "Sean Quinn",
+   "qid": "Q56760326",
+   "country": "USA",
+   "team": "ef",
+   "born": "2000-05-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "vincenzo-albanese",
+   "name": "Vincenzo Albanese",
+   "qid": "Q23851295",
+   "country": "ITA",
+   "team": "ef",
+   "born": "1996-11-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "axel-huens",
+   "name": "Axel Huens",
+   "qid": "Q117190347",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "2001-09-05",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "bastien-tronchon",
+   "name": "Bastien Tronchon",
+   "qid": "Q113377240",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "2002-03-29",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "brieuc-rolland",
+   "name": "Brieuc Rolland",
+   "qid": "Q114640317",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "2003-08-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "clement-berthet",
+   "name": "Clément Berthet",
+   "qid": "Q67404619",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1997-08-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "clement-braz-afonso",
+   "name": "Clément Braz Afonso",
+   "qid": "Q109332793",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1999-11-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "clement-russo",
+   "name": "Clément Russo",
+   "qid": "Q21156237",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1995-01-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "cyril-barthe",
+   "name": "Cyril Barthe",
+   "qid": "Q31271168",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1996-02-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "david-gaudu",
+   "name": "David Gaudu",
+   "qid": "Q21705205",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1996-10-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "enzo-paleni",
+   "name": "Enzo Paleni",
+   "qid": "Q98925263",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "2002-05-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ewen-costiou",
+   "name": "Ewen Costiou",
+   "qid": "Q108713273",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "2002-11-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "guillaume-martin",
+   "name": "Guillaume Martin",
+   "qid": "Q17614937",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1993-06-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "johan-jacobs",
+   "name": "Johan Jacobs",
+   "qid": "Q19841158",
+   "country": "SUI",
+   "team": "groupama",
+   "born": "1997-03-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "josh-kench",
+   "name": "Josh Kench",
+   "qid": "Q108266522",
+   "country": "NZL",
+   "team": "groupama",
+   "born": "2001-05-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "kevin-geniets",
+   "name": "Kevin Geniets",
+   "qid": "Q27103218",
+   "country": "LUX",
+   "team": "groupama",
+   "born": "1997-01-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lewis-bower",
+   "name": "Lewis Bower",
+   "qid": "Q115788168",
+   "country": "NZL",
+   "team": "groupama",
+   "born": "2004-10-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lorenzo-germani",
+   "name": "Lorenzo Germani",
+   "qid": "Q106936933",
+   "country": "ITA",
+   "team": "groupama",
+   "born": "2002-03-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "matteo-milan",
+   "name": "Matteo Milan",
+   "qid": "Q113377828",
+   "country": "ITA",
+   "team": "groupama",
+   "born": "2003-01-22",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "maxime-decomble",
+   "name": "Maxime Decomble",
+   "qid": "Q124375918",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "2005-07-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "olivier-le-gac",
+   "name": "Olivier Le Gac",
+   "qid": "Q2361949",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1993-08-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "paul-penhoet",
+   "name": "Paul Penhoët",
+   "qid": "Q99526041",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "2001-12-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "quentin-pacher",
+   "name": "Quentin Pacher",
+   "qid": "Q17516086",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1992-01-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "romain-gregoire",
+   "name": "Romain Grégoire",
+   "qid": "Q108493753",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "2003-01-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "rudy-molard",
+   "name": "Rudy Molard",
+   "qid": "Q282045",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1989-09-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "remi-cavagna",
+   "name": "Rémi Cavagna",
+   "qid": "Q16044437",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1995-08-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "remy-rochas",
+   "name": "Rémy Rochas",
+   "qid": "Q24238710",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1996-05-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "thibaud-gruel",
+   "name": "Thibaud Gruel",
+   "qid": "Q112960230",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "2004-05-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "titouan-fontaine",
+   "name": "Titouan Fontaine",
+   "qid": "Q124570901",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "2005-06-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tom-donnenwirth",
+   "name": "Tom Donnenwirth",
+   "qid": "Q113486440",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1998-01-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "valentin-madouas",
+   "name": "Valentin Madouas",
+   "qid": "Q20670099",
+   "country": "FRA",
+   "team": "groupama",
+   "born": "1996-07-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "andrew-august",
+   "name": "Andrew August",
+   "qid": "Q118165428",
+   "country": "USA",
+   "team": "ineos",
+   "born": "2005-10-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "artem-shmidt",
+   "name": "Artem Shmidt",
+   "qid": "Q114246781",
+   "country": "USA",
+   "team": "ineos",
+   "born": "2004-01-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "axel-laurance",
+   "name": "Axel Laurance",
+   "qid": "Q107137242",
+   "country": "FRA",
+   "team": "ineos",
+   "born": "2001-04-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ben-swift",
+   "name": "Ben Swift",
+   "qid": "Q545318",
+   "country": "GBR",
+   "team": "ineos",
+   "born": "1987-11-05",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ben-turner",
+   "name": "Ben Turner",
+   "qid": "Q60321057",
+   "country": "GBR",
+   "team": "ineos",
+   "born": "1999-05-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "bob-jungels",
+   "name": "Bob Jungels",
+   "qid": "Q888024",
+   "country": "LUX",
+   "team": "ineos",
+   "born": "1992-09-22",
+   "gtWins": 0,
+   "monuments": 1
+  },
+  {
+   "id": "brandon-rivera",
+   "name": "Brandon Rivera",
+   "qid": "Q48982129",
+   "country": "COL",
+   "team": "ineos",
+   "born": "1996-03-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "carlos-rodriguez",
+   "name": "Carlos Rodríguez",
+   "qid": "Q79787760",
+   "country": "ESP",
+   "team": "ineos",
+   "born": "2001-02-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "connor-swift",
+   "name": "Connor Swift",
+   "qid": "Q30109855",
+   "country": "GBR",
+   "team": "ineos",
+   "born": "1995-10-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "dorian-godon",
+   "name": "Dorian Godon",
+   "qid": "Q27119798",
+   "country": "FRA",
+   "team": "ineos",
+   "born": "1996-05-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "egan-bernal",
+   "name": "Egan Bernal",
+   "qid": "Q21936667",
+   "country": "COL",
+   "team": "ineos",
+   "born": "1997-01-13",
+   "gtWins": 2,
+   "monuments": 0
+  },
+  {
+   "id": "embret-svestad-bardseng",
+   "name": "Embret Svestad-Bårdseng",
+   "qid": "Q108223400",
+   "country": "NOR",
+   "team": "ineos",
+   "born": "2002-09-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "filippo-ganna",
+   "name": "Filippo Ganna",
+   "qid": "Q20971580",
+   "country": "ITA",
+   "team": "ineos",
+   "born": "1996-07-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jack-haig",
+   "name": "Jack Haig",
+   "qid": "Q16644277",
+   "country": "AUS",
+   "team": "ineos",
+   "born": "1993-09-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "joshua-tarling",
+   "name": "Joshua Tarling",
+   "qid": "Q108524848",
+   "country": "GBR",
+   "team": "ineos",
+   "born": "2004-02-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "kim-heiduk",
+   "name": "Kim Heiduk",
+   "qid": "Q64415127",
+   "country": "GER",
+   "team": "ineos",
+   "born": "2000-03-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "kevin-vauquelin",
+   "name": "Kévin Vauquelin",
+   "qid": "Q80418222",
+   "country": "FRA",
+   "team": "ineos",
+   "born": "2001-04-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "laurens-de-plus",
+   "name": "Laurens De Plus",
+   "qid": "Q20105738",
+   "country": "BEL",
+   "team": "ineos",
+   "born": "1995-09-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lucas-hamilton",
+   "name": "Lucas Hamilton",
+   "qid": "Q22284279",
+   "country": "AUS",
+   "team": "ineos",
+   "born": "1996-02-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "magnus-sheffield",
+   "name": "Magnus Sheffield",
+   "qid": "Q68682689",
+   "country": "USA",
+   "team": "ineos",
+   "born": "2002-04-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "michal-kwiatkowski",
+   "name": "Michał Kwiatkowski",
+   "qid": "Q956591",
+   "country": "POL",
+   "team": "ineos",
+   "born": "1990-06-02",
+   "gtWins": 0,
+   "monuments": 1
+  },
+  {
+   "id": "oscar-onley",
+   "name": "Oscar Onley",
+   "qid": "Q106498350",
+   "country": "GBR",
+   "team": "ineos",
+   "born": "2002-10-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "peter-oxenberg",
+   "name": "Peter Øxenberg",
+   "qid": "Q112755895",
+   "country": "DEN",
+   "team": "ineos",
+   "born": "2005-10-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "sam-welsford",
+   "name": "Sam Welsford",
+   "qid": "Q22917783",
+   "country": "AUS",
+   "team": "ineos",
+   "born": "1996-01-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "samuel-watson",
+   "name": "Samuel Watson",
+   "qid": "Q110234089",
+   "country": "GBR",
+   "team": "ineos",
+   "born": "2001-09-24",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "thymen-arensman",
+   "name": "Thymen Arensman",
+   "qid": "Q56192455",
+   "country": "NED",
+   "team": "ineos",
+   "born": "1999-12-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tobias-foss",
+   "name": "Tobias Foss",
+   "qid": "Q23902247",
+   "country": "NOR",
+   "team": "ineos",
+   "born": "1997-05-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "victor-langellotti",
+   "name": "Victor Langellotti",
+   "qid": "Q30729071",
+   "country": "MON",
+   "team": "ineos",
+   "born": "1995-06-07",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "oscar-rodriguez",
+   "name": "Óscar Rodríguez",
+   "qid": "Q27916804",
+   "country": "ESP",
+   "team": "ineos",
+   "born": "1995-05-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alan-hatherly",
+   "name": "Alan Hatherly",
+   "qid": "Q26605655",
+   "country": "RSA",
+   "team": "jayco",
+   "born": "1996-03-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alessandro-covi",
+   "name": "Alessandro Covi",
+   "qid": "Q54877761",
+   "country": "ITA",
+   "team": "jayco",
+   "born": "1998-09-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "amaury-capiot",
+   "name": "Amaury Capiot",
+   "qid": "Q17338499",
+   "country": "BEL",
+   "team": "jayco",
+   "born": "1993-06-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "anders-foldager",
+   "name": "Anders Foldager",
+   "qid": "Q102300538",
+   "country": "DEN",
+   "team": "jayco",
+   "born": "2001-07-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "andrea-vendrame",
+   "name": "Andrea Vendrame",
+   "qid": "Q26912695",
+   "country": "ITA",
+   "team": "jayco",
+   "born": "1994-07-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "asbjorn-hellemose",
+   "name": "Asbjørn Hellemose",
+   "qid": "Q98915714",
+   "country": "DEN",
+   "team": "jayco",
+   "born": "1999-01-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ben-o-connor",
+   "name": "Ben O'Connor",
+   "qid": "Q22247780",
+   "country": "AUS",
+   "team": "jayco",
+   "born": "1995-11-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "christopher-juul-jensen",
+   "name": "Christopher Juul-Jensen",
+   "qid": "Q733963",
+   "country": "DEN",
+   "team": "jayco",
+   "born": "1989-07-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "davide-de-pretto",
+   "name": "Davide De Pretto",
+   "qid": "Q113006464",
+   "country": "ITA",
+   "team": "jayco",
+   "born": "2002-04-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "dries-de-bondt",
+   "name": "Dries De Bondt",
+   "qid": "Q22574131",
+   "country": "BEL",
+   "team": "jayco",
+   "born": "1991-07-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "dries-de-pooter",
+   "name": "Dries De Pooter",
+   "qid": "Q108283891",
+   "country": "BEL",
+   "team": "jayco",
+   "born": "2002-11-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "felix-engelhardt",
+   "name": "Felix Engelhardt",
+   "qid": "Q65555336",
+   "country": "GER",
+   "team": "jayco",
+   "born": "2000-08-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "filippo-conca",
+   "name": "Filippo Conca",
+   "qid": "Q61466235",
+   "country": "ITA",
+   "team": "jayco",
+   "born": "1998-09-22",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "finlay-pickering",
+   "name": "Finlay Pickering",
+   "qid": "Q108637001",
+   "country": "GBR",
+   "team": "jayco",
+   "born": "2003-01-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "hamish-mckenzie",
+   "name": "Hamish McKenzie",
+   "qid": "Q114056490",
+   "country": "AUS",
+   "team": "jayco",
+   "born": "2004-09-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jasha-sutterlin",
+   "name": "Jasha Sütterlin",
+   "qid": "Q3162848",
+   "country": "GER",
+   "team": "jayco",
+   "born": "1992-11-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jelte-krijnsen",
+   "name": "Jelte Krijnsen",
+   "qid": "Q85842301",
+   "country": "NED",
+   "team": "jayco",
+   "born": "2001-05-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "kelland-o-brien",
+   "name": "Kelland O'Brien",
+   "qid": "Q29364265",
+   "country": "AUS",
+   "team": "jayco",
+   "born": "1998-05-22",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "koen-bouwman",
+   "name": "Koen Bouwman",
+   "qid": "Q20743580",
+   "country": "NED",
+   "team": "jayco",
+   "born": "1993-12-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "luka-mezgec",
+   "name": "Luka Mezgec",
+   "qid": "Q961199",
+   "country": "SLO",
+   "team": "jayco",
+   "born": "1988-06-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "luke-durbridge",
+   "name": "Luke Durbridge",
+   "qid": "Q932148",
+   "country": "AUS",
+   "team": "jayco",
+   "born": "1991-04-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "luke-plapp",
+   "name": "Luke Plapp",
+   "qid": "Q56739574",
+   "country": "AUS",
+   "team": "jayco",
+   "born": "2000-12-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mauro-schmid",
+   "name": "Mauro Schmid",
+   "qid": "Q55669158",
+   "country": "SUI",
+   "team": "jayco",
+   "born": "1999-12-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "michael-matthews",
+   "name": "Michael Matthews",
+   "qid": "Q561546",
+   "country": "AUS",
+   "team": "jayco",
+   "born": "1990-09-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pascal-ackermann",
+   "name": "Pascal Ackermann",
+   "qid": "Q15839596",
+   "country": "GER",
+   "team": "jayco",
+   "born": "1994-01-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "patrick-gamper",
+   "name": "Patrick Gamper",
+   "qid": "Q22808368",
+   "country": "AUT",
+   "team": "jayco",
+   "born": "1997-02-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "paul-double",
+   "name": "Paul Double",
+   "qid": "Q79145914",
+   "country": "GBR",
+   "team": "jayco",
+   "born": "1996-06-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "robert-donaldson",
+   "name": "Robert Donaldson",
+   "qid": "Q110975545",
+   "country": "GBR",
+   "team": "jayco",
+   "born": "2002-04-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "rudy-porter",
+   "name": "Rudy Porter",
+   "qid": "Q84541755",
+   "country": "AUS",
+   "team": "jayco",
+   "born": "2000-12-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "albert-withen-philipsen",
+   "name": "Albert Withen Philipsen",
+   "qid": "Q116200192",
+   "country": "DEN",
+   "team": "lidl",
+   "born": "2006-09-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "amanuel-ghebreigzabhier",
+   "name": "Amanuel Ghebreigzabhier",
+   "qid": "Q15983790",
+   "country": "ERI",
+   "team": "lidl",
+   "born": "1994-08-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "andrea-bagioli",
+   "name": "Andrea Bagioli",
+   "qid": "Q52623696",
+   "country": "ITA",
+   "team": "lidl",
+   "born": "1999-03-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "bauke-mollema",
+   "name": "Bauke Mollema",
+   "qid": "Q380048",
+   "country": "NED",
+   "team": "lidl",
+   "born": "1986-11-26",
+   "gtWins": 0,
+   "monuments": 1
+  },
+  {
+   "id": "carlos-verona",
+   "name": "Carlos Verona",
+   "qid": "Q1151091",
+   "country": "ESP",
+   "team": "lidl",
+   "born": "1992-11-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "edward-theuns",
+   "name": "Edward Theuns",
+   "qid": "Q16068749",
+   "country": "BEL",
+   "team": "lidl",
+   "born": "1991-04-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "giulio-ciccone",
+   "name": "Giulio Ciccone",
+   "qid": "Q20830929",
+   "country": "ITA",
+   "team": "lidl",
+   "born": "1994-12-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jacopo-mosca",
+   "name": "Jacopo Mosca",
+   "qid": "Q27117926",
+   "country": "ITA",
+   "team": "lidl",
+   "born": "1993-08-29",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jakob-soderqvist",
+   "name": "Jakob Söderqvist",
+   "qid": "Q117748895",
+   "country": "SWE",
+   "team": "lidl",
+   "born": "2003-05-31",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jonathan-milan",
+   "name": "Jonathan Milan",
+   "qid": "Q86530997",
+   "country": "ITA",
+   "team": "lidl",
+   "born": "2000-10-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "juan-ayuso",
+   "name": "Juan Ayuso",
+   "qid": "Q99544516",
+   "country": "ESP",
+   "team": "lidl",
+   "born": "2002-09-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "julien-bernard",
+   "name": "Julien Bernard",
+   "qid": "Q20895645",
+   "country": "FRA",
+   "team": "lidl",
+   "born": "1992-03-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lennard-kamna",
+   "name": "Lennard Kämna",
+   "qid": "Q17352860",
+   "country": "GER",
+   "team": "lidl",
+   "born": "1996-09-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mads-pedersen",
+   "name": "Mads Pedersen",
+   "qid": "Q3276247",
+   "country": "DEN",
+   "team": "lidl",
+   "born": "1995-12-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mathias-norsgaard",
+   "name": "Mathias Norsgaard",
+   "qid": "Q24053040",
+   "country": "DEN",
+   "team": "lidl",
+   "born": "1997-05-05",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mathias-vacek",
+   "name": "Mathias Vacek",
+   "qid": "Q81907798",
+   "country": "CZE",
+   "team": "lidl",
+   "born": "2002-06-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "matteo-sobrero",
+   "name": "Matteo Sobrero",
+   "qid": "Q51884025",
+   "country": "ITA",
+   "team": "lidl",
+   "born": "1997-05-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mattias-skjelmose",
+   "name": "Mattias Skjelmose",
+   "qid": "Q43019098",
+   "country": "DEN",
+   "team": "lidl",
+   "born": "2000-09-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "max-walscheid",
+   "name": "Max Walscheid",
+   "qid": "Q17580397",
+   "country": "GER",
+   "team": "lidl",
+   "born": "1993-06-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "otto-vergaerde",
+   "name": "Otto Vergaerde",
+   "qid": "Q15991766",
+   "country": "BEL",
+   "team": "lidl",
+   "born": "1994-07-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "patrick-konrad",
+   "name": "Patrick Konrad",
+   "qid": "Q3369566",
+   "country": "AUT",
+   "team": "lidl",
+   "born": "1991-10-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "quinn-simmons",
+   "name": "Quinn Simmons",
+   "qid": "Q66417354",
+   "country": "USA",
+   "team": "lidl",
+   "born": "2001-05-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "sam-oomen",
+   "name": "Sam Oomen",
+   "qid": "Q17351438",
+   "country": "NED",
+   "team": "lidl",
+   "born": "1995-08-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "simone-consonni",
+   "name": "Simone Consonni",
+   "qid": "Q19938147",
+   "country": "ITA",
+   "team": "lidl",
+   "born": "1994-09-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "soren-kragh-andersen",
+   "name": "Søren Kragh Andersen",
+   "qid": "Q3511555",
+   "country": "DEN",
+   "team": "lidl",
+   "born": "1994-08-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tao-geoghegan-hart",
+   "name": "Tao Geoghegan Hart",
+   "qid": "Q16679064",
+   "country": "GBR",
+   "team": "lidl",
+   "born": "1995-03-30",
+   "gtWins": 1,
+   "monuments": 0
+  },
+  {
+   "id": "thibau-nys",
+   "name": "Thibau Nys",
+   "qid": "Q81760753",
+   "country": "BEL",
+   "team": "lidl",
+   "born": "2002-11-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tim-torn-teutenberg",
+   "name": "Tim Torn Teutenberg",
+   "qid": "Q98668653",
+   "country": "GER",
+   "team": "lidl",
+   "born": "2002-06-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "toms-skujins",
+   "name": "Toms Skujiņš",
+   "qid": "Q3531433",
+   "country": "LAT",
+   "team": "lidl",
+   "born": "1991-06-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "arnaud-de-lie",
+   "name": "Arnaud De Lie",
+   "qid": "Q105503507",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "2002-03-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "baptiste-veistroffer",
+   "name": "Baptiste Veistroffer",
+   "qid": "Q115285200",
+   "country": "FRA",
+   "team": "lotto",
+   "born": "2000-05-29",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "cedric-beullens",
+   "name": "Cedric Beullens",
+   "qid": "Q24045779",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "1997-01-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "felix-orn-kristoff",
+   "name": "Felix Ørn-Kristoff",
+   "qid": "Q121218472",
+   "country": "NOR",
+   "team": "lotto",
+   "born": "2006-03-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "georg-zimmermann",
+   "name": "Georg Zimmermann",
+   "qid": "Q22806865",
+   "country": "GER",
+   "team": "lotto",
+   "born": "1997-10-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "huub-artz",
+   "name": "Huub Artz",
+   "qid": "Q112803449",
+   "country": "NED",
+   "team": "lotto",
+   "born": "2002-05-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jarno-widar",
+   "name": "Jarno Widar",
+   "qid": "Q116918822",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "2005-11-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jasper-de-buyst",
+   "name": "Jasper De Buyst",
+   "qid": "Q2947318",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "1993-11-24",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jenno-berckmoes",
+   "name": "Jenno Berckmoes",
+   "qid": "Q107585334",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "2001-02-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jonas-rutsch",
+   "name": "Jonas Rutsch",
+   "qid": "Q28856768",
+   "country": "GER",
+   "team": "lotto",
+   "born": "1998-01-24",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "joshua-giddings",
+   "name": "Joshua Giddings",
+   "qid": "Q113574348",
+   "country": "GBR",
+   "team": "lotto",
+   "born": "2003-07-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lars-craps",
+   "name": "Lars Craps",
+   "qid": "Q116854579",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "2001-10-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lennert-van-eetvelt",
+   "name": "Lennert Van Eetvelt",
+   "qid": "Q107157299",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "2001-07-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "liam-slock",
+   "name": "Liam Slock",
+   "qid": "Q111549947",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "2000-09-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lionel-taminiaux",
+   "name": "Lionel Taminiaux",
+   "qid": "Q22073936",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "1996-05-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lorenzo-rota",
+   "name": "Lorenzo Rota",
+   "qid": "Q18201815",
+   "country": "ITA",
+   "team": "lotto",
+   "born": "1995-05-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "luca-van-boven",
+   "name": "Luca Van Boven",
+   "qid": "Q112209014",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "2000-01-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mathieu-kockelmann",
+   "name": "Mathieu Kockelmann",
+   "qid": "Q112960070",
+   "country": "LUX",
+   "team": "lotto",
+   "born": "2004-01-31",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "matthew-fox",
+   "name": "Matthew Fox",
+   "qid": "Q128518843",
+   "country": "AUS",
+   "team": "lotto",
+   "born": "2002-09-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "matys-grisel",
+   "name": "Matys Grisel",
+   "qid": "Q123162032",
+   "country": "FRA",
+   "team": "lotto",
+   "born": "2005-07-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "milan-menten",
+   "name": "Milan Menten",
+   "qid": "Q29054114",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "1996-10-31",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "reuben-thompson",
+   "name": "Reuben Thompson",
+   "qid": "Q100787515",
+   "country": "NZL",
+   "team": "lotto",
+   "born": "2001-02-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "robin-orins",
+   "name": "Robin Orins",
+   "qid": "Q117088439",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "2002-03-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "roel-van-sintmaartensdijk",
+   "name": "Roel van Sintmaartensdijk",
+   "qid": "Q112502799",
+   "country": "NED",
+   "team": "lotto",
+   "born": "2001-05-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "simone-gualdi",
+   "name": "Simone Gualdi",
+   "qid": "Q124392756",
+   "country": "ITA",
+   "team": "lotto",
+   "born": "2005-04-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "steffen-de-schuyteneer",
+   "name": "Steffen De Schuyteneer",
+   "qid": "Q122640082",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "2005-02-24",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "sebastien-grignard",
+   "name": "Sébastien Grignard",
+   "qid": "Q51290131",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "1999-04-29",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "taco-van-der-hoorn",
+   "name": "Taco van der Hoorn",
+   "qid": "Q24204052",
+   "country": "NED",
+   "team": "lotto",
+   "born": "1993-12-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "toon-aerts",
+   "name": "Toon Aerts",
+   "qid": "Q21762497",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "1993-10-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "vito-braet",
+   "name": "Vito Braet",
+   "qid": "Q108300042",
+   "country": "BEL",
+   "team": "lotto",
+   "born": "2000-11-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "albert-torres",
+   "name": "Albert Torres",
+   "qid": "Q548875",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "1990-04-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "carlos-canal",
+   "name": "Carlos Canal",
+   "qid": "Q79870659",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "2001-06-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "cian-uijtdebroeks",
+   "name": "Cian Uijtdebroeks",
+   "qid": "Q104213439",
+   "country": "BEL",
+   "team": "movistar",
+   "born": "2003-02-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "davide-formolo",
+   "name": "Davide Formolo",
+   "qid": "Q15726460",
+   "country": "ITA",
+   "team": "movistar",
+   "born": "1992-10-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "diego-pescador",
+   "name": "Diego Pescador",
+   "qid": "Q117313038",
+   "country": "COL",
+   "team": "movistar",
+   "born": "2004-12-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "einer-rubio",
+   "name": "Einer Rubio",
+   "qid": "Q54932358",
+   "country": "COL",
+   "team": "movistar",
+   "born": "1998-02-22",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "enric-mas",
+   "name": "Enric Mas",
+   "qid": "Q22043430",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "1995-01-07",
+   "gtWins": 1,
+   "monuments": 0
+  },
+  {
+   "id": "gonzalo-serrano",
+   "name": "Gonzalo Serrano",
+   "qid": "Q27095074",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "1994-08-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ivan-garcia-cortina",
+   "name": "Iván García Cortina",
+   "qid": "Q19841288",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "1995-11-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ivan-romeo",
+   "name": "Iván Romeo",
+   "qid": "Q111233184",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "2003-08-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "javier-romo",
+   "name": "Javier Romo",
+   "qid": "Q98768408",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "1999-01-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jefferson-alveiro-cepeda",
+   "name": "Jefferson Alveiro Cepeda",
+   "qid": "Q21093468",
+   "country": "ECU",
+   "team": "movistar",
+   "born": "1996-03-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jon-barrenetxea",
+   "name": "Jon Barrenetxea",
+   "qid": "Q101555569",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "2000-04-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jorge-arcas",
+   "name": "Jorge Arcas",
+   "qid": "Q20977883",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "1992-07-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "juan-pedro-lopez",
+   "name": "Juan Pedro López",
+   "qid": "Q53952912",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "1997-07-31",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lorenzo-milesi",
+   "name": "Lorenzo Milesi",
+   "qid": "Q105503508",
+   "country": "ITA",
+   "team": "movistar",
+   "born": "2002-03-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "manlio-moro",
+   "name": "Manlio Moro",
+   "qid": "Q111584847",
+   "country": "ITA",
+   "team": "movistar",
+   "born": "2002-03-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "michel-hessmann",
+   "name": "Michel Hessmann",
+   "qid": "Q56739764",
+   "country": "GER",
+   "team": "movistar",
+   "born": "2001-04-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "nairo-quintana",
+   "name": "Nairo Quintana",
+   "qid": "Q511856",
+   "country": "COL",
+   "team": "movistar",
+   "born": "1990-02-04",
+   "gtWins": 2,
+   "monuments": 0
+  },
+  {
+   "id": "natnael-tesfatsion",
+   "name": "Natnael Tesfatsion",
+   "qid": "Q47500963",
+   "country": "ERI",
+   "team": "movistar",
+   "born": "1999-05-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "nelson-oliveira",
+   "name": "Nelson Oliveira",
+   "qid": "Q982503",
+   "country": "POR",
+   "team": "movistar",
+   "born": "1989-03-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "orluis-aular",
+   "name": "Orluis Aular",
+   "qid": "Q22283121",
+   "country": "VEN",
+   "team": "movistar",
+   "born": "1996-11-05",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pablo-castrillo",
+   "name": "Pablo Castrillo",
+   "qid": "Q112688830",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "2001-01-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pavel-novak",
+   "name": "Pavel Novák",
+   "qid": "Q112960240",
+   "country": "CZE",
+   "team": "movistar",
+   "born": "2004-12-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pelayo-sanchez",
+   "name": "Pelayo Sánchez",
+   "qid": "Q104851337",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "2000-03-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "raul-garcia-pierna",
+   "name": "Raúl García Pierna",
+   "qid": "Q88562699",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "2001-02-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "roger-adria",
+   "name": "Roger Adrià",
+   "qid": "Q55538254",
+   "country": "ESP",
+   "team": "movistar",
+   "born": "1998-04-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alessandro-pinarello",
+   "name": "Alessandro Pinarello",
+   "qid": "Q110186313",
+   "country": "ITA",
+   "team": "nsn",
+   "born": "2003-07-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alexey-lutsenko",
+   "name": "Alexey Lutsenko",
+   "qid": "Q128239",
+   "country": "KAZ",
+   "team": "nsn",
+   "born": "1992-09-07",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "biniam-girmay",
+   "name": "Biniam Girmay",
+   "qid": "Q60807605",
+   "country": "ERI",
+   "team": "nsn",
+   "born": "2000-04-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "brady-gilmore",
+   "name": "Brady Gilmore",
+   "qid": "Q113533320",
+   "country": "AUS",
+   "team": "nsn",
+   "born": "2001-04-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "corbin-strong",
+   "name": "Corbin Strong",
+   "qid": "Q61756536",
+   "country": "NZL",
+   "team": "nsn",
+   "born": "2000-04-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ethan-vernon",
+   "name": "Ethan Vernon",
+   "qid": "Q61059363",
+   "country": "GBR",
+   "team": "nsn",
+   "born": "2000-08-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "floris-van-tricht",
+   "name": "Floris Van Tricht",
+   "qid": "Q122750952",
+   "country": "BEL",
+   "team": "nsn",
+   "born": "2001-06-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "george-bennett",
+   "name": "George Bennett",
+   "qid": "Q1506978",
+   "country": "NZL",
+   "team": "nsn",
+   "born": "1990-04-07",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "guillaume-boivin",
+   "name": "Guillaume Boivin",
+   "qid": "Q945019",
+   "country": "CAN",
+   "team": "nsn",
+   "born": "1989-05-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "hugo-hofstetter",
+   "name": "Hugo Hofstetter",
+   "qid": "Q18711275",
+   "country": "FRA",
+   "team": "nsn",
+   "born": "1994-02-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "itamar-einhorn",
+   "name": "Itamar Einhorn",
+   "qid": "Q36112057",
+   "country": "ISR",
+   "team": "nsn",
+   "born": "1997-09-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jake-stewart",
+   "name": "Jake Stewart",
+   "qid": "Q50825357",
+   "country": "GBR",
+   "team": "nsn",
+   "born": "1999-10-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jan-hirt",
+   "name": "Jan Hirt",
+   "qid": "Q15260889",
+   "country": "CZE",
+   "team": "nsn",
+   "born": "1991-01-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "joseph-blackmore",
+   "name": "Joseph Blackmore",
+   "qid": "Q113437901",
+   "country": "GBR",
+   "team": "nsn",
+   "born": "2003-02-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "krists-neilands",
+   "name": "Krists Neilands",
+   "qid": "Q18221818",
+   "country": "LAT",
+   "team": "nsn",
+   "born": "1994-08-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "lewis-askey",
+   "name": "Lewis Askey",
+   "qid": "Q98107954",
+   "country": "GBR",
+   "team": "nsn",
+   "born": "2001-05-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "marco-frigo",
+   "name": "Marco Frigo",
+   "qid": "Q65965611",
+   "country": "ITA",
+   "team": "nsn",
+   "born": "2000-03-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "matis-louvel",
+   "name": "Matis Louvel",
+   "qid": "Q65923084",
+   "country": "FRA",
+   "team": "nsn",
+   "born": "1999-07-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "nadav-raisberg",
+   "name": "Nadav Raisberg",
+   "qid": "Q64786715",
+   "country": "ISR",
+   "team": "nsn",
+   "born": "2001-03-29",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "nick-schultz",
+   "name": "Nick Schultz",
+   "qid": "Q22683156",
+   "country": "AUS",
+   "team": "nsn",
+   "born": "1994-09-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "oded-kogut",
+   "name": "Oded Kogut",
+   "qid": "Q112597221",
+   "country": "ISR",
+   "team": "nsn",
+   "born": "2001-02-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pau-marti",
+   "name": "Pau Martí",
+   "qid": "Q117304146",
+   "country": "ESP",
+   "team": "nsn",
+   "born": "2004-11-24",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pier-andre-cote",
+   "name": "Pier-André Côté",
+   "qid": "Q29454208",
+   "country": "CAN",
+   "team": "nsn",
+   "born": "1997-04-24",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "riley-sheehan",
+   "name": "Riley Sheehan",
+   "qid": "Q61388675",
+   "country": "USA",
+   "team": "nsn",
+   "born": "2000-06-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ryan-mullen",
+   "name": "Ryan Mullen",
+   "qid": "Q16500061",
+   "country": "IRL",
+   "team": "nsn",
+   "born": "1994-08-07",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "simon-clarke",
+   "name": "Simon Clarke",
+   "qid": "Q713274",
+   "country": "AUS",
+   "team": "nsn",
+   "born": "1986-07-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "stephen-williams",
+   "name": "Stephen Williams",
+   "qid": "Q21899385",
+   "country": "GBR",
+   "team": "nsn",
+   "born": "1996-06-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tom-van-asbroeck",
+   "name": "Tom Van Asbroeck",
+   "qid": "Q3530907",
+   "country": "BEL",
+   "team": "nsn",
+   "born": "1990-04-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alexy-faure-prost",
+   "name": "Alexy Faure Prost",
+   "qid": "Q117314114",
+   "country": "FRA",
+   "team": "picnic",
+   "born": "2004-04-22",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "bjoern-koerdt",
+   "name": "Bjoern Koerdt",
+   "qid": "Q127699041",
+   "country": "GBR",
+   "team": "picnic",
+   "born": "2004-07-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "bram-welten",
+   "name": "Bram Welten",
+   "qid": "Q23682911",
+   "country": "NED",
+   "team": "picnic",
+   "born": "1997-03-29",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "casper-van-uden",
+   "name": "Casper van Uden",
+   "qid": "Q81704528",
+   "country": "NED",
+   "team": "picnic",
+   "born": "2001-07-22",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "chris-hamilton",
+   "name": "Chris Hamilton",
+   "qid": "Q22211434",
+   "country": "AUS",
+   "team": "picnic",
+   "born": "1995-05-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "dillon-corkery",
+   "name": "Dillon Corkery",
+   "qid": "Q107710914",
+   "country": "IRL",
+   "team": "picnic",
+   "born": "1999-02-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "fabio-jakobsen",
+   "name": "Fabio Jakobsen",
+   "qid": "Q20743779",
+   "country": "NED",
+   "team": "picnic",
+   "born": "1996-08-31",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "frank-van-den-broek",
+   "name": "Frank van den Broek",
+   "qid": "Q112305371",
+   "country": "NED",
+   "team": "picnic",
+   "born": "2000-12-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "frits-biesterbos",
+   "name": "Frits Biesterbos",
+   "qid": "Q132795825",
+   "country": "NED",
+   "team": "picnic",
+   "born": "2002-02-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "gijs-leemreize",
+   "name": "Gijs Leemreize",
+   "qid": "Q85108591",
+   "country": "NED",
+   "team": "picnic",
+   "born": "1999-10-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "henri-francois-renard-haquin",
+   "name": "Henri-François Renard-Haquin",
+   "qid": "Q126927936",
+   "country": "FRA",
+   "team": "picnic",
+   "born": "2002-12-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "james-knox",
+   "name": "James Knox",
+   "qid": "Q22777702",
+   "country": "GBR",
+   "team": "picnic",
+   "born": "1995-11-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "john-degenkolb",
+   "name": "John Degenkolb",
+   "qid": "Q77352",
+   "country": "GER",
+   "team": "picnic",
+   "born": "1989-01-07",
+   "gtWins": 0,
+   "monuments": 2
+  },
+  {
+   "id": "juan-guillermo-martinez",
+   "name": "Juan Guillermo Martínez",
+   "qid": "Q117221076",
+   "country": "COL",
+   "team": "picnic",
+   "born": "2004-11-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "julius-van-den-berg",
+   "name": "Julius van den Berg",
+   "qid": "Q20743783",
+   "country": "NED",
+   "team": "picnic",
+   "born": "1996-10-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "matthew-dinham",
+   "name": "Matthew Dinham",
+   "qid": "Q108198427",
+   "country": "AUS",
+   "team": "picnic",
+   "born": "2000-04-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mattia-gaffuri",
+   "name": "Mattia Gaffuri",
+   "qid": "Q134954528",
+   "country": "ITA",
+   "team": "picnic",
+   "born": "1999-07-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "max-poole",
+   "name": "Max Poole",
+   "qid": "Q108675206",
+   "country": "GBR",
+   "team": "picnic",
+   "born": "2003-03-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "niklas-markl",
+   "name": "Niklas Märkl",
+   "qid": "Q51288767",
+   "country": "GER",
+   "team": "picnic",
+   "born": "1999-03-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "nils-eekhoff",
+   "name": "Nils Eekhoff",
+   "qid": "Q27918472",
+   "country": "NED",
+   "team": "picnic",
+   "born": "1998-01-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "oliver-peace",
+   "name": "Oliver Peace",
+   "qid": "Q124724944",
+   "country": "GBR",
+   "team": "picnic",
+   "born": "2005-04-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pavel-bittner",
+   "name": "Pavel Bittner",
+   "qid": "Q105503506",
+   "country": "CZE",
+   "team": "picnic",
+   "born": "2002-10-29",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "robbe-dhondt",
+   "name": "Robbe Dhondt",
+   "qid": "Q114267669",
+   "country": "BEL",
+   "team": "picnic",
+   "born": "2004-06-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "sean-flynn",
+   "name": "Sean Flynn",
+   "qid": "Q99299743",
+   "country": "GBR",
+   "team": "picnic",
+   "born": "2000-03-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tim-naberman",
+   "name": "Tim Naberman",
+   "qid": "Q68093818",
+   "country": "NED",
+   "team": "picnic",
+   "born": "1999-05-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "timo-roosen",
+   "name": "Timo Roosen",
+   "qid": "Q17351474",
+   "country": "NED",
+   "team": "picnic",
+   "born": "1993-01-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "timo-de-jong",
+   "name": "Timo de Jong",
+   "qid": "Q60194157",
+   "country": "NED",
+   "team": "picnic",
+   "born": "1999-03-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "warren-barguil",
+   "name": "Warren Barguil",
+   "qid": "Q3509840",
+   "country": "FRA",
+   "team": "picnic",
+   "born": "1991-10-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "adrien-boichis",
+   "name": "Adrien Boichis",
+   "qid": "Q109425787",
+   "country": "FRA",
+   "team": "redbull",
+   "born": "2003-01-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "aleksandr-vlasov",
+   "name": "Aleksandr Vlasov",
+   "qid": "Q29262131",
+   "country": "RUS",
+   "team": "redbull",
+   "born": "1996-04-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alexander-hajek",
+   "name": "Alexander Hajek",
+   "qid": "Q108675202",
+   "country": "AUT",
+   "team": "redbull",
+   "born": "2003-07-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "arne-marit",
+   "name": "Arne Marit",
+   "qid": "Q63026830",
+   "country": "BEL",
+   "team": "redbull",
+   "born": "1999-01-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ben-zwiehoff",
+   "name": "Ben Zwiehoff",
+   "qid": "Q23668642",
+   "country": "GER",
+   "team": "redbull",
+   "born": "1994-02-22",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "callum-thornley",
+   "name": "Callum Thornley",
+   "qid": "Q116619452",
+   "country": "GBR",
+   "team": "redbull",
+   "born": "2003-08-05",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "daniel-martinez",
+   "name": "Daniel Martínez",
+   "qid": "Q19787500",
+   "country": "COL",
+   "team": "redbull",
+   "born": "1996-04-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "danny-van-poppel",
+   "name": "Danny van Poppel",
+   "qid": "Q1164826",
+   "country": "NED",
+   "team": "redbull",
+   "born": "1993-07-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "emil-herzog",
+   "name": "Emil Herzog",
+   "qid": "Q112960109",
+   "country": "GER",
+   "team": "redbull",
+   "born": "2004-10-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "finn-fisher-black",
+   "name": "Finn Fisher-Black",
+   "qid": "Q68347643",
+   "country": "NZL",
+   "team": "redbull",
+   "born": "2001-12-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "florian-lipowitz",
+   "name": "Florian Lipowitz",
+   "qid": "Q106756104",
+   "country": "GER",
+   "team": "redbull",
+   "born": "2000-09-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "frederik-wandahl",
+   "name": "Frederik Wandahl",
+   "qid": "Q45995914",
+   "country": "DEN",
+   "team": "redbull",
+   "born": "2001-05-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "gianni-moscon",
+   "name": "Gianni Moscon",
+   "qid": "Q18221758",
+   "country": "ITA",
+   "team": "redbull",
+   "born": "1994-04-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "gianni-vermeersch",
+   "name": "Gianni Vermeersch",
+   "qid": "Q16639072",
+   "country": "BEL",
+   "team": "redbull",
+   "born": "1992-11-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "giovanni-aleotti",
+   "name": "Giovanni Aleotti",
+   "qid": "Q63302008",
+   "country": "ITA",
+   "team": "redbull",
+   "born": "1999-05-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "giulio-pellizzari",
+   "name": "Giulio Pellizzari",
+   "qid": "Q110670603",
+   "country": "ITA",
+   "team": "redbull",
+   "born": "2003-11-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "haimar-etxeberria",
+   "name": "Haimar Etxeberria",
+   "qid": "Q123984391",
+   "country": "ESP",
+   "team": "redbull",
+   "born": "2003-09-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jai-hindley",
+   "name": "Jai Hindley",
+   "qid": "Q26763838",
+   "country": "AUS",
+   "team": "redbull",
+   "born": "1996-05-05",
+   "gtWins": 1,
+   "monuments": 0
+  },
+  {
+   "id": "jan-tratnik",
+   "name": "Jan Tratnik",
+   "qid": "Q959264",
+   "country": "SLO",
+   "team": "redbull",
+   "born": "1990-02-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jarrad-drizners",
+   "name": "Jarrad Drizners",
+   "qid": "Q61009393",
+   "country": "AUS",
+   "team": "redbull",
+   "born": "1999-05-31",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jordi-meeus",
+   "name": "Jordi Meeus",
+   "qid": "Q28045604",
+   "country": "BEL",
+   "team": "redbull",
+   "born": "1998-07-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "laurence-pithie",
+   "name": "Laurence Pithie",
+   "qid": "Q84148556",
+   "country": "NZL",
+   "team": "redbull",
+   "born": "2002-07-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "luke-tuckwell",
+   "name": "Luke Tuckwell",
+   "qid": "Q125169243",
+   "country": "AUS",
+   "team": "redbull",
+   "born": "2004-06-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mattia-cattaneo",
+   "name": "Mattia Cattaneo",
+   "qid": "Q522424",
+   "country": "ITA",
+   "team": "redbull",
+   "born": "1990-10-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "maxim-van-gils",
+   "name": "Maxim Van Gils",
+   "qid": "Q98214464",
+   "country": "BEL",
+   "team": "redbull",
+   "born": "1999-11-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mick-van-dijke",
+   "name": "Mick van Dijke",
+   "qid": "Q98295541",
+   "country": "NED",
+   "team": "redbull",
+   "born": "2000-03-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "nico-denz",
+   "name": "Nico Denz",
+   "qid": "Q18611148",
+   "country": "GER",
+   "team": "redbull",
+   "born": "1994-02-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "primoz-roglic",
+   "name": "Primož Roglič",
+   "qid": "Q2110167",
+   "country": "SLO",
+   "team": "redbull",
+   "born": "1989-10-29",
+   "gtWins": 5,
+   "monuments": 1
+  },
+  {
+   "id": "remco-evenepoel",
+   "name": "Remco Evenepoel",
+   "qid": "Q50821956",
+   "country": "BEL",
+   "team": "redbull",
+   "born": "2000-01-25",
+   "gtWins": 1,
+   "monuments": 2
+  },
+  {
+   "id": "tim-van-dijke",
+   "name": "Tim van Dijke",
+   "qid": "Q98399456",
+   "country": "NED",
+   "team": "redbull",
+   "born": "2000-03-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alberto-dainese",
+   "name": "Alberto Dainese",
+   "qid": "Q52146246",
+   "country": "ITA",
+   "team": "soudal",
+   "born": "1998-03-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "andrea-raccagni-noviero",
+   "name": "Andrea Raccagni Noviero",
+   "qid": "Q116854661",
+   "country": "ITA",
+   "team": "soudal",
+   "born": "2004-01-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ayco-bastiaens",
+   "name": "Ayco Bastiaens",
+   "qid": "Q110624187",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "1996-06-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "bert-van-lerberghe",
+   "name": "Bert Van Lerberghe",
+   "qid": "Q18052157",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "1992-09-29",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "casper-pedersen",
+   "name": "Casper Pedersen",
+   "qid": "Q20109709",
+   "country": "DEN",
+   "team": "soudal",
+   "born": "1996-03-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "dries-van-gestel",
+   "name": "Dries Van Gestel",
+   "qid": "Q19628790",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "1994-09-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "dylan-van-baarle",
+   "name": "Dylan van Baarle",
+   "qid": "Q612786",
+   "country": "NED",
+   "team": "soudal",
+   "born": "1992-05-21",
+   "gtWins": 0,
+   "monuments": 1
+  },
+  {
+   "id": "ethan-hayter",
+   "name": "Ethan Hayter",
+   "qid": "Q27999582",
+   "country": "GBR",
+   "team": "soudal",
+   "born": "1998-09-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "fabio-van-den-bossche",
+   "name": "Fabio Van den Bossche",
+   "qid": "Q61045746",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "2000-09-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "filippo-zana",
+   "name": "Filippo Zana",
+   "qid": "Q64418935",
+   "country": "ITA",
+   "team": "soudal",
+   "born": "1999-03-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "gianmarco-garofoli",
+   "name": "Gianmarco Garofoli",
+   "qid": "Q68682870",
+   "country": "ITA",
+   "team": "soudal",
+   "born": "2002-10-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "gil-gelders",
+   "name": "Gil Gelders",
+   "qid": "Q111041052",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "2002-12-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ilan-van-wilder",
+   "name": "Ilan Van Wilder",
+   "qid": "Q56451064",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "2000-05-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jasper-stuyven",
+   "name": "Jasper Stuyven",
+   "qid": "Q2500129",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "1992-04-17",
+   "gtWins": 0,
+   "monuments": 1
+  },
+  {
+   "id": "jonathan-vervenne",
+   "name": "Jonathan Vervenne",
+   "qid": "Q116854681",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "2003-05-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "junior-lecerf",
+   "name": "Junior Lecerf",
+   "qid": "Q113574354",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "2002-10-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "laurenz-rex",
+   "name": "Laurenz Rex",
+   "qid": "Q51289657",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "1999-12-15",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "louis-vervaeke",
+   "name": "Louis Vervaeke",
+   "qid": "Q17278473",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "1993-10-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "martin-svrcek",
+   "name": "Martin Svrček",
+   "qid": "Q108654865",
+   "country": "SVK",
+   "team": "soudal",
+   "born": "2003-02-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mauri-vansevenant",
+   "name": "Mauri Vansevenant",
+   "qid": "Q66604871",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "1999-06-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "maximilian-schachmann",
+   "name": "Maximilian Schachmann",
+   "qid": "Q15715324",
+   "country": "GER",
+   "team": "soudal",
+   "born": "1994-01-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mikel-landa",
+   "name": "Mikel Landa",
+   "qid": "Q930658",
+   "country": "ESP",
+   "team": "soudal",
+   "born": "1989-12-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pascal-eenkhoorn",
+   "name": "Pascal Eenkhoorn",
+   "qid": "Q27043871",
+   "country": "NED",
+   "team": "soudal",
+   "born": "1997-02-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "paul-magnier",
+   "name": "Paul Magnier",
+   "qid": "Q116619214",
+   "country": "FRA",
+   "team": "soudal",
+   "born": "2004-04-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pepijn-reinderink",
+   "name": "Pepijn Reinderink",
+   "qid": "Q106498383",
+   "country": "NED",
+   "team": "soudal",
+   "born": "2002-05-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "steff-cras",
+   "name": "Steff Cras",
+   "qid": "Q29947764",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "1996-02-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tim-merlier",
+   "name": "Tim Merlier",
+   "qid": "Q1870370",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "1992-10-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "valentin-paret-peintre",
+   "name": "Valentin Paret-Peintre",
+   "qid": "Q99668972",
+   "country": "FRA",
+   "team": "soudal",
+   "born": "2001-01-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "warre-vangheluwe",
+   "name": "Warre Vangheluwe",
+   "qid": "Q116183962",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "2001-07-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "yves-lampaert",
+   "name": "Yves Lampaert",
+   "qid": "Q3573749",
+   "country": "BEL",
+   "team": "soudal",
+   "born": "1991-04-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "adam-yates",
+   "name": "Adam Yates",
+   "qid": "Q15041743",
+   "country": "GBR",
+   "team": "uae",
+   "born": "1992-08-07",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "adria-pericas",
+   "name": "Adrià Pericas",
+   "qid": "Q131926375",
+   "country": "ESP",
+   "team": "uae",
+   "born": "2006-05-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "antonio-morgado",
+   "name": "António Morgado",
+   "qid": "Q108675203",
+   "country": "POR",
+   "team": "uae",
+   "born": "2004-01-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "benoit-cosnefroy",
+   "name": "Benoît Cosnefroy",
+   "qid": "Q21705200",
+   "country": "FRA",
+   "team": "uae",
+   "born": "1995-10-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "brandon-mcnulty",
+   "name": "Brandon McNulty",
+   "qid": "Q27305678",
+   "country": "USA",
+   "team": "uae",
+   "born": "1998-04-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "domen-novak",
+   "name": "Domen Novak",
+   "qid": "Q21153573",
+   "country": "SLO",
+   "team": "uae",
+   "born": "1995-07-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "felix-grossschartner",
+   "name": "Felix Großschartner",
+   "qid": "Q1403486",
+   "country": "AUT",
+   "team": "uae",
+   "born": "1993-12-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "filippo-baroncini",
+   "name": "Filippo Baroncini",
+   "qid": "Q60322890",
+   "country": "ITA",
+   "team": "uae",
+   "born": "2000-08-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "florian-vermeersch",
+   "name": "Florian Vermeersch",
+   "qid": "Q67182830",
+   "country": "BEL",
+   "team": "uae",
+   "born": "1999-03-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "igor-arrieta",
+   "name": "Igor Arrieta",
+   "qid": "Q107294837",
+   "country": "ESP",
+   "team": "uae",
+   "born": "2002-12-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "isaac-del-toro",
+   "name": "Isaac del Toro",
+   "qid": "Q113013063",
+   "country": "MEX",
+   "team": "uae",
+   "born": "2003-11-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ivo-oliveira",
+   "name": "Ivo Oliveira",
+   "qid": "Q19628922",
+   "country": "POR",
+   "team": "uae",
+   "born": "1996-09-05",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jan-christen",
+   "name": "Jan Christen",
+   "qid": "Q108636965",
+   "country": "SUI",
+   "team": "uae",
+   "born": "2004-06-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jay-vine",
+   "name": "Jay Vine",
+   "qid": "Q60906040",
+   "country": "AUS",
+   "team": "uae",
+   "born": "1995-11-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jhonatan-narvaez",
+   "name": "Jhonatan Narváez",
+   "qid": "Q22043447",
+   "country": "ECU",
+   "team": "uae",
+   "born": "1997-03-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "joao-almeida",
+   "name": "João Almeida",
+   "qid": "Q28529559",
+   "country": "POR",
+   "team": "uae",
+   "born": "1998-08-05",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "juan-sebastian-molano",
+   "name": "Juan Sebastián Molano",
+   "qid": "Q18402398",
+   "country": "COL",
+   "team": "uae",
+   "born": "1994-11-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "julius-johansen",
+   "name": "Julius Johansen",
+   "qid": "Q28934535",
+   "country": "DEN",
+   "team": "uae",
+   "born": "1999-09-13",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "kevin-vermaerke",
+   "name": "Kevin Vermaerke",
+   "qid": "Q56760318",
+   "country": "USA",
+   "team": "uae",
+   "born": "2000-10-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "marc-soler",
+   "name": "Marc Soler",
+   "qid": "Q18214742",
+   "country": "ESP",
+   "team": "uae",
+   "born": "1993-11-22",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "mikkel-bjerg",
+   "name": "Mikkel Bjerg",
+   "qid": "Q27786531",
+   "country": "DEN",
+   "team": "uae",
+   "born": "1998-11-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "nils-politt",
+   "name": "Nils Politt",
+   "qid": "Q1742901",
+   "country": "GER",
+   "team": "uae",
+   "born": "1994-03-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pablo-torres",
+   "name": "Pablo Torres",
+   "qid": "Q123740964",
+   "country": "ESP",
+   "team": "uae",
+   "born": "2005-11-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pavel-sivakov",
+   "name": "Pavel Sivakov",
+   "qid": "Q26206919",
+   "country": "FRA",
+   "team": "uae",
+   "born": "1997-07-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "rui-oliveira",
+   "name": "Rui Oliveira",
+   "qid": "Q23005289",
+   "country": "POR",
+   "team": "uae",
+   "born": "1996-09-05",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "rune-herregodts",
+   "name": "Rune Herregodts",
+   "qid": "Q50398822",
+   "country": "BEL",
+   "team": "uae",
+   "born": "1998-07-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tadej-pogacar",
+   "name": "Tadej Pogačar",
+   "qid": "Q26904312",
+   "country": "SLO",
+   "team": "uae",
+   "born": "1998-09-21",
+   "gtWins": 6,
+   "monuments": 13
+  },
+  {
+   "id": "tim-wellens",
+   "name": "Tim Wellens",
+   "qid": "Q2298644",
+   "country": "BEL",
+   "team": "uae",
+   "born": "1991-05-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "vegard-stake-laengen",
+   "name": "Vegard Stake Laengen",
+   "qid": "Q174528",
+   "country": "NOR",
+   "team": "uae",
+   "born": "1989-02-07",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "alexander-kamp",
+   "name": "Alexander Kamp",
+   "qid": "Q16525988",
+   "country": "DEN",
+   "team": "unox",
+   "born": "1993-12-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "anders-halland-johannessen",
+   "name": "Anders Halland Johannessen",
+   "qid": "Q98716252",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1999-08-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "anders-skaarseth",
+   "name": "Anders Skaarseth",
+   "qid": "Q21903423",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1995-05-07",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "andreas-kron",
+   "name": "Andreas Kron",
+   "qid": "Q28970245",
+   "country": "DEN",
+   "team": "unox",
+   "born": "1998-06-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "andreas-leknessund",
+   "name": "Andreas Leknessund",
+   "qid": "Q54555081",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1999-05-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "anthon-charmig",
+   "name": "Anthon Charmig",
+   "qid": "Q28924539",
+   "country": "DEN",
+   "team": "unox",
+   "born": "1998-03-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "carl-frederik-bevort",
+   "name": "Carl-Frederik Bévort",
+   "qid": "Q100327223",
+   "country": "DEN",
+   "team": "unox",
+   "born": "2003-11-24",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "erik-nordsaeter-resell",
+   "name": "Erik Nordsæter Resell",
+   "qid": "Q29877936",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1996-09-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "erlend-blikra",
+   "name": "Erlend Blikra",
+   "qid": "Q17057510",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1997-01-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "fredrik-dversnes",
+   "name": "Fredrik Dversnes",
+   "qid": "Q58846183",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1997-03-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "henrik-pedersen",
+   "name": "Henrik Pedersen",
+   "qid": "Q101951317",
+   "country": "DEN",
+   "team": "unox",
+   "born": "2004-12-03",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "johannes-kulset",
+   "name": "Johannes Kulset",
+   "qid": "Q112221124",
+   "country": "NOR",
+   "team": "unox",
+   "born": "2004-04-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jonas-abrahamsen",
+   "name": "Jonas Abrahamsen",
+   "qid": "Q23013999",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1995-09-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jonas-iversby-hvideberg",
+   "name": "Jonas Iversby Hvideberg",
+   "qid": "Q55740232",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1999-02-09",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "magnus-cort",
+   "name": "Magnus Cort",
+   "qid": "Q12325722",
+   "country": "DEN",
+   "team": "unox",
+   "born": "1993-01-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "markus-hoelgaard",
+   "name": "Markus Hoelgaard",
+   "qid": "Q16663153",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1994-10-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "martin-tjotta",
+   "name": "Martin Tjøtta",
+   "qid": "Q108221864",
+   "country": "NOR",
+   "team": "unox",
+   "born": "2001-03-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "martin-urianstad",
+   "name": "Martin Urianstad",
+   "qid": "Q55740352",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1999-02-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "rasmus-tiller",
+   "name": "Rasmus Tiller",
+   "qid": "Q28961767",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1996-07-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "sakarias-koller-loland",
+   "name": "Sakarias Koller Løland",
+   "qid": "Q104623447",
+   "country": "NOR",
+   "team": "unox",
+   "born": "2001-09-20",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "simon-dalby",
+   "name": "Simon Dalby",
+   "qid": "Q107473830",
+   "country": "DEN",
+   "team": "unox",
+   "born": "2003-01-29",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "stian-fredheim",
+   "name": "Stian Fredheim",
+   "qid": "Q109212222",
+   "country": "NOR",
+   "team": "unox",
+   "born": "2003-03-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "storm-ingebrigtsen",
+   "name": "Storm Ingebrigtsen",
+   "qid": "Q124624007",
+   "country": "NOR",
+   "team": "unox",
+   "born": "2005-02-17",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "sven-erik-bystrom",
+   "name": "Sven Erik Bystrøm",
+   "qid": "Q12004294",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1992-01-21",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "soren-waerenskjold",
+   "name": "Søren Wærenskjold",
+   "qid": "Q53744100",
+   "country": "NOR",
+   "team": "unox",
+   "born": "2000-03-12",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tobias-halland-johannessen",
+   "name": "Tobias Halland Johannessen",
+   "qid": "Q104623401",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1999-08-23",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tobias-svarre",
+   "name": "Tobias Svarre",
+   "qid": "Q109550353",
+   "country": "DEN",
+   "team": "unox",
+   "born": "2004-07-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "torstein-traeen",
+   "name": "Torstein Træen",
+   "qid": "Q23014031",
+   "country": "NOR",
+   "team": "unox",
+   "born": "1995-07-16",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "william-blume-levy",
+   "name": "William Blume Levy",
+   "qid": "Q54165692",
+   "country": "DEN",
+   "team": "unox",
+   "born": "2001-01-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "adne-holter",
+   "name": "Ådne Holter",
+   "qid": "Q64214359",
+   "country": "NOR",
+   "team": "unox",
+   "born": "2000-07-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "anton-schiffer",
+   "name": "Anton Schiffer",
+   "qid": "Q124286764",
+   "country": "GER",
+   "team": "visma",
+   "born": "1999-09-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "axel-zingle",
+   "name": "Axel Zingle",
+   "qid": "Q24449734",
+   "country": "FRA",
+   "team": "visma",
+   "born": "1998-12-18",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "bart-lemmen",
+   "name": "Bart Lemmen",
+   "qid": "Q110663570",
+   "country": "NED",
+   "team": "visma",
+   "born": "1995-10-14",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "ben-tulett",
+   "name": "Ben Tulett",
+   "qid": "Q66692105",
+   "country": "GBR",
+   "team": "visma",
+   "born": "2001-08-26",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "bruno-armirail",
+   "name": "Bruno Armirail",
+   "qid": "Q17580013",
+   "country": "FRA",
+   "team": "visma",
+   "born": "1994-04-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "christophe-laporte",
+   "name": "Christophe Laporte",
+   "qid": "Q16539438",
+   "country": "FRA",
+   "team": "visma",
+   "born": "1992-12-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "davide-piganzoli",
+   "name": "Davide Piganzoli",
+   "qid": "Q107190990",
+   "country": "ITA",
+   "team": "visma",
+   "born": "2002-07-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "edoardo-affini",
+   "name": "Edoardo Affini",
+   "qid": "Q20742847",
+   "country": "ITA",
+   "team": "visma",
+   "born": "1996-06-24",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "filippo-fiorelli",
+   "name": "Filippo Fiorelli",
+   "qid": "Q26736198",
+   "country": "ITA",
+   "team": "visma",
+   "born": "1994-11-19",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "jonas-vingegaard",
+   "name": "Jonas Vingegaard",
+   "qid": "Q26868933",
+   "country": "DEN",
+   "team": "visma",
+   "born": "1996-12-10",
+   "gtWins": 4,
+   "monuments": 0
+  },
+  {
+   "id": "jorgen-nordhagen",
+   "name": "Jørgen Nordhagen",
+   "qid": "Q112960261",
+   "country": "NOR",
+   "team": "visma",
+   "born": "2005-01-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "loe-van-belle",
+   "name": "Loe van Belle",
+   "qid": "Q107109403",
+   "country": "NED",
+   "team": "visma",
+   "born": "2002-01-24",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "louis-barre",
+   "name": "Louis Barré",
+   "qid": "Q108505408",
+   "country": "FRA",
+   "team": "visma",
+   "born": "2000-04-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "matteo-jorgenson",
+   "name": "Matteo Jorgenson",
+   "qid": "Q56195338",
+   "country": "USA",
+   "team": "visma",
+   "born": "1999-07-01",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "matthew-brennan",
+   "name": "Matthew Brennan",
+   "qid": "Q121947253",
+   "country": "GBR",
+   "team": "visma",
+   "born": "2005-08-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "menno-huising",
+   "name": "Menno Huising",
+   "qid": "Q114260030",
+   "country": "NED",
+   "team": "visma",
+   "born": "2004-04-08",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "niklas-behrens",
+   "name": "Niklas Behrens",
+   "qid": "Q122166851",
+   "country": "GER",
+   "team": "visma",
+   "born": "2003-11-06",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "owain-doull",
+   "name": "Owain Doull",
+   "qid": "Q15285212",
+   "country": "GBR",
+   "team": "visma",
+   "born": "1993-05-02",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "per-strand-hagenes",
+   "name": "Per Strand Hagenes",
+   "qid": "Q107400489",
+   "country": "NOR",
+   "team": "visma",
+   "born": "2003-07-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "pietro-mattio",
+   "name": "Pietro Mattio",
+   "qid": "Q113542226",
+   "country": "ITA",
+   "team": "visma",
+   "born": "2004-06-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "sepp-kuss",
+   "name": "Sepp Kuss",
+   "qid": "Q29438120",
+   "country": "USA",
+   "team": "visma",
+   "born": "1994-09-13",
+   "gtWins": 1,
+   "monuments": 0
+  },
+  {
+   "id": "steven-kruijswijk",
+   "name": "Steven Kruijswijk",
+   "qid": "Q523376",
+   "country": "NED",
+   "team": "visma",
+   "born": "1987-06-07",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tijmen-graat",
+   "name": "Tijmen Graat",
+   "qid": "Q109817280",
+   "country": "NED",
+   "team": "visma",
+   "born": "2003-01-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "tim-rex",
+   "name": "Tim Rex",
+   "qid": "Q117314300",
+   "country": "BEL",
+   "team": "visma",
+   "born": "2004-04-11",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "timo-kielich",
+   "name": "Timo Kielich",
+   "qid": "Q61653922",
+   "country": "BEL",
+   "team": "visma",
+   "born": "1999-08-05",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "victor-campenaerts",
+   "name": "Victor Campenaerts",
+   "qid": "Q16682579",
+   "country": "BEL",
+   "team": "visma",
+   "born": "1991-10-28",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "wilco-kelderman",
+   "name": "Wilco Kelderman",
+   "qid": "Q283851",
+   "country": "NED",
+   "team": "visma",
+   "born": "1991-03-25",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "wout-van-aert",
+   "name": "Wout van Aert",
+   "qid": "Q15713449",
+   "country": "BEL",
+   "team": "visma",
+   "born": "1994-09-15",
+   "gtWins": 0,
+   "monuments": 2
+  }
+ ]
+}

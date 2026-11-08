@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Més o menys · Gruppetto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="topbar">
+    <a class="logo" href="../">Gruppe<span>tto</span></a>
+    <div class="topbar-actions">
+      <select class="lang" aria-label="Idioma"></select>
+    </div>
+  </header>
+
+  <div>
+    <h1 data-i18n="mmName">Més o menys</h1>
+    <p class="lead" data-i18n="mm.intro"></p>
+  </div>
+
+  <div class="mm-score">
+    <span><span data-i18n="streak">Ratxa</span><b id="score">0</b></span>
+    <span><span data-i18n="mm.best">Millor ratxa</span><b id="best">0</b></span>
+  </div>
+
+  <div class="mm-cards">
+    <article class="mm-card" id="card-a">
+      <div class="who" id="a-name"></div>
+      <div class="meta" id="a-meta"></div>
+      <div class="value" id="a-value"></div>
+    </article>
+    <article class="mm-card next" id="card-b">
+      <div class="who" id="b-name"></div>
+      <div class="meta" id="b-meta"></div>
+      <p class="q" id="question"></p>
+      <div class="value hidden" id="b-value">?</div>
+    </article>
+  </div>
+
+  <div class="actions" id="choices">
+    <button class="btn primary" id="up"></button>
+    <button class="btn primary" id="down"></button>
+  </div>
+
+  <section class="result" id="result" hidden></section>
+
+  <footer data-i18n="sampleNote"></footer>
+</div>
+
+<script type="module" src="../assets/js/mes-o-menys.js"></script>
+</body>
+</html>

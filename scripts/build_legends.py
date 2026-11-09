@@ -45,6 +45,10 @@ def log(m):
     log_lines.append(m)
 
 
+# Noms alternatius de les edicions a la Viquipèdia (quan l'edició és una desambiguació).
+EDITION_SUFFIX = {"Tour of Flanders": " (men's race)", "Paris–Roubaix": " (men's race)"}
+
+
 def race_classes(title, ids):
     """Element de la cursa i, a partir d'edicions recents, la classe de les edicions.
     Només s'accepta una classe si la seva etiqueta conté el nom de la cursa: així no
@@ -55,7 +59,7 @@ def race_classes(title, ids):
     key = b.slug(title.split("–")[0] if "World Championships" not in title else title).replace("-", " ")
     words = [w for w in key.split() if len(w) > 3]
     for year in (2025, 2024):
-        ed = ids.get(f"{year} {title}")
+        ed = ids.get(f"{year} {title}{EDITION_SUFFIX.get(title, '')}") or ids.get(f"{year} {title}")
         if ed:
             for r in b.sparql(f"""SELECT ?c ?l WHERE {{ wd:{ed} wdt:P31|wdt:P179|wdt:P3450 ?c .
               OPTIONAL {{ ?c rdfs:label ?l FILTER(LANG(?l) = "en") }} }}"""):
@@ -150,6 +154,7 @@ def wikipedia_winners(titles):
             if not head:
                 continue
             hs = [c.get_text(" ", strip=True).lower() for c in head.find_all(["th", "td"])]
+            log(f"Viquipèdia '{title}': taula amb capçalera {hs[:6]}")
             yi = next((i for i, h in enumerate(hs) if "year" in h or h in ("edition", "season")), None)
             wi = next((i for i, h in enumerate(hs) if any(k in h for k in ("winner", "gold", "first", "champion", "rider"))), None)
             if yi is None or wi is None:
@@ -226,7 +231,8 @@ def main():
     report.extend(["# Informe de llegendes", f"Generat: {today}", ""])
     try:
         titles = [t for _, t, _ in RACES]
-        ids = b.wikidata_ids(titles + [f"{y} {t}" for t in titles for y in (2025, 2024)])
+        ids = b.wikidata_ids(titles + [f"{y} {t}" for t in titles for y in (2025, 2024)]
+                             + [f"{y} {t}{sfx}" for t, sfx in EDITION_SUFFIX.items() for y in (2025, 2024)])
         editions, label_stats = [], Counter()
         stats = defaultdict(lambda: Counter())
         report.append("## Cobertura per cursa")

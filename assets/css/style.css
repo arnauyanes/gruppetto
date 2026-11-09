@@ -211,3 +211,4 @@ footer { color: var(--muted); font-size: .8rem; border-top: 1px solid var(--line
 /* Campions */
 .cp-card h2 { font-size: 1.9rem; }
 .cp-card .timer { font-size: 2.8rem; }
+.cp-tries li { text-decoration: line-through; }

@@ -35,7 +35,7 @@
   <section id="play" class="in-play">
     <div class="challenge cp-card">
       <div>
-        <span class="counter" data-i18n="cp.question">Qui va guanyar…</span>
+        <span class="counter"><span data-i18n="cp.question">Qui va guanyar…</span> · <span id="attempts"></span></span>
         <h2 id="race"></h2>
       </div>
       <div class="timer" id="year"></div>
@@ -44,6 +44,7 @@
       <input id="q" type="text" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="suggest" data-i18n-placeholder="cp.placeholder" aria-label="Guanyador">
       <ul id="suggest" class="suggest" role="listbox" hidden></ul>
     </div>
+    <ul class="found-list missed cp-tries" id="tries-list" hidden></ul>
     <div class="hint-box" id="hint-box" hidden></div>
     <p class="in-feedback" id="feedback" aria-live="polite" hidden></p>
     <div class="actions">

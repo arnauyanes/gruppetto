@@ -5,11 +5,12 @@ import { generatePuzzle } from "./grups-gen.js";
 
 const GAME = "grups";
 const MAX_MISTAKES = 4;
+const MAX_HINTS = 2;
 const $ = id => document.getElementById(id);
 const today = dayIndexOf();
 const ICON = ["🟨", "🟩", "🟦", "🟪"];
 
-let D, puzzle, history = [], mode = "daily", solved = [], mistakes = 0, tried = new Set(), selected = new Set(), order = [], done = false;
+let D, puzzle, history = [], hints = [], mode = "daily", solved = [], mistakes = 0, tried = new Set(), selected = new Set(), order = [], done = false;
 
 function label(c) {
   if (c.type === "team") return t("gr.cat.team", { name: D.teams[c.key].name });
@@ -48,10 +49,49 @@ function render() {
   $("submit").disabled = done || selected.size !== 4;
   $("clear").disabled = done || !selected.size;
   $("shuffle").disabled = done;
+  renderHints();
+}
+
+// Pistes: la primera revela el tema del grup més fàcil que queda; la segona, un corredor d'aquest grup.
+function renderHints() {
+  const box = $("hint-box"); box.innerHTML = "";
+  for (const h of hints) {
+    const g = puzzle.find(x => x.level === h.level);
+    const p = document.createElement("p"); p.style.margin = "0";
+    p.textContent = h.type === "theme" ? t("gr.hintTheme", { name: label(g.cat) }) : t("gr.hintRider", { rider: D.byId[h.rider].name, name: label(g.cat) });
+    box.appendChild(p);
+  }
+  box.hidden = !hints.length;
+  const btn = $("hint");
+  btn.disabled = done || hints.length >= MAX_HINTS;
+  btn.textContent = hints.length >= MAX_HINTS ? t("gr.noHints") : t("hintBtn");
+}
+
+function nextHint() {
+  const last = hints[hints.length - 1];
+  if (last && !solved.includes(last.level)) {
+    const g = puzzle.find(x => x.level === last.level);
+    const shown = new Set(hints.filter(h => h.rider).map(h => h.rider));
+    const r = g.riders.find(x => !shown.has(x.id) && !selected.has(x.id)) || g.riders.find(x => !shown.has(x.id));
+    return { type: "rider", level: g.level, rider: r.id };
+  }
+  const level = puzzle.map(g => g.level).filter(l => !solved.includes(l)).sort((a, b) => a - b)[0];
+  return { type: "theme", level };
+}
+
+// Anunci simulat. Es substituirà per un anunci recompensat de Google (H5 Games Ads).
+function showHintAd() {
+  if (done || hints.length >= MAX_HINTS) return;
+  const dlg = $("ad"), count = $("ad-count");
+  let n = 3; count.textContent = n; dlg.showModal();
+  const iv = setInterval(() => {
+    n--; count.textContent = n;
+    if (n <= 0) { clearInterval(iv); dlg.close(); hints.push(nextHint()); persist(); render(); }
+  }, 1000);
 }
 
 function persist() {
-  if (mode === "daily") saveDay(GAME, { day: today, guesses: [...tried], solved, mistakes, done });
+  if (mode === "daily") saveDay(GAME, { day: today, guesses: [...tried], solved, mistakes, done, hints });
 }
 
 function submit() {
@@ -84,7 +124,7 @@ function end(won, fresh = true) {
   const r = $("result"); r.innerHTML = "";
   const h = document.createElement("h2"); h.textContent = won ? t("gr.won") : t("gr.lost");
   const rows = history.map(ls => ls.map(l => ICON[l]).join(""));
-  const text = `Gruppetto · ${t("grName")}${mode === "daily" ? " #" + (today + 1) : ""}\n${rows.join("\n")}\n${location.origin + location.pathname}`;
+  const text = `Gruppetto · ${t("grName")}${mode === "daily" ? " #" + (today + 1) : ""}${hints.length ? " " + "💡".repeat(hints.length) : ""}\n${rows.join("\n")}\n${location.origin + location.pathname}`;
   const pre = document.createElement("pre"); pre.className = "share"; pre.textContent = rows.join("\n");
   const row = document.createElement("div"); row.className = "actions";
   const share = document.createElement("button"); share.className = "btn primary"; share.textContent = t("share");
@@ -99,7 +139,7 @@ function end(won, fresh = true) {
 }
 
 function start(m) {
-  mode = m; solved = []; mistakes = 0; tried = new Set(); selected = new Set(); history = []; done = false;
+  mode = m; solved = []; mistakes = 0; tried = new Set(); selected = new Set(); history = []; hints = []; done = false;
   $("m-daily").setAttribute("aria-pressed", m === "daily");
   $("m-free").setAttribute("aria-pressed", m === "free");
   $("result").hidden = true; $("flash").textContent = "";
@@ -110,7 +150,7 @@ function start(m) {
   if (m === "daily") {
     const saved = loadDay(GAME, today);
     if (saved.solved) {
-      solved = saved.solved; mistakes = saved.mistakes || 0; tried = new Set(saved.guesses || []);
+      solved = saved.solved; mistakes = saved.mistakes || 0; tried = new Set(saved.guesses || []); hints = saved.hints || [];
       history = [...tried].map(k => k.split("|").map(id => groupOf(id)?.level ?? 0));
       if (saved.done) { end(solved.length === 4 && mistakes < MAX_MISTAKES, false); return; }
     }
@@ -131,6 +171,7 @@ async function init() {
   applyI18n();
   D = await loadData();
   $("submit").onclick = submit;
+  $("hint").onclick = showHintAd;
   $("clear").onclick = () => { selected.clear(); render(); };
   $("shuffle").onclick = () => { order = shuffle(order); render(); };
   $("m-daily").onclick = () => start("daily");

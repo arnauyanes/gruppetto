@@ -8,7 +8,7 @@ const MIN_COUNTRY = 10;
 const $ = id => document.getElementById(id);
 const today = dayIndexOf();
 
-let D, challenges, ch, members, keyMap, found, mode = "daily", endsAt = 0, timer = null, running = false, done = false;
+let D, challenges, ch, members, keyMap, tokenMap, found, mode = "daily", endsAt = 0, timer = null, running = false, done = false;
 
 // Reptes possibles: cada equip i cada país amb prou corredors.
 function buildChallenges() {
@@ -38,6 +38,19 @@ function buildKeys() {
     for (const k of keys) if (k.length >= 3) (m.get(k) || m.set(k, []).get(k)).push(r);
   }
   for (const [k, rs] of m) if (rs.length > 1 && !rs.some(r => norm(r.name) === k)) m.delete(k);
+  return m;
+}
+
+// Paraules soles del nom (nom de pila, cognoms) per acceptar-les en prémer Enter.
+const PARTICLES = new Set(["van", "de", "der", "den", "da", "del", "la", "le", "di", "du", "von", "dos", "das", "y", "e"]);
+function buildTokens() {
+  const m = new Map();
+  for (const r of members) {
+    const parts = norm(r.name).split(" ");
+    const toks = new Set(parts.filter(p => p.length >= 3 && !PARTICLES.has(p)));
+    if (parts.length > 2) toks.add(parts.slice(0, 2).join(" "));
+    for (const k of toks) (m.get(k) || m.set(k, []).get(k)).push(r);
+  }
   return m;
 }
 
@@ -118,6 +131,7 @@ function start(m) {
   }
   members = membersOf(ch).sort((a, b) => a.name.localeCompare(b.name));
   keyMap = buildKeys();
+  tokenMap = buildTokens();
   $("challenge").textContent = titleOf(ch);
   $("q").value = ""; $("q").disabled = true;
   $("start").hidden = false; $("stop").hidden = true;
@@ -147,6 +161,19 @@ function onEnter() {
   if (!q) return;
   const r = matchInput(q);
   if (r && found.has(r.id)) { $("flash").textContent = t("ct.already"); $("q").value = ""; return; }
+  const byToken = tokenMap.get(q);
+  if (byToken) {
+    const left = byToken.filter(x => !found.has(x.id));
+    if (left.length === 1) {
+      found.add(left[0].id); $("q").value = ""; $("flash").textContent = "";
+      renderFound(); persist();
+      if (found.size === members.length) finish();
+      return;
+    }
+    $("flash").textContent = left.length ? t("ct.ambiguous", { name: $("q").value.trim() }) : t("ct.already");
+    $("q").value = "";
+    return;
+  }
   const other = D.riders.find(x => norm(x.name) === q);
   $("flash").textContent = other ? t("ct.notIn", { name: other.name }) : t("ct.notIn", { name: $("q").value.trim() });
   $("q").value = "";

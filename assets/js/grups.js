@@ -124,7 +124,7 @@ function end(won, fresh = true) {
   const r = $("result"); r.innerHTML = "";
   const h = document.createElement("h2"); h.textContent = won ? t("gr.won") : t("gr.lost");
   const rows = history.map(ls => ls.map(l => ICON[l]).join(""));
-  const text = `Gruppetto · ${t("grName")}${mode === "daily" ? " #" + (today + 1) : ""}${hints.length ? " " + "💡".repeat(hints.length) : ""}\n${rows.join("\n")}\n${location.origin + location.pathname}`;
+  const text = `Veloguess · ${t("grName")}${mode === "daily" ? " #" + (today + 1) : ""}${hints.length ? " " + "💡".repeat(hints.length) : ""}\n${rows.join("\n")}\n${location.origin + location.pathname}`;
   const pre = document.createElement("pre"); pre.className = "share"; pre.textContent = rows.join("\n");
   const row = document.createElement("div"); row.className = "actions";
   const share = document.createElement("button"); share.className = "btn primary"; share.textContent = t("share");

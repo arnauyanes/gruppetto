@@ -18,7 +18,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-UA = "GruppettoBot/0.1 (https://github.com/arnauyanes/gruppetto; cycling quiz data build)"
+UA = "VeloguessBot/0.1 (https://github.com/arnauyanes/gruppetto; cycling quiz data build)"
 WP = "https://en.wikipedia.org/w/api.php"
 SPARQL = "https://query.wikidata.org/sparql"
 

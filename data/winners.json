@@ -1,0 +1,8227 @@
+{
+ "generated": "2026-11-09",
+ "races": [
+  {
+   "id": "tour",
+   "title": "Tour de France",
+   "kind": "gt"
+  },
+  {
+   "id": "giro",
+   "title": "Giro d'Italia",
+   "kind": "gt"
+  },
+  {
+   "id": "vuelta",
+   "title": "Vuelta a España",
+   "kind": "gt"
+  },
+  {
+   "id": "msr",
+   "title": "Milan–San Remo",
+   "kind": "mon"
+  },
+  {
+   "id": "rvv",
+   "title": "Tour of Flanders",
+   "kind": "mon"
+  },
+  {
+   "id": "pr",
+   "title": "Paris–Roubaix",
+   "kind": "mon"
+  },
+  {
+   "id": "lbl",
+   "title": "Liège–Bastogne–Liège",
+   "kind": "mon"
+  },
+  {
+   "id": "lomb",
+   "title": "Il Lombardia",
+   "kind": "mon"
+  },
+  {
+   "id": "wrr",
+   "title": "UCI Road World Championships – Men's road race",
+   "kind": "wc"
+  },
+  {
+   "id": "wtt",
+   "title": "UCI Road World Championships – Men's time trial",
+   "kind": "wc"
+  }
+ ],
+ "editions": [
+  {
+   "race": "tour",
+   "year": 1903,
+   "winner": "maurice-garin"
+  },
+  {
+   "race": "tour",
+   "year": 1904,
+   "winner": "henri-cornet"
+  },
+  {
+   "race": "tour",
+   "year": 1905,
+   "winner": "louis-trousselier"
+  },
+  {
+   "race": "tour",
+   "year": 1906,
+   "winner": "rene-pottier"
+  },
+  {
+   "race": "tour",
+   "year": 1907,
+   "winner": "lucien-petit-breton"
+  },
+  {
+   "race": "tour",
+   "year": 1908,
+   "winner": "lucien-petit-breton"
+  },
+  {
+   "race": "tour",
+   "year": 1909,
+   "winner": "francois-faber"
+  },
+  {
+   "race": "tour",
+   "year": 1910,
+   "winner": "octave-lapize"
+  },
+  {
+   "race": "tour",
+   "year": 1911,
+   "winner": "gustave-garrigou"
+  },
+  {
+   "race": "tour",
+   "year": 1912,
+   "winner": "odile-defraye"
+  },
+  {
+   "race": "tour",
+   "year": 1913,
+   "winner": "philippe-thys"
+  },
+  {
+   "race": "tour",
+   "year": 1914,
+   "winner": "philippe-thys"
+  },
+  {
+   "race": "tour",
+   "year": 1919,
+   "winner": "firmin-lambot"
+  },
+  {
+   "race": "tour",
+   "year": 1920,
+   "winner": "philippe-thys"
+  },
+  {
+   "race": "tour",
+   "year": 1921,
+   "winner": "leon-scieur"
+  },
+  {
+   "race": "tour",
+   "year": 1922,
+   "winner": "firmin-lambot"
+  },
+  {
+   "race": "tour",
+   "year": 1923,
+   "winner": "henri-pelissier"
+  },
+  {
+   "race": "tour",
+   "year": 1924,
+   "winner": "ottavio-bottecchia"
+  },
+  {
+   "race": "tour",
+   "year": 1925,
+   "winner": "ottavio-bottecchia"
+  },
+  {
+   "race": "tour",
+   "year": 1926,
+   "winner": "lucien-buysse"
+  },
+  {
+   "race": "tour",
+   "year": 1927,
+   "winner": "nicolas-frantz"
+  },
+  {
+   "race": "tour",
+   "year": 1928,
+   "winner": "nicolas-frantz"
+  },
+  {
+   "race": "tour",
+   "year": 1929,
+   "winner": "maurice-de-waele"
+  },
+  {
+   "race": "tour",
+   "year": 1930,
+   "winner": "andre-leducq"
+  },
+  {
+   "race": "tour",
+   "year": 1931,
+   "winner": "antonin-magne"
+  },
+  {
+   "race": "tour",
+   "year": 1932,
+   "winner": "andre-leducq"
+  },
+  {
+   "race": "tour",
+   "year": 1933,
+   "winner": "georges-speicher"
+  },
+  {
+   "race": "tour",
+   "year": 1934,
+   "winner": "antonin-magne"
+  },
+  {
+   "race": "tour",
+   "year": 1935,
+   "winner": "romain-maes"
+  },
+  {
+   "race": "tour",
+   "year": 1936,
+   "winner": "sylvere-maes"
+  },
+  {
+   "race": "tour",
+   "year": 1937,
+   "winner": "roger-lapebie"
+  },
+  {
+   "race": "tour",
+   "year": 1938,
+   "winner": "gino-bartali"
+  },
+  {
+   "race": "tour",
+   "year": 1939,
+   "winner": "sylvere-maes"
+  },
+  {
+   "race": "tour",
+   "year": 1947,
+   "winner": "jean-robic"
+  },
+  {
+   "race": "tour",
+   "year": 1948,
+   "winner": "gino-bartali"
+  },
+  {
+   "race": "tour",
+   "year": 1949,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "tour",
+   "year": 1950,
+   "winner": "ferdinand-kubler"
+  },
+  {
+   "race": "tour",
+   "year": 1951,
+   "winner": "hugo-koblet"
+  },
+  {
+   "race": "tour",
+   "year": 1952,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "tour",
+   "year": 1953,
+   "winner": "louison-bobet"
+  },
+  {
+   "race": "tour",
+   "year": 1954,
+   "winner": "louison-bobet"
+  },
+  {
+   "race": "tour",
+   "year": 1955,
+   "winner": "louison-bobet"
+  },
+  {
+   "race": "tour",
+   "year": 1956,
+   "winner": "roger-walkowiak"
+  },
+  {
+   "race": "tour",
+   "year": 1957,
+   "winner": "jacques-anquetil"
+  },
+  {
+   "race": "tour",
+   "year": 1958,
+   "winner": "charly-gaul"
+  },
+  {
+   "race": "tour",
+   "year": 1959,
+   "winner": "federico-bahamontes"
+  },
+  {
+   "race": "tour",
+   "year": 1960,
+   "winner": "gastone-nencini"
+  },
+  {
+   "race": "tour",
+   "year": 1961,
+   "winner": "jacques-anquetil"
+  },
+  {
+   "race": "tour",
+   "year": 1962,
+   "winner": "jacques-anquetil"
+  },
+  {
+   "race": "tour",
+   "year": 1963,
+   "winner": "jacques-anquetil"
+  },
+  {
+   "race": "tour",
+   "year": 1964,
+   "winner": "jacques-anquetil"
+  },
+  {
+   "race": "tour",
+   "year": 1965,
+   "winner": "felice-gimondi"
+  },
+  {
+   "race": "tour",
+   "year": 1966,
+   "winner": "lucien-aimar"
+  },
+  {
+   "race": "tour",
+   "year": 1967,
+   "winner": "roger-pingeon"
+  },
+  {
+   "race": "tour",
+   "year": 1968,
+   "winner": "jan-janssen"
+  },
+  {
+   "race": "tour",
+   "year": 1969,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "tour",
+   "year": 1970,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "tour",
+   "year": 1971,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "tour",
+   "year": 1972,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "tour",
+   "year": 1973,
+   "winner": "luis-ocana"
+  },
+  {
+   "race": "tour",
+   "year": 1974,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "tour",
+   "year": 1975,
+   "winner": "bernard-thevenet"
+  },
+  {
+   "race": "tour",
+   "year": 1976,
+   "winner": "lucien-van-impe"
+  },
+  {
+   "race": "tour",
+   "year": 1977,
+   "winner": "bernard-thevenet"
+  },
+  {
+   "race": "tour",
+   "year": 1978,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "tour",
+   "year": 1979,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "tour",
+   "year": 1980,
+   "winner": "joop-zoetemelk"
+  },
+  {
+   "race": "tour",
+   "year": 1981,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "tour",
+   "year": 1982,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "tour",
+   "year": 1983,
+   "winner": "laurent-fignon"
+  },
+  {
+   "race": "tour",
+   "year": 1984,
+   "winner": "laurent-fignon"
+  },
+  {
+   "race": "tour",
+   "year": 1985,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "tour",
+   "year": 1986,
+   "winner": "greg-lemond"
+  },
+  {
+   "race": "tour",
+   "year": 1987,
+   "winner": "stephen-roche"
+  },
+  {
+   "race": "tour",
+   "year": 1988,
+   "winner": "pedro-delgado"
+  },
+  {
+   "race": "tour",
+   "year": 1989,
+   "winner": "greg-lemond"
+  },
+  {
+   "race": "tour",
+   "year": 1990,
+   "winner": "greg-lemond"
+  },
+  {
+   "race": "tour",
+   "year": 1991,
+   "winner": "miguel-indurain"
+  },
+  {
+   "race": "tour",
+   "year": 1992,
+   "winner": "miguel-indurain"
+  },
+  {
+   "race": "tour",
+   "year": 1993,
+   "winner": "miguel-indurain"
+  },
+  {
+   "race": "tour",
+   "year": 1994,
+   "winner": "miguel-indurain"
+  },
+  {
+   "race": "tour",
+   "year": 1995,
+   "winner": "miguel-indurain"
+  },
+  {
+   "race": "tour",
+   "year": 1996,
+   "winner": "bjarne-riis"
+  },
+  {
+   "race": "tour",
+   "year": 1997,
+   "winner": "jan-ullrich"
+  },
+  {
+   "race": "tour",
+   "year": 1998,
+   "winner": "marco-pantani"
+  },
+  {
+   "race": "tour",
+   "year": 2006,
+   "winner": "oscar-pereiro"
+  },
+  {
+   "race": "tour",
+   "year": 2007,
+   "winner": "alberto-contador"
+  },
+  {
+   "race": "tour",
+   "year": 2008,
+   "winner": "carlos-sastre"
+  },
+  {
+   "race": "tour",
+   "year": 2009,
+   "winner": "alberto-contador"
+  },
+  {
+   "race": "tour",
+   "year": 2010,
+   "winner": "andy-schleck"
+  },
+  {
+   "race": "tour",
+   "year": 2011,
+   "winner": "cadel-evans"
+  },
+  {
+   "race": "tour",
+   "year": 2012,
+   "winner": "bradley-wiggins"
+  },
+  {
+   "race": "tour",
+   "year": 2013,
+   "winner": "chris-froome"
+  },
+  {
+   "race": "tour",
+   "year": 2014,
+   "winner": "vincenzo-nibali"
+  },
+  {
+   "race": "tour",
+   "year": 2015,
+   "winner": "chris-froome"
+  },
+  {
+   "race": "tour",
+   "year": 2016,
+   "winner": "chris-froome"
+  },
+  {
+   "race": "tour",
+   "year": 2017,
+   "winner": "chris-froome"
+  },
+  {
+   "race": "tour",
+   "year": 2018,
+   "winner": "geraint-thomas"
+  },
+  {
+   "race": "tour",
+   "year": 2019,
+   "winner": "egan-bernal"
+  },
+  {
+   "race": "tour",
+   "year": 2020,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "tour",
+   "year": 2021,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "tour",
+   "year": 2022,
+   "winner": "jonas-vingegaard"
+  },
+  {
+   "race": "tour",
+   "year": 2023,
+   "winner": "jonas-vingegaard"
+  },
+  {
+   "race": "tour",
+   "year": 2024,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "tour",
+   "year": 2025,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "tour",
+   "year": 2026,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "giro",
+   "year": 1909,
+   "winner": "luigi-ganna"
+  },
+  {
+   "race": "giro",
+   "year": 1910,
+   "winner": "carlo-galetti"
+  },
+  {
+   "race": "giro",
+   "year": 1911,
+   "winner": "carlo-galetti"
+  },
+  {
+   "race": "giro",
+   "year": 1913,
+   "winner": "carlo-oriani"
+  },
+  {
+   "race": "giro",
+   "year": 1914,
+   "winner": "alfonso-calzolari"
+  },
+  {
+   "race": "giro",
+   "year": 1919,
+   "winner": "costante-girardengo"
+  },
+  {
+   "race": "giro",
+   "year": 1920,
+   "winner": "gaetano-belloni"
+  },
+  {
+   "race": "giro",
+   "year": 1921,
+   "winner": "giovanni-brunero"
+  },
+  {
+   "race": "giro",
+   "year": 1922,
+   "winner": "giovanni-brunero"
+  },
+  {
+   "race": "giro",
+   "year": 1923,
+   "winner": "costante-girardengo"
+  },
+  {
+   "race": "giro",
+   "year": 1924,
+   "winner": "giuseppe-enrici"
+  },
+  {
+   "race": "giro",
+   "year": 1925,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "giro",
+   "year": 1926,
+   "winner": "giovanni-brunero"
+  },
+  {
+   "race": "giro",
+   "year": 1927,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "giro",
+   "year": 1928,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "giro",
+   "year": 1929,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "giro",
+   "year": 1930,
+   "winner": "luigi-marchisio"
+  },
+  {
+   "race": "giro",
+   "year": 1931,
+   "winner": "francesco-camusso"
+  },
+  {
+   "race": "giro",
+   "year": 1932,
+   "winner": "antonio-pesenti"
+  },
+  {
+   "race": "giro",
+   "year": 1933,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "giro",
+   "year": 1934,
+   "winner": "learco-guerra"
+  },
+  {
+   "race": "giro",
+   "year": 1935,
+   "winner": "vasco-bergamaschi"
+  },
+  {
+   "race": "giro",
+   "year": 1936,
+   "winner": "gino-bartali"
+  },
+  {
+   "race": "giro",
+   "year": 1937,
+   "winner": "gino-bartali"
+  },
+  {
+   "race": "giro",
+   "year": 1938,
+   "winner": "giovanni-valetti"
+  },
+  {
+   "race": "giro",
+   "year": 1939,
+   "winner": "giovanni-valetti"
+  },
+  {
+   "race": "giro",
+   "year": 1940,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "giro",
+   "year": 1946,
+   "winner": "gino-bartali"
+  },
+  {
+   "race": "giro",
+   "year": 1947,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "giro",
+   "year": 1948,
+   "winner": "fiorenzo-magni"
+  },
+  {
+   "race": "giro",
+   "year": 1949,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "giro",
+   "year": 1950,
+   "winner": "hugo-koblet"
+  },
+  {
+   "race": "giro",
+   "year": 1951,
+   "winner": "fiorenzo-magni"
+  },
+  {
+   "race": "giro",
+   "year": 1952,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "giro",
+   "year": 1953,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "giro",
+   "year": 1954,
+   "winner": "carlo-clerici"
+  },
+  {
+   "race": "giro",
+   "year": 1955,
+   "winner": "fiorenzo-magni"
+  },
+  {
+   "race": "giro",
+   "year": 1956,
+   "winner": "charly-gaul"
+  },
+  {
+   "race": "giro",
+   "year": 1957,
+   "winner": "gastone-nencini"
+  },
+  {
+   "race": "giro",
+   "year": 1958,
+   "winner": "ercole-baldini"
+  },
+  {
+   "race": "giro",
+   "year": 1959,
+   "winner": "charly-gaul"
+  },
+  {
+   "race": "giro",
+   "year": 1960,
+   "winner": "jacques-anquetil"
+  },
+  {
+   "race": "giro",
+   "year": 1961,
+   "winner": "arnaldo-pambianco"
+  },
+  {
+   "race": "giro",
+   "year": 1962,
+   "winner": "franco-balmamion"
+  },
+  {
+   "race": "giro",
+   "year": 1963,
+   "winner": "franco-balmamion"
+  },
+  {
+   "race": "giro",
+   "year": 1964,
+   "winner": "jacques-anquetil"
+  },
+  {
+   "race": "giro",
+   "year": 1965,
+   "winner": "vittorio-adorni"
+  },
+  {
+   "race": "giro",
+   "year": 1966,
+   "winner": "gianni-motta"
+  },
+  {
+   "race": "giro",
+   "year": 1967,
+   "winner": "felice-gimondi"
+  },
+  {
+   "race": "giro",
+   "year": 1968,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "giro",
+   "year": 1969,
+   "winner": "felice-gimondi"
+  },
+  {
+   "race": "giro",
+   "year": 1970,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "giro",
+   "year": 1971,
+   "winner": "gosta-pettersson"
+  },
+  {
+   "race": "giro",
+   "year": 1972,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "giro",
+   "year": 1973,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "giro",
+   "year": 1974,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "giro",
+   "year": 1975,
+   "winner": "fausto-bertoglio"
+  },
+  {
+   "race": "giro",
+   "year": 1976,
+   "winner": "felice-gimondi"
+  },
+  {
+   "race": "giro",
+   "year": 1977,
+   "winner": "michel-pollentier"
+  },
+  {
+   "race": "giro",
+   "year": 1978,
+   "winner": "johan-de-muynck"
+  },
+  {
+   "race": "giro",
+   "year": 1979,
+   "winner": "giuseppe-saronni"
+  },
+  {
+   "race": "giro",
+   "year": 1980,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "giro",
+   "year": 1981,
+   "winner": "giovanni-battaglin"
+  },
+  {
+   "race": "giro",
+   "year": 1982,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "giro",
+   "year": 1983,
+   "winner": "giuseppe-saronni"
+  },
+  {
+   "race": "giro",
+   "year": 1984,
+   "winner": "francesco-moser"
+  },
+  {
+   "race": "giro",
+   "year": 1985,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "giro",
+   "year": 1986,
+   "winner": "roberto-visentini"
+  },
+  {
+   "race": "giro",
+   "year": 1987,
+   "winner": "stephen-roche"
+  },
+  {
+   "race": "giro",
+   "year": 1988,
+   "winner": "andrew-hampsten"
+  },
+  {
+   "race": "giro",
+   "year": 1989,
+   "winner": "laurent-fignon"
+  },
+  {
+   "race": "giro",
+   "year": 1990,
+   "winner": "gianni-bugno"
+  },
+  {
+   "race": "giro",
+   "year": 1991,
+   "winner": "franco-chioccioli"
+  },
+  {
+   "race": "giro",
+   "year": 1992,
+   "winner": "miguel-indurain"
+  },
+  {
+   "race": "giro",
+   "year": 1993,
+   "winner": "miguel-indurain"
+  },
+  {
+   "race": "giro",
+   "year": 1994,
+   "winner": "evgeni-berzin"
+  },
+  {
+   "race": "giro",
+   "year": 1995,
+   "winner": "tony-rominger"
+  },
+  {
+   "race": "giro",
+   "year": 1996,
+   "winner": "pavel-tonkov"
+  },
+  {
+   "race": "giro",
+   "year": 1997,
+   "winner": "ivan-gotti"
+  },
+  {
+   "race": "giro",
+   "year": 1998,
+   "winner": "marco-pantani"
+  },
+  {
+   "race": "giro",
+   "year": 1999,
+   "winner": "ivan-gotti"
+  },
+  {
+   "race": "giro",
+   "year": 2000,
+   "winner": "stefano-garzelli"
+  },
+  {
+   "race": "giro",
+   "year": 2001,
+   "winner": "gilberto-simoni"
+  },
+  {
+   "race": "giro",
+   "year": 2002,
+   "winner": "paolo-savoldelli"
+  },
+  {
+   "race": "giro",
+   "year": 2003,
+   "winner": "gilberto-simoni"
+  },
+  {
+   "race": "giro",
+   "year": 2004,
+   "winner": "damiano-cunego"
+  },
+  {
+   "race": "giro",
+   "year": 2005,
+   "winner": "paolo-savoldelli"
+  },
+  {
+   "race": "giro",
+   "year": 2006,
+   "winner": "ivan-basso"
+  },
+  {
+   "race": "giro",
+   "year": 2007,
+   "winner": "danilo-di-luca"
+  },
+  {
+   "race": "giro",
+   "year": 2008,
+   "winner": "alberto-contador"
+  },
+  {
+   "race": "giro",
+   "year": 2009,
+   "winner": "denis-menshov"
+  },
+  {
+   "race": "giro",
+   "year": 2010,
+   "winner": "ivan-basso"
+  },
+  {
+   "race": "giro",
+   "year": 2011,
+   "winner": "michele-scarponi"
+  },
+  {
+   "race": "giro",
+   "year": 2012,
+   "winner": "ryder-hesjedal"
+  },
+  {
+   "race": "giro",
+   "year": 2013,
+   "winner": "vincenzo-nibali"
+  },
+  {
+   "race": "giro",
+   "year": 2014,
+   "winner": "nairo-quintana"
+  },
+  {
+   "race": "giro",
+   "year": 2015,
+   "winner": "alberto-contador"
+  },
+  {
+   "race": "giro",
+   "year": 2016,
+   "winner": "vincenzo-nibali"
+  },
+  {
+   "race": "giro",
+   "year": 2017,
+   "winner": "tom-dumoulin"
+  },
+  {
+   "race": "giro",
+   "year": 2018,
+   "winner": "chris-froome"
+  },
+  {
+   "race": "giro",
+   "year": 2019,
+   "winner": "richard-carapaz"
+  },
+  {
+   "race": "giro",
+   "year": 2020,
+   "winner": "tao-geoghegan-hart"
+  },
+  {
+   "race": "giro",
+   "year": 2021,
+   "winner": "egan-bernal"
+  },
+  {
+   "race": "giro",
+   "year": 2022,
+   "winner": "jai-hindley"
+  },
+  {
+   "race": "giro",
+   "year": 2023,
+   "winner": "primoz-roglic"
+  },
+  {
+   "race": "giro",
+   "year": 2024,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "giro",
+   "year": 2025,
+   "winner": "simon-yates"
+  },
+  {
+   "race": "giro",
+   "year": 2026,
+   "winner": "jonas-vingegaard"
+  },
+  {
+   "race": "vuelta",
+   "year": 1935,
+   "winner": "gustaaf-deloor"
+  },
+  {
+   "race": "vuelta",
+   "year": 1936,
+   "winner": "gustaaf-deloor"
+  },
+  {
+   "race": "vuelta",
+   "year": 1941,
+   "winner": "julian-berrendero"
+  },
+  {
+   "race": "vuelta",
+   "year": 1942,
+   "winner": "julian-berrendero"
+  },
+  {
+   "race": "vuelta",
+   "year": 1945,
+   "winner": "delio-rodriguez"
+  },
+  {
+   "race": "vuelta",
+   "year": 1946,
+   "winner": "dalmacio-langarica"
+  },
+  {
+   "race": "vuelta",
+   "year": 1947,
+   "winner": "edward-van-dijck"
+  },
+  {
+   "race": "vuelta",
+   "year": 1948,
+   "winner": "bernardo-ruiz"
+  },
+  {
+   "race": "vuelta",
+   "year": 1950,
+   "winner": "emilio-rodriguez"
+  },
+  {
+   "race": "vuelta",
+   "year": 1955,
+   "winner": "jean-dotto"
+  },
+  {
+   "race": "vuelta",
+   "year": 1956,
+   "winner": "angelo-conterno"
+  },
+  {
+   "race": "vuelta",
+   "year": 1957,
+   "winner": "jesus-lorono"
+  },
+  {
+   "race": "vuelta",
+   "year": 1958,
+   "winner": "jean-stablinski"
+  },
+  {
+   "race": "vuelta",
+   "year": 1959,
+   "winner": "antonio-suarez-vazquez"
+  },
+  {
+   "race": "vuelta",
+   "year": 1960,
+   "winner": "frans-de-mulder"
+  },
+  {
+   "race": "vuelta",
+   "year": 1961,
+   "winner": "angelino-soler"
+  },
+  {
+   "race": "vuelta",
+   "year": 1962,
+   "winner": "rudi-altig"
+  },
+  {
+   "race": "vuelta",
+   "year": 1963,
+   "winner": "jacques-anquetil"
+  },
+  {
+   "race": "vuelta",
+   "year": 1964,
+   "winner": "raymond-poulidor"
+  },
+  {
+   "race": "vuelta",
+   "year": 1965,
+   "winner": "rolf-wolfshohl"
+  },
+  {
+   "race": "vuelta",
+   "year": 1966,
+   "winner": "francisco-gabica"
+  },
+  {
+   "race": "vuelta",
+   "year": 1967,
+   "winner": "jan-janssen"
+  },
+  {
+   "race": "vuelta",
+   "year": 1968,
+   "winner": "felice-gimondi"
+  },
+  {
+   "race": "vuelta",
+   "year": 1969,
+   "winner": "roger-pingeon"
+  },
+  {
+   "race": "vuelta",
+   "year": 1970,
+   "winner": "luis-ocana"
+  },
+  {
+   "race": "vuelta",
+   "year": 1971,
+   "winner": "ferdinand-bracke"
+  },
+  {
+   "race": "vuelta",
+   "year": 1972,
+   "winner": "jose-manuel-fuente"
+  },
+  {
+   "race": "vuelta",
+   "year": 1973,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "vuelta",
+   "year": 1974,
+   "winner": "jose-manuel-fuente"
+  },
+  {
+   "race": "vuelta",
+   "year": 1975,
+   "winner": "agustin-tamames"
+  },
+  {
+   "race": "vuelta",
+   "year": 1976,
+   "winner": "josep-pesarrodona"
+  },
+  {
+   "race": "vuelta",
+   "year": 1977,
+   "winner": "freddy-maertens"
+  },
+  {
+   "race": "vuelta",
+   "year": 1978,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "vuelta",
+   "year": 1979,
+   "winner": "joop-zoetemelk"
+  },
+  {
+   "race": "vuelta",
+   "year": 1980,
+   "winner": "faustino-ruperez"
+  },
+  {
+   "race": "vuelta",
+   "year": 1981,
+   "winner": "giovanni-battaglin"
+  },
+  {
+   "race": "vuelta",
+   "year": 1982,
+   "winner": "marino-lejarreta"
+  },
+  {
+   "race": "vuelta",
+   "year": 1983,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "vuelta",
+   "year": 1984,
+   "winner": "eric-caritoux"
+  },
+  {
+   "race": "vuelta",
+   "year": 1985,
+   "winner": "pedro-delgado"
+  },
+  {
+   "race": "vuelta",
+   "year": 1986,
+   "winner": "alvaro-pino"
+  },
+  {
+   "race": "vuelta",
+   "year": 1987,
+   "winner": "luis-herrera"
+  },
+  {
+   "race": "vuelta",
+   "year": 1988,
+   "winner": "sean-kelly"
+  },
+  {
+   "race": "vuelta",
+   "year": 1989,
+   "winner": "pedro-delgado"
+  },
+  {
+   "race": "vuelta",
+   "year": 1990,
+   "winner": "marco-giovannetti"
+  },
+  {
+   "race": "vuelta",
+   "year": 1991,
+   "winner": "melcior-mauri"
+  },
+  {
+   "race": "vuelta",
+   "year": 1992,
+   "winner": "tony-rominger"
+  },
+  {
+   "race": "vuelta",
+   "year": 1993,
+   "winner": "tony-rominger"
+  },
+  {
+   "race": "vuelta",
+   "year": 1994,
+   "winner": "tony-rominger"
+  },
+  {
+   "race": "vuelta",
+   "year": 1995,
+   "winner": "laurent-jalabert"
+  },
+  {
+   "race": "vuelta",
+   "year": 1996,
+   "winner": "alex-zulle"
+  },
+  {
+   "race": "vuelta",
+   "year": 1997,
+   "winner": "alex-zulle"
+  },
+  {
+   "race": "vuelta",
+   "year": 1998,
+   "winner": "abraham-olano"
+  },
+  {
+   "race": "vuelta",
+   "year": 1999,
+   "winner": "jan-ullrich"
+  },
+  {
+   "race": "vuelta",
+   "year": 2000,
+   "winner": "roberto-heras"
+  },
+  {
+   "race": "vuelta",
+   "year": 2001,
+   "winner": "angel-casero"
+  },
+  {
+   "race": "vuelta",
+   "year": 2002,
+   "winner": "aitor-gonzalez-jimenez"
+  },
+  {
+   "race": "vuelta",
+   "year": 2003,
+   "winner": "roberto-heras"
+  },
+  {
+   "race": "vuelta",
+   "year": 2004,
+   "winner": "roberto-heras"
+  },
+  {
+   "race": "vuelta",
+   "year": 2005,
+   "winner": "roberto-heras"
+  },
+  {
+   "race": "vuelta",
+   "year": 2006,
+   "winner": "alexander-vinokourov"
+  },
+  {
+   "race": "vuelta",
+   "year": 2007,
+   "winner": "denis-menshov"
+  },
+  {
+   "race": "vuelta",
+   "year": 2008,
+   "winner": "alberto-contador"
+  },
+  {
+   "race": "vuelta",
+   "year": 2009,
+   "winner": "alejandro-valverde"
+  },
+  {
+   "race": "vuelta",
+   "year": 2010,
+   "winner": "vincenzo-nibali"
+  },
+  {
+   "race": "vuelta",
+   "year": 2011,
+   "winner": "chris-froome"
+  },
+  {
+   "race": "vuelta",
+   "year": 2012,
+   "winner": "alberto-contador"
+  },
+  {
+   "race": "vuelta",
+   "year": 2013,
+   "winner": "chris-horner"
+  },
+  {
+   "race": "vuelta",
+   "year": 2014,
+   "winner": "alberto-contador"
+  },
+  {
+   "race": "vuelta",
+   "year": 2015,
+   "winner": "fabio-aru"
+  },
+  {
+   "race": "vuelta",
+   "year": 2016,
+   "winner": "nairo-quintana"
+  },
+  {
+   "race": "vuelta",
+   "year": 2017,
+   "winner": "chris-froome"
+  },
+  {
+   "race": "vuelta",
+   "year": 2018,
+   "winner": "simon-yates"
+  },
+  {
+   "race": "vuelta",
+   "year": 2019,
+   "winner": "primoz-roglic"
+  },
+  {
+   "race": "vuelta",
+   "year": 2020,
+   "winner": "primoz-roglic"
+  },
+  {
+   "race": "vuelta",
+   "year": 2021,
+   "winner": "primoz-roglic"
+  },
+  {
+   "race": "vuelta",
+   "year": 2022,
+   "winner": "remco-evenepoel"
+  },
+  {
+   "race": "vuelta",
+   "year": 2023,
+   "winner": "sepp-kuss"
+  },
+  {
+   "race": "vuelta",
+   "year": 2024,
+   "winner": "primoz-roglic"
+  },
+  {
+   "race": "vuelta",
+   "year": 2025,
+   "winner": "jonas-vingegaard"
+  },
+  {
+   "race": "vuelta",
+   "year": 2026,
+   "winner": "enric-mas"
+  },
+  {
+   "race": "msr",
+   "year": 1907,
+   "winner": "lucien-petit-breton"
+  },
+  {
+   "race": "msr",
+   "year": 1908,
+   "winner": "cyrille-van-hauwaert"
+  },
+  {
+   "race": "msr",
+   "year": 1909,
+   "winner": "luigi-ganna"
+  },
+  {
+   "race": "msr",
+   "year": 1910,
+   "winner": "eugene-christophe"
+  },
+  {
+   "race": "msr",
+   "year": 1911,
+   "winner": "gustave-garrigou"
+  },
+  {
+   "race": "msr",
+   "year": 1912,
+   "winner": "henri-pelissier"
+  },
+  {
+   "race": "msr",
+   "year": 1913,
+   "winner": "odile-defraye"
+  },
+  {
+   "race": "msr",
+   "year": 1914,
+   "winner": "ugo-agostoni"
+  },
+  {
+   "race": "msr",
+   "year": 1915,
+   "winner": "ezio-corlaita"
+  },
+  {
+   "race": "msr",
+   "year": 1917,
+   "winner": "gaetano-belloni"
+  },
+  {
+   "race": "msr",
+   "year": 1918,
+   "winner": "costante-girardengo"
+  },
+  {
+   "race": "msr",
+   "year": 1919,
+   "winner": "angelo-gremo"
+  },
+  {
+   "race": "msr",
+   "year": 1920,
+   "winner": "gaetano-belloni"
+  },
+  {
+   "race": "msr",
+   "year": 1921,
+   "winner": "costante-girardengo"
+  },
+  {
+   "race": "msr",
+   "year": 1922,
+   "winner": "giovanni-brunero"
+  },
+  {
+   "race": "msr",
+   "year": 1923,
+   "winner": "costante-girardengo"
+  },
+  {
+   "race": "msr",
+   "year": 1924,
+   "winner": "pietro-linari"
+  },
+  {
+   "race": "msr",
+   "year": 1925,
+   "winner": "costante-girardengo"
+  },
+  {
+   "race": "msr",
+   "year": 1926,
+   "winner": "costante-girardengo"
+  },
+  {
+   "race": "msr",
+   "year": 1927,
+   "winner": "pietro-chesi"
+  },
+  {
+   "race": "msr",
+   "year": 1928,
+   "winner": "costante-girardengo"
+  },
+  {
+   "race": "msr",
+   "year": 1929,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "msr",
+   "year": 1930,
+   "winner": "michele-mara"
+  },
+  {
+   "race": "msr",
+   "year": 1931,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "msr",
+   "year": 1932,
+   "winner": "alfredo-bovet"
+  },
+  {
+   "race": "msr",
+   "year": 1933,
+   "winner": "learco-guerra"
+  },
+  {
+   "race": "msr",
+   "year": 1934,
+   "winner": "jef-demuysere"
+  },
+  {
+   "race": "msr",
+   "year": 1935,
+   "winner": "giuseppe-olmo"
+  },
+  {
+   "race": "msr",
+   "year": 1936,
+   "winner": "angelo-varetto"
+  },
+  {
+   "race": "msr",
+   "year": 1937,
+   "winner": "cesare-del-cancia"
+  },
+  {
+   "race": "msr",
+   "year": 1938,
+   "winner": "giuseppe-olmo"
+  },
+  {
+   "race": "msr",
+   "year": 1939,
+   "winner": "gino-bartali"
+  },
+  {
+   "race": "msr",
+   "year": 1940,
+   "winner": "gino-bartali"
+  },
+  {
+   "race": "msr",
+   "year": 1941,
+   "winner": "pierino-favalli"
+  },
+  {
+   "race": "msr",
+   "year": 1942,
+   "winner": "adolfo-leoni"
+  },
+  {
+   "race": "msr",
+   "year": 1943,
+   "winner": "cino-cinelli"
+  },
+  {
+   "race": "msr",
+   "year": 1946,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "msr",
+   "year": 1947,
+   "winner": "gino-bartali"
+  },
+  {
+   "race": "msr",
+   "year": 1948,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "msr",
+   "year": 1949,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "msr",
+   "year": 1950,
+   "winner": "gino-bartali"
+  },
+  {
+   "race": "msr",
+   "year": 1951,
+   "winner": "louison-bobet"
+  },
+  {
+   "race": "msr",
+   "year": 1952,
+   "winner": "loretto-petrucci"
+  },
+  {
+   "race": "msr",
+   "year": 1953,
+   "winner": "loretto-petrucci"
+  },
+  {
+   "race": "msr",
+   "year": 1954,
+   "winner": "rik-van-steenbergen"
+  },
+  {
+   "race": "msr",
+   "year": 1955,
+   "winner": "germain-derycke"
+  },
+  {
+   "race": "msr",
+   "year": 1956,
+   "winner": "fred-de-bruyne"
+  },
+  {
+   "race": "msr",
+   "year": 1957,
+   "winner": "miguel-poblet"
+  },
+  {
+   "race": "msr",
+   "year": 1958,
+   "winner": "rik-van-looy"
+  },
+  {
+   "race": "msr",
+   "year": 1959,
+   "winner": "miguel-poblet"
+  },
+  {
+   "race": "msr",
+   "year": 1960,
+   "winner": "rene-privat"
+  },
+  {
+   "race": "msr",
+   "year": 1961,
+   "winner": "raymond-poulidor"
+  },
+  {
+   "race": "msr",
+   "year": 1962,
+   "winner": "emile-daems"
+  },
+  {
+   "race": "msr",
+   "year": 1963,
+   "winner": "joseph-groussard"
+  },
+  {
+   "race": "msr",
+   "year": 1964,
+   "winner": "tom-simpson"
+  },
+  {
+   "race": "msr",
+   "year": 1965,
+   "winner": "arie-den-hartog"
+  },
+  {
+   "race": "msr",
+   "year": 1966,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "msr",
+   "year": 1967,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "msr",
+   "year": 1968,
+   "winner": "rudi-altig"
+  },
+  {
+   "race": "msr",
+   "year": 1969,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "msr",
+   "year": 1970,
+   "winner": "michele-dancelli"
+  },
+  {
+   "race": "msr",
+   "year": 1971,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "msr",
+   "year": 1972,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "msr",
+   "year": 1973,
+   "winner": "roger-de-vlaeminck"
+  },
+  {
+   "race": "msr",
+   "year": 1974,
+   "winner": "felice-gimondi"
+  },
+  {
+   "race": "msr",
+   "year": 1975,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "msr",
+   "year": 1976,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "msr",
+   "year": 1977,
+   "winner": "jan-raas"
+  },
+  {
+   "race": "msr",
+   "year": 1978,
+   "winner": "roger-de-vlaeminck"
+  },
+  {
+   "race": "msr",
+   "year": 1979,
+   "winner": "roger-de-vlaeminck"
+  },
+  {
+   "race": "msr",
+   "year": 1980,
+   "winner": "pierino-gavazzi"
+  },
+  {
+   "race": "msr",
+   "year": 1981,
+   "winner": "alfons-de-wolf"
+  },
+  {
+   "race": "msr",
+   "year": 1982,
+   "winner": "marc-gomez"
+  },
+  {
+   "race": "msr",
+   "year": 1983,
+   "winner": "giuseppe-saronni"
+  },
+  {
+   "race": "msr",
+   "year": 1984,
+   "winner": "francesco-moser"
+  },
+  {
+   "race": "msr",
+   "year": 1985,
+   "winner": "hennie-kuiper"
+  },
+  {
+   "race": "msr",
+   "year": 1986,
+   "winner": "sean-kelly"
+  },
+  {
+   "race": "msr",
+   "year": 1987,
+   "winner": "erich-maechler"
+  },
+  {
+   "race": "msr",
+   "year": 1988,
+   "winner": "laurent-fignon"
+  },
+  {
+   "race": "msr",
+   "year": 1989,
+   "winner": "laurent-fignon"
+  },
+  {
+   "race": "msr",
+   "year": 1990,
+   "winner": "gianni-bugno"
+  },
+  {
+   "race": "msr",
+   "year": 1991,
+   "winner": "claudio-chiappucci"
+  },
+  {
+   "race": "msr",
+   "year": 1992,
+   "winner": "sean-kelly"
+  },
+  {
+   "race": "msr",
+   "year": 1993,
+   "winner": "maurizio-fondriest"
+  },
+  {
+   "race": "msr",
+   "year": 1994,
+   "winner": "giorgio-furlan"
+  },
+  {
+   "race": "msr",
+   "year": 1995,
+   "winner": "laurent-jalabert"
+  },
+  {
+   "race": "msr",
+   "year": 1996,
+   "winner": "gabriele-colombo"
+  },
+  {
+   "race": "msr",
+   "year": 1997,
+   "winner": "erik-zabel"
+  },
+  {
+   "race": "msr",
+   "year": 1998,
+   "winner": "erik-zabel"
+  },
+  {
+   "race": "msr",
+   "year": 1999,
+   "winner": "andrei-tchmil"
+  },
+  {
+   "race": "msr",
+   "year": 2000,
+   "winner": "erik-zabel"
+  },
+  {
+   "race": "msr",
+   "year": 2001,
+   "winner": "erik-zabel"
+  },
+  {
+   "race": "msr",
+   "year": 2002,
+   "winner": "mario-cipollini"
+  },
+  {
+   "race": "msr",
+   "year": 2003,
+   "winner": "paolo-bettini"
+  },
+  {
+   "race": "msr",
+   "year": 2004,
+   "winner": "oscar-freire"
+  },
+  {
+   "race": "msr",
+   "year": 2005,
+   "winner": "alessandro-petacchi"
+  },
+  {
+   "race": "msr",
+   "year": 2006,
+   "winner": "filippo-pozzato"
+  },
+  {
+   "race": "msr",
+   "year": 2007,
+   "winner": "oscar-freire"
+  },
+  {
+   "race": "msr",
+   "year": 2008,
+   "winner": "fabian-cancellara"
+  },
+  {
+   "race": "msr",
+   "year": 2009,
+   "winner": "mark-cavendish"
+  },
+  {
+   "race": "msr",
+   "year": 2010,
+   "winner": "oscar-freire"
+  },
+  {
+   "race": "msr",
+   "year": 2011,
+   "winner": "matthew-goss"
+  },
+  {
+   "race": "msr",
+   "year": 2012,
+   "winner": "simon-gerrans"
+  },
+  {
+   "race": "msr",
+   "year": 2013,
+   "winner": "gerald-ciolek"
+  },
+  {
+   "race": "msr",
+   "year": 2014,
+   "winner": "alexander-kristoff"
+  },
+  {
+   "race": "msr",
+   "year": 2015,
+   "winner": "john-degenkolb"
+  },
+  {
+   "race": "msr",
+   "year": 2016,
+   "winner": "arnaud-demare"
+  },
+  {
+   "race": "msr",
+   "year": 2017,
+   "winner": "michal-kwiatkowski"
+  },
+  {
+   "race": "msr",
+   "year": 2018,
+   "winner": "vincenzo-nibali"
+  },
+  {
+   "race": "msr",
+   "year": 2019,
+   "winner": "julian-alaphilippe"
+  },
+  {
+   "race": "msr",
+   "year": 2020,
+   "winner": "wout-van-aert"
+  },
+  {
+   "race": "msr",
+   "year": 2021,
+   "winner": "jasper-stuyven"
+  },
+  {
+   "race": "msr",
+   "year": 2022,
+   "winner": "matej-mohoric"
+  },
+  {
+   "race": "msr",
+   "year": 2023,
+   "winner": "mathieu-van-der-poel"
+  },
+  {
+   "race": "msr",
+   "year": 2024,
+   "winner": "jasper-philipsen"
+  },
+  {
+   "race": "msr",
+   "year": 2025,
+   "winner": "mathieu-van-der-poel"
+  },
+  {
+   "race": "msr",
+   "year": 2026,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "pr",
+   "year": 1896,
+   "winner": "josef-fischer"
+  },
+  {
+   "race": "pr",
+   "year": 1897,
+   "winner": "maurice-garin"
+  },
+  {
+   "race": "pr",
+   "year": 1898,
+   "winner": "maurice-garin"
+  },
+  {
+   "race": "pr",
+   "year": 1899,
+   "winner": "albert-champion"
+  },
+  {
+   "race": "pr",
+   "year": 1900,
+   "winner": "emile-bouhours"
+  },
+  {
+   "race": "pr",
+   "year": 1901,
+   "winner": "lucien-lesna"
+  },
+  {
+   "race": "pr",
+   "year": 1902,
+   "winner": "lucien-lesna"
+  },
+  {
+   "race": "pr",
+   "year": 1903,
+   "winner": "hippolyte-aucouturier"
+  },
+  {
+   "race": "pr",
+   "year": 1904,
+   "winner": "hippolyte-aucouturier"
+  },
+  {
+   "race": "pr",
+   "year": 1905,
+   "winner": "louis-trousselier"
+  },
+  {
+   "race": "pr",
+   "year": 1906,
+   "winner": "henri-cornet"
+  },
+  {
+   "race": "pr",
+   "year": 1907,
+   "winner": "georges-passerieu"
+  },
+  {
+   "race": "pr",
+   "year": 1908,
+   "winner": "cyrille-van-hauwaert"
+  },
+  {
+   "race": "pr",
+   "year": 1909,
+   "winner": "octave-lapize"
+  },
+  {
+   "race": "pr",
+   "year": 1910,
+   "winner": "octave-lapize"
+  },
+  {
+   "race": "pr",
+   "year": 1911,
+   "winner": "octave-lapize"
+  },
+  {
+   "race": "pr",
+   "year": 1912,
+   "winner": "charles-crupelandt"
+  },
+  {
+   "race": "pr",
+   "year": 1913,
+   "winner": "francois-faber"
+  },
+  {
+   "race": "pr",
+   "year": 1914,
+   "winner": "charles-crupelandt"
+  },
+  {
+   "race": "pr",
+   "year": 1919,
+   "winner": "henri-pelissier"
+  },
+  {
+   "race": "pr",
+   "year": 1920,
+   "winner": "pol-deman"
+  },
+  {
+   "race": "pr",
+   "year": 1921,
+   "winner": "henri-pelissier"
+  },
+  {
+   "race": "pr",
+   "year": 1922,
+   "winner": "albert-dejonghe"
+  },
+  {
+   "race": "pr",
+   "year": 1923,
+   "winner": "heiri-suter"
+  },
+  {
+   "race": "pr",
+   "year": 1924,
+   "winner": "jules-vanhevel"
+  },
+  {
+   "race": "pr",
+   "year": 1925,
+   "winner": "felix-sellier"
+  },
+  {
+   "race": "pr",
+   "year": 1926,
+   "winner": "julien-delbecque"
+  },
+  {
+   "race": "pr",
+   "year": 1927,
+   "winner": "georges-ronsse"
+  },
+  {
+   "race": "pr",
+   "year": 1928,
+   "winner": "andre-leducq"
+  },
+  {
+   "race": "pr",
+   "year": 1929,
+   "winner": "charles-meunier"
+  },
+  {
+   "race": "pr",
+   "year": 1930,
+   "winner": "julien-vervaecke"
+  },
+  {
+   "race": "pr",
+   "year": 1931,
+   "winner": "gaston-rebry"
+  },
+  {
+   "race": "pr",
+   "year": 1932,
+   "winner": "romain-gijssels"
+  },
+  {
+   "race": "pr",
+   "year": 1933,
+   "winner": "sylvere-maes"
+  },
+  {
+   "race": "pr",
+   "year": 1934,
+   "winner": "gaston-rebry"
+  },
+  {
+   "race": "pr",
+   "year": 1935,
+   "winner": "gaston-rebry"
+  },
+  {
+   "race": "pr",
+   "year": 1936,
+   "winner": "georges-speicher"
+  },
+  {
+   "race": "pr",
+   "year": 1937,
+   "winner": "jules-rossi"
+  },
+  {
+   "race": "pr",
+   "year": 1938,
+   "winner": "lucien-storme"
+  },
+  {
+   "race": "pr",
+   "year": 1939,
+   "winner": "emile-masson-jr"
+  },
+  {
+   "race": "pr",
+   "year": 1943,
+   "winner": "marcel-kint"
+  },
+  {
+   "race": "pr",
+   "year": 1944,
+   "winner": "maurice-desimpelaere"
+  },
+  {
+   "race": "pr",
+   "year": 1945,
+   "winner": "paul-maye"
+  },
+  {
+   "race": "pr",
+   "year": 1946,
+   "winner": "georges-claes-sr"
+  },
+  {
+   "race": "pr",
+   "year": 1947,
+   "winner": "georges-claes-sr"
+  },
+  {
+   "race": "pr",
+   "year": 1948,
+   "winner": "rik-van-steenbergen"
+  },
+  {
+   "race": "pr",
+   "year": 1950,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "pr",
+   "year": 1951,
+   "winner": "antonio-bevilacqua"
+  },
+  {
+   "race": "pr",
+   "year": 1952,
+   "winner": "rik-van-steenbergen"
+  },
+  {
+   "race": "pr",
+   "year": 1953,
+   "winner": "germain-derycke"
+  },
+  {
+   "race": "pr",
+   "year": 1954,
+   "winner": "raymond-impanis"
+  },
+  {
+   "race": "pr",
+   "year": 1955,
+   "winner": "jean-forestier"
+  },
+  {
+   "race": "pr",
+   "year": 1956,
+   "winner": "louison-bobet"
+  },
+  {
+   "race": "pr",
+   "year": 1957,
+   "winner": "fred-de-bruyne"
+  },
+  {
+   "race": "pr",
+   "year": 1958,
+   "winner": "leon-van-daele"
+  },
+  {
+   "race": "pr",
+   "year": 1959,
+   "winner": "noel-fore"
+  },
+  {
+   "race": "pr",
+   "year": 1960,
+   "winner": "pino-cerami"
+  },
+  {
+   "race": "pr",
+   "year": 1961,
+   "winner": "rik-van-looy"
+  },
+  {
+   "race": "pr",
+   "year": 1962,
+   "winner": "rik-van-looy"
+  },
+  {
+   "race": "pr",
+   "year": 1963,
+   "winner": "emile-daems"
+  },
+  {
+   "race": "pr",
+   "year": 1964,
+   "winner": "peter-post"
+  },
+  {
+   "race": "pr",
+   "year": 1965,
+   "winner": "rik-van-looy"
+  },
+  {
+   "race": "pr",
+   "year": 1966,
+   "winner": "felice-gimondi"
+  },
+  {
+   "race": "pr",
+   "year": 1967,
+   "winner": "jan-janssen"
+  },
+  {
+   "race": "pr",
+   "year": 1968,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "pr",
+   "year": 1969,
+   "winner": "walter-godefroot"
+  },
+  {
+   "race": "pr",
+   "year": 1970,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "pr",
+   "year": 1971,
+   "winner": "roger-rosiers"
+  },
+  {
+   "race": "pr",
+   "year": 1972,
+   "winner": "roger-de-vlaeminck"
+  },
+  {
+   "race": "pr",
+   "year": 1973,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "pr",
+   "year": 1974,
+   "winner": "roger-de-vlaeminck"
+  },
+  {
+   "race": "pr",
+   "year": 1975,
+   "winner": "roger-de-vlaeminck"
+  },
+  {
+   "race": "pr",
+   "year": 1976,
+   "winner": "marc-demeyer"
+  },
+  {
+   "race": "pr",
+   "year": 1977,
+   "winner": "roger-de-vlaeminck"
+  },
+  {
+   "race": "pr",
+   "year": 1978,
+   "winner": "francesco-moser"
+  },
+  {
+   "race": "pr",
+   "year": 1979,
+   "winner": "francesco-moser"
+  },
+  {
+   "race": "pr",
+   "year": 1980,
+   "winner": "francesco-moser"
+  },
+  {
+   "race": "pr",
+   "year": 1981,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "pr",
+   "year": 1982,
+   "winner": "jan-raas"
+  },
+  {
+   "race": "pr",
+   "year": 1983,
+   "winner": "hennie-kuiper"
+  },
+  {
+   "race": "pr",
+   "year": 1984,
+   "winner": "sean-kelly"
+  },
+  {
+   "race": "pr",
+   "year": 1985,
+   "winner": "marc-madiot"
+  },
+  {
+   "race": "pr",
+   "year": 1986,
+   "winner": "sean-kelly"
+  },
+  {
+   "race": "pr",
+   "year": 1987,
+   "winner": "eric-vanderaerden"
+  },
+  {
+   "race": "pr",
+   "year": 1988,
+   "winner": "dirk-demol"
+  },
+  {
+   "race": "pr",
+   "year": 1989,
+   "winner": "jean-marie-wampers"
+  },
+  {
+   "race": "pr",
+   "year": 1990,
+   "winner": "eddy-planckaert"
+  },
+  {
+   "race": "pr",
+   "year": 1991,
+   "winner": "marc-madiot"
+  },
+  {
+   "race": "pr",
+   "year": 1992,
+   "winner": "gilbert-duclos-lassalle"
+  },
+  {
+   "race": "pr",
+   "year": 1993,
+   "winner": "gilbert-duclos-lassalle"
+  },
+  {
+   "race": "pr",
+   "year": 1994,
+   "winner": "andrei-tchmil"
+  },
+  {
+   "race": "pr",
+   "year": 1995,
+   "winner": "franco-ballerini"
+  },
+  {
+   "race": "pr",
+   "year": 1996,
+   "winner": "johan-museeuw"
+  },
+  {
+   "race": "pr",
+   "year": 1997,
+   "winner": "frederic-guesdon"
+  },
+  {
+   "race": "pr",
+   "year": 1998,
+   "winner": "franco-ballerini"
+  },
+  {
+   "race": "pr",
+   "year": 1999,
+   "winner": "andrea-tafi"
+  },
+  {
+   "race": "pr",
+   "year": 2000,
+   "winner": "johan-museeuw"
+  },
+  {
+   "race": "pr",
+   "year": 2001,
+   "winner": "servais-knaven"
+  },
+  {
+   "race": "pr",
+   "year": 2002,
+   "winner": "johan-museeuw"
+  },
+  {
+   "race": "pr",
+   "year": 2003,
+   "winner": "peter-van-petegem"
+  },
+  {
+   "race": "pr",
+   "year": 2004,
+   "winner": "magnus-backstedt"
+  },
+  {
+   "race": "pr",
+   "year": 2005,
+   "winner": "tom-boonen"
+  },
+  {
+   "race": "pr",
+   "year": 2006,
+   "winner": "fabian-cancellara"
+  },
+  {
+   "race": "pr",
+   "year": 2007,
+   "winner": "stuart-o-grady"
+  },
+  {
+   "race": "pr",
+   "year": 2008,
+   "winner": "tom-boonen"
+  },
+  {
+   "race": "pr",
+   "year": 2009,
+   "winner": "tom-boonen"
+  },
+  {
+   "race": "pr",
+   "year": 2010,
+   "winner": "fabian-cancellara"
+  },
+  {
+   "race": "pr",
+   "year": 2011,
+   "winner": "johan-vansummeren"
+  },
+  {
+   "race": "pr",
+   "year": 2012,
+   "winner": "tom-boonen"
+  },
+  {
+   "race": "pr",
+   "year": 2013,
+   "winner": "fabian-cancellara"
+  },
+  {
+   "race": "pr",
+   "year": 2014,
+   "winner": "niki-terpstra"
+  },
+  {
+   "race": "pr",
+   "year": 2015,
+   "winner": "john-degenkolb"
+  },
+  {
+   "race": "pr",
+   "year": 2016,
+   "winner": "mathew-hayman"
+  },
+  {
+   "race": "pr",
+   "year": 2017,
+   "winner": "greg-van-avermaet"
+  },
+  {
+   "race": "pr",
+   "year": 2018,
+   "winner": "peter-sagan"
+  },
+  {
+   "race": "pr",
+   "year": 2019,
+   "winner": "philippe-gilbert"
+  },
+  {
+   "race": "pr",
+   "year": 2021,
+   "winner": "sonny-colbrelli"
+  },
+  {
+   "race": "pr",
+   "year": 2022,
+   "winner": "dylan-van-baarle"
+  },
+  {
+   "race": "pr",
+   "year": 2023,
+   "winner": "mathieu-van-der-poel"
+  },
+  {
+   "race": "pr",
+   "year": 2024,
+   "winner": "mathieu-van-der-poel"
+  },
+  {
+   "race": "pr",
+   "year": 2025,
+   "winner": "mathieu-van-der-poel"
+  },
+  {
+   "race": "pr",
+   "year": 2026,
+   "winner": "wout-van-aert"
+  },
+  {
+   "race": "lbl",
+   "year": 1892,
+   "winner": "leon-houa"
+  },
+  {
+   "race": "lbl",
+   "year": 1893,
+   "winner": "leon-houa"
+  },
+  {
+   "race": "lbl",
+   "year": 1894,
+   "winner": "leon-houa"
+  },
+  {
+   "race": "lbl",
+   "year": 1908,
+   "winner": "andre-trousselier"
+  },
+  {
+   "race": "lbl",
+   "year": 1909,
+   "winner": "victor-fastre"
+  },
+  {
+   "race": "lbl",
+   "year": 1911,
+   "winner": "joseph-van-daele"
+  },
+  {
+   "race": "lbl",
+   "year": 1912,
+   "winner": "omer-verschoore"
+  },
+  {
+   "race": "lbl",
+   "year": 1913,
+   "winner": "maurice-moritz"
+  },
+  {
+   "race": "lbl",
+   "year": 1919,
+   "winner": "leon-devos"
+  },
+  {
+   "race": "lbl",
+   "year": 1920,
+   "winner": "leon-scieur"
+  },
+  {
+   "race": "lbl",
+   "year": 1921,
+   "winner": "louis-mottiat"
+  },
+  {
+   "race": "lbl",
+   "year": 1922,
+   "winner": "louis-mottiat"
+  },
+  {
+   "race": "lbl",
+   "year": 1923,
+   "winner": "rene-vermandel"
+  },
+  {
+   "race": "lbl",
+   "year": 1924,
+   "winner": "rene-vermandel"
+  },
+  {
+   "race": "lbl",
+   "year": 1925,
+   "winner": "georges-ronsse"
+  },
+  {
+   "race": "lbl",
+   "year": 1926,
+   "winner": "dieudonne-smets"
+  },
+  {
+   "race": "lbl",
+   "year": 1927,
+   "winner": "maurits-raes"
+  },
+  {
+   "race": "lbl",
+   "year": 1928,
+   "winner": "ernest-mottard"
+  },
+  {
+   "race": "lbl",
+   "year": 1929,
+   "winner": "alphonse-schepers"
+  },
+  {
+   "race": "lbl",
+   "year": 1930,
+   "winner": "hermann-buse"
+  },
+  {
+   "race": "lbl",
+   "year": 1931,
+   "winner": "alphonse-schepers"
+  },
+  {
+   "race": "lbl",
+   "year": 1932,
+   "winner": "marcel-houyoux"
+  },
+  {
+   "race": "lbl",
+   "year": 1933,
+   "winner": "francois-gardier"
+  },
+  {
+   "race": "lbl",
+   "year": 1934,
+   "winner": "theo-herckenrath"
+  },
+  {
+   "race": "lbl",
+   "year": 1935,
+   "winner": "alphonse-schepers"
+  },
+  {
+   "race": "lbl",
+   "year": 1936,
+   "winner": "albert-beckaert"
+  },
+  {
+   "race": "lbl",
+   "year": 1937,
+   "winner": "eloi-meulenberg"
+  },
+  {
+   "race": "lbl",
+   "year": 1938,
+   "winner": "alfons-deloor"
+  },
+  {
+   "race": "lbl",
+   "year": 1939,
+   "winner": "albert-ritserveldt"
+  },
+  {
+   "race": "lbl",
+   "year": 1943,
+   "winner": "richard-depoorter"
+  },
+  {
+   "race": "lbl",
+   "year": 1945,
+   "winner": "jan-engels"
+  },
+  {
+   "race": "lbl",
+   "year": 1946,
+   "winner": "prosper-depredomme"
+  },
+  {
+   "race": "lbl",
+   "year": 1947,
+   "winner": "richard-depoorter"
+  },
+  {
+   "race": "lbl",
+   "year": 1948,
+   "winner": "maurice-mollin"
+  },
+  {
+   "race": "lbl",
+   "year": 1949,
+   "winner": "camille-danguillaume"
+  },
+  {
+   "race": "lbl",
+   "year": 1950,
+   "winner": "prosper-depredomme"
+  },
+  {
+   "race": "lbl",
+   "year": 1951,
+   "winner": "ferdinand-kubler"
+  },
+  {
+   "race": "lbl",
+   "year": 1952,
+   "winner": "ferdinand-kubler"
+  },
+  {
+   "race": "lbl",
+   "year": 1953,
+   "winner": "alois-de-hertog"
+  },
+  {
+   "race": "lbl",
+   "year": 1954,
+   "winner": "marcel-ernzer"
+  },
+  {
+   "race": "lbl",
+   "year": 1955,
+   "winner": "stan-ockers"
+  },
+  {
+   "race": "lbl",
+   "year": 1956,
+   "winner": "fred-de-bruyne"
+  },
+  {
+   "race": "lbl",
+   "year": 1958,
+   "winner": "fred-de-bruyne"
+  },
+  {
+   "race": "lbl",
+   "year": 1959,
+   "winner": "fred-de-bruyne"
+  },
+  {
+   "race": "lbl",
+   "year": 1960,
+   "winner": "albertus-geldermans"
+  },
+  {
+   "race": "lbl",
+   "year": 1961,
+   "winner": "rik-van-looy"
+  },
+  {
+   "race": "lbl",
+   "year": 1962,
+   "winner": "jef-planckaert"
+  },
+  {
+   "race": "lbl",
+   "year": 1963,
+   "winner": "frans-melckenbeeck"
+  },
+  {
+   "race": "lbl",
+   "year": 1964,
+   "winner": "willy-bocklant"
+  },
+  {
+   "race": "lbl",
+   "year": 1965,
+   "winner": "carmine-preziosi"
+  },
+  {
+   "race": "lbl",
+   "year": 1966,
+   "winner": "jacques-anquetil"
+  },
+  {
+   "race": "lbl",
+   "year": 1967,
+   "winner": "walter-godefroot"
+  },
+  {
+   "race": "lbl",
+   "year": 1968,
+   "winner": "valere-van-sweevelt"
+  },
+  {
+   "race": "lbl",
+   "year": 1969,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "lbl",
+   "year": 1970,
+   "winner": "roger-de-vlaeminck"
+  },
+  {
+   "race": "lbl",
+   "year": 1971,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "lbl",
+   "year": 1972,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "lbl",
+   "year": 1973,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "lbl",
+   "year": 1974,
+   "winner": "georges-pintens"
+  },
+  {
+   "race": "lbl",
+   "year": 1975,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "lbl",
+   "year": 1976,
+   "winner": "joseph-bruyere"
+  },
+  {
+   "race": "lbl",
+   "year": 1977,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "lbl",
+   "year": 1978,
+   "winner": "joseph-bruyere"
+  },
+  {
+   "race": "lbl",
+   "year": 1979,
+   "winner": "dietrich-thurau"
+  },
+  {
+   "race": "lbl",
+   "year": 1980,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "lbl",
+   "year": 1981,
+   "winner": "josef-fuchs"
+  },
+  {
+   "race": "lbl",
+   "year": 1982,
+   "winner": "silvano-contini"
+  },
+  {
+   "race": "lbl",
+   "year": 1983,
+   "winner": "steven-rooks"
+  },
+  {
+   "race": "lbl",
+   "year": 1984,
+   "winner": "sean-kelly"
+  },
+  {
+   "race": "lbl",
+   "year": 1985,
+   "winner": "moreno-argentin"
+  },
+  {
+   "race": "lbl",
+   "year": 1986,
+   "winner": "moreno-argentin"
+  },
+  {
+   "race": "lbl",
+   "year": 1987,
+   "winner": "moreno-argentin"
+  },
+  {
+   "race": "lbl",
+   "year": 1988,
+   "winner": "adrie-van-der-poel"
+  },
+  {
+   "race": "lbl",
+   "year": 1989,
+   "winner": "sean-kelly"
+  },
+  {
+   "race": "lbl",
+   "year": 1990,
+   "winner": "eric-van-lancker"
+  },
+  {
+   "race": "lbl",
+   "year": 1991,
+   "winner": "moreno-argentin"
+  },
+  {
+   "race": "lbl",
+   "year": 1992,
+   "winner": "dirk-de-wolf"
+  },
+  {
+   "race": "lbl",
+   "year": 1993,
+   "winner": "rolf-sorensen"
+  },
+  {
+   "race": "lbl",
+   "year": 1994,
+   "winner": "evgeni-berzin"
+  },
+  {
+   "race": "lbl",
+   "year": 1995,
+   "winner": "mauro-gianetti"
+  },
+  {
+   "race": "lbl",
+   "year": 1996,
+   "winner": "pascal-richard"
+  },
+  {
+   "race": "lbl",
+   "year": 1997,
+   "winner": "michele-bartoli"
+  },
+  {
+   "race": "lbl",
+   "year": 1998,
+   "winner": "michele-bartoli"
+  },
+  {
+   "race": "lbl",
+   "year": 1999,
+   "winner": "frank-vandenbroucke"
+  },
+  {
+   "race": "lbl",
+   "year": 2000,
+   "winner": "paolo-bettini"
+  },
+  {
+   "race": "lbl",
+   "year": 2001,
+   "winner": "oscar-camenzind"
+  },
+  {
+   "race": "lbl",
+   "year": 2002,
+   "winner": "paolo-bettini"
+  },
+  {
+   "race": "lbl",
+   "year": 2003,
+   "winner": "tyler-hamilton"
+  },
+  {
+   "race": "lbl",
+   "year": 2004,
+   "winner": "davide-rebellin"
+  },
+  {
+   "race": "lbl",
+   "year": 2005,
+   "winner": "alexander-vinokourov"
+  },
+  {
+   "race": "lbl",
+   "year": 2006,
+   "winner": "alejandro-valverde"
+  },
+  {
+   "race": "lbl",
+   "year": 2007,
+   "winner": "danilo-di-luca"
+  },
+  {
+   "race": "lbl",
+   "year": 2008,
+   "winner": "alejandro-valverde"
+  },
+  {
+   "race": "lbl",
+   "year": 2009,
+   "winner": "andy-schleck"
+  },
+  {
+   "race": "lbl",
+   "year": 2010,
+   "winner": "alexander-vinokourov"
+  },
+  {
+   "race": "lbl",
+   "year": 2011,
+   "winner": "philippe-gilbert"
+  },
+  {
+   "race": "lbl",
+   "year": 2012,
+   "winner": "maxim-iglinsky"
+  },
+  {
+   "race": "lbl",
+   "year": 2013,
+   "winner": "dan-martin"
+  },
+  {
+   "race": "lbl",
+   "year": 2014,
+   "winner": "simon-gerrans"
+  },
+  {
+   "race": "lbl",
+   "year": 2015,
+   "winner": "alejandro-valverde"
+  },
+  {
+   "race": "lbl",
+   "year": 2016,
+   "winner": "wout-poels"
+  },
+  {
+   "race": "lbl",
+   "year": 2017,
+   "winner": "alejandro-valverde"
+  },
+  {
+   "race": "lbl",
+   "year": 2018,
+   "winner": "bob-jungels"
+  },
+  {
+   "race": "lbl",
+   "year": 2019,
+   "winner": "jakob-fuglsang"
+  },
+  {
+   "race": "lbl",
+   "year": 2020,
+   "winner": "primoz-roglic"
+  },
+  {
+   "race": "lbl",
+   "year": 2021,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "lbl",
+   "year": 2022,
+   "winner": "remco-evenepoel"
+  },
+  {
+   "race": "lbl",
+   "year": 2023,
+   "winner": "remco-evenepoel"
+  },
+  {
+   "race": "lbl",
+   "year": 2024,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "lbl",
+   "year": 2025,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "lbl",
+   "year": 2026,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "lomb",
+   "year": 1905,
+   "winner": "giovanni-gerbi"
+  },
+  {
+   "race": "lomb",
+   "year": 1906,
+   "winner": "cesare-brambilla"
+  },
+  {
+   "race": "lomb",
+   "year": 1907,
+   "winner": "gustave-garrigou"
+  },
+  {
+   "race": "lomb",
+   "year": 1908,
+   "winner": "francois-faber"
+  },
+  {
+   "race": "lomb",
+   "year": 1909,
+   "winner": "giovanni-cuniolo"
+  },
+  {
+   "race": "lomb",
+   "year": 1910,
+   "winner": "giovanni-micheletto"
+  },
+  {
+   "race": "lomb",
+   "year": 1911,
+   "winner": "henri-pelissier"
+  },
+  {
+   "race": "lomb",
+   "year": 1912,
+   "winner": "carlo-oriani"
+  },
+  {
+   "race": "lomb",
+   "year": 1913,
+   "winner": "henri-pelissier"
+  },
+  {
+   "race": "lomb",
+   "year": 1914,
+   "winner": "lauro-bordin"
+  },
+  {
+   "race": "lomb",
+   "year": 1915,
+   "winner": "gaetano-belloni"
+  },
+  {
+   "race": "lomb",
+   "year": 1916,
+   "winner": "leopoldo-torricelli"
+  },
+  {
+   "race": "lomb",
+   "year": 1917,
+   "winner": "philippe-thys"
+  },
+  {
+   "race": "lomb",
+   "year": 1918,
+   "winner": "gaetano-belloni"
+  },
+  {
+   "race": "lomb",
+   "year": 1919,
+   "winner": "costante-girardengo"
+  },
+  {
+   "race": "lomb",
+   "year": 1920,
+   "winner": "henri-pelissier"
+  },
+  {
+   "race": "lomb",
+   "year": 1921,
+   "winner": "costante-girardengo"
+  },
+  {
+   "race": "lomb",
+   "year": 1922,
+   "winner": "costante-girardengo"
+  },
+  {
+   "race": "lomb",
+   "year": 1923,
+   "winner": "giovanni-brunero"
+  },
+  {
+   "race": "lomb",
+   "year": 1924,
+   "winner": "giovanni-brunero"
+  },
+  {
+   "race": "lomb",
+   "year": 1925,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "lomb",
+   "year": 1926,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "lomb",
+   "year": 1927,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "lomb",
+   "year": 1928,
+   "winner": "gaetano-belloni"
+  },
+  {
+   "race": "lomb",
+   "year": 1929,
+   "winner": "pietro-fossati"
+  },
+  {
+   "race": "lomb",
+   "year": 1930,
+   "winner": "michele-mara"
+  },
+  {
+   "race": "lomb",
+   "year": 1931,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "lomb",
+   "year": 1932,
+   "winner": "antonio-negrini"
+  },
+  {
+   "race": "lomb",
+   "year": 1933,
+   "winner": "domenico-piemontesi"
+  },
+  {
+   "race": "lomb",
+   "year": 1934,
+   "winner": "learco-guerra"
+  },
+  {
+   "race": "lomb",
+   "year": 1935,
+   "winner": "enrico-mollo"
+  },
+  {
+   "race": "lomb",
+   "year": 1936,
+   "winner": "gino-bartali"
+  },
+  {
+   "race": "lomb",
+   "year": 1937,
+   "winner": "aldo-bini"
+  },
+  {
+   "race": "lomb",
+   "year": 1938,
+   "winner": "cino-cinelli"
+  },
+  {
+   "race": "lomb",
+   "year": 1939,
+   "winner": "gino-bartali"
+  },
+  {
+   "race": "lomb",
+   "year": 1940,
+   "winner": "gino-bartali"
+  },
+  {
+   "race": "lomb",
+   "year": 1941,
+   "winner": "mario-ricci"
+  },
+  {
+   "race": "lomb",
+   "year": 1942,
+   "winner": "aldo-bini"
+  },
+  {
+   "race": "lomb",
+   "year": 1945,
+   "winner": "mario-ricci"
+  },
+  {
+   "race": "lomb",
+   "year": 1946,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "lomb",
+   "year": 1947,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "lomb",
+   "year": 1948,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "lomb",
+   "year": 1949,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "lomb",
+   "year": 1950,
+   "winner": "renzo-soldani"
+  },
+  {
+   "race": "lomb",
+   "year": 1951,
+   "winner": "louison-bobet"
+  },
+  {
+   "race": "lomb",
+   "year": 1952,
+   "winner": "giuseppe-minardi"
+  },
+  {
+   "race": "lomb",
+   "year": 1953,
+   "winner": "bruno-landi"
+  },
+  {
+   "race": "lomb",
+   "year": 1954,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "lomb",
+   "year": 1955,
+   "winner": "cleto-maule"
+  },
+  {
+   "race": "lomb",
+   "year": 1956,
+   "winner": "andre-darrigade"
+  },
+  {
+   "race": "lomb",
+   "year": 1957,
+   "winner": "diego-ronchini"
+  },
+  {
+   "race": "lomb",
+   "year": 1958,
+   "winner": "nino-defilippis"
+  },
+  {
+   "race": "lomb",
+   "year": 1959,
+   "winner": "rik-van-looy"
+  },
+  {
+   "race": "lomb",
+   "year": 1960,
+   "winner": "emile-daems"
+  },
+  {
+   "race": "lomb",
+   "year": 1961,
+   "winner": "vito-taccone"
+  },
+  {
+   "race": "lomb",
+   "year": 1962,
+   "winner": "jo-de-roo"
+  },
+  {
+   "race": "lomb",
+   "year": 1963,
+   "winner": "jo-de-roo"
+  },
+  {
+   "race": "lomb",
+   "year": 1964,
+   "winner": "gianni-motta"
+  },
+  {
+   "race": "lomb",
+   "year": 1965,
+   "winner": "tom-simpson"
+  },
+  {
+   "race": "lomb",
+   "year": 1966,
+   "winner": "felice-gimondi"
+  },
+  {
+   "race": "lomb",
+   "year": 1967,
+   "winner": "franco-bitossi"
+  },
+  {
+   "race": "lomb",
+   "year": 1968,
+   "winner": "herman-vanspringel"
+  },
+  {
+   "race": "lomb",
+   "year": 1969,
+   "winner": "jean-pierre-monsere"
+  },
+  {
+   "race": "lomb",
+   "year": 1970,
+   "winner": "franco-bitossi"
+  },
+  {
+   "race": "lomb",
+   "year": 1971,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "lomb",
+   "year": 1972,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "lomb",
+   "year": 1973,
+   "winner": "felice-gimondi"
+  },
+  {
+   "race": "lomb",
+   "year": 1974,
+   "winner": "roger-de-vlaeminck"
+  },
+  {
+   "race": "lomb",
+   "year": 1975,
+   "winner": "francesco-moser"
+  },
+  {
+   "race": "lomb",
+   "year": 1976,
+   "winner": "roger-de-vlaeminck"
+  },
+  {
+   "race": "lomb",
+   "year": 1977,
+   "winner": "gianbattista-baronchelli"
+  },
+  {
+   "race": "lomb",
+   "year": 1978,
+   "winner": "francesco-moser"
+  },
+  {
+   "race": "lomb",
+   "year": 1979,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "lomb",
+   "year": 1980,
+   "winner": "alfons-de-wolf"
+  },
+  {
+   "race": "lomb",
+   "year": 1981,
+   "winner": "hennie-kuiper"
+  },
+  {
+   "race": "lomb",
+   "year": 1982,
+   "winner": "giuseppe-saronni"
+  },
+  {
+   "race": "lomb",
+   "year": 1983,
+   "winner": "sean-kelly"
+  },
+  {
+   "race": "lomb",
+   "year": 1984,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "lomb",
+   "year": 1985,
+   "winner": "sean-kelly"
+  },
+  {
+   "race": "lomb",
+   "year": 1986,
+   "winner": "gianbattista-baronchelli"
+  },
+  {
+   "race": "lomb",
+   "year": 1987,
+   "winner": "moreno-argentin"
+  },
+  {
+   "race": "lomb",
+   "year": 1988,
+   "winner": "charly-mottet"
+  },
+  {
+   "race": "lomb",
+   "year": 1989,
+   "winner": "tony-rominger"
+  },
+  {
+   "race": "lomb",
+   "year": 1990,
+   "winner": "gilles-delion"
+  },
+  {
+   "race": "lomb",
+   "year": 1991,
+   "winner": "sean-kelly"
+  },
+  {
+   "race": "lomb",
+   "year": 1992,
+   "winner": "tony-rominger"
+  },
+  {
+   "race": "lomb",
+   "year": 1993,
+   "winner": "pascal-richard"
+  },
+  {
+   "race": "lomb",
+   "year": 1994,
+   "winner": "vladislav-bobrik"
+  },
+  {
+   "race": "lomb",
+   "year": 1995,
+   "winner": "gianni-faresin"
+  },
+  {
+   "race": "lomb",
+   "year": 1996,
+   "winner": "andrea-tafi"
+  },
+  {
+   "race": "lomb",
+   "year": 1997,
+   "winner": "laurent-jalabert"
+  },
+  {
+   "race": "lomb",
+   "year": 1998,
+   "winner": "oscar-camenzind"
+  },
+  {
+   "race": "lomb",
+   "year": 1999,
+   "winner": "mirko-celestino"
+  },
+  {
+   "race": "lomb",
+   "year": 2000,
+   "winner": "raimondas-rumsas"
+  },
+  {
+   "race": "lomb",
+   "year": 2001,
+   "winner": "danilo-di-luca"
+  },
+  {
+   "race": "lomb",
+   "year": 2002,
+   "winner": "michele-bartoli"
+  },
+  {
+   "race": "lomb",
+   "year": 2003,
+   "winner": "michele-bartoli"
+  },
+  {
+   "race": "lomb",
+   "year": 2004,
+   "winner": "damiano-cunego"
+  },
+  {
+   "race": "lomb",
+   "year": 2005,
+   "winner": "paolo-bettini"
+  },
+  {
+   "race": "lomb",
+   "year": 2006,
+   "winner": "paolo-bettini"
+  },
+  {
+   "race": "lomb",
+   "year": 2007,
+   "winner": "damiano-cunego"
+  },
+  {
+   "race": "lomb",
+   "year": 2008,
+   "winner": "damiano-cunego"
+  },
+  {
+   "race": "lomb",
+   "year": 2009,
+   "winner": "philippe-gilbert"
+  },
+  {
+   "race": "lomb",
+   "year": 2010,
+   "winner": "philippe-gilbert"
+  },
+  {
+   "race": "lomb",
+   "year": 2011,
+   "winner": "oliver-zaugg"
+  },
+  {
+   "race": "lomb",
+   "year": 2012,
+   "winner": "joaquim-rodriguez"
+  },
+  {
+   "race": "lomb",
+   "year": 2013,
+   "winner": "joaquim-rodriguez"
+  },
+  {
+   "race": "lomb",
+   "year": 2014,
+   "winner": "dan-martin"
+  },
+  {
+   "race": "lomb",
+   "year": 2015,
+   "winner": "vincenzo-nibali"
+  },
+  {
+   "race": "lomb",
+   "year": 2016,
+   "winner": "esteban-chaves"
+  },
+  {
+   "race": "lomb",
+   "year": 2017,
+   "winner": "vincenzo-nibali"
+  },
+  {
+   "race": "lomb",
+   "year": 2018,
+   "winner": "thibaut-pinot"
+  },
+  {
+   "race": "lomb",
+   "year": 2019,
+   "winner": "bauke-mollema"
+  },
+  {
+   "race": "lomb",
+   "year": 2020,
+   "winner": "jakob-fuglsang"
+  },
+  {
+   "race": "lomb",
+   "year": 2021,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "lomb",
+   "year": 2022,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "lomb",
+   "year": 2023,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "lomb",
+   "year": 2024,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "lomb",
+   "year": 2025,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "lomb",
+   "year": 2026,
+   "winner": "paul-seixas"
+  },
+  {
+   "race": "wrr",
+   "year": 1927,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "wrr",
+   "year": 1928,
+   "winner": "georges-ronsse"
+  },
+  {
+   "race": "wrr",
+   "year": 1929,
+   "winner": "georges-ronsse"
+  },
+  {
+   "race": "wrr",
+   "year": 1930,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "wrr",
+   "year": 1931,
+   "winner": "learco-guerra"
+  },
+  {
+   "race": "wrr",
+   "year": 1932,
+   "winner": "alfredo-binda"
+  },
+  {
+   "race": "wrr",
+   "year": 1933,
+   "winner": "georges-speicher"
+  },
+  {
+   "race": "wrr",
+   "year": 1934,
+   "winner": "karel-kaers"
+  },
+  {
+   "race": "wrr",
+   "year": 1935,
+   "winner": "jean-aerts"
+  },
+  {
+   "race": "wrr",
+   "year": 1936,
+   "winner": "antonin-magne"
+  },
+  {
+   "race": "wrr",
+   "year": 1937,
+   "winner": "eloi-meulenberg"
+  },
+  {
+   "race": "wrr",
+   "year": 1938,
+   "winner": "marcel-kint"
+  },
+  {
+   "race": "wrr",
+   "year": 1946,
+   "winner": "hans-knecht"
+  },
+  {
+   "race": "wrr",
+   "year": 1947,
+   "winner": "theo-middelkamp"
+  },
+  {
+   "race": "wrr",
+   "year": 1948,
+   "winner": "alberic-schotte"
+  },
+  {
+   "race": "wrr",
+   "year": 1949,
+   "winner": "rik-van-steenbergen"
+  },
+  {
+   "race": "wrr",
+   "year": 1950,
+   "winner": "alberic-schotte"
+  },
+  {
+   "race": "wrr",
+   "year": 1951,
+   "winner": "ferdinand-kubler"
+  },
+  {
+   "race": "wrr",
+   "year": 1952,
+   "winner": "heinz-muller"
+  },
+  {
+   "race": "wrr",
+   "year": 1953,
+   "winner": "fausto-coppi"
+  },
+  {
+   "race": "wrr",
+   "year": 1954,
+   "winner": "louison-bobet"
+  },
+  {
+   "race": "wrr",
+   "year": 1955,
+   "winner": "stan-ockers"
+  },
+  {
+   "race": "wrr",
+   "year": 1956,
+   "winner": "rik-van-steenbergen"
+  },
+  {
+   "race": "wrr",
+   "year": 1957,
+   "winner": "rik-van-steenbergen"
+  },
+  {
+   "race": "wrr",
+   "year": 1958,
+   "winner": "ercole-baldini"
+  },
+  {
+   "race": "wrr",
+   "year": 1959,
+   "winner": "andre-darrigade"
+  },
+  {
+   "race": "wrr",
+   "year": 1960,
+   "winner": "rik-van-looy"
+  },
+  {
+   "race": "wrr",
+   "year": 1961,
+   "winner": "rik-van-looy"
+  },
+  {
+   "race": "wrr",
+   "year": 1962,
+   "winner": "jean-stablinski"
+  },
+  {
+   "race": "wrr",
+   "year": 1963,
+   "winner": "benoni-beheyt"
+  },
+  {
+   "race": "wrr",
+   "year": 1964,
+   "winner": "jan-janssen"
+  },
+  {
+   "race": "wrr",
+   "year": 1965,
+   "winner": "tom-simpson"
+  },
+  {
+   "race": "wrr",
+   "year": 1966,
+   "winner": "rudi-altig"
+  },
+  {
+   "race": "wrr",
+   "year": 1967,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "wrr",
+   "year": 1968,
+   "winner": "vittorio-adorni"
+  },
+  {
+   "race": "wrr",
+   "year": 1969,
+   "winner": "harm-ottenbros"
+  },
+  {
+   "race": "wrr",
+   "year": 1970,
+   "winner": "jean-pierre-monsere"
+  },
+  {
+   "race": "wrr",
+   "year": 1971,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "wrr",
+   "year": 1972,
+   "winner": "marino-basso"
+  },
+  {
+   "race": "wrr",
+   "year": 1973,
+   "winner": "felice-gimondi"
+  },
+  {
+   "race": "wrr",
+   "year": 1974,
+   "winner": "eddy-merckx"
+  },
+  {
+   "race": "wrr",
+   "year": 1975,
+   "winner": "hennie-kuiper"
+  },
+  {
+   "race": "wrr",
+   "year": 1976,
+   "winner": "freddy-maertens"
+  },
+  {
+   "race": "wrr",
+   "year": 1977,
+   "winner": "francesco-moser"
+  },
+  {
+   "race": "wrr",
+   "year": 1978,
+   "winner": "gerrie-knetemann"
+  },
+  {
+   "race": "wrr",
+   "year": 1979,
+   "winner": "jan-raas"
+  },
+  {
+   "race": "wrr",
+   "year": 1980,
+   "winner": "bernard-hinault"
+  },
+  {
+   "race": "wrr",
+   "year": 1981,
+   "winner": "freddy-maertens"
+  },
+  {
+   "race": "wrr",
+   "year": 1982,
+   "winner": "giuseppe-saronni"
+  },
+  {
+   "race": "wrr",
+   "year": 1983,
+   "winner": "greg-lemond"
+  },
+  {
+   "race": "wrr",
+   "year": 1984,
+   "winner": "claude-criquielion"
+  },
+  {
+   "race": "wrr",
+   "year": 1985,
+   "winner": "joop-zoetemelk"
+  },
+  {
+   "race": "wrr",
+   "year": 1986,
+   "winner": "moreno-argentin"
+  },
+  {
+   "race": "wrr",
+   "year": 1987,
+   "winner": "stephen-roche"
+  },
+  {
+   "race": "wrr",
+   "year": 1988,
+   "winner": "maurizio-fondriest"
+  },
+  {
+   "race": "wrr",
+   "year": 1989,
+   "winner": "greg-lemond"
+  },
+  {
+   "race": "wrr",
+   "year": 1990,
+   "winner": "rudy-dhaenens"
+  },
+  {
+   "race": "wrr",
+   "year": 1991,
+   "winner": "gianni-bugno"
+  },
+  {
+   "race": "wrr",
+   "year": 1992,
+   "winner": "gianni-bugno"
+  },
+  {
+   "race": "wrr",
+   "year": 1993,
+   "winner": "lance-armstrong"
+  },
+  {
+   "race": "wrr",
+   "year": 1994,
+   "winner": "luc-leblanc"
+  },
+  {
+   "race": "wrr",
+   "year": 1995,
+   "winner": "abraham-olano"
+  },
+  {
+   "race": "wrr",
+   "year": 1996,
+   "winner": "johan-museeuw"
+  },
+  {
+   "race": "wrr",
+   "year": 1997,
+   "winner": "laurent-brochard"
+  },
+  {
+   "race": "wrr",
+   "year": 1998,
+   "winner": "oscar-camenzind"
+  },
+  {
+   "race": "wrr",
+   "year": 1999,
+   "winner": "oscar-freire"
+  },
+  {
+   "race": "wrr",
+   "year": 2000,
+   "winner": "romans-vainsteins"
+  },
+  {
+   "race": "wrr",
+   "year": 2001,
+   "winner": "oscar-freire"
+  },
+  {
+   "race": "wrr",
+   "year": 2002,
+   "winner": "mario-cipollini"
+  },
+  {
+   "race": "wrr",
+   "year": 2003,
+   "winner": "igor-astarloa"
+  },
+  {
+   "race": "wrr",
+   "year": 2004,
+   "winner": "oscar-freire"
+  },
+  {
+   "race": "wrr",
+   "year": 2005,
+   "winner": "tom-boonen"
+  },
+  {
+   "race": "wrr",
+   "year": 2006,
+   "winner": "paolo-bettini"
+  },
+  {
+   "race": "wrr",
+   "year": 2007,
+   "winner": "paolo-bettini"
+  },
+  {
+   "race": "wrr",
+   "year": 2008,
+   "winner": "alessandro-ballan"
+  },
+  {
+   "race": "wrr",
+   "year": 2009,
+   "winner": "cadel-evans"
+  },
+  {
+   "race": "wrr",
+   "year": 2010,
+   "winner": "thor-hushovd"
+  },
+  {
+   "race": "wrr",
+   "year": 2011,
+   "winner": "mark-cavendish"
+  },
+  {
+   "race": "wrr",
+   "year": 2012,
+   "winner": "philippe-gilbert"
+  },
+  {
+   "race": "wrr",
+   "year": 2013,
+   "winner": "rui-costa"
+  },
+  {
+   "race": "wrr",
+   "year": 2014,
+   "winner": "michal-kwiatkowski"
+  },
+  {
+   "race": "wrr",
+   "year": 2015,
+   "winner": "peter-sagan"
+  },
+  {
+   "race": "wrr",
+   "year": 2016,
+   "winner": "peter-sagan"
+  },
+  {
+   "race": "wrr",
+   "year": 2017,
+   "winner": "peter-sagan"
+  },
+  {
+   "race": "wrr",
+   "year": 2018,
+   "winner": "alejandro-valverde"
+  },
+  {
+   "race": "wrr",
+   "year": 2019,
+   "winner": "mads-pedersen"
+  },
+  {
+   "race": "wrr",
+   "year": 2020,
+   "winner": "julian-alaphilippe"
+  },
+  {
+   "race": "wrr",
+   "year": 2021,
+   "winner": "julian-alaphilippe"
+  },
+  {
+   "race": "wrr",
+   "year": 2022,
+   "winner": "remco-evenepoel"
+  },
+  {
+   "race": "wrr",
+   "year": 2023,
+   "winner": "mathieu-van-der-poel"
+  },
+  {
+   "race": "wrr",
+   "year": 2024,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "wrr",
+   "year": 2025,
+   "winner": "tadej-pogacar"
+  },
+  {
+   "race": "wrr",
+   "year": 2026,
+   "winner": "brandon-mcnulty"
+  },
+  {
+   "race": "wtt",
+   "year": 1909,
+   "winner": "victor-fastre"
+  },
+  {
+   "race": "wtt",
+   "year": 1910,
+   "winner": "ernst-franz"
+  },
+  {
+   "race": "wtt",
+   "year": 1911,
+   "winner": "joseph-van-daele"
+  },
+  {
+   "race": "wtt",
+   "year": 1913,
+   "winner": "maurice-moritz"
+  },
+  {
+   "race": "wtt",
+   "year": 1914,
+   "winner": "ernst-franz"
+  },
+  {
+   "race": "wtt",
+   "year": 1927,
+   "winner": "hubert-opperman"
+  },
+  {
+   "race": "wtt",
+   "year": 1929,
+   "winner": "jozef-stefanski"
+  },
+  {
+   "race": "wtt",
+   "year": 1946,
+   "winner": "karl-wiemer"
+  },
+  {
+   "race": "wtt",
+   "year": 1957,
+   "winner": "frans-schoubben"
+  },
+  {
+   "race": "wtt",
+   "year": 1958,
+   "winner": "frans-schoubben"
+  },
+  {
+   "race": "wtt",
+   "year": 1971,
+   "winner": "roger-swerts"
+  },
+  {
+   "race": "wtt",
+   "year": 1980,
+   "winner": "martin-goetze"
+  },
+  {
+   "race": "wtt",
+   "year": 1982,
+   "winner": "mandy-jones"
+  },
+  {
+   "race": "wtt",
+   "year": 1984,
+   "winner": "andrzej-serediuk"
+  },
+  {
+   "race": "wtt",
+   "year": 1987,
+   "winner": "jan-schur"
+  },
+  {
+   "race": "wtt",
+   "year": 1991,
+   "winner": "claude-criquielion"
+  },
+  {
+   "race": "wtt",
+   "year": 1993,
+   "winner": "maurizio-fondriest"
+  },
+  {
+   "race": "wtt",
+   "year": 1994,
+   "winner": "chris-boardman"
+  },
+  {
+   "race": "wtt",
+   "year": 1995,
+   "winner": "gino-primo"
+  },
+  {
+   "race": "wtt",
+   "year": 1996,
+   "winner": "johan-remels"
+  },
+  {
+   "race": "wtt",
+   "year": 1997,
+   "winner": "steven-van-aken"
+  },
+  {
+   "race": "wtt",
+   "year": 1998,
+   "winner": "sven-nys"
+  },
+  {
+   "race": "wtt",
+   "year": 1999,
+   "winner": "gianni-david"
+  },
+  {
+   "race": "wtt",
+   "year": 2000,
+   "winner": "johan-verhaegen"
+  },
+  {
+   "race": "wtt",
+   "year": 2001,
+   "winner": "cameron-hughes"
+  },
+  {
+   "race": "wtt",
+   "year": 2002,
+   "winner": "renaud-boxus"
+  },
+  {
+   "race": "wtt",
+   "year": 2003,
+   "winner": "kurt-hovelijnck"
+  },
+  {
+   "race": "wtt",
+   "year": 2004,
+   "winner": "hamish-haynes"
+  },
+  {
+   "race": "wtt",
+   "year": 2005,
+   "winner": "kevin-degezelle"
+  },
+  {
+   "race": "wtt",
+   "year": 2006,
+   "winner": "jonathan-henrion"
+  },
+  {
+   "race": "wtt",
+   "year": 2007,
+   "winner": "michael-blanchy"
+  },
+  {
+   "race": "wtt",
+   "year": 2008,
+   "winner": "fabio-polazzi"
+  },
+  {
+   "race": "wtt",
+   "year": 2009,
+   "winner": "nico-kuypers"
+  },
+  {
+   "race": "wtt",
+   "year": 2010,
+   "winner": "sam-hill"
+  },
+  {
+   "race": "wtt",
+   "year": 2011,
+   "winner": "stefan-nimke"
+  },
+  {
+   "race": "wtt",
+   "year": 2012,
+   "winner": "tom-david"
+  },
+  {
+   "race": "wtt",
+   "year": 2013,
+   "winner": "boris-vallee"
+  },
+  {
+   "race": "wtt",
+   "year": 2014,
+   "winner": "kristina-vogel"
+  },
+  {
+   "race": "wtt",
+   "year": 2015,
+   "winner": "jordi-simon"
+  },
+  {
+   "race": "wtt",
+   "year": 2016,
+   "winner": "tony-martin"
+  },
+  {
+   "race": "wtt",
+   "year": 2017,
+   "winner": "tom-dumoulin"
+  },
+  {
+   "race": "wtt",
+   "year": 2018,
+   "winner": "ceylin-alvarado"
+  },
+  {
+   "race": "wtt",
+   "year": 2019,
+   "winner": "mathieu-van-der-poel"
+  },
+  {
+   "race": "wtt",
+   "year": 2020,
+   "winner": "ceylin-alvarado"
+  },
+  {
+   "race": "wtt",
+   "year": 2021,
+   "winner": "remi-huens"
+  },
+  {
+   "race": "wtt",
+   "year": 2022,
+   "winner": "tobias-foss"
+  },
+  {
+   "race": "wtt",
+   "year": 2023,
+   "winner": "remco-evenepoel"
+  },
+  {
+   "race": "wtt",
+   "year": 2024,
+   "winner": "remco-evenepoel"
+  },
+  {
+   "race": "wtt",
+   "year": 2025,
+   "winner": "reinardt-janse-van-rensburg"
+  },
+  {
+   "race": "wtt",
+   "year": 2026,
+   "winner": "remco-evenepoel"
+  }
+ ],
+ "people": {
+  "cameron-hughes": {
+   "name": "Cameron Hughes",
+   "country": "AUS"
+  },
+  "ueli-sutter": {
+   "name": "Ueli Sutter",
+   "country": "SUI"
+  },
+  "fabio-aru": {
+   "name": "Fabio Aru",
+   "country": "ITA"
+  },
+  "eddy-merckx": {
+   "name": "Eddy Merckx",
+   "country": "BEL"
+  },
+  "carlos-sastre": {
+   "name": "Carlos Sastre",
+   "country": "SPA"
+  },
+  "cees-priem": {
+   "name": "Cees Priem",
+   "country": "NED"
+  },
+  "miguel-indurain": {
+   "name": "Miguel Induráin",
+   "country": "SPA"
+  },
+  "cesare-del-cancia": {
+   "name": "Cesare Del Cancia",
+   "country": "ITA"
+  },
+  "oscar-onley": {
+   "name": "Oscar Onley",
+   "country": "GBR"
+  },
+  "charles-meunier": {
+   "name": "Charles Meunier",
+   "country": "BEL"
+  },
+  "charles-pelissier": {
+   "name": "Charles Pélissier",
+   "country": "FRA"
+  },
+  "pello-bilbao": {
+   "name": "Pello Bilbao",
+   "country": "SPA"
+  },
+  "florian-lipowitz": {
+   "name": "Florian Lipowitz",
+   "country": "GER"
+  },
+  "matthew-riccitello": {
+   "name": "Matthew Riccitello",
+   "country": "USA"
+  },
+  "alfio-vandi": {
+   "name": "Alfio Vandi",
+   "country": "ITA"
+  },
+  "christophe-rinero": {
+   "name": "Christophe Rinero",
+   "country": "FRA"
+  },
+  "lauro-bordin": {
+   "name": "Lauro Bordin",
+   "country": "ITA"
+  },
+  "giorgio-zancanaro": {
+   "name": "Giorgio Zancanaro",
+   "country": "ITA"
+  },
+  "giuseppe-martinelli": {
+   "name": "Giuseppe Martinelli",
+   "country": "ITA"
+  },
+  "bernard-hinault": {
+   "name": "Bernard Hinault",
+   "country": "FRA"
+  },
+  "albert-ritserveldt": {
+   "name": "Albert Ritserveldt",
+   "country": "BEL"
+  },
+  "palmiro-masciarelli": {
+   "name": "Palmiro Masciarelli",
+   "country": "ITA"
+  },
+  "afonso-eulalio": {
+   "name": "Afonso Eulálio",
+   "country": "POR"
+  },
+  "carmine-preziosi": {
+   "name": "Carmine Preziosi",
+   "country": "ITA"
+  },
+  "massimo-ghirotto": {
+   "name": "Massimo Ghirotto",
+   "country": "ITA"
+  },
+  "isaac-del-toro": {
+   "name": "Isaac del Toro",
+   "country": "MEX"
+  },
+  "oscar-camenzind": {
+   "name": "Oscar Camenzind",
+   "country": "SUI"
+  },
+  "hans-knecht": {
+   "name": "Hans Knecht",
+   "country": "SUI"
+  },
+  "roberto-pagnin": {
+   "name": "Roberto Pagnin",
+   "country": "ITA"
+  },
+  "daniel-willems": {
+   "name": "Daniel Willems",
+   "country": "BEL"
+  },
+  "gino-primo": {
+   "name": "Gino Primo",
+   "country": "BEL"
+  },
+  "dario-beni": {
+   "name": "Dario Beni",
+   "country": "ITA"
+  },
+  "dario-frigo": {
+   "name": "Dario Frigo",
+   "country": "ITA"
+  },
+  "paul-magnier": {
+   "name": "Paul Magnier",
+   "country": "FRA"
+  },
+  "jan-lauwers": {
+   "name": "Jan Lauwers",
+   "country": "BEL"
+  },
+  "walter-generati": {
+   "name": "Walter Generati",
+   "country": "ITA"
+  },
+  "enrico-mollo": {
+   "name": "Enrico Mollo",
+   "country": "ITA"
+  },
+  "jozef-stefanski": {
+   "name": "Józef Stefański",
+   "country": "POL"
+  },
+  "oreste-conte": {
+   "name": "Oreste Conte",
+   "country": "ITA"
+  },
+  "biagio-conte": {
+   "name": "Biagio Conte",
+   "country": "ITA"
+  },
+  "vladimir-karpets": {
+   "name": "Vladimir Karpets",
+   "country": "RUS"
+  },
+  "matthew-brennan": {
+   "name": "Matthew Brennan",
+   "country": "GBR"
+  },
+  "federico-bahamontes": {
+   "name": "Federico Bahamontes",
+   "country": "SPA"
+  },
+  "dirk-demol": {
+   "name": "Dirk Demol",
+   "country": "BEL"
+  },
+  "magnus-cort": {
+   "name": "Magnus Cort Nielsen",
+   "country": "DEN"
+  },
+  "carlo-clerici": {
+   "name": "Carlo Clerici",
+   "country": "SUI"
+  },
+  "hugo-koblet": {
+   "name": "Hugo Koblet",
+   "country": "SUI"
+  },
+  "gabriele-colombo": {
+   "name": "Gabriele Colombo",
+   "country": "ITA"
+  },
+  "domenico-piemontesi": {
+   "name": "Domenico Piemontesi",
+   "country": "ITA"
+  },
+  "vendramino-bariviera": {
+   "name": "Vendramino Bariviera",
+   "country": "ITA"
+  },
+  "paul-seixas": {
+   "name": "Paul Seixas",
+   "country": "FRA"
+  },
+  "rino-benedetti": {
+   "name": "Rino Benedetti",
+   "country": "ITA"
+  },
+  "giuseppe-olmo": {
+   "name": "Giuseppe Olmo",
+   "country": "ITA"
+  },
+  "eddy-bouwmans": {
+   "name": "Eddy Bouwmans",
+   "country": null
+  },
+  "maurice-desimpelaere": {
+   "name": "Maurice Desimpelaere",
+   "country": "BEL"
+  },
+  "rene-le-greves": {
+   "name": "René Le Grèves",
+   "country": "FRA"
+  },
+  "eduardo-chozas": {
+   "name": "Eduardo Chozas",
+   "country": "ESP"
+  },
+  "marco-cimatti": {
+   "name": "Marco Cimatti",
+   "country": "ITA"
+  },
+  "edward-sels": {
+   "name": "Edward Sels",
+   "country": "BEL"
+  },
+  "giancarlo-bellini": {
+   "name": "Giancarlo Bellini",
+   "country": "ITA"
+  },
+  "chepe-gonzalez": {
+   "name": "Chepe González",
+   "country": "COL"
+  },
+  "oscar-pereiro": {
+   "name": "Óscar Pereiro",
+   "country": "SPA"
+  },
+  "alberto-contador": {
+   "name": "Alberto Contador",
+   "country": "SPA"
+  },
+  "georges-ronsse": {
+   "name": "Georges Ronsse",
+   "country": "BEL"
+  },
+  "gianni-david": {
+   "name": "Gianni David",
+   "country": "BEL"
+  },
+  "johan-verhaegen": {
+   "name": "Johan Verhaegen",
+   "country": "BEL"
+  },
+  "kevin-degezelle": {
+   "name": "Kevin Degezelle",
+   "country": "BEL"
+  },
+  "rene-pijnen": {
+   "name": "René Pijnen",
+   "country": null
+  },
+  "alfredo-bovet": {
+   "name": "Alfredo Bovet",
+   "country": "ITA"
+  },
+  "pietro-chesi": {
+   "name": "Pietro Chesi",
+   "country": "ITA"
+  },
+  "emile-daems": {
+   "name": "Emile Daems",
+   "country": "BEL"
+  },
+  "enrico-paolini": {
+   "name": "Enrico Paolini",
+   "country": "ITA"
+  },
+  "enrique-martinez-heredia": {
+   "name": "Enrique Martínez Heredia",
+   "country": "ESP"
+  },
+  "mathew-hayman": {
+   "name": "Mathew Hayman",
+   "country": "AUS"
+  },
+  "fabrizio-guidi": {
+   "name": "Fabrizio Guidi",
+   "country": "ITA"
+  },
+  "stefano-zanini": {
+   "name": "Stefano Zanini",
+   "country": "ITA"
+  },
+  "laurent-fignon": {
+   "name": "Laurent Fignon",
+   "country": "FRA"
+  },
+  "laurent-jalabert": {
+   "name": "Laurent Jalabert",
+   "country": "FRA"
+  },
+  "marcel-ernzer": {
+   "name": "Marcel Ernzer",
+   "country": "LUX"
+  },
+  "julio-jimenez": {
+   "name": "Julio Jiménez",
+   "country": "ESP"
+  },
+  "eugene-christophe": {
+   "name": "Eugène Christophe",
+   "country": "FRA"
+  },
+  "jean-aerts": {
+   "name": "Jean Aerts",
+   "country": "BEL"
+  },
+  "federico-echave": {
+   "name": "Federico Echave",
+   "country": "ESP"
+  },
+  "jose-luis-laguia": {
+   "name": "José Luis Laguía",
+   "country": "ESP"
+  },
+  "juan-fernandez-martin": {
+   "name": "Juan Fernández Martín",
+   "country": "ESP"
+  },
+  "fabrice-philipot": {
+   "name": "Fabrice Philipot",
+   "country": "FRA"
+  },
+  "gianni-faresin": {
+   "name": "Gianni Faresin",
+   "country": "ITA"
+  },
+  "paul-duboc": {
+   "name": "Paul Duboc",
+   "country": "FRA"
+  },
+  "rene-vietto": {
+   "name": "René Vietto",
+   "country": "FRA"
+  },
+  "ernst-franz": {
+   "name": "Ernst Franz",
+   "country": null
+  },
+  "roger-swerts": {
+   "name": "Roger Swerts",
+   "country": "BEL"
+  },
+  "wout-wagtmans": {
+   "name": "Wout Wagtmans",
+   "country": null
+  },
+  "fred-de-bruyne": {
+   "name": "Fred De Bruyne",
+   "country": "BEL"
+  },
+  "fabio-felline": {
+   "name": "Fabio Felline",
+   "country": "ITA"
+  },
+  "rafal-majka": {
+   "name": "Rafał Majka",
+   "country": "POL"
+  },
+  "nicolas-edet": {
+   "name": "Nicolas Edet",
+   "country": "FRA"
+  },
+  "wim-van-est": {
+   "name": "Wim van Est",
+   "country": null
+  },
+  "louis-mottiat": {
+   "name": "Louis Mottiat",
+   "country": "BEL"
+  },
+  "massimiliano-lelli": {
+   "name": "Massimiliano Lelli",
+   "country": "ITA"
+  },
+  "silvano-contini": {
+   "name": "Silvano Contini",
+   "country": "ITA"
+  },
+  "marc-demeyer": {
+   "name": "Marc Demeyer",
+   "country": "BEL"
+  },
+  "marco-saligari": {
+   "name": "Marco Saligari",
+   "country": "ITA"
+  },
+  "fredy-gonzalez": {
+   "name": "Fredy González",
+   "country": "COL"
+  },
+  "mariano-piccoli": {
+   "name": "Mariano Piccoli",
+   "country": "ITA"
+  },
+  "vito-taccone": {
+   "name": "Vito Taccone",
+   "country": "ITA"
+  },
+  "lech-piasecki": {
+   "name": "Lech Piasecki",
+   "country": "POL"
+  },
+  "sam-hill": {
+   "name": "Sam Hill",
+   "country": "AUS"
+  },
+  "felix-goethals": {
+   "name": "Félix Goethals",
+   "country": "FRA"
+  },
+  "oscar-freire": {
+   "name": "Óscar Freire",
+   "country": "SPA"
+  },
+  "ezio-corlaita": {
+   "name": "Ezio Corlaita",
+   "country": "ITA"
+  },
+  "fabio-parra": {
+   "name": "Fabio Parra",
+   "country": "COL"
+  },
+  "santiago-perez-fernandez": {
+   "name": "Santiago Pérez Fernández",
+   "country": "ESP"
+  },
+  "ferdi-van-den-haute": {
+   "name": "Ferdi Van Den Haute",
+   "country": "BEL"
+  },
+  "serafino-biagioni": {
+   "name": "Serafino Biagioni",
+   "country": "ITA"
+  },
+  "piotr-ugrumov": {
+   "name": "Piotr Ugrumov",
+   "country": "URS"
+  },
+  "jules-vanhevel": {
+   "name": "Jules Vanhevel",
+   "country": "BEL"
+  },
+  "claudio-bortolotto": {
+   "name": "Claudio Bortolotto",
+   "country": "ITA"
+  },
+  "faustino-fernandez-ovies": {
+   "name": "Faustino Fernández Ovies",
+   "country": "ESP"
+  },
+  "bruno-mealli": {
+   "name": "Bruno Mealli",
+   "country": "ITA"
+  },
+  "frans-bonduel": {
+   "name": "Frans Bonduel",
+   "country": "BEL"
+  },
+  "cleto-maule": {
+   "name": "Cleto Maule",
+   "country": "ITA"
+  },
+  "wilmo-francioni": {
+   "name": "Wilmo Francioni",
+   "country": "ITA"
+  },
+  "donato-piazza": {
+   "name": "Donato Piazza",
+   "country": "ITA"
+  },
+  "renzo-soldani": {
+   "name": "Renzo Soldani",
+   "country": "ITA"
+  },
+  "stuart-o-grady": {
+   "name": "Stuart O'Grady",
+   "country": "AUS"
+  },
+  "felicien-vervaecke": {
+   "name": "Félicien Vervaecke",
+   "country": "BEL"
+  },
+  "adam-yates": {
+   "name": "Adam Yates",
+   "country": "GBR"
+  },
+  "davide-villella": {
+   "name": "Davide Villella",
+   "country": "ITA"
+  },
+  "jo-de-roo": {
+   "name": "Jo de Roo",
+   "country": null
+  },
+  "boris-vallee": {
+   "name": "Boris Vallée",
+   "country": "BEL"
+  },
+  "georges-pintens": {
+   "name": "Georges Pintens",
+   "country": "BEL"
+  },
+  "dylan-groenewegen": {
+   "name": "Dylan Groenewegen",
+   "country": "NED"
+  },
+  "giovanni-fidanza": {
+   "name": "Giovanni Fidanza",
+   "country": "ITA"
+  },
+  "giovanni-gerbi": {
+   "name": "Giovanni Gerbi",
+   "country": "ITA"
+  },
+  "honore-barthelemy": {
+   "name": "Honoré Barthélémy",
+   "country": "FRA"
+  },
+  "gino-bartali": {
+   "name": "Gino Bartali",
+   "country": "ITA"
+  },
+  "eladio-jimenez": {
+   "name": "Eladio Jiménez",
+   "country": "ESP"
+  },
+  "sean-kelly": {
+   "name": "Sean Kelly",
+   "country": "IRL"
+  },
+  "wout-van-aert": {
+   "name": "Wout van Aert",
+   "country": "BEL"
+  },
+  "pascal-ackermann": {
+   "name": "Pascal Ackermann",
+   "country": "GER"
+  },
+  "charly-gaul": {
+   "name": "Charly Gaul",
+   "country": "LUX"
+  },
+  "thierry-marie": {
+   "name": "Thierry Marie",
+   "country": "FRA"
+  },
+  "henk-lubberding": {
+   "name": "Henk Lubberding",
+   "country": null
+  },
+  "alfredo-pasotti": {
+   "name": "Alfredo Pasotti",
+   "country": "ITA"
+  },
+  "ryder-hesjedal": {
+   "name": "Ryder Hesjedal",
+   "country": "CAN"
+  },
+  "richard-carapaz": {
+   "name": "Richard Carapaz",
+   "country": "ECU"
+  },
+  "luis-leon-sanchez": {
+   "name": "Luis León Sánchez",
+   "country": "SPA"
+  },
+  "seamus-elliott": {
+   "name": "Seamus Elliott",
+   "country": "IRL"
+  },
+  "tao-geoghegan-hart": {
+   "name": "Tao Geoghegan Hart",
+   "country": "GBR"
+  },
+  "rene-privat": {
+   "name": "René Privat",
+   "country": "FRA"
+  },
+  "italo-zilioli": {
+   "name": "Italo Zilioli",
+   "country": "ITA"
+  },
+  "jean-pierre-danguillaume": {
+   "name": "Jean-Pierre Danguillaume",
+   "country": "FRA"
+  },
+  "jean-marie-wampers": {
+   "name": "Jean-Marie Wampers",
+   "country": "BEL"
+  },
+  "vladimir-poulnikov": {
+   "name": "Vladimir Poulnikov",
+   "country": "URS"
+  },
+  "andre-greipel": {
+   "name": "André Greipel",
+   "country": "GER"
+  },
+  "fernando-gaviria": {
+   "name": "Fernando Gaviria",
+   "country": "COL"
+  },
+  "johan-van-der-velde": {
+   "name": "Johan van der Velde",
+   "country": null
+  },
+  "jonathan-henrion": {
+   "name": "Jonathan Henrion",
+   "country": "BEL"
+  },
+  "joseph-groussard": {
+   "name": "Joseph Groussard",
+   "country": "FRA"
+  },
+  "jules-rossi": {
+   "name": "Jules Rossi",
+   "country": "ITA"
+  },
+  "julien-vervaecke": {
+   "name": "Julien Vervaecke",
+   "country": "BEL"
+  },
+  "leon-van-daele": {
+   "name": "Leon Van Daele",
+   "country": "BEL"
+  },
+  "lennard-kamna": {
+   "name": "Lennard Kämna",
+   "country": "GER"
+  },
+  "fabio-polazzi": {
+   "name": "Fabio Polazzi",
+   "country": "BEL"
+  },
+  "pierre-latour": {
+   "name": "Pierre Latour",
+   "country": "FRA"
+  },
+  "guillaume-martin": {
+   "name": "Guillaume Martin",
+   "country": "FRA"
+  },
+  "rudy-pevenage": {
+   "name": "Rudy Pevenage",
+   "country": "BEL"
+  },
+  "olimpio-bizzi": {
+   "name": "Olimpio Bizzi",
+   "country": "ITA"
+  },
+  "giovanni-cuniolo": {
+   "name": "Giovanni Cuniolo",
+   "country": "ITA"
+  },
+  "miguel-angel-lopez": {
+   "name": "Miguel Ángel López",
+   "country": "COL"
+  },
+  "oscar-vargas": {
+   "name": "Óscar Vargas",
+   "country": "COL"
+  },
+  "kurt-hovelijnck": {
+   "name": "Kurt Hovelijnck",
+   "country": "BEL"
+  },
+  "igor-astarloa": {
+   "name": "Igor Astarloa",
+   "country": "ESP"
+  },
+  "hector-martin": {
+   "name": "Hector Martin",
+   "country": "BEL"
+  },
+  "gert-harings": {
+   "name": "Gert Harings",
+   "country": null
+  },
+  "vladislav-bobrik": {
+   "name": "Vladislav Bobrik",
+   "country": "URS"
+  },
+  "alberto-volpi": {
+   "name": "Alberto Volpi",
+   "country": "ITA"
+  },
+  "michael-storer": {
+   "name": "Michael Storer",
+   "country": "AUS"
+  },
+  "michael-woods": {
+   "name": "Michael Woods",
+   "country": "CAN"
+  },
+  "marinus-wagtmans": {
+   "name": "Marinus Wagtmans",
+   "country": null
+  },
+  "loretto-petrucci": {
+   "name": "Loretto Petrucci",
+   "country": "ITA"
+  },
+  "luigi-annoni": {
+   "name": "Luigi Annoni",
+   "country": "ITA"
+  },
+  "ernesto-azzini": {
+   "name": "Ernesto Azzini",
+   "country": "ITA"
+  },
+  "paolo-rosola": {
+   "name": "Paolo Rosola",
+   "country": "ITA"
+  },
+  "theo-smit": {
+   "name": "Theo Smit",
+   "country": null
+  },
+  "nico-denz": {
+   "name": "Nico Denz",
+   "country": "GER"
+  },
+  "jean-rene-bernaudeau": {
+   "name": "Jean-René Bernaudeau",
+   "country": "FRA"
+  },
+  "tim-merlier": {
+   "name": "Tim Merlier",
+   "country": "BEL"
+  },
+  "roberto-conti": {
+   "name": "Roberto Conti",
+   "country": "ITA"
+  },
+  "jean-baptiste-dortignacq": {
+   "name": "Jean-Baptiste Dortignacq",
+   "country": "FRA"
+  },
+  "marcel-kint": {
+   "name": "Marcel Kint",
+   "country": "BEL"
+  },
+  "fabian-cancellara": {
+   "name": "Fabian Cancellara",
+   "country": "SUI"
+  },
+  "jose-antonio-gonzalez-linares": {
+   "name": "José Antonio González Linares",
+   "country": "SPA"
+  },
+  "malcolm-elliott": {
+   "name": "Malcolm Elliott",
+   "country": "GBR"
+  },
+  "alessandro-fantini": {
+   "name": "Alessandro Fantini",
+   "country": "ITA"
+  },
+  "mario-ricci": {
+   "name": "Mario Ricci",
+   "country": "ITA"
+  },
+  "martin-goetze": {
+   "name": "Martin Goetze",
+   "country": "GER"
+  },
+  "cadel-evans": {
+   "name": "Cadel Evans",
+   "country": "AUS"
+  },
+  "pierre-brambilla": {
+   "name": "Pierre Brambilla",
+   "country": "ITA"
+  },
+  "frans-melckenbeeck": {
+   "name": "Frans Melckenbeeck",
+   "country": "BEL"
+  },
+  "maurits-raes": {
+   "name": "Maurits Raes",
+   "country": "BEL"
+  },
+  "bradley-wiggins": {
+   "name": "Bradley Wiggins",
+   "country": "GBR"
+  },
+  "jesus-blanco-villar": {
+   "name": "Jesús Blanco Villar",
+   "country": "ESP"
+  },
+  "ruben-guerreiro": {
+   "name": "Rúben Guerreiro",
+   "country": "POR"
+  },
+  "thierry-claveyrolat": {
+   "name": "Thierry Claveyrolat",
+   "country": "FRA"
+  },
+  "jean-lesage": {
+   "name": "Jean Lesage",
+   "country": "BEL"
+  },
+  "willy-schroeders": {
+   "name": "Willy Schroeders",
+   "country": "BEL"
+  },
+  "carlos-hernandez-bailo": {
+   "name": "Carlos Hernández Bailo",
+   "country": "ESP"
+  },
+  "jose-luis-abilleira": {
+   "name": "José Luis Abilleira",
+   "country": "ESP"
+  },
+  "franco-vona": {
+   "name": "Franco Vona",
+   "country": "ITA"
+  },
+  "giuseppe-perletto": {
+   "name": "Giuseppe Perletto",
+   "country": "ITA"
+  },
+  "francois-mahe": {
+   "name": "François Mahé",
+   "country": "FRA"
+  },
+  "reinardt-janse-van-rensburg": {
+   "name": "Reinardt Janse van Rensburg",
+   "country": "RSA"
+  },
+  "tom-david": {
+   "name": "Tom David",
+   "country": "NZL"
+  },
+  "jesus-galdeano": {
+   "name": "Jesús Galdeano",
+   "country": "SPA"
+  },
+  "pierino-favalli": {
+   "name": "Pierino Favalli",
+   "country": "ITA"
+  },
+  "mathieu-hermans": {
+   "name": "Mathieu Hermans",
+   "country": null
+  },
+  "raffaele-di-paco": {
+   "name": "Raffaele di Paco",
+   "country": "ITA"
+  },
+  "remo-bertoni": {
+   "name": "Remo Bertoni",
+   "country": "ITA"
+  },
+  "pasquale-fornara": {
+   "name": "Pasquale Fornara",
+   "country": "ITA"
+  },
+  "aime-dossche": {
+   "name": "Aimé Dossche",
+   "country": "BEL"
+  },
+  "federico-gay": {
+   "name": "Federico Gay",
+   "country": "ITA"
+  },
+  "raymond-martin": {
+   "name": "Raymond Martin",
+   "country": "FRA"
+  },
+  "julien-moineau": {
+   "name": "Julien Moineau",
+   "country": "FRA"
+  },
+  "koen-bouwman": {
+   "name": "Koen Bouwman",
+   "country": "NED"
+  },
+  "fabio-jakobsen": {
+   "name": "Fabio Jakobsen",
+   "country": "NED"
+  },
+  "mark-cavendish": {
+   "name": "Mark Cavendish",
+   "country": "GBR"
+  },
+  "giovanni-corrieri": {
+   "name": "Giovanni Corrieri",
+   "country": "ITA"
+  },
+  "giulio-ciccone": {
+   "name": "Giulio Ciccone",
+   "country": "ITA"
+  },
+  "thor-hushovd": {
+   "name": "Thor Hushovd",
+   "country": "NOR"
+  },
+  "alfons-de-wolf": {
+   "name": "Alfons De Wolf",
+   "country": "BEL"
+  },
+  "ugo-agostoni": {
+   "name": "Ugo Agostoni",
+   "country": "ITA"
+  },
+  "filippo-ganna": {
+   "name": "Filippo Ganna",
+   "country": "ITA"
+  },
+  "renzo-zanazzi": {
+   "name": "Renzo Zanazzi",
+   "country": "ITA"
+  },
+  "ilnur-zakarin": {
+   "name": "İlnur Zäkärin",
+   "country": "RUS"
+  },
+  "primoz-roglic": {
+   "name": "Primož Roglič",
+   "country": "SLO"
+  },
+  "johan-remels": {
+   "name": "Johan Remels",
+   "country": "BEL"
+  },
+  "cesare-brambilla": {
+   "name": "Cesare Brambilla",
+   "country": "ITA"
+  },
+  "wladimiro-panizza": {
+   "name": "Wladimiro Panizza",
+   "country": "ITA"
+  },
+  "eddy-pauwels": {
+   "name": "Eddy Pauwels",
+   "country": "BEL"
+  },
+  "alberto-fernandez": {
+   "name": "Alberto Fernández",
+   "country": "ESP"
+  },
+  "roger-rosiers": {
+   "name": "Roger Rosiers",
+   "country": "BEL"
+  },
+  "olaf-ludwig": {
+   "name": "Olaf Ludwig",
+   "country": "GDR"
+  },
+  "theo-middelkamp": {
+   "name": "Theo Middelkamp",
+   "country": null
+  },
+  "eric-van-lancker": {
+   "name": "Eric Van Lancker",
+   "country": "BEL"
+  },
+  "pe-verhaegen": {
+   "name": "Pé Verhaegen",
+   "country": "BEL"
+  },
+  "txomin-perurena": {
+   "name": "Txomin Perurena",
+   "country": "ESP"
+  },
+  "david-gaudu": {
+   "name": "David Gaudu",
+   "country": "FRA"
+  },
+  "lance-armstrong": {
+   "name": "Lance Armstrong",
+   "country": "USA"
+  },
+  "mariano-canardo": {
+   "name": "Mariano Cañardo",
+   "country": "ESP"
+  },
+  "marcel-dussault": {
+   "name": "Marcel Dussault",
+   "country": "FRA"
+  },
+  "egan-bernal": {
+   "name": "Egan Bernal",
+   "country": "COL"
+  },
+  "theo-herckenrath": {
+   "name": "Théo Herckenrath",
+   "country": "BEL"
+  },
+  "fausto-coppi": {
+   "name": "Fausto Coppi",
+   "country": "ITA"
+  },
+  "enric-mas": {
+   "name": "Enric Mas",
+   "country": "ESP"
+  },
+  "jhonatan-narvaez": {
+   "name": "Jhonatan Narváez",
+   "country": "ECU"
+  },
+  "tom-boonen": {
+   "name": "Tom Boonen",
+   "country": "BEL"
+  },
+  "jacques-anquetil": {
+   "name": "Jacques Anquetil",
+   "country": "FRA"
+  },
+  "eric-boyer": {
+   "name": "Éric Boyer",
+   "country": "FRA"
+  },
+  "sam-bennett": {
+   "name": "Sam Bennett",
+   "country": "IRL"
+  },
+  "ben-o-connor": {
+   "name": "Ben O'Connor",
+   "country": "AUS"
+  },
+  "peio-ruiz-cabestany": {
+   "name": "Peio Ruiz Cabestany",
+   "country": "ESP"
+  },
+  "giovanni-battaglin": {
+   "name": "Giovanni Battaglin",
+   "country": "ITA"
+  },
+  "inaki-gaston": {
+   "name": "Iñaki Gastón",
+   "country": "ESP"
+  },
+  "pol-verschuere": {
+   "name": "Pol Verschuere",
+   "country": "BEL"
+  },
+  "giovanni-rossignoli": {
+   "name": "Giovanni Rossignoli",
+   "country": "ITA"
+  },
+  "vincenzo-borgarello": {
+   "name": "Vincenzo Borgarello",
+   "country": "ITA"
+  },
+  "diego-marabelli": {
+   "name": "Diego Marabelli",
+   "country": "ITA"
+  },
+  "vito-favero": {
+   "name": "Vito Favero",
+   "country": "ITA"
+  },
+  "guido-marcello-mugnaini": {
+   "name": "Guido Marcello Mugnaini",
+   "country": "ITA"
+  },
+  "ettore-meini": {
+   "name": "Ettore Meini",
+   "country": "ITA"
+  },
+  "claudio-michelotto": {
+   "name": "Claudio Michelotto",
+   "country": "ITA"
+  },
+  "andre-trousselier": {
+   "name": "André Trousselier",
+   "country": "FRA"
+  },
+  "eddy-peelman": {
+   "name": "Eddy Peelman",
+   "country": "BEL"
+  },
+  "fabio-battesini": {
+   "name": "Fabio Battesini",
+   "country": "ITA"
+  },
+  "luciano-armani": {
+   "name": "Luciano Armani",
+   "country": "ITA"
+  },
+  "diego-ronchini": {
+   "name": "Diego Ronchini",
+   "country": "ITA"
+  },
+  "gerard-loncke": {
+   "name": "Gérard Loncke",
+   "country": "BEL"
+  },
+  "glauco-servadei": {
+   "name": "Glauco Servadei",
+   "country": "ITA"
+  },
+  "vincenzo-rossello": {
+   "name": "Vincenzo Rossello",
+   "country": "ITA"
+  },
+  "tim-wellens": {
+   "name": "Tim Wellens",
+   "country": "BEL"
+  },
+  "joseph-van-dam": {
+   "name": "Joseph Van Dam",
+   "country": "BEL"
+  },
+  "vicente-lopez-carril": {
+   "name": "Vicente López Carril",
+   "country": "ESP"
+  },
+  "ugo-colombo": {
+   "name": "Ugo Colombo",
+   "country": "ITA"
+  },
+  "graziano-battistini": {
+   "name": "Graziano Battistini",
+   "country": "ITA"
+  },
+  "adelin-benoit": {
+   "name": "Adelin Benoît",
+   "country": "BEL"
+  },
+  "adriano-durante": {
+   "name": "Adriano Durante",
+   "country": "ITA"
+  },
+  "endrio-leoni": {
+   "name": "Endrio Leoni",
+   "country": "ITA"
+  },
+  "mariano-diaz": {
+   "name": "Mariano Díaz",
+   "country": "SPA"
+  },
+  "vicente-belda": {
+   "name": "Vicente Belda",
+   "country": "ESP"
+  },
+  "valere-van-sweevelt": {
+   "name": "Valere Van Sweevelt",
+   "country": "BEL"
+  },
+  "victor-fastre": {
+   "name": "Victor Fastre",
+   "country": "BEL"
+  },
+  "andre-rosseel": {
+   "name": "André Rosseel",
+   "country": "BEL"
+  },
+  "willy-bocklant": {
+   "name": "Willy Bocklant",
+   "country": "BEL"
+  },
+  "romain-gijssels": {
+   "name": "Romain Gijssels",
+   "country": "BEL"
+  },
+  "maurice-moritz": {
+   "name": "Maurice Moritz",
+   "country": "BEL"
+  },
+  "pedro-torres": {
+   "name": "Pedro Torres",
+   "country": "ESP"
+  },
+  "tobias-foss": {
+   "name": "Tobias Foss",
+   "country": "NOR"
+  },
+  "camille-danguillaume": {
+   "name": "Camille Danguillaume",
+   "country": "FRA"
+  },
+  "mariano-martinez": {
+   "name": "Mariano Martínez",
+   "country": "FRA"
+  },
+  "andy-schleck": {
+   "name": "Andy Schleck",
+   "country": "LUX"
+  },
+  "michael-blanchy": {
+   "name": "Michael Blanchy",
+   "country": "BEL"
+  },
+  "bernard-vallet": {
+   "name": "Bernard Vallet",
+   "country": "FRA"
+  },
+  "bartolomeo-aimo": {
+   "name": "Bartolomeo Aimo",
+   "country": "ITA"
+  },
+  "pedro-munoz-machin-rodriguez": {
+   "name": "Pedro Muñoz Machín Rodríguez",
+   "country": "ESP"
+  },
+  "romain-bellenger": {
+   "name": "Romain Bellenger",
+   "country": "FRA"
+  },
+  "felipe-yanez": {
+   "name": "Felipe Yáñez",
+   "country": "ESP"
+  },
+  "vicente-iturat": {
+   "name": "Vicente Iturat",
+   "country": "ESP"
+  },
+  "antonio-gomez-del-moral": {
+   "name": "Antonio Gómez del Moral",
+   "country": "ESP"
+  },
+  "albert-van-vlierberghe": {
+   "name": "Albert Van Vlierberghe",
+   "country": "BEL"
+  },
+  "ercole-gualazzini": {
+   "name": "Ercole Gualazzini",
+   "country": "ITA"
+  },
+  "jean-rossius": {
+   "name": "Jean Rossius",
+   "country": "BEL"
+  },
+  "phil-anderson": {
+   "name": "Phil Anderson",
+   "country": "AUS"
+  },
+  "jasper-stuyven": {
+   "name": "Jasper Stuyven",
+   "country": "BEL"
+  },
+  "alvaro-mejia": {
+   "name": "Álvaro Mejía",
+   "country": "COL"
+  },
+  "alvaro-pino": {
+   "name": "Álvaro Pino",
+   "country": "ESP"
+  },
+  "angel-casero": {
+   "name": "Ángel Casero",
+   "country": "SPA"
+  },
+  "jean-alavoine": {
+   "name": "Jean Alavoine",
+   "country": "FRA"
+  },
+  "jean-brankart": {
+   "name": "Jean Brankart",
+   "country": "BEL"
+  },
+  "gilberto-simoni": {
+   "name": "Gilberto Simoni",
+   "country": "ITA"
+  },
+  "paolo-savoldelli": {
+   "name": "Paolo Savoldelli",
+   "country": "ITA"
+  },
+  "jacques-esclassan": {
+   "name": "Jacques Esclassan",
+   "country": "FRA"
+  },
+  "miguel-maria-lasa": {
+   "name": "Miguel María Lasa",
+   "country": "SPA"
+  },
+  "enrico-zaina": {
+   "name": "Enrico Zaina",
+   "country": "ITA"
+  },
+  "martin-van-den-bossche": {
+   "name": "Martin Van Den Bossche",
+   "country": "BEL"
+  },
+  "romain-maes": {
+   "name": "Romain Maes",
+   "country": "BEL"
+  },
+  "edoardo-molinar": {
+   "name": "Edoardo Molinar",
+   "country": "ITA"
+  },
+  "jose-perez-frances": {
+   "name": "José Pérez Francés",
+   "country": "SPA"
+  },
+  "jef-demuysere": {
+   "name": "Jef Demuysere",
+   "country": "BEL"
+  },
+  "simon-gerrans": {
+   "name": "Simon Gerrans",
+   "country": "AUS"
+  },
+  "ernest-mottard": {
+   "name": "Ernest Mottard",
+   "country": "BEL"
+  },
+  "guido-carlesi": {
+   "name": "Guido Carlesi",
+   "country": "ITA"
+  },
+  "gilbert-bauvin": {
+   "name": "Gilbert Bauvin",
+   "country": "FRA"
+  },
+  "matthew-goss": {
+   "name": "Matthew Goss",
+   "country": "AUS"
+  },
+  "aurelio-gonzalez-puente": {
+   "name": "Aurelio González Puente",
+   "country": "ESP"
+  },
+  "roger-baens": {
+   "name": "Roger Baens",
+   "country": "BEL"
+  },
+  "jan-engels": {
+   "name": "Jan Engels",
+   "country": "BEL"
+  },
+  "philippe-gilbert": {
+   "name": "Philippe Gilbert",
+   "country": "BEL"
+  },
+  "salvador-botella": {
+   "name": "Salvador Botella",
+   "country": "ESP"
+  },
+  "luis-otano": {
+   "name": "Luis Otaño",
+   "country": "ESP"
+  },
+  "giovanni-micheletto": {
+   "name": "Giovanni Micheletto",
+   "country": "ITA"
+  },
+  "kristina-vogel": {
+   "name": "Kristina Vogel",
+   "country": "GER"
+  },
+  "gregorio-san-miguel": {
+   "name": "Gregorio San Miguel",
+   "country": "ESP"
+  },
+  "antonio-martin": {
+   "name": "Antonio Martín",
+   "country": "ESP"
+  },
+  "maurice-de-waele": {
+   "name": "Maurice De Waele",
+   "country": "BEL"
+  },
+  "francois-faber": {
+   "name": "François Faber",
+   "country": "LUX"
+  },
+  "jai-hindley": {
+   "name": "Jai Hindley",
+   "country": "AUS"
+  },
+  "jonas-vingegaard": {
+   "name": "Jonas Vingegaard",
+   "country": "DEN"
+  },
+  "tadej-pogacar": {
+   "name": "Tadej Pogačar",
+   "country": "SLO"
+  },
+  "andrei-tchmil": {
+   "name": "Andrei Tchmil",
+   "country": "BEL"
+  },
+  "gino-mader": {
+   "name": "Gino Mäder",
+   "country": "SUI"
+  },
+  "salvador-cardona": {
+   "name": "Salvador Cardona",
+   "country": "SPA"
+  },
+  "marcel-houyoux": {
+   "name": "Marcel Houyoux",
+   "country": "BEL"
+  },
+  "lorenzo-fortunato": {
+   "name": "Lorenzo Fortunato",
+   "country": "ITA"
+  },
+  "serguei-outschakov": {
+   "name": "Serguei Outschakov",
+   "country": "UKR"
+  },
+  "giancarlo-astrua": {
+   "name": "Giancarlo Astrua",
+   "country": "ITA"
+  },
+  "brandon-mcnulty": {
+   "name": "Brandon McNulty",
+   "country": "USA"
+  },
+  "maurice-garin": {
+   "name": "Maurice Garin",
+   "country": "FRA"
+  },
+  "fabiano-fontanelli": {
+   "name": "Fabiano Fontanelli",
+   "country": "ITA"
+  },
+  "marco-pantani": {
+   "name": "Marco Pantani",
+   "country": "ITA"
+  },
+  "emile-bouhours": {
+   "name": "Émile Bouhours",
+   "country": "FRA"
+  },
+  "pierino-gavazzi": {
+   "name": "Pierino Gavazzi",
+   "country": "ITA"
+  },
+  "andrei-zintchenko": {
+   "name": "Andrei Zintchenko",
+   "country": "RUS"
+  },
+  "adolphe-deledda": {
+   "name": "Adolphe Deledda",
+   "country": "FRA"
+  },
+  "roberto-heras": {
+   "name": "Roberto Heras",
+   "country": "ESP"
+  },
+  "albert-beckaert": {
+   "name": "Albert Beckaert",
+   "country": "BEL"
+  },
+  "alfredo-sabbadin": {
+   "name": "Alfredo Sabbadin",
+   "country": "ITA"
+  },
+  "aldo-bini": {
+   "name": "Aldo Bini",
+   "country": "ITA"
+  },
+  "joao-almeida": {
+   "name": "João Almeida",
+   "country": "POR"
+  },
+  "guy-ignolin": {
+   "name": "Guy Ignolin",
+   "country": "FRA"
+  },
+  "anton-barrutia-iturriagoitia": {
+   "name": "Antón Barrutia Iturriagoitia",
+   "country": "ESP"
+  },
+  "emile-georget": {
+   "name": "Émile Georget",
+   "country": "FRA"
+  },
+  "alejandro-valverde": {
+   "name": "Alejandro Valverde",
+   "country": "SPA"
+  },
+  "emile-masson-jr": {
+   "name": "Émile Masson Jr.",
+   "country": "BEL"
+  },
+  "pietro-linari": {
+   "name": "Pietro Linari",
+   "country": "ITA"
+  },
+  "eric-caritoux": {
+   "name": "Éric Caritoux",
+   "country": "FRA"
+  },
+  "jasper-philipsen": {
+   "name": "Jasper Philipsen",
+   "country": "BEL"
+  },
+  "caleb-ewan": {
+   "name": "Caleb Ewan",
+   "country": "AUS"
+  },
+  "oscar-sevilla": {
+   "name": "Óscar Sevilla",
+   "country": "SPA"
+  },
+  "sepp-kuss": {
+   "name": "Sepp Kuss",
+   "country": "USA"
+  },
+  "remi-huens": {
+   "name": "Rémi Huens",
+   "country": "FRA"
+  },
+  "alexander-vinokourov": {
+   "name": "Alexander Vinokourov",
+   "country": "KAZ"
+  },
+  "samuel-sanchez": {
+   "name": "Samuel Sánchez",
+   "country": "SPA"
+  },
+  "paolo-bettini": {
+   "name": "Paolo Bettini",
+   "country": "ITA"
+  },
+  "kaden-groves": {
+   "name": "Kaden Groves",
+   "country": "AUS"
+  },
+  "albertus-geldermans": {
+   "name": "Albertus Geldermans",
+   "country": null
+  },
+  "edgar-corredor": {
+   "name": "Edgar Corredor",
+   "country": "COL"
+  },
+  "julian-gorospe": {
+   "name": "Julián Gorospe",
+   "country": "ESP"
+  },
+  "glenn-magnusson": {
+   "name": "Glenn Magnusson",
+   "country": "SWE"
+  },
+  "nico-kuypers": {
+   "name": "Nico Kuypers",
+   "country": "BEL"
+  },
+  "franco-chioccioli": {
+   "name": "Franco Chioccioli",
+   "country": "ITA"
+  },
+  "fabrizio-fabbri": {
+   "name": "Fabrizio Fabbri",
+   "country": "ITA"
+  },
+  "mathieu-van-der-poel": {
+   "name": "Mathieu van der Poel",
+   "country": "NED"
+  },
+  "pacho-rodriguez": {
+   "name": "Pacho Rodríguez",
+   "country": "COL"
+  },
+  "frans-schoubben": {
+   "name": "Frans Schoubben",
+   "country": "BEL"
+  },
+  "francois-gardier": {
+   "name": "François Gardier",
+   "country": "BEL"
+  },
+  "frederic-vichot": {
+   "name": "Frédéric Vichot",
+   "country": "FRA"
+  },
+  "peter-sagan": {
+   "name": "Peter Sagan",
+   "country": "SVK"
+  },
+  "frank-schleck": {
+   "name": "Fränk Schleck",
+   "country": "LUX"
+  },
+  "ivan-basso": {
+   "name": "Ivan Basso",
+   "country": "ITA"
+  },
+  "bjarne-riis": {
+   "name": "Bjarne Riis",
+   "country": "DEN"
+  },
+  "jose-maria-errandonea": {
+   "name": "José María Errandonea",
+   "country": "SPA"
+  },
+  "thomas-voeckler": {
+   "name": "Thomas Voeckler",
+   "country": "FRA"
+  },
+  "denis-menshov": {
+   "name": "Denis Menshov",
+   "country": "RUS"
+  },
+  "vincenzo-nibali": {
+   "name": "Vincenzo Nibali",
+   "country": "ITA"
+  },
+  "alessandro-petacchi": {
+   "name": "Alessandro Petacchi",
+   "country": "ITA"
+  },
+  "greg-lemond": {
+   "name": "Greg LeMond",
+   "country": "USA"
+  },
+  "felice-gimondi": {
+   "name": "Felice Gimondi",
+   "country": "ITA"
+  },
+  "joaquim-rodriguez": {
+   "name": "Joaquim Rodríguez",
+   "country": "SPA"
+  },
+  "ivan-ivanov": {
+   "name": "Ivan Ivanov",
+   "country": "URS"
+  },
+  "damiano-cunego": {
+   "name": "Damiano Cunego",
+   "country": "ITA"
+  },
+  "robbie-mcewen": {
+   "name": "Robbie McEwen",
+   "country": "AUS"
+  },
+  "jean-frechaut": {
+   "name": "Jean Fréchaut",
+   "country": "FRA"
+  },
+  "jose-recio": {
+   "name": "José Recio",
+   "country": "ESP"
+  },
+  "lucien-petit-breton": {
+   "name": "Lucien Petit-Breton",
+   "country": "FRA"
+  },
+  "alfredo-binda": {
+   "name": "Alfredo Binda",
+   "country": "ITA"
+  },
+  "jordi-simon": {
+   "name": "Jordi Simón",
+   "country": "ESP"
+  },
+  "danilo-di-luca": {
+   "name": "Danilo Di Luca",
+   "country": "ITA"
+  },
+  "vasil-kiryienka": {
+   "name": "Vasil Kiryienka",
+   "country": "BLR"
+  },
+  "julian-alaphilippe": {
+   "name": "Julian Alaphilippe",
+   "country": "FRA"
+  },
+  "chris-froome": {
+   "name": "Chris Froome",
+   "country": "GBR"
+  },
+  "joop-zoetemelk": {
+   "name": "Joop Zoetemelk",
+   "country": "NED"
+  },
+  "philippe-thys": {
+   "name": "Philippe Thys",
+   "country": "BEL"
+  },
+  "luigi-casola": {
+   "name": "Luigi Casola",
+   "country": "ITA"
+  },
+  "leon-devos": {
+   "name": "Léon Devos",
+   "country": "BEL"
+  },
+  "mads-pedersen": {
+   "name": "Mads Pedersen",
+   "country": "DEN"
+  },
+  "martin-van-geneugden": {
+   "name": "Martin Van Geneugden",
+   "country": "BEL"
+  },
+  "jose-martin-farfan": {
+   "name": "José Martín Farfán",
+   "country": "COL"
+  },
+  "matej-mohoric": {
+   "name": "Matej Mohorič",
+   "country": "SLO"
+  },
+  "maurice-mollin": {
+   "name": "Maurice Mollin",
+   "country": "BEL"
+  },
+  "abraham-olano": {
+   "name": "Abraham Olano",
+   "country": "SPA"
+  },
+  "miquel-gual-bauza": {
+   "name": "Miquel Gual Bauzà",
+   "country": "ESP"
+  },
+  "dino-bruni": {
+   "name": "Dino Bruni",
+   "country": "ITA"
+  },
+  "simon-yates": {
+   "name": "Simon Yates",
+   "country": "GBR"
+  },
+  "edvald-boasson-hagen": {
+   "name": "Edvald Boasson-Hagen",
+   "country": "NOR"
+  },
+  "omar-fraile": {
+   "name": "Omar Fraile",
+   "country": "SPA"
+  },
+  "omar-hernandez": {
+   "name": "Omar Hernández",
+   "country": "COL"
+  },
+  "pedro-delgado": {
+   "name": "Pedro Delgado",
+   "country": "SPA"
+  },
+  "dirk-de-wolf": {
+   "name": "Dirk De Wolf",
+   "country": "BEL"
+  },
+  "rene-pottier": {
+   "name": "René Pottier",
+   "country": "FRA"
+  },
+  "tony-rominger": {
+   "name": "Tony Rominger",
+   "country": "SUI"
+  },
+  "henri-cornet": {
+   "name": "Henri Cornet",
+   "country": "FRA"
+  },
+  "tom-simpson": {
+   "name": "Tom Simpson",
+   "country": "GBR"
+  },
+  "pierre-raymond-villemiane": {
+   "name": "Pierre-Raymond Villemiane",
+   "country": "FRA"
+  },
+  "pieter-nassen": {
+   "name": "Pieter Nassen",
+   "country": "BEL"
+  },
+  "pietro-giudici": {
+   "name": "Pietro Giudici",
+   "country": "ITA"
+  },
+  "kurt-asle-arvesen": {
+   "name": "Kurt Asle Arvesen",
+   "country": "NOR"
+  },
+  "raymond-steegmans": {
+   "name": "Raymond Steegmans",
+   "country": "BEL"
+  },
+  "serhiy-honchar": {
+   "name": "Serhiy Honchar",
+   "country": "UKR"
+  },
+  "robert-cazala": {
+   "name": "Robert Cazala",
+   "country": "FRA"
+  },
+  "yaroslav-popovych": {
+   "name": "Yaroslav Popovych",
+   "country": "UKR"
+  },
+  "acacio-da-silva": {
+   "name": "Acácio da Silva",
+   "country": "LUX"
+  },
+  "roman-kreuziger": {
+   "name": "Roman Kreuziger",
+   "country": "CZE"
+  },
+  "michael-rasmussen": {
+   "name": "Michael Rasmussen",
+   "country": "DEN"
+  },
+  "louis-trousselier": {
+   "name": "Louis Trousselier",
+   "country": "FRA"
+  },
+  "lucien-van-impe": {
+   "name": "Lucien Van Impe",
+   "country": "BEL"
+  },
+  "warren-barguil": {
+   "name": "Warren Barguil",
+   "country": "FRA"
+  },
+  "luigi-ganna": {
+   "name": "Luigi Ganna",
+   "country": "ITA"
+  },
+  "alexander-kristoff": {
+   "name": "Alexander Kristoff",
+   "country": "NOR"
+  },
+  "rein-taaramae": {
+   "name": "Rein Taaramäe",
+   "country": "EST"
+  },
+  "raimondas-rumsas": {
+   "name": "Raimondas Rumšas",
+   "country": "LTU"
+  },
+  "octave-lapize": {
+   "name": "Octave Lapize",
+   "country": "FRA"
+  },
+  "gustave-garrigou": {
+   "name": "Gustave Garrigou",
+   "country": "FRA"
+  },
+  "mauricio-soler": {
+   "name": "Mauricio Soler",
+   "country": "COL"
+  },
+  "tejay-van-garderen": {
+   "name": "Tejay van Garderen",
+   "country": "USA"
+  },
+  "geraint-thomas": {
+   "name": "Geraint Thomas",
+   "country": "GBR"
+  },
+  "stephen-roche": {
+   "name": "Stephen Roche",
+   "country": "IRL"
+  },
+  "mario-cipollini": {
+   "name": "Mario Cipollini",
+   "country": "ITA"
+  },
+  "juan-manuel-garate-cepa": {
+   "name": "Juan Manuel Gárate Cepa",
+   "country": "SPA"
+  },
+  "louison-bobet": {
+   "name": "Louison Bobet",
+   "country": "FRA"
+  },
+  "filippo-pozzato": {
+   "name": "Filippo Pozzato",
+   "country": "ITA"
+  },
+  "david-millar": {
+   "name": "David Millar",
+   "country": "GBR"
+  },
+  "riccardo-ricco": {
+   "name": "Riccardo Riccò",
+   "country": "ITA"
+  },
+  "luis-ocana": {
+   "name": "Luis Ocaña",
+   "country": "SPA"
+  },
+  "robert-hunter": {
+   "name": "Robert Hunter",
+   "country": "RSA"
+  },
+  "alessandro-ballan": {
+   "name": "Alessandro Ballan",
+   "country": "ITA"
+  },
+  "annibale-brasola": {
+   "name": "Annibale Brasola",
+   "country": "ITA"
+  },
+  "antonio-montes": {
+   "name": "Antonio Montes",
+   "country": "ESP"
+  },
+  "johan-vansummeren": {
+   "name": "Johan Vansummeren",
+   "country": "BEL"
+  },
+  "pierrick-fedrigo": {
+   "name": "Pierrick Fédrigo",
+   "country": "FRA"
+  },
+  "michele-scarponi": {
+   "name": "Michele Scarponi",
+   "country": "ITA"
+  },
+  "rigoberto-uran": {
+   "name": "Rigoberto Urán",
+   "country": "COL"
+  },
+  "egoi-martinez": {
+   "name": "Egoi Martínez",
+   "country": "SPA"
+  },
+  "daniele-bennati": {
+   "name": "Daniele Bennati",
+   "country": "ITA"
+  },
+  "rui-costa": {
+   "name": "Rui Costa",
+   "country": "POR"
+  },
+  "bruno-landi": {
+   "name": "Bruno Landi",
+   "country": "ITA"
+  },
+  "adolfo-leoni": {
+   "name": "Adolfo Leoni",
+   "country": "ITA"
+  },
+  "francesco-moser": {
+   "name": "Francesco Moser",
+   "country": "ITA"
+  },
+  "bernard-thevenet": {
+   "name": "Bernard Thévenet",
+   "country": "FRA"
+  },
+  "ronald-de-witte": {
+   "name": "Ronald De Witte",
+   "country": "BEL"
+  },
+  "arthur-decabooter": {
+   "name": "Arthur Decabooter",
+   "country": "BEL"
+  },
+  "elio-bertocchi": {
+   "name": "Elio Bertocchi",
+   "country": "ITA"
+  },
+  "fiorenzo-magni": {
+   "name": "Fiorenzo Magni",
+   "country": "ITA"
+  },
+  "claudio-chiappucci": {
+   "name": "Claudio Chiappucci",
+   "country": "ITA"
+  },
+  "firmin-lambot": {
+   "name": "Firmin Lambot",
+   "country": "BEL"
+  },
+  "adriano-baffi": {
+   "name": "Adriano Baffi",
+   "country": "ITA"
+  },
+  "david-zabriskie": {
+   "name": "David Zabriskie",
+   "country": "USA"
+  },
+  "gert-jan-theunisse": {
+   "name": "Gert-Jan Theunisse",
+   "country": "NED"
+  },
+  "adrie-van-der-poel": {
+   "name": "Adrie van der Poel",
+   "country": null
+  },
+  "giuseppe-faraca": {
+   "name": "Giuseppe Faraca",
+   "country": "ITA"
+  },
+  "giuseppe-santhia": {
+   "name": "Giuseppe Santhià",
+   "country": "ITA"
+  },
+  "frank-vandenbroucke": {
+   "name": "Frank Vandenbroucke",
+   "country": "BEL"
+  },
+  "tyler-farrar": {
+   "name": "Tyler Farrar",
+   "country": "USA"
+  },
+  "johan-museeuw": {
+   "name": "Johan Museeuw",
+   "country": "BEL"
+  },
+  "freddy-maertens": {
+   "name": "Freddy Maertens",
+   "country": "BEL"
+  },
+  "roger-de-vlaeminck": {
+   "name": "Roger De Vlaeminck",
+   "country": "BEL"
+  },
+  "ivan-gotti": {
+   "name": "Ivan Gotti",
+   "country": "ITA"
+  },
+  "henri-pelissier": {
+   "name": "Henri Pélissier",
+   "country": "FRA"
+  },
+  "ottavio-bottecchia": {
+   "name": "Ottavio Bottecchia",
+   "country": "ITA"
+  },
+  "davide-rebellin": {
+   "name": "Davide Rebellin",
+   "country": "ITA"
+  },
+  "bauke-mollema": {
+   "name": "Bauke Mollema",
+   "country": "NED"
+  },
+  "alex-zulle": {
+   "name": "Alex Zülle",
+   "country": "SUI"
+  },
+  "jan-janssen": {
+   "name": "Jan Janssen",
+   "country": "NED"
+  },
+  "giovanni-visconti": {
+   "name": "Giovanni Visconti",
+   "country": "ITA"
+  },
+  "vicente-carretero": {
+   "name": "Vicente Carretero",
+   "country": "ESP"
+  },
+  "pierre-rolland": {
+   "name": "Pierre Rolland",
+   "country": "FRA"
+  },
+  "francisco-ventoso": {
+   "name": "Francisco Ventoso",
+   "country": "SPA"
+  },
+  "luigi-sgarbozza": {
+   "name": "Luigi Sgarbozza",
+   "country": "ITA"
+  },
+  "marco-groppo": {
+   "name": "Marco Groppo",
+   "country": "ITA"
+  },
+  "fermin-trueba": {
+   "name": "Fermín Trueba",
+   "country": "ESP"
+  },
+  "paolo-tiralongo": {
+   "name": "Paolo Tiralongo",
+   "country": "ITA"
+  },
+  "raffaele-marcoli": {
+   "name": "Raffaele Marcoli",
+   "country": "ITA"
+  },
+  "stefano-tomasini": {
+   "name": "Stefano Tomasini",
+   "country": "ITA"
+  },
+  "agustin-tamames": {
+   "name": "Agustín Tamames",
+   "country": "SPA"
+  },
+  "aitor-gonzalez-jimenez": {
+   "name": "Aitor González Jiménez",
+   "country": "ESP"
+  },
+  "aitor-osa": {
+   "name": "Aitor Osa",
+   "country": "ESP"
+  },
+  "ceylin-alvarado": {
+   "name": "Ceylin Alvarado",
+   "country": "NED"
+  },
+  "luis-herrera": {
+   "name": "Luis Herrera",
+   "country": "COL"
+  },
+  "dominique-arnaud": {
+   "name": "Dominique Arnaud",
+   "country": "FRA"
+  },
+  "mattias-skjelmose": {
+   "name": "Mattias Skjelmose",
+   "country": "DEN"
+  },
+  "roger-hassenforder": {
+   "name": "Roger Hassenforder",
+   "country": "FRA"
+  },
+  "pierino-albini": {
+   "name": "Pierino Albini",
+   "country": "ITA"
+  },
+  "raymond-poulidor": {
+   "name": "Raymond Poulidor",
+   "country": "FRA"
+  },
+  "franco-ballerini": {
+   "name": "Franco Ballerini",
+   "country": "ITA"
+  },
+  "maxim-iglinsky": {
+   "name": "Maxim Iglinsky",
+   "country": "KAZ"
+  },
+  "lucien-aimar": {
+   "name": "Lucien Aimar",
+   "country": "FRA"
+  },
+  "odile-defraye": {
+   "name": "Odile Defraye",
+   "country": "BEL"
+  },
+  "johan-bruyneel": {
+   "name": "Johan Bruyneel",
+   "country": "BEL"
+  },
+  "richard-virenque": {
+   "name": "Richard Virenque",
+   "country": "FRA"
+  },
+  "mikel-nieve": {
+   "name": "Mikel Nieve",
+   "country": "SPA"
+  },
+  "michael-rogers": {
+   "name": "Michael Rogers",
+   "country": "AUS"
+  },
+  "diego-ulissi": {
+   "name": "Diego Ulissi",
+   "country": "ITA"
+  },
+  "jaan-kirsipuu": {
+   "name": "Jaan Kirsipuu",
+   "country": "EST"
+  },
+  "jose-rujano": {
+   "name": "José Rujano",
+   "country": "VEN"
+  },
+  "pavel-tonkov": {
+   "name": "Pavel Tonkov",
+   "country": "URS"
+  },
+  "jean-stablinski": {
+   "name": "Jean Stablinski",
+   "country": "FRA"
+  },
+  "leon-scieur": {
+   "name": "Léon Scieur",
+   "country": "BEL"
+  },
+  "rik-van-looy": {
+   "name": "Rik Van Looy",
+   "country": "BEL"
+  },
+  "leonardo-piepoli": {
+   "name": "Leonardo Piepoli",
+   "country": "ITA"
+  },
+  "niki-terpstra": {
+   "name": "Niki Terpstra",
+   "country": "NED"
+  },
+  "erik-zabel": {
+   "name": "Erik Zabel",
+   "country": "GER"
+  },
+  "greg-van-avermaet": {
+   "name": "Greg Van Avermaet",
+   "country": "BEL"
+  },
+  "gerald-ciolek": {
+   "name": "Gerald Ciolek",
+   "country": "GER"
+  },
+  "steve-cummings": {
+   "name": "Steve Cummings",
+   "country": "GBR"
+  },
+  "mandy-jones": {
+   "name": "Mandy Jones",
+   "country": "GBR"
+  },
+  "bradley-mcgee": {
+   "name": "Bradley McGee",
+   "country": "AUS"
+  },
+  "servais-knaven": {
+   "name": "Servais Knaven",
+   "country": "NED"
+  },
+  "moreno-argentin": {
+   "name": "Moreno Argentin",
+   "country": "ITA"
+  },
+  "david-moncoutie": {
+   "name": "David Moncoutié",
+   "country": "FRA"
+  },
+  "santiago-botero": {
+   "name": "Santiago Botero",
+   "country": "COL"
+  },
+  "gilbert-duclos-lassalle": {
+   "name": "Gilbert Duclos-Lassalle",
+   "country": "FRA"
+  },
+  "djamolidine-abdoujaparov": {
+   "name": "Djamolidine Abdoujaparov",
+   "country": "URS"
+  },
+  "gerrie-knetemann": {
+   "name": "Gerrie Knetemann",
+   "country": "NED"
+  },
+  "giuseppe-saronni": {
+   "name": "Giuseppe Saronni",
+   "country": "ITA"
+  },
+  "gianni-bugno": {
+   "name": "Gianni Bugno",
+   "country": "ITA"
+  },
+  "rik-van-steenbergen": {
+   "name": "Rik Van Steenbergen",
+   "country": "BEL"
+  },
+  "antonin-magne": {
+   "name": "Antonin Magne",
+   "country": "FRA"
+  },
+  "nicolas-frantz": {
+   "name": "Nicolas Frantz",
+   "country": "LUX"
+  },
+  "fabian-wegmann": {
+   "name": "Fabian Wegmann",
+   "country": "GER"
+  },
+  "giuseppe-azzini": {
+   "name": "Giuseppe Azzini",
+   "country": "ITA"
+  },
+  "ferdinand-kubler": {
+   "name": "Ferdinand Kübler",
+   "country": "SUI"
+  },
+  "oliver-zaugg": {
+   "name": "Oliver Zaugg",
+   "country": "SUI"
+  },
+  "ambrogio-morelli": {
+   "name": "Ambrogio Morelli",
+   "country": "ITA"
+  },
+  "stefano-garzelli": {
+   "name": "Stefano Garzelli",
+   "country": "ITA"
+  },
+  "ion-izagirre": {
+   "name": "Ion Izagirre",
+   "country": "SPA"
+  },
+  "gosta-pettersson": {
+   "name": "Gösta Pettersson",
+   "country": "SWE"
+  },
+  "thibaut-pinot": {
+   "name": "Thibaut Pinot",
+   "country": "FRA"
+  },
+  "romans-vainsteins": {
+   "name": "Romāns Vainšteins",
+   "country": "LAT"
+  },
+  "marino-lejarreta": {
+   "name": "Marino Lejarreta",
+   "country": "SPA"
+  },
+  "thomas-de-gendt": {
+   "name": "Thomas De Gendt",
+   "country": "BEL"
+  },
+  "marcel-kittel": {
+   "name": "Marcel Kittel",
+   "country": "GER"
+  },
+  "emanuele-sella": {
+   "name": "Emanuele Sella",
+   "country": "ITA"
+  },
+  "evgeni-berzin": {
+   "name": "Evgeni Berzin",
+   "country": "URS"
+  },
+  "alberic-schotte": {
+   "name": "Albéric Schotte",
+   "country": "BEL"
+  },
+  "franco-balmamion": {
+   "name": "Franco Balmamion",
+   "country": "ITA"
+  },
+  "costante-girardengo": {
+   "name": "Costante Girardengo",
+   "country": "ITA"
+  },
+  "learco-guerra": {
+   "name": "Learco Guerra",
+   "country": "ITA"
+  },
+  "roger-pingeon": {
+   "name": "Roger Pingeon",
+   "country": "FRA"
+  },
+  "dieudonne-smets": {
+   "name": "Dieudonné Smets",
+   "country": "BEL"
+  },
+  "prosper-depredomme": {
+   "name": "Prosper Depredomme",
+   "country": "BEL"
+  },
+  "mario-beccia": {
+   "name": "Mario Beccia",
+   "country": "ITA"
+  },
+  "rene-vermandel": {
+   "name": "René Vermandel",
+   "country": "BEL"
+  },
+  "raphael-geminiani": {
+   "name": "Raphaël Géminiani",
+   "country": "FRA"
+  },
+  "reimund-dietzen": {
+   "name": "Reimund Dietzen",
+   "country": "GER"
+  },
+  "noel-fore": {
+   "name": "Noël Foré",
+   "country": "BEL"
+  },
+  "regis-clere": {
+   "name": "Régis Clère",
+   "country": "FRA"
+  },
+  "alfons-deloor": {
+   "name": "Alfons Deloor",
+   "country": "BEL"
+  },
+  "gianbattista-baronchelli": {
+   "name": "Gianbattista Baronchelli",
+   "country": "ITA"
+  },
+  "michele-dancelli": {
+   "name": "Michele Dancelli",
+   "country": "ITA"
+  },
+  "jean-forestier": {
+   "name": "Jean Forestier",
+   "country": "FRA"
+  },
+  "felix-sellier": {
+   "name": "Félix Sellier",
+   "country": "BEL"
+  },
+  "leon-houa": {
+   "name": "Léon Houa",
+   "country": "BEL"
+  },
+  "dino-zandegu": {
+   "name": "Dino Zandegù",
+   "country": "ITA"
+  },
+  "jelle-nijdam": {
+   "name": "Jelle Nijdam",
+   "country": null
+  },
+  "frank-hoste": {
+   "name": "Frank Hoste",
+   "country": "BEL"
+  },
+  "harm-ottenbros": {
+   "name": "Harm Ottenbros",
+   "country": null
+  },
+  "charles-crupelandt": {
+   "name": "Charles Crupelandt",
+   "country": "FRA"
+  },
+  "joseph-bruyere": {
+   "name": "Joseph Bruyère",
+   "country": "BEL"
+  },
+  "paul-maye": {
+   "name": "Paul Maye",
+   "country": "FRA"
+  },
+  "henk-nijdam": {
+   "name": "Henk Nijdam",
+   "country": null
+  },
+  "franco-bitossi": {
+   "name": "Franco Bitossi",
+   "country": "ITA"
+  },
+  "andrea-tafi": {
+   "name": "Andrea Tafi",
+   "country": "ITA"
+  },
+  "francesco-camusso": {
+   "name": "Francesco Camusso",
+   "country": "ITA"
+  },
+  "kevin-seeldraeyers": {
+   "name": "Kevin Seeldraeyers",
+   "country": "BEL"
+  },
+  "pierino-baffi": {
+   "name": "Pierino Baffi",
+   "country": "ITA"
+  },
+  "eberardo-pavesi": {
+   "name": "Eberardo Pavesi",
+   "country": "ITA"
+  },
+  "vasco-bergamaschi": {
+   "name": "Vasco Bergamaschi",
+   "country": "ITA"
+  },
+  "heiri-suter": {
+   "name": "Heiri Suter",
+   "country": "SUI"
+  },
+  "antonio-bailetti": {
+   "name": "Antonio Bailetti",
+   "country": "ITA"
+  },
+  "herman-vanspringel": {
+   "name": "Herman Vanspringel",
+   "country": "BEL"
+  },
+  "maurizio-fondriest": {
+   "name": "Maurizio Fondriest",
+   "country": "ITA"
+  },
+  "andre-leducq": {
+   "name": "André Leducq",
+   "country": "FRA"
+  },
+  "lucien-buysse": {
+   "name": "Lucien Buysse",
+   "country": "BEL"
+  },
+  "omer-verschoore": {
+   "name": "Omer Verschoore",
+   "country": "BEL"
+  },
+  "francesco-casagrande": {
+   "name": "Francesco Casagrande",
+   "country": "ITA"
+  },
+  "andrew-hampsten": {
+   "name": "Andrew Hampsten",
+   "country": "USA"
+  },
+  "jean-robic": {
+   "name": "Jean Robic",
+   "country": "FRA"
+  },
+  "tyler-hamilton": {
+   "name": "Tyler Hamilton",
+   "country": "USA"
+  },
+  "francisco-mancebo": {
+   "name": "Francisco Mancebo",
+   "country": "SPA"
+  },
+  "francisco-galdos": {
+   "name": "Francisco Galdós",
+   "country": "ESP"
+  },
+  "jakob-fuglsang": {
+   "name": "Jakob Fuglsang",
+   "country": "DEN"
+  },
+  "remco-evenepoel": {
+   "name": "Remco Evenepoel",
+   "country": "BEL"
+  },
+  "luciano-maggini": {
+   "name": "Luciano Maggini",
+   "country": "ITA"
+  },
+  "rohan-dennis": {
+   "name": "Rohan Dennis",
+   "country": "AUS"
+  },
+  "roger-walkowiak": {
+   "name": "Roger Walkowiak",
+   "country": "POL"
+  },
+  "gilles-delion": {
+   "name": "Gilles Delion",
+   "country": "FRA"
+  },
+  "nairo-quintana": {
+   "name": "Nairo Quintana",
+   "country": "COL"
+  },
+  "matteo-rabottini": {
+   "name": "Matteo Rabottini",
+   "country": "ITA"
+  },
+  "chris-horner": {
+   "name": "Chris Horner",
+   "country": "USA"
+  },
+  "maurice-archambaud": {
+   "name": "Maurice Archambaud",
+   "country": "FRA"
+  },
+  "chris-boardman": {
+   "name": "Chris Boardman",
+   "country": "GBR"
+  },
+  "magnus-backstedt": {
+   "name": "Magnus Bäckstedt",
+   "country": "SWE"
+  },
+  "andrzej-serediuk": {
+   "name": "Andrzej Serediuk",
+   "country": "POL"
+  },
+  "richie-porte": {
+   "name": "Richie Porte",
+   "country": "AUS"
+  },
+  "andre-darrigade": {
+   "name": "André Darrigade",
+   "country": "FRA"
+  },
+  "julian-berrendero": {
+   "name": "Julián Berrendero",
+   "country": "SPA"
+  },
+  "antonin-rolland": {
+   "name": "Antonin Rolland",
+   "country": "FRA"
+  },
+  "frederic-guesdon": {
+   "name": "Frédéric Guesdon",
+   "country": "FRA"
+  },
+  "alberto-dainese": {
+   "name": "Alberto Dainese",
+   "country": "ITA"
+  },
+  "dan-martin": {
+   "name": "Dan Martin",
+   "country": "IRL"
+  },
+  "julio-alberto-perez": {
+   "name": "Julio Alberto Pérez",
+   "country": "MEX"
+  },
+  "johan-de-muynck": {
+   "name": "Johan De Muynck",
+   "country": "BEL"
+  },
+  "vittorio-adorni": {
+   "name": "Vittorio Adorni",
+   "country": "ITA"
+  },
+  "rolf-sorensen": {
+   "name": "Rolf Sørensen",
+   "country": "DEN"
+  },
+  "fabio-baldato": {
+   "name": "Fabio Baldato",
+   "country": "ITA"
+  },
+  "anthony-charteau": {
+   "name": "Anthony Charteau",
+   "country": "FRA"
+  },
+  "giorgio-albani": {
+   "name": "Giorgio Albani",
+   "country": "ITA"
+  },
+  "guido-van-calster": {
+   "name": "Guido Van Calster",
+   "country": "BEL"
+  },
+  "ercole-baldini": {
+   "name": "Ercole Baldini",
+   "country": "ITA"
+  },
+  "alessandro-de-marchi": {
+   "name": "Alessandro De Marchi",
+   "country": "ITA"
+  },
+  "angelino-soler": {
+   "name": "Angelino Soler",
+   "country": "ESP"
+  },
+  "angelo-conterno": {
+   "name": "Angelo Conterno",
+   "country": "ITA"
+  },
+  "angelo-gremo": {
+   "name": "Angelo Gremo",
+   "country": "ITA"
+  },
+  "jan-svorada": {
+   "name": "Ján Svorada",
+   "country": "TCH"
+  },
+  "hennie-kuiper": {
+   "name": "Hennie Kuiper",
+   "country": null
+  },
+  "angelo-varetto": {
+   "name": "Angelo Varetto",
+   "country": "ITA"
+  },
+  "ramon-saez-marzo": {
+   "name": "Ramón Sáez Marzo",
+   "country": "SPA"
+  },
+  "marc-madiot": {
+   "name": "Marc Madiot",
+   "country": "FRA"
+  },
+  "juan-pedro-lopez": {
+   "name": "Juan Pedro López",
+   "country": "SPA"
+  },
+  "juan-miguel-mercado": {
+   "name": "Juan Miguel Mercado",
+   "country": "ESP"
+  },
+  "tommy-prim": {
+   "name": "Tommy Prim",
+   "country": "SWE"
+  },
+  "luigi-marchisio": {
+   "name": "Luigi Marchisio",
+   "country": "ITA"
+  },
+  "laurent-brochard": {
+   "name": "Laurent Brochard",
+   "country": "FRA"
+  },
+  "hippolyte-aucouturier": {
+   "name": "Hippolyte Aucouturier",
+   "country": "FRA"
+  },
+  "steven-rooks": {
+   "name": "Steven Rooks",
+   "country": null
+  },
+  "julien-delbecque": {
+   "name": "Julien Delbecque",
+   "country": "BEL"
+  },
+  "jan-schur": {
+   "name": "Jan Schur",
+   "country": "GDR"
+  },
+  "baden-cooke": {
+   "name": "Baden Cooke",
+   "country": "AUS"
+  },
+  "michele-bartoli": {
+   "name": "Michele Bartoli",
+   "country": "ITA"
+  },
+  "richard-depoorter": {
+   "name": "Richard Depoorter",
+   "country": "BEL"
+  },
+  "arnaud-demare": {
+   "name": "Arnaud Démare",
+   "country": "FRA"
+  },
+  "pascal-richard": {
+   "name": "Pascal Richard",
+   "country": "SUI"
+  },
+  "eddy-planckaert": {
+   "name": "Eddy Planckaert",
+   "country": "BEL"
+  },
+  "guido-bontempi": {
+   "name": "Guido Bontempi",
+   "country": "ITA"
+  },
+  "knut-knudsen": {
+   "name": "Knut Knudsen",
+   "country": "NOR"
+  },
+  "geoffrey-bouchard": {
+   "name": "Geoffrey Bouchard",
+   "country": "FRA"
+  },
+  "dag-erik-pedersen": {
+   "name": "Dag Erik Pedersen",
+   "country": "NOR"
+  },
+  "gustaaf-deloor": {
+   "name": "Gustaaf Deloor",
+   "country": "BEL"
+  },
+  "georges-speicher": {
+   "name": "Georges Speicher",
+   "country": "FRA"
+  },
+  "dietrich-thurau": {
+   "name": "Dietrich Thurau",
+   "country": "GER"
+  },
+  "sylvere-maes": {
+   "name": "Sylvère Maes",
+   "country": "BEL"
+  },
+  "peter-van-petegem": {
+   "name": "Peter Van Petegem",
+   "country": "BEL"
+  },
+  "michel-pollentier": {
+   "name": "Michel Pollentier",
+   "country": "BEL"
+  },
+  "stefan-mutter": {
+   "name": "Stefan Mutter",
+   "country": "SUI"
+  },
+  "raymond-impanis": {
+   "name": "Raymond Impanis",
+   "country": "BEL"
+  },
+  "stan-ockers": {
+   "name": "Stan Ockers",
+   "country": "BEL"
+  },
+  "michael-matthews": {
+   "name": "Michael Matthews",
+   "country": "AUS"
+  },
+  "santiago-buitrago": {
+   "name": "Santiago Buitrago",
+   "country": "COL"
+  },
+  "wout-poels": {
+   "name": "Wout Poels",
+   "country": "NED"
+  },
+  "antonio-tiberi": {
+   "name": "Antonio Tiberi",
+   "country": "ITA"
+  },
+  "alejandro-fombellida-rico": {
+   "name": "Alejandro Fombellida Rico",
+   "country": "ESP"
+  },
+  "raymond-delisle": {
+   "name": "Raymond Delisle",
+   "country": "FRA"
+  },
+  "mario-vicini": {
+   "name": "Mario Vicini",
+   "country": "ITA"
+  },
+  "ivan-quaranta": {
+   "name": "Ivan Quaranta",
+   "country": "ITA"
+  },
+  "jan-ullrich": {
+   "name": "Jan Ullrich",
+   "country": "GER"
+  },
+  "ole-ritter": {
+   "name": "Ole Ritter",
+   "country": "DEN"
+  },
+  "angel-arroyo": {
+   "name": "Ángel Arroyo",
+   "country": "ESP"
+  },
+  "uwe-raab": {
+   "name": "Uwe Raab",
+   "country": "GER"
+  },
+  "alfonso-gutierrez": {
+   "name": "Alfonso Gutiérrez",
+   "country": "ESP"
+  },
+  "marcel-buysse": {
+   "name": "Marcel Buysse",
+   "country": "BEL"
+  },
+  "oliverio-rincon": {
+   "name": "Oliverio Rincón",
+   "country": "COL"
+  },
+  "robert-forster": {
+   "name": "Robert Förster",
+   "country": "GER"
+  },
+  "francisco-antonio-andres-sancho": {
+   "name": "Francisco Antonio Andrés Sancho",
+   "country": "ESP"
+  },
+  "marc-gomez": {
+   "name": "Marc Gomez",
+   "country": "FRA"
+  },
+  "robert-jacquinot": {
+   "name": "Robert Jacquinot",
+   "country": "FRA"
+  },
+  "noel-dejonckheere": {
+   "name": "Noël Dejonckheere",
+   "country": "BEL"
+  },
+  "antonio-bevilacqua": {
+   "name": "Antonio Bevilacqua",
+   "country": "ITA"
+  },
+  "urs-freuler": {
+   "name": "Urs Freuler",
+   "country": "SUI"
+  },
+  "germain-derycke": {
+   "name": "Germain Derycke",
+   "country": "BEL"
+  },
+  "melcior-mauri": {
+   "name": "Melcior Mauri",
+   "country": "SPA"
+  },
+  "lucien-storme": {
+   "name": "Lucien Storme",
+   "country": "BEL"
+  },
+  "antonio-suarez-vazquez": {
+   "name": "Antonio Suárez Vázquez",
+   "country": "ESP"
+  },
+  "biniam-girmay": {
+   "name": "Biniam Girmay",
+   "country": "ERI"
+  },
+  "jay-vine": {
+   "name": "Jay Vine",
+   "country": "AUS"
+  },
+  "tony-martin": {
+   "name": "Tony Martin",
+   "country": "GER"
+  },
+  "karl-wiemer": {
+   "name": "Karl Wiemer",
+   "country": "GDR"
+  },
+  "salvador-molina": {
+   "name": "Salvador Molina",
+   "country": "ESP"
+  },
+  "francisco-javier-cedena": {
+   "name": "Francisco Javier Cedena",
+   "country": "ESP"
+  },
+  "stefan-nimke": {
+   "name": "Stefan Nimke",
+   "country": "GER"
+  },
+  "dylan-van-baarle": {
+   "name": "Dylan van Baarle",
+   "country": "NED"
+  },
+  "umberto-drei": {
+   "name": "Umberto Drei",
+   "country": "ITA"
+  },
+  "jose-luis-navarro-martinez": {
+   "name": "José Luis Navarro Martínez",
+   "country": "ESP"
+  },
+  "jef-planckaert": {
+   "name": "Jef Planckaert",
+   "country": "BEL"
+  },
+  "renaud-boxus": {
+   "name": "Renaud Boxus",
+   "country": "BEL"
+  },
+  "rudi-altig": {
+   "name": "Rudi Altig",
+   "country": "GER"
+  },
+  "heinz-muller": {
+   "name": "Heinz Müller",
+   "country": "GER"
+  },
+  "julian-arredondo": {
+   "name": "Julián Arredondo",
+   "country": "COL"
+  },
+  "steven-van-aken": {
+   "name": "Steven Van Aken",
+   "country": "BEL"
+  },
+  "antoni-gelabert": {
+   "name": "Antoni Gelabert",
+   "country": "ESP"
+  },
+  "nino-defilippis": {
+   "name": "Nino Defilippis",
+   "country": "ITA"
+  },
+  "marcel-wust": {
+   "name": "Marcel Wüst",
+   "country": "GER"
+  },
+  "jeroen-blijlevens": {
+   "name": "Jeroen Blijlevens",
+   "country": null
+  },
+  "luigi-lucotti": {
+   "name": "Luigi Lucotti",
+   "country": "ITA"
+  },
+  "charly-grosskost": {
+   "name": "Charly Grosskost",
+   "country": "FRA"
+  },
+  "eric-leman": {
+   "name": "Eric Leman",
+   "country": "BEL"
+  },
+  "giuseppe-minardi": {
+   "name": "Giuseppe Minardi",
+   "country": "ITA"
+  },
+  "arie-den-hartog": {
+   "name": "Arie den Hartog",
+   "country": null
+  },
+  "silvio-martinello": {
+   "name": "Silvio Martinello",
+   "country": "ITA"
+  },
+  "mauro-gianetti": {
+   "name": "Mauro Gianetti",
+   "country": "SUI"
+  },
+  "michael-wright": {
+   "name": "Michael Wright",
+   "country": "GBR"
+  },
+  "cino-cinelli": {
+   "name": "Cino Cinelli",
+   "country": "ITA"
+  },
+  "georges-claes-sr": {
+   "name": "Georges Claes sr.",
+   "country": "BEL"
+  },
+  "nicola-minali": {
+   "name": "Nicola Minali",
+   "country": "ITA"
+  },
+  "klaus-peter-thaler": {
+   "name": "Klaus-Peter Thaler",
+   "country": "GER"
+  },
+  "lucien-lesna": {
+   "name": "Lucien Lesna",
+   "country": "FRA"
+  },
+  "beat-breu": {
+   "name": "Beat Breu",
+   "country": "SUI"
+  },
+  "fritz-schar": {
+   "name": "Fritz Schär",
+   "country": "SUI"
+  },
+  "leo-amberg": {
+   "name": "Leo Amberg",
+   "country": "SUI"
+  },
+  "marino-basso": {
+   "name": "Marino Basso",
+   "country": "ITA"
+  },
+  "rolf-graf": {
+   "name": "Rolf Graf",
+   "country": "SUI"
+  },
+  "karel-kaers": {
+   "name": "Karel Kaers",
+   "country": "BEL"
+  },
+  "cyrille-van-hauwaert": {
+   "name": "Cyrille van Hauwaert",
+   "country": "BEL"
+  },
+  "carlo-galetti": {
+   "name": "Carlo Galetti",
+   "country": "ITA"
+  },
+  "erich-maechler": {
+   "name": "Erich Maechler",
+   "country": "SUI"
+  },
+  "gerard-vianen": {
+   "name": "Gerard Vianen",
+   "country": null
+  },
+  "arnaldo-pambianco": {
+   "name": "Arnaldo Pambianco",
+   "country": "ITA"
+  },
+  "hermann-buse": {
+   "name": "Hermann Buse",
+   "country": "GER"
+  },
+  "max-bulla": {
+   "name": "Max Bulla",
+   "country": "AUT"
+  },
+  "giovanni-lombardi": {
+   "name": "Giovanni Lombardi",
+   "country": "ITA"
+  },
+  "rolf-wolfshohl": {
+   "name": "Rolf Wolfshohl",
+   "country": "GER"
+  },
+  "walter-godefroot": {
+   "name": "Walter Godefroot",
+   "country": "BEL"
+  },
+  "alfonso-calzolari": {
+   "name": "Alfonso Calzolari",
+   "country": "ITA"
+  },
+  "giovanni-brunero": {
+   "name": "Giovanni Brunero",
+   "country": "ITA"
+  },
+  "matthew-lloyd": {
+   "name": "Matthew Lloyd",
+   "country": "AUS"
+  },
+  "claude-criquielion": {
+   "name": "Claude Criquielion",
+   "country": "BEL"
+  },
+  "felix-cardenas": {
+   "name": "Félix Cárdenas",
+   "country": "COL"
+  },
+  "luc-leblanc": {
+   "name": "Luc Leblanc",
+   "country": "FRA"
+  },
+  "pablo-lastras": {
+   "name": "Pablo Lastras",
+   "country": "ESP"
+  },
+  "tom-steels": {
+   "name": "Tom Steels",
+   "country": "BEL"
+  },
+  "leon-van-bon": {
+   "name": "Léon van Bon",
+   "country": null
+  },
+  "erik-breukink": {
+   "name": "Erik Breukink",
+   "country": "NED"
+  },
+  "jan-raas": {
+   "name": "Jan Raas",
+   "country": "NED"
+  },
+  "jacky-durand": {
+   "name": "Jacky Durand",
+   "country": "FRA"
+  },
+  "ferdinand-bracke": {
+   "name": "Ferdinand Bracke",
+   "country": "BEL"
+  },
+  "philippa-york": {
+   "name": "Philippa York",
+   "country": "GBR"
+  },
+  "daniele-nardello": {
+   "name": "Daniele Nardello",
+   "country": "ITA"
+  },
+  "roger-lapebie": {
+   "name": "Roger Lapébie",
+   "country": "FRA"
+  },
+  "dimitri-konyshev": {
+   "name": "Dimitri Konyshev",
+   "country": "URS"
+  },
+  "gastone-nencini": {
+   "name": "Gastone Nencini",
+   "country": "ITA"
+  },
+  "maximilian-sciandri": {
+   "name": "Maximilian Sciandri",
+   "country": "GBR"
+  },
+  "simon-clarke": {
+   "name": "Simon Clarke",
+   "country": "AUS"
+  },
+  "willy-planckaert": {
+   "name": "Willy Planckaert",
+   "country": "BEL"
+  },
+  "raul-alcala": {
+   "name": "Raúl Alcalá",
+   "country": "MEX"
+  },
+  "peter-post": {
+   "name": "Peter Post",
+   "country": null
+  },
+  "bernardo-ruiz": {
+   "name": "Bernardo Ruiz",
+   "country": "ESP"
+  },
+  "giacomo-nizzolo": {
+   "name": "Giacomo Nizzolo",
+   "country": "ITA"
+  },
+  "stefano-pirazzi": {
+   "name": "Stefano Pirazzi",
+   "country": "ITA"
+  },
+  "marco-giovannetti": {
+   "name": "Marco Giovannetti",
+   "country": "ITA"
+  },
+  "etienne-de-wilde": {
+   "name": "Etienne De Wilde",
+   "country": "BEL"
+  },
+  "fausto-bertoglio": {
+   "name": "Fausto Bertoglio",
+   "country": "ITA"
+  },
+  "roberto-visentini": {
+   "name": "Roberto Visentini",
+   "country": "ITA"
+  },
+  "carlo-oriani": {
+   "name": "Carlo Oriani",
+   "country": "ITA"
+  },
+  "gianni-motta": {
+   "name": "Gianni Motta",
+   "country": "ITA"
+  },
+  "antonio-pesenti": {
+   "name": "Antonio Pesenti",
+   "country": "ITA"
+  },
+  "giovanni-valetti": {
+   "name": "Giovanni Valetti",
+   "country": "ITA"
+  },
+  "pino-cerami": {
+   "name": "Pino Cerami",
+   "country": "BEL"
+  },
+  "albert-champion": {
+   "name": "Albert Champion",
+   "country": "FRA"
+  },
+  "gaetano-belloni": {
+   "name": "Gaetano Belloni",
+   "country": "ITA"
+  },
+  "emilio-rodriguez": {
+   "name": "Emilio Rodríguez",
+   "country": "ESP"
+  },
+  "delio-rodriguez": {
+   "name": "Delio Rodríguez",
+   "country": "ESP"
+  },
+  "rudy-dhaenens": {
+   "name": "Rudy Dhaenens",
+   "country": "BEL"
+  },
+  "hamish-haynes": {
+   "name": "Hamish Haynes",
+   "country": "GBR"
+  },
+  "jean-francois-bernard": {
+   "name": "Jean-François Bernard",
+   "country": "FRA"
+  },
+  "mirko-celestino": {
+   "name": "Mirko Celestino",
+   "country": "ITA"
+  },
+  "roberto-laiseka": {
+   "name": "Roberto Laiseka",
+   "country": "ESP"
+  },
+  "sven-nys": {
+   "name": "Sven Nys",
+   "country": "BEL"
+  },
+  "rik-verbrugghe": {
+   "name": "Rik Verbrugghe",
+   "country": "BEL"
+  },
+  "imerio-massignan": {
+   "name": "Imerio Massignan",
+   "country": "ITA"
+  },
+  "jean-pierre-monsere": {
+   "name": "Jean-Pierre Monseré",
+   "country": "BEL"
+  },
+  "jose-manuel-fuente": {
+   "name": "José Manuel Fuente",
+   "country": "ESP"
+  },
+  "willy-teirlinck": {
+   "name": "Willy Teirlinck",
+   "country": "BEL"
+  },
+  "rudy-matthijs": {
+   "name": "Rudy Matthijs",
+   "country": "BEL"
+  },
+  "alphonse-schepers": {
+   "name": "Alphonse Schepers",
+   "country": "BEL"
+  },
+  "peter-winnen": {
+   "name": "Peter Winnen",
+   "country": null
+  },
+  "josef-fischer": {
+   "name": "Josef Fischer",
+   "country": "GER"
+  },
+  "benoni-beheyt": {
+   "name": "Benoni Beheyt",
+   "country": "BEL"
+  },
+  "andres-oliva": {
+   "name": "Andrés Oliva",
+   "country": "ESP"
+  },
+  "michele-mara": {
+   "name": "Michele Mara",
+   "country": "ITA"
+  },
+  "john-degenkolb": {
+   "name": "John Degenkolb",
+   "country": "GER"
+  },
+  "pietro-fossati": {
+   "name": "Pietro Fossati",
+   "country": "ITA"
+  },
+  "massimo-strazzer": {
+   "name": "Massimo Strazzer",
+   "country": "ITA"
+  },
+  "fernando-manzaneque": {
+   "name": "Fernando Manzaneque",
+   "country": "ESP"
+  },
+  "romain-bardet": {
+   "name": "Romain Bardet",
+   "country": "FRA"
+  },
+  "barry-hoban": {
+   "name": "Barry Hoban",
+   "country": "GBR"
+  },
+  "bart-voskamp": {
+   "name": "Bart Voskamp",
+   "country": "NED"
+  },
+  "benoit-salmon": {
+   "name": "Benoît Salmon",
+   "country": "FRA"
+  },
+  "bert-oosterbosch": {
+   "name": "Bert Oosterbosch",
+   "country": null
+  },
+  "jonathan-milan": {
+   "name": "Jonathan Milan",
+   "country": "ITA"
+  },
+  "josef-fuchs": {
+   "name": "Josef Fuchs",
+   "country": "SUI"
+  },
+  "oscar-egg": {
+   "name": "Oscar Egg",
+   "country": "SUI"
+  },
+  "olav-kooij": {
+   "name": "Olav Kooij",
+   "country": null
+  },
+  "bob-jungels": {
+   "name": "Bob Jungels",
+   "country": "LUX"
+  },
+  "felix-adriano": {
+   "name": "Félix Adriano",
+   "country": "ITA"
+  },
+  "joaquim-olmos": {
+   "name": "Joaquim Olmos",
+   "country": "ESP"
+  },
+  "senen-mesa-fernandez": {
+   "name": "Senén Mesa Fernández",
+   "country": "ESP"
+  },
+  "jesper-skibby": {
+   "name": "Jesper Skibby",
+   "country": "DEN"
+  },
+  "giuseppe-guerini": {
+   "name": "Giuseppe Guerini",
+   "country": "ITA"
+  },
+  "charly-mottet": {
+   "name": "Charly Mottet",
+   "country": "FRA"
+  },
+  "joaquim-agostinho": {
+   "name": "Joaquim Agostinho",
+   "country": "POR"
+  },
+  "jose-maria-jimenez": {
+   "name": "José María Jiménez",
+   "country": "SPA"
+  },
+  "giordano-cottur": {
+   "name": "Giordano Cottur",
+   "country": "ITA"
+  },
+  "carlos-betancur": {
+   "name": "Carlos Betancur",
+   "country": "COL"
+  },
+  "nacer-bouhanni": {
+   "name": "Nacer Bouhanni",
+   "country": "FRA"
+  },
+  "alfredo-sivocci": {
+   "name": "Alfredo Sivocci",
+   "country": "ITA"
+  },
+  "jean-paul-van-poppel": {
+   "name": "Jean-Paul van Poppel",
+   "country": null
+  },
+  "dalmacio-langarica": {
+   "name": "Dalmacio Langarica",
+   "country": "ESP"
+  },
+  "gerben-karstens": {
+   "name": "Gerben Karstens",
+   "country": null
+  },
+  "miguel-poblet": {
+   "name": "Miguel Poblet",
+   "country": "ESP"
+  },
+  "francisco-gabica": {
+   "name": "Francisco Gabica",
+   "country": "ESP"
+  },
+  "mikel-landa": {
+   "name": "Mikel Landa",
+   "country": "ESP"
+  },
+  "jesus-lorono": {
+   "name": "Jesús Loroño",
+   "country": "ESP"
+  },
+  "elia-viviani": {
+   "name": "Elia Viviani",
+   "country": "ITA"
+  },
+  "hubert-opperman": {
+   "name": "Hubert Opperman",
+   "country": "AUS"
+  },
+  "cyrille-guimard": {
+   "name": "Cyrille Guimard",
+   "country": "FRA"
+  },
+  "pol-deman": {
+   "name": "Pol Deman",
+   "country": "BEL"
+  },
+  "stefano-allocchio": {
+   "name": "Stefano Allocchio",
+   "country": "ITA"
+  },
+  "antoni-karmany": {
+   "name": "Antoni Karmany",
+   "country": "ESP"
+  },
+  "faustino-ruperez": {
+   "name": "Faustino Rupérez",
+   "country": "ESP"
+  },
+  "giuseppe-enrici": {
+   "name": "Giuseppe Enrici",
+   "country": "ITA"
+  },
+  "edward-van-dijck": {
+   "name": "Edward Van Dijck",
+   "country": "BEL"
+  },
+  "jean-dotto": {
+   "name": "Jean Dotto",
+   "country": "FRA"
+  },
+  "josep-pesarrodona": {
+   "name": "Josep Pesarrodona",
+   "country": "ESP"
+  },
+  "frans-de-mulder": {
+   "name": "Frans De Mulder",
+   "country": "BEL"
+  },
+  "manuel-martin-pinera": {
+   "name": "Manuel Martín Piñera",
+   "country": "ESP"
+  },
+  "georges-passerieu": {
+   "name": "Georges Passerieu",
+   "country": "FRA"
+  },
+  "gustaaf-van-slembrouck": {
+   "name": "Gustaaf Van Slembrouck",
+   "country": "BEL"
+  },
+  "desire-keteleer": {
+   "name": "Désiré Keteleer",
+   "country": "BEL"
+  },
+  "jesus-suarez-cueva": {
+   "name": "Jesús Suárez Cueva",
+   "country": "ESP"
+  },
+  "michal-kwiatkowski": {
+   "name": "Michał Kwiatkowski",
+   "country": "POL"
+  },
+  "alois-de-hertog": {
+   "name": "Alois De Hertog",
+   "country": "BEL"
+  },
+  "tom-dumoulin": {
+   "name": "Tom Dumoulin",
+   "country": "NED"
+  },
+  "giorgio-furlan": {
+   "name": "Giorgio Furlan",
+   "country": "ITA"
+  },
+  "jean-graczyk": {
+   "name": "Jean Graczyk",
+   "country": "POL"
+  },
+  "enrico-battaglin": {
+   "name": "Enrico Battaglin",
+   "country": "ITA"
+  },
+  "laudelino-cubino": {
+   "name": "Laudelino Cubino",
+   "country": "ESP"
+  },
+  "sonny-colbrelli": {
+   "name": "Sonny Colbrelli",
+   "country": "ITA"
+  },
+  "jozef-spruyt": {
+   "name": "Jozef Spruyt",
+   "country": "BEL"
+  },
+  "joseph-van-daele": {
+   "name": "Joseph Van Daele",
+   "country": "BEL"
+  },
+  "matteo-trentin": {
+   "name": "Matteo Trentin",
+   "country": "ITA"
+  },
+  "willy-vannitsen": {
+   "name": "Willy Vannitsen",
+   "country": "BEL"
+  },
+  "vicente-trueba": {
+   "name": "Vicente Trueba",
+   "country": "ESP"
+  },
+  "roger-riviere": {
+   "name": "Roger Rivière",
+   "country": "FRA"
+  },
+  "giacinto-santambrogio": {
+   "name": "Giacinto Santambrogio",
+   "country": "ITA"
+  },
+  "arigo-padovan": {
+   "name": "Arigo Padovan",
+   "country": "ITA"
+  },
+  "antonio-negrini": {
+   "name": "Antonio Negrini",
+   "country": "ITA"
+  },
+  "rik-van-linden": {
+   "name": "Rik Van Linden",
+   "country": "BEL"
+  },
+  "albert-dejonghe": {
+   "name": "Albert Dejonghe",
+   "country": "BEL"
+  },
+  "eric-vanderaerden": {
+   "name": "Eric Vanderaerden",
+   "country": "BEL"
+  },
+  "guido-reybrouck": {
+   "name": "Guido Reybrouck",
+   "country": "BEL"
+  },
+  "patrick-sercu": {
+   "name": "Patrick Sercu",
+   "country": "BEL"
+  },
+  "gaston-rebry": {
+   "name": "Gaston Rebry",
+   "country": "BEL"
+  },
+  "ludo-peeters": {
+   "name": "Ludo Peeters",
+   "country": "BEL"
+  },
+  "eloi-meulenberg": {
+   "name": "Éloi Meulenberg",
+   "country": "BEL"
+  },
+  "esteban-chaves": {
+   "name": "Esteban Chaves",
+   "country": "COL"
+  },
+  "leopoldo-torricelli": {
+   "name": "Leopoldo Torricelli",
+   "country": "ITA"
+  },
+  "bruno-monti": {
+   "name": "Bruno Monti",
+   "country": "ITA"
+  },
+  "juan-ayuso": {
+   "name": "Juan Ayuso",
+   "country": "SPA"
+  }
+ }
+}

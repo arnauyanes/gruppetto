@@ -33,6 +33,8 @@ export function ageOf(born, now = new Date()) {
 }
 
 export function countryName(code, countries, lang = getLang()) {
+  const names = countries[code]?.names;
+  if (names) return names[lang] || names.en || code;
   const iso = countries[code]?.iso2;
   if (!iso) return code;
   try { return new Intl.DisplayNames([lang], { type: "region" }).of(iso) || code; } catch (e) { return code; }

@@ -1,0 +1,37 @@
+name: Genera llegendes
+
+# Base històrica (guanyadors i llegendes). Només s'executa a branques de dades
+# i desa el resultat a la mateixa branca per revisar-lo en una Pull Request.
+on:
+  push:
+    branches: ["data/**"]
+    paths: ["scripts/build_legends.py", "data/legends_extra.json", ".github/workflows/legends.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: legends-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    if: github.ref != 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - run: python scripts/build_legends.py
+      - name: Desa els resultats a la branca
+        run: |
+          git config user.name "veloguess-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "Genera la base de llegendes"
+          git push origin HEAD:${GITHUB_REF_NAME}

@@ -24,6 +24,13 @@ RACES = [
     ("wtt", "UCI Road World Championships – Men's time trial", "wc"),
 ]
 MIN_EDITIONS = {"gt": 60, "mon": 60, "wc": 25}
+# Articles on hi ha la taula de guanyadors, si no és l'article principal.
+WIKI_TABLES = {"rvv": ["Tour of Flanders", "List of Tour of Flanders winners"],
+               "wtt": ["UCI Road World Championships – Men's time trial"]}
+# Primer any vàlid de cada cursa (abans no existia o era amateur).
+FIRST_YEAR = {"wtt": 1994, "wrr": 1927}
+# Codis COI antics o alternatius que fa servir Wikidata.
+IOC_FIX = {"SPA": "ESP", "HOL": "NED", "FRG": "GER", "SAF": "RSA"}
 JERSEY = {"points": re.compile(r"point", re.I), "mountains": re.compile(r"mountain|king of the|climber", re.I),
           "young": re.compile(r"young|youth|best rider under", re.I)}
 GC = b.WINNER_QUALIFIER
@@ -38,15 +45,29 @@ def log(m):
     log_lines.append(m)
 
 
+# Noms alternatius de les edicions a la Viquipèdia (quan l'edició és una desambiguació).
+EDITION_SUFFIX = {"Tour of Flanders": " (men's race)", "Paris–Roubaix": " (men's race)"}
+
+
 def race_classes(title, ids):
+    """Element de la cursa i, a partir d'edicions recents, la classe de les edicions.
+    Només s'accepta una classe si la seva etiqueta conté el nom de la cursa: així no
+    s'hi colen classes genèriques com "contrarellotge individual"."""
     classes = set()
     if ids.get(title):
         classes.add(ids[title])
+    key = b.slug(title.split("–")[0] if "World Championships" not in title else title).replace("-", " ")
+    words = [w for w in key.split() if len(w) > 3]
     for year in (2025, 2024):
-        ed = ids.get(f"{year} {title}")
+        ed = ids.get(f"{year} {title}{EDITION_SUFFIX.get(title, '')}") or ids.get(f"{year} {title}")
         if ed:
-            for r in b.sparql(f"SELECT ?c WHERE {{ wd:{ed} wdt:P31|wdt:P179|wdt:P3450 ?c }}"):
-                classes.add(b.qid_of(r["c"]["value"]))
+            for r in b.sparql(f"""SELECT ?c ?l WHERE {{ wd:{ed} wdt:P31|wdt:P179|wdt:P3450 ?c .
+              OPTIONAL {{ ?c rdfs:label ?l FILTER(LANG(?l) = "en") }} }}"""):
+                label = b.slug(r.get("l", {}).get("value", "")).replace("-", " ")
+                if all(w in label for w in words):
+                    classes.add(b.qid_of(r["c"]["value"]))
+                else:
+                    log(f"{title}: classe descartada '{r.get('l', {}).get('value', '?')}'")
     return classes
 
 
@@ -115,27 +136,44 @@ SELECT ?stage ?st ?winner ?qlabel WHERE {{
     return counts, len(per_stage)
 
 
-def wikipedia_winners(title):
-    """Taula de guanyadors de l'article: retorna {any: [títols enllaçats en ordre]}."""
-    j = b.get(b.WP, {"action": "parse", "page": title, "prop": "wikitext", "format": "json",
-                     "formatversion": 2, "redirects": 1}).json()
-    text = j.get("parse", {}).get("wikitext", "")
+def wikipedia_winners(titles):
+    """Llegeix les taules de guanyadors (HTML) d'un o més articles de la Viquipèdia.
+    Retorna {any: [títols d'article enllaçats a la columna del guanyador]}."""
+    from bs4 import BeautifulSoup
     out = {}
-    for row in re.split(r"\n\|-", text):
-        lines = row.strip().splitlines()
-        if not lines:
+    for title in titles:
+        j = b.get(b.WP, {"action": "parse", "page": title, "prop": "text", "format": "json",
+                         "formatversion": 2, "redirects": 1}).json()
+        html = j.get("parse", {}).get("text")
+        if not html:
+            log(f"Viquipèdia: no existeix '{title}'")
             continue
-        first = re.search(r"^[|!]\s*(?:\[\[[^\]|]*\|)?((?:18|19|20)\d\d)\b", lines[0] if lines[0].strip() else (lines[1] if len(lines) > 1 else ""))
-        if not first:
-            m = re.search(r"^\s*[|!][^\n]*?\b((?:18|19|20)\d\d)\b", row)
-            if not m:
+        soup = BeautifulSoup(html, "html.parser")
+        for table in soup.select("table.wikitable"):
+            head = table.find("tr")
+            if not head:
                 continue
-            first = m
-        y = int(first.group(1))
-        links = [l.split("|")[0].strip() for l in re.findall(r"\[\[([^\]]+)\]\]", row)]
-        links = [l for l in links if not re.match(r"^(File|Image|Category):", l) and not re.search(r"\d{4}", l)]
-        if links and y not in out and 1860 < y <= MAX_YEAR:
-            out[y] = links
+            hs = [c.get_text(" ", strip=True).lower() for c in head.find_all(["th", "td"])]
+            log(f"Viquipèdia '{title}': taula amb capçalera {hs[:6]}")
+            yi = next((i for i, h in enumerate(hs) if "year" in h or h in ("edition", "season")), None)
+            wi = next((i for i, h in enumerate(hs) if any(k in h for k in ("winner", "gold", "first", "champion", "rider"))), None)
+            if yi is None or wi is None:
+                continue
+            n = 0
+            for tr in table.find_all("tr")[1:]:
+                cells = tr.find_all(["td", "th"])
+                if len(cells) <= max(yi, wi):
+                    continue
+                m = re.search(r"\b(18[6-9]\d|19\d\d|20\d\d)\b", cells[yi].get_text(" ", strip=True))
+                if not m:
+                    continue
+                y = int(m.group(1))
+                links = [a.get("title") for a in cells[wi].find_all("a") if a.get("title")
+                         and not a.find_parent(class_="flagicon") and "(page does not exist)" not in a.get("title")]
+                if links and y not in out and y <= MAX_YEAR:
+                    out[y] = links
+                    n += 1
+            log(f"Viquipèdia '{title}': taula amb {n} anys (columnes '{hs[yi]}' / '{hs[wi]}')")
     return out
 
 
@@ -182,6 +220,7 @@ SELECT ?i ?label ?lang ?birth ?death ?ioc1 ?ioc2 WHERE {{
             d = info[q]
             d["name"] = next((d["labels"][l] for l in pref if l in d["labels"]), None)
             d["ioc"] = d.get("ioc") or d.get("ioc2")
+            d["ioc"] = IOC_FIX.get(d["ioc"], d["ioc"])
         time.sleep(1)
     return info
 
@@ -192,7 +231,8 @@ def main():
     report.extend(["# Informe de llegendes", f"Generat: {today}", ""])
     try:
         titles = [t for _, t, _ in RACES]
-        ids = b.wikidata_ids(titles + [f"{y} {t}" for t in titles for y in (2025, 2024)])
+        ids = b.wikidata_ids(titles + [f"{y} {t}" for t in titles for y in (2025, 2024)]
+                             + [f"{y} {t}{sfx}" for t, sfx in EDITION_SUFFIX.items() for y in (2025, 2024)])
         editions, label_stats = [], Counter()
         stats = defaultdict(lambda: Counter())
         report.append("## Cobertura per cursa")
@@ -217,12 +257,15 @@ def main():
                         for j, rx in JERSEY.items():
                             if any(rx.search(l) for l in x["labels"]) and not any(GC.search(l) for l in x["labels"]):
                                 stats[x["winner"]][f"j_{j}"] += 1
+            fy = FIRST_YEAR.get(rid)
+            if fy:
+                found = {y: q for y, q in found.items() if y >= fy}
             source = "wikidata"
-            if len(found) < MIN_EDITIONS[kind]:
-                wp = wikipedia_winners(title)
+            if len(found) < MIN_EDITIONS[kind] or rid in WIKI_TABLES:
+                wp = wikipedia_winners(WIKI_TABLES.get(rid, [title]))
                 hum = humans(sorted({l for ls in wp.values() for l in ls}))
                 wp_found = {y: next((hum[l] for l in ls if l in hum), None) for y, ls in wp.items()}
-                wp_found = {y: q for y, q in wp_found.items() if q}
+                wp_found = {y: q for y, q in wp_found.items() if q and (not fy or y >= fy)}
                 log(f"{title}: Wikidata {len(found)} edicions, Viquipèdia {len(wp_found)}")
                 if len(wp_found) > len(found):
                     found, source = wp_found, "wikipedia"

@@ -53,6 +53,13 @@ El joc llegeix quatre fitxers JSON de `data/`:
 ## Especialitats
 Les assigna una persona, mai un procés automàtic. La confiança `sure` (alta) és l'única que permet que un corredor sigui el corredor del dia. Les desconegudes queden pendents (`spec: null`) i el joc les mostra com a "?". No s'assignen com a gregari.
 
+## Base històrica (Campions i Llegendes)
+`scripts/build_legends.py` (s'executa a GitHub en branques `data/**`) genera:
+- `winners.json`: guanyador de cada edició de les grans voltes (general), els cinc monuments i els Mundials en ruta i contrarellotge (aquest des del 1994). Font: Wikidata, contrastada amb la taula de guanyadors de la Viquipèdia quan Wikidata té poques edicions.
+- `legends.json`: corredors amb almenys una gran volta, un monument, un Mundial, un mallot final (punts, muntanya o jove) o 3 etapes de gran volta. Es poden afegir corredors a mà a `legends_extra.json`.
+- Les edicions sense guanyador (per exemple, el Tour 1999–2005) no compten.
+- Limitació: el recompte d'etapes i de mallots de Wikidata és incomplet per a alguns corredors (per exemple, Contador). Els codis de país antics es normalitzen (SPA→ESP) i hi ha països històrics (URSS, RDA, RFA, Txecoslovàquia, Iugoslàvia).
+
 ## Limitacions
 - Els moviments venen de recopilacions de premsa, no de comunicats oficials. Cal contrastar-los amb les webs dels equips abans de passar-los a `confirmat`.
 - Els corredors que continuen al mateix equip ho fan perquè no se'n coneix cap baixa, no perquè s'hagi confirmat el contracte 2027.

@@ -603,5 +603,65 @@
   "code": "NZL",
   "continent": "OC",
   "iso2": "NZ"
+ },
+ "URS": {
+  "code": "URS",
+  "continent": "EU",
+  "iso2": null,
+  "names": {
+   "ca": "URSS",
+   "es": "URSS",
+   "en": "Soviet Union",
+   "fr": "URSS",
+   "it": "URSS"
+  }
+ },
+ "GDR": {
+  "code": "GDR",
+  "continent": "EU",
+  "iso2": null,
+  "names": {
+   "ca": "RDA",
+   "es": "RDA",
+   "en": "East Germany",
+   "fr": "RDA",
+   "it": "DDR"
+  }
+ },
+ "FRG": {
+  "code": "FRG",
+  "continent": "EU",
+  "iso2": null,
+  "names": {
+   "ca": "RFA",
+   "es": "RFA",
+   "en": "West Germany",
+   "fr": "RFA",
+   "it": "Germania Ovest"
+  }
+ },
+ "TCH": {
+  "code": "TCH",
+  "continent": "EU",
+  "iso2": null,
+  "names": {
+   "ca": "Txecoslovàquia",
+   "es": "Checoslovaquia",
+   "en": "Czechoslovakia",
+   "fr": "Tchécoslovaquie",
+   "it": "Cecoslovacchia"
+  }
+ },
+ "YUG": {
+  "code": "YUG",
+  "continent": "EU",
+  "iso2": null,
+  "names": {
+   "ca": "Iugoslàvia",
+   "es": "Yugoslavia",
+   "en": "Yugoslavia",
+   "fr": "Yougoslavie",
+   "it": "Jugoslavia"
+  }
  }
 }

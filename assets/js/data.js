@@ -33,6 +33,8 @@ export function ageOf(born, now = new Date()) {
 }
 
 export function countryName(code, countries, lang = getLang()) {
+  const names = countries[code]?.names;
+  if (names) return names[lang] || names.en || code;
   const iso = countries[code]?.iso2;
   if (!iso) return code;
   try { return new Intl.DisplayNames([lang], { type: "region" }).of(iso) || code; } catch (e) { return code; }
@@ -61,4 +63,11 @@ export async function shareText(text, btn, copiedLabel) {
     try { await navigator.share({ text }); return; } catch (e) { if (e.name === "AbortError") return; }
   }
   try { await navigator.clipboard.writeText(text); btn.textContent = copiedLabel; } catch (e) {}
+}
+
+// Base històrica: llegendes, guanyadors per edició i noms de tots els guanyadors.
+export async function loadLegends(base = "../data/") {
+  const [l, w, c] = await Promise.all(["legends", "winners", "countries"].map(f => fetch(`${base}${f}.json`).then(x => x.json())));
+  const legends = l.riders.map(x => ({ ...x, decade: Math.floor(Number(x.born.slice(0, 4)) / 10) * 10 }));
+  return { legends, byId: Object.fromEntries(legends.map(x => [x.id, x])), races: w.races, editions: w.editions, people: w.people, countries: c };
 }

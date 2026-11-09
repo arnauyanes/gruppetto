@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Campions · Veloguess</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="topbar">
+    <a class="logo" href="../">Velo<span>guess</span></a>
+    <div class="topbar-actions">
+      <button class="icon-btn" id="open-stats" data-i18n="stats">Estadístiques</button>
+      <select class="lang" aria-label="Idioma"></select>
+    </div>
+  </header>
+
+  <div>
+    <h1 data-i18n="cpName">Campions</h1>
+    <p class="lead" data-i18n="cp.intro"></p>
+  </div>
+
+  <div class="mode-bar">
+    <div class="segmented" role="group">
+      <button id="m-daily" aria-pressed="true" data-i18n="modeDaily">Diari</button>
+      <button id="m-free" aria-pressed="false" data-i18n="modeFree">Lliure</button>
+    </div>
+    <span class="counter"><span id="round"></span> · <span id="score"></span></span>
+  </div>
+
+  <section id="play" class="in-play">
+    <div class="challenge cp-card">
+      <div>
+        <span class="counter" data-i18n="cp.question">Qui va guanyar…</span>
+        <h2 id="race"></h2>
+      </div>
+      <div class="timer" id="year"></div>
+    </div>
+    <div class="search">
+      <input id="q" type="text" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="suggest" data-i18n-placeholder="cp.placeholder" aria-label="Guanyador">
+      <ul id="suggest" class="suggest" role="listbox" hidden></ul>
+    </div>
+    <div class="hint-box" id="hint-box" hidden></div>
+    <p class="in-feedback" id="feedback" aria-live="polite" hidden></p>
+    <div class="actions">
+      <button class="btn primary" id="next" hidden></button>
+      <button class="btn" id="skip" data-i18n="cp.skip">No ho sé</button>
+      <button class="btn" id="hint"></button>
+    </div>
+  </section>
+
+  <section class="result" id="result" hidden></section>
+
+  <footer data-i18n="sampleNote"></footer>
+</div>
+
+<dialog id="stats">
+  <h2 data-i18n="stats"></h2>
+  <div class="stats-row">
+    <div><b id="st-played">0</b><span data-i18n="played"></span></div>
+    <div><b id="st-best">0</b><span data-i18n="ct.best"></span></div>
+    <div><b id="st-avg">0</b><span data-i18n="ct.avg"></span></div>
+    <div><b id="st-streak">0</b><span data-i18n="streak"></span></div>
+  </div>
+  <div class="actions" style="justify-content:flex-end">
+    <button class="btn" id="close-stats" data-i18n="close"></button>
+  </div>
+</dialog>
+
+<dialog id="ad">
+  <div class="ad-sim">
+    <span class="counter" data-i18n="adSim"></span>
+    <h2 data-i18n="adTitle"></h2>
+    <p data-i18n="adText" style="margin:0;color:var(--muted)"></p>
+    <div class="count" id="ad-count">3</div>
+  </div>
+</dialog>
+
+<script type="module" src="../assets/js/campions.js"></script>
+</body>
+</html>

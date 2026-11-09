@@ -1,8 +1,9 @@
 name: Revisió setmanal de dades
 
-# Cada dilluns compara les plantilles amb la Viquipèdia i refà el palmarès
-# des de Wikidata. El resultat va a una branca nova i, si GitHub ho permet,
-# a una Pull Request. Mai modifica main directament.
+# Cada dilluns compara les plantilles de la temporada amb la pàgina de la
+# Viquipèdia (quan existeix) i valida les dades. Si hi ha canvis a revisar,
+# els deixa en una branca nova i, si GitHub ho permet, en una Pull Request.
+# Mai modifica main. El palmarès i els moviments de premsa s'actualitzen a mà.
 #
 # Perquè pugui obrir la PR sol: Settings → Actions → General →
 # "Allow GitHub Actions to create and approve pull requests".

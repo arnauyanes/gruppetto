@@ -92,7 +92,7 @@ function end(fresh) {
     li.textContent = `${answers[i] === rd.odd.id ? "✓" : "✗"} ${rd.odd.name} · ${label(rd.cat)}`;
     list.appendChild(li);
   });
-  const text = `Gruppetto · ${t("inName")}${mode === "daily" ? " #" + (today + 1) : ""} ${score()}/${ROUNDS}${hint ? " 💡" : ""}\n${rows}\n${location.origin + location.pathname}`;
+  const text = `Veloguess · ${t("inName")}${mode === "daily" ? " #" + (today + 1) : ""} ${score()}/${ROUNDS}${hint ? " 💡" : ""}\n${rows}\n${location.origin + location.pathname}`;
   const row = document.createElement("div"); row.className = "actions";
   const share = document.createElement("button"); share.className = "btn primary"; share.textContent = t("share");
   share.onclick = () => shareText(text, share, t("copied"));

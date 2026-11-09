@@ -106,7 +106,7 @@ function finish() {
   }
   const pct = members.length ? Math.round((found.size / members.length) * 100) : 0;
   const bar = "🟩".repeat(Math.round(pct / 10)) + "⬛".repeat(10 - Math.round(pct / 10));
-  const text = `Gruppetto · ${t("ctName")}${mode === "daily" ? " #" + (today + 1) : ""}\n${titleOf(ch)}: ${found.size}/${members.length} ⏱️\n${bar}\n${location.origin + location.pathname}`;
+  const text = `Veloguess · ${t("ctName")}${mode === "daily" ? " #" + (today + 1) : ""}\n${titleOf(ch)}: ${found.size}/${members.length} ⏱️\n${bar}\n${location.origin + location.pathname}`;
   const row = document.createElement("div"); row.className = "actions";
   const share = document.createElement("button"); share.className = "btn primary"; share.textContent = t("share");
   share.onclick = () => shareText(text, share, t("copied"));

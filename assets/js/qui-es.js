@@ -101,7 +101,7 @@ function gameUrl() { return location.origin + location.pathname; }
 function shareText(won) {
   const icon = { ok: "🟩", near: "🟨", miss: "⬛" };
   const rows = guesses.map(g => Object.values(evaluate(g)).map(k => icon[k]).join(""));
-  const head = `Gruppetto · ${t("whoName")} ${mode === "daily" ? "#" + (today + 1) : ""} ${won ? guesses.length : (gaveUp ? "🏳️" : "X")}/${MAX}${hintUsed ? " 💡" : ""}`;
+  const head = `Veloguess · ${t("whoName")} ${mode === "daily" ? "#" + (today + 1) : ""} ${won ? guesses.length : (gaveUp ? "🏳️" : "X")}/${MAX}${hintUsed ? " 💡" : ""}`;
   return `${head}\n${rows.join("\n")}\n${t("shareInvite")} ${gameUrl()}`;
 }
 

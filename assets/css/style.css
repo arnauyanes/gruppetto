@@ -1,4 +1,4 @@
-/* Gruppetto — paleta "blau nit" amb accent rosa */
+/* Veloguess — paleta "blau nit" amb accent rosa */
 :root {
   --bg: #141b2b;
   --surface: #1d2638;
@@ -203,3 +203,7 @@ footer { color: var(--muted); font-size: .8rem; border-top: 1px solid var(--line
   .in-tiles { grid-template-columns: 1fr; }
   .in-tile { min-height: 52px; }
 }
+
+/* Títols de la portada: es redueixen i parteixen si no caben a la targeta */
+.game-card { min-width: 0; }
+.game-card h3 { font-size: clamp(1.25rem, 2.6vw, 1.6rem); overflow-wrap: break-word; hyphens: auto; }

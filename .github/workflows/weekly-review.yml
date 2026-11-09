@@ -52,7 +52,7 @@ jobs:
             exit 0
           fi
           BRANCH="bot/revisio-$(date +%Y-%m-%d)"
-          git config user.name "gruppetto-bot"
+          git config user.name "veloguess-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
           git add work

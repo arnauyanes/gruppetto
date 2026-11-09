@@ -1,4 +1,4 @@
-# Gruppetto
+# Veloguess
 
 Jocs diaris per a aficionats al ciclisme. Versió de proves.
 

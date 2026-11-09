@@ -77,7 +77,7 @@ function gameOver(best) {
   const r = $("result"); r.innerHTML = "";
   const h = document.createElement("h2"); h.textContent = t("mm.over");
   const p = document.createElement("p"); p.textContent = `${t("streak")}: ${score} · ${t("mm.best")}: ${best}`;
-  const text = `Gruppetto · ${t("mmName")}\n${t("mm.shareTxt", { n: score })} 🔥\n${location.origin + location.pathname}`;
+  const text = `Veloguess · ${t("mmName")}\n${t("mm.shareTxt", { n: score })} 🔥\n${location.origin + location.pathname}`;
   const row = document.createElement("div"); row.className = "actions";
   const share = document.createElement("button"); share.className = "btn primary"; share.textContent = t("share");
   share.onclick = () => shareText(text, share, t("copied"));

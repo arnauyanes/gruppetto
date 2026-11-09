@@ -187,6 +187,7 @@ SELECT ?i ?label ?lang ?birth ?death ?ioc1 ?ioc2 WHERE {{
 
 
 def main():
+    global report
     today = datetime.date.today().isoformat()
     report.extend(["# Informe de llegendes", f"Generat: {today}", ""])
     try:

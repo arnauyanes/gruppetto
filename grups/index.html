@@ -40,6 +40,10 @@
     <button class="btn" id="clear" data-i18n="gr.clear">Desselecciona</button>
     <button class="btn primary" id="submit" data-i18n="gr.submit">Comprova</button>
   </div>
+  <div class="actions">
+    <button class="btn" id="hint" data-i18n="hintBtn">Pista (veure anunci)</button>
+  </div>
+  <div class="hint-box" id="hint-box" hidden></div>
 
   <section class="result" id="result" hidden></section>
 
@@ -56,6 +60,15 @@
   </div>
   <div class="actions" style="justify-content:flex-end">
     <button class="btn" id="close-stats" data-i18n="close"></button>
+  </div>
+</dialog>
+
+<dialog id="ad">
+  <div class="ad-sim">
+    <span class="counter" data-i18n="adSim"></span>
+    <h2 data-i18n="adTitle"></h2>
+    <p data-i18n="adText" style="margin:0;color:var(--muted)"></p>
+    <div class="count" id="ad-count">3</div>
   </div>
 </dialog>
 

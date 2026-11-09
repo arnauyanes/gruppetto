@@ -186,3 +186,20 @@ footer { color: var(--muted); font-size: .8rem; border-top: 1px solid var(--line
   .mm-card { min-height: 0; }
 }
 @media (prefers-reduced-motion: reduce) { .found-list li, .gr-solved, .shake { animation: none; } }
+
+/* Intrús */
+.in-play { display: flex; flex-direction: column; gap: 14px; }
+.in-tiles { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.in-tile { min-height: 84px; }
+.in-tile.removed { opacity: .35; text-decoration: line-through; cursor: default; }
+.in-tile.fit { background: var(--ok); border-color: var(--ok); color: #fff; }
+.in-tile.odd { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.in-tile.wrong { background: var(--near); border-color: var(--near); color: #10131c; }
+.in-feedback { margin: 0; padding: 10px 14px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
+.in-feedback.ok { border-color: var(--ok); }
+.in-feedback.ko { border-color: var(--near); }
+.in-review { margin: 0; padding-left: 1.2em; color: var(--muted); font-size: .92rem; display: flex; flex-direction: column; gap: 2px; }
+@media (max-width: 560px) {
+  .in-tiles { grid-template-columns: 1fr; }
+  .in-tile { min-height: 52px; }
+}

@@ -6,6 +6,7 @@ Jocs diaris per a aficionats al ciclisme. Versió de proves.
 - **Qui és?** (`qui-es/`): endevina el corredor del dia a partir del país, l'equip, l'edat, l'especialitat, les grans voltes i els monuments guanyats.
 - **Grups** (`grups/`): agrupa 16 corredors en 4 grups de 4. El repte diari es genera amb `assets/js/grups-gen.js` i cada corredor encaixa en un sol grup.
 - **Contrarellotge** (`contrarellotge/`): 2 minuts per dir tots els corredors d'un equip o d'un país.
+- **Intrús** (`intrus/`): 10 rondes de 5 corredors on 4 comparteixen una categoria. El generador (`assets/js/intrus-gen.js`) descarta les rondes amb més d'un intrús possible.
 - **Més o menys** (`mes-o-menys/`): ratxa infinita comparant edat, monuments i grans voltes.
 
 ## Estructura

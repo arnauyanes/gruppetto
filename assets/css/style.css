@@ -207,3 +207,7 @@ footer { color: var(--muted); font-size: .8rem; border-top: 1px solid var(--line
 /* Títols de la portada: es redueixen i parteixen si no caben a la targeta */
 .game-card { min-width: 0; }
 .game-card h3 { font-size: clamp(1.25rem, 2.6vw, 1.6rem); overflow-wrap: break-word; hyphens: auto; }
+
+/* Campions */
+.cp-card h2 { font-size: 1.9rem; }
+.cp-card .timer { font-size: 2.8rem; }

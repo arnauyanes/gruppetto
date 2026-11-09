@@ -92,6 +92,36 @@ def main():
                 if row["id"] and row["id"] not in rider_ids | archived:
                     errors.append(f"{path.name}: id desconegut '{row['id']}'")
 
+    # Base històrica (si existeix)
+    if (DATA / "legends.json").exists() and (DATA / "winners.json").exists():
+        legends = load("legends.json")["riders"]
+        win = load("winners.json")
+        lids = Counter(r["id"] for r in legends)
+        errors.extend(f"legends.json: id duplicat {i}" for i, n in lids.items() if n > 1)
+        for r in legends:
+            if r.get("country") not in countries:
+                errors.append(f"legends.json: {r['id']} té un país sense continent '{r.get('country')}'")
+            if not (r.get("born") or "")[:4].isdigit():
+                errors.append(f"legends.json: {r['id']} sense data de naixement")
+            for f in ("gtWins", "monuments", "worlds", "stages", "jerseys"):
+                if not isinstance(r.get(f), int) or r[f] < 0:
+                    errors.append(f"legends.json: {r['id']} valor no vàlid a '{f}'")
+        race_ids = {x["id"] for x in win["races"]}
+        seen = Counter((e["race"], e["year"]) for e in win["editions"])
+        errors.extend(f"winners.json: edició repetida {k}" for k, n in seen.items() if n > 1)
+        for e in win["editions"]:
+            if e["race"] not in race_ids:
+                errors.append(f"winners.json: cursa desconeguda '{e['race']}'")
+            if e["winner"] not in win["people"]:
+                errors.append(f"winners.json: guanyador sense fitxa '{e['winner']}'")
+            if not 1890 <= e["year"] <= datetime.date.today().year:
+                errors.append(f"winners.json: any impossible {e['race']} {e['year']}")
+        per_race = Counter(e["race"] for e in win["editions"])
+        for rid in race_ids:
+            if per_race[rid] < 20:
+                warnings.append(f"winners.json: només {per_race[rid]} edicions de '{rid}'")
+        print(f"Base històrica: {len(legends)} llegendes, {len(win['editions'])} edicions")
+
     sizes = Counter(r["team"] for r in riders)
     print(f"Temporada {season}: {len(riders)} corredors, {len(sizes)} equips, {len(pool)} candidats a corredor del dia")
     for w in warnings:

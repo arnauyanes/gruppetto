@@ -64,3 +64,10 @@ export async function shareText(text, btn, copiedLabel) {
   }
   try { await navigator.clipboard.writeText(text); btn.textContent = copiedLabel; } catch (e) {}
 }
+
+// Base històrica: llegendes, guanyadors per edició i noms de tots els guanyadors.
+export async function loadLegends(base = "../data/") {
+  const [l, w, c] = await Promise.all(["legends", "winners", "countries"].map(f => fetch(`${base}${f}.json`).then(x => x.json())));
+  const legends = l.riders.map(x => ({ ...x, decade: Math.floor(Number(x.born.slice(0, 4)) / 10) * 10 }));
+  return { legends, byId: Object.fromEntries(legends.map(x => [x.id, x])), races: w.races, editions: w.editions, people: w.people, countries: c };
+}

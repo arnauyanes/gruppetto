@@ -75,7 +75,9 @@ Només premsa (queden `provisional`):
 - **13 retirats encara eren a la base 2027:** Pello Bilbao, Damiano Caruso, Magnus Cort, Jonas Iversby Hvideberg, Bob Jungels, Steven Kruijswijk, Alexey Lutsenko, Luka Mezgec, Bauke Mollema, Nairo Quintana, Ben Swift, Max Walscheid i Simon Clarke (retirat l'1/2/2026). Font general: [CyclingUpToDate, 15/10/2026](https://cyclinguptodate.com/cycling/yates-quintana-alaphilippe-the-25-riders-that-have-confirmed-their-retirement-in-2026). 8 tenen a més un comunicat de l'equip (Bilbao, Caruso, Cort, Kruijswijk, Mezgec, Mollema, Quintana i Walscheid).
 - **4 corredors que no surten a la plantilla oficial de Jayco:** Asbjørn Hellemose, Jasha Sütterlin, Koen Bouwman i Rudy Porter. Surten de la base 2027 com a baixa. No se'n coneix el destí: si fitxen per un altre WorldTeam, caldrà afegir-los.
 - **5 moviments pendents resolts amb el nom del comunicat oficial:** «Olivier Belddyn» és Oliver Bleddyn (Jayco); «Nørtøft» i «Lambrecht» són Morten Nørtøft i Michiel Lambrecht (Alpecin); Mads Landbo (Movistar). Sebastian Putz (Red Bull) passa a alta, amb font de premsa.
-- Els nous moviments els aplica el workflow *Aplica moviments de plantilla* en aquesta mateixa branca. Les altes només entren si Wikidata identifica el corredor sense ambigüitat (vegeu `incidencies_2027.csv` i `apply_report_2027.md`).
+- El workflow *Aplica moviments de plantilla* ha aplicat els moviments en aquesta branca: la base passa de 546 a **534 corredors**. 92 són `confirmat` i 442 `provisional` (`riders_2027_sources.csv`).
+- **Alta no aplicada:** Benjamín Noval (Netcompany INEOS). El fitxatge és oficial, però Wikidata té dos ciclistes amb aquest nom i el sistema no els distingeix. Queda a `incidencies_2027.csv` fins que s'identifiqui el `qid` correcte.
+- Plantilles de mida poc habitual després dels canvis: Alpecin 35, Groupama 34, Lotto 32, Uno-X 32 i Astana 31, i EF 26 i Picnic 25. Probablement hi falten baixes o altes que encara no s'han anunciat.
 
 ### Corredors que continuen
 Els corredors sense cap moviment continuen a l'equip de 2026 i són `provisional` («plantilla 2026 sense baixa coneguda»). Només els de Jayco són `confirmat`, per la plantilla oficial. Per confirmar la resta individualment cal que cada equip publiqui la plantilla 2027. Normalment ho fan entre desembre i gener, i la revisió setmanal ho tornarà a comprovar.
@@ -94,7 +96,11 @@ Abans de l'auditoria n'hi havia 163 de pendents: 139 amb `spec: null` i 24 altes
 - deixa la resta pendents i n'anota el motiu: sense article, sense camp, camp ambigu, o un terme que no és cap categoria (per exemple, *all-rounder* o *rouleur*);
 - no canvia les especialitats que ja hi eren. Si la Viquipèdia en diu una altra, ho anota com a discrepància a `specialty_evidence_2027.csv`.
 
-Els resultats els genera el workflow en aquesta branca. Cal revisar-los a la Pull Request. Les especialitats `probable` anteriors no tenen font externa i consten així a `specialty_review_2027.csv`.
+**Resultat (534 corredors):**
+- 33 especialitats assignades amb font: 16 escaladors, 8 especialistes en contrarellotge, 4 esprintadors, 3 puncheurs i 2 especialistes en clàssiques. La llista és a `specialty_evidence_2027.csv`, filtrant per `accio = assignada`.
+- **132 continuen pendents:** 113 tenen article però sense el camp, 15 no tenen article a la Viquipèdia anglesa, 2 tenen un terme que no és cap categoria i 2 són ambigus. No s'hi ha posat cap especialitat.
+- 43 discrepàncies amb especialitats existents, que no s'han canviat. Moltes són de criteri: la Viquipèdia diu *Climber* d'un líder que el joc classifica com a `gv` (Mas, Almeida, Yates, Vlasov), o diu *Climber* d'un gregari muntanyer. Les que convé revisar a mà: Simon Dehairs (joc: gregari / Viquipèdia: esprintador), Clément Venturini (clàssiques / esprintador), Søren Wærenskjold (esprintador / contrarellotge), Stian Fredheim (esprintador / clàssiques), Jake Stewart (esprintador / clàssiques) i Edward Theuns (gregari / clàssiques).
+- Les especialitats `probable` anteriors a l'auditoria no tenen font externa i consten així a `specialty_review_2027.csv`. Cap especialitat nova és `sure`, així que cap corredor nou pot ser corredor del dia. Els candidats passen de 126 a 121, per les retirades.
 
 ## Dubtes oberts
 1. Registre definitiu de Jayco AlUla i Picnic PostNL (8/12/2026). Si algun no obté llicència WorldTour, cal treure'l del joc.

@@ -17,9 +17,11 @@ Detall complet a `data/2027/auditoria_2027.md`.
 - 13 retirades noves (Quintana, Mollema, Kruijswijk, Bilbao, Caruso, Cort, entre d'altres).
 - 4 baixes de Jayco que no surten a la plantilla oficial 2027.
 - 5 moviments pendents resolts amb noms oficials (Bleddyn, Nørtøft, Lambrecht, Landbo i Putz).
+- Corredors: 546 → 534 (92 `confirmat`, 442 `provisional`). L'alta de Benjamín Noval queda pendent perquè a Wikidata hi ha dos ciclistes amb aquest nom.
 
 ### Especialitats
 - Les pendents es busquen al camp *ridertype* de la Viquipèdia anglesa (`specialty_wiki.py`). Només se n'assigna una si l'evidència és inequívoca, i sempre amb confiança `probable` i la font.
+- 33 assignades i 132 encara pendents. Hi ha 43 discrepàncies amb especialitats existents, documentades i sense canviar.
 
 ## 2026-11-08 · Base provisional 2027
 

@@ -49,10 +49,12 @@ def ridertype(title):
     if "error" in data:
         raise RuntimeError(data["error"].get("info", "error"))
     text = data["parse"]["wikitext"]
-    m = re.search(r"\|\s*rider[ _]?type\s*=\s*(.+)", text, re.I)
+    m = re.search(r"\|\s*rider[ _]?type[ \t]*=[ \t]*(.*)", text, re.I)
     if not m:
         return None
-    raw = m.group(1).split("\n")[0]
+    raw = m.group(1).strip()
+    if not raw or raw.startswith("|"):
+        return None
     raw = re.sub(r"<ref.*?(</ref>|/>)", "", raw)
     raw = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", raw)
     raw = re.sub(r"\{\{.*?\}\}|<[^>]+>", " ", raw)

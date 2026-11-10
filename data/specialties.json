@@ -19,9 +19,7 @@
   },
   "adne-holter": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "adria-pericas": {
    "spec": "climber",
@@ -29,9 +27,7 @@
   },
   "adrien-boichis": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "afonso-eulalio": {
    "spec": "climber",
@@ -39,15 +35,11 @@
   },
   "alan-hatherly": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "alastair-mackellar": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "albert-torres": {
    "spec": "domestique",
@@ -91,9 +83,7 @@
   },
   "alessandro-pinarello": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "alessandro-romele": {
    "spec": "climber",
@@ -121,9 +111,7 @@
   },
   "alexy-faure-prost": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "amanuel-ghebreigzabhier": {
    "spec": "domestique",
@@ -135,9 +123,7 @@
   },
   "anders-foldager": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "anders-halland-johannessen": {
    "spec": "climber",
@@ -153,9 +139,7 @@
   },
   "andrea-raccagni-noviero": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "andrea-vendrame": {
    "spec": "puncheur",
@@ -174,35 +158,24 @@
    "confidence": "unknown"
   },
   "anthon-charmig": {
-   "spec": "puncheur",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Anthon_Charmig",
-   "evidence": "ridertype: Puncheur, all-rounder",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "anthony-turgis": {
    "spec": "classics",
    "confidence": "probable"
   },
   "antoine-l-hote": {
-   "spec": "puncheur",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Antoine_L'Hote",
-   "evidence": "ridertype: Puncheur",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "anton-kuzmin": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "anton-schiffer": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Anton_Schiffer",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "antonio-morgado": {
    "spec": "classics",
@@ -226,15 +199,11 @@
   },
   "arne-marit": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "artem-shmidt": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "asbjorn-hellemose": {
    "spec": null,
@@ -250,9 +219,7 @@
   },
   "axel-huens": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "axel-laurance": {
    "spec": "puncheur",
@@ -264,15 +231,11 @@
   },
   "ayco-bastiaens": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "baptiste-veistroffer": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "bart-lemmen": {
    "spec": "domestique",
@@ -280,9 +243,7 @@
   },
   "bastien-tronchon": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "bauke-mollema": {
    "spec": "puncheur",
@@ -326,9 +287,7 @@
   },
   "bjoern-koerdt": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "bob-jungels": {
    "spec": "puncheur",
@@ -336,15 +295,11 @@
   },
   "brady-gilmore": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "bram-welten": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "brandon-mcnulty": {
    "spec": "tt",
@@ -355,11 +310,8 @@
    "confidence": "sure"
   },
   "brieuc-rolland": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Brieuc_Rolland",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "bruno-armirail": {
    "spec": "tt",
@@ -371,15 +323,11 @@
   },
   "callum-thornley": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "carl-frederik-bevort": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "carlos-canal": {
    "spec": "sprinter",
@@ -435,9 +383,7 @@
   },
   "clement-braz-afonso": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "ambigu: climber, puncheur"
+   "confidence": "unknown"
   },
   "clement-champoussin": {
    "spec": "climber",
@@ -453,9 +399,7 @@
   },
   "colby-simmons": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "connor-swift": {
    "spec": "domestique",
@@ -498,11 +442,8 @@
    "confidence": "probable"
   },
   "darren-van-bekkum": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Darren_van_Bekkum",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "david-gaudu": {
    "spec": "climber",
@@ -514,9 +455,7 @@
   },
   "davide-de-pretto": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "davide-formolo": {
    "spec": "climber",
@@ -532,9 +471,7 @@
   },
   "davide-toneatti": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "diego-pescador": {
    "spec": "climber",
@@ -546,9 +483,7 @@
   },
   "dillon-corkery": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "domen-novak": {
    "spec": "domestique",
@@ -564,9 +499,7 @@
   },
   "dries-de-pooter": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "dries-van-gestel": {
    "spec": "classics",
@@ -601,11 +534,8 @@
    "confidence": "sure"
   },
   "embret-svestad-bardseng": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Embret_Svestad-Bårdseng",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "emiel-verstrynge": {
    "spec": "classics",
@@ -613,9 +543,7 @@
   },
   "emil-herzog": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "emilien-jeanniere": {
    "spec": "sprinter",
@@ -631,9 +559,7 @@
   },
   "erik-nordsaeter-resell": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "erlend-blikra": {
    "spec": "sprinter",
@@ -657,9 +583,7 @@
   },
   "fabio-van-den-bossche": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "felix-engelhardt": {
    "spec": "puncheur",
@@ -675,9 +599,7 @@
   },
   "felix-orn-kristoff": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "filippo-baroncini": {
    "spec": "classics",
@@ -685,9 +607,7 @@
   },
   "filippo-conca": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "l'article no té el camp ridertype"
+   "confidence": "unknown"
   },
   "filippo-fiorelli": {
    "spec": "sprinter",
@@ -703,9 +623,7 @@
   },
   "finlay-pickering": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "finn-fisher-black": {
    "spec": "puncheur",
@@ -729,15 +647,11 @@
   },
   "floris-van-tricht": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "fran-miholjevic": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "francesco-busatto": {
    "spec": "puncheur",
@@ -749,9 +663,7 @@
   },
   "frederik-wandahl": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "fredrik-dversnes": {
    "spec": "classics",
@@ -759,9 +671,7 @@
   },
   "frits-biesterbos": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "gal-glivar": {
    "spec": "puncheur",
@@ -784,11 +694,8 @@
    "confidence": "sure"
   },
   "gianluca-pollefliet": {
-   "spec": "classics",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Gianluca_Pollefliet",
-   "evidence": "ridertype: Classics specialist",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "gianmarco-garofoli": {
    "spec": "climber",
@@ -803,17 +710,12 @@
    "confidence": "probable"
   },
   "gijs-leemreize": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Gijs_Leemreize",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "gil-gelders": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "giovanni-aleotti": {
    "spec": "climber",
@@ -857,16 +759,11 @@
   },
   "haimar-etxeberria": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "hamish-mckenzie": {
-   "spec": "tt",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Hamish_McKenzie_(cyclist)",
-   "evidence": "ridertype: Time trialist",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "harold-martin-lopez": {
    "spec": "climber",
@@ -886,9 +783,7 @@
   },
   "henri-francois-renard-haquin": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "henri-uhlig": {
    "spec": "domestique",
@@ -896,9 +791,7 @@
   },
   "henrik-pedersen": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "hugo-hofstetter": {
    "spec": "sprinter",
@@ -910,9 +803,7 @@
   },
   "huub-artz": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "ibon-ruiz": {
    "spec": "climber",
@@ -971,11 +862,8 @@
    "confidence": "probable"
   },
   "james-knox": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/James_Knox_(cyclist)",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "james-shaw": {
    "spec": "domestique",
@@ -1003,9 +891,7 @@
   },
   "jarrad-drizners": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "jasha-sutterlin": {
    "spec": "domestique",
@@ -1045,9 +931,7 @@
   },
   "jenno-berckmoes": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "jensen-plowright": {
    "spec": "sprinter",
@@ -1091,9 +975,7 @@
   },
   "jonas-geens": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "jonas-iversby-hvideberg": {
    "spec": null,
@@ -1116,11 +998,8 @@
    "confidence": "sure"
   },
   "jonathan-vervenne": {
-   "spec": "tt",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Jonathan_Vervenne",
-   "evidence": "ridertype: Time trialist",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "jordan-jegat": {
    "spec": "climber",
@@ -1140,9 +1019,7 @@
   },
   "jorgen-nordhagen": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "joseph-blackmore": {
    "spec": "climber",
@@ -1150,15 +1027,11 @@
   },
   "josh-kench": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "joshua-giddings": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "joshua-tarling": {
    "spec": "tt",
@@ -1169,11 +1042,8 @@
    "confidence": "sure"
   },
   "juan-guillermo-martinez": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Juan_Guillermo_Martínez",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "juan-pedro-lopez": {
    "spec": "climber",
@@ -1188,11 +1058,8 @@
    "confidence": "sure"
   },
   "julius-johansen": {
-   "spec": "tt",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Julius_Johansen",
-   "evidence": "ridertype: Time trialist, Rouleur",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "julius-van-den-berg": {
    "spec": "domestique",
@@ -1216,9 +1083,7 @@
   },
   "kelland-o-brien": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "kevin-geniets": {
    "spec": "domestique",
@@ -1246,9 +1111,7 @@
   },
   "lars-craps": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "laurence-pithie": {
    "spec": "classics",
@@ -1280,15 +1143,11 @@
   },
   "leo-bisiaux": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "lev-gonov": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "lewis-askey": {
    "spec": "classics",
@@ -1296,16 +1155,11 @@
   },
   "lewis-bower": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "liam-slock": {
-   "spec": "tt",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Liam_Slock",
-   "evidence": "ridertype: Time trialist",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "lindsay-de-vylder": {
    "spec": "domestique",
@@ -1313,15 +1167,11 @@
   },
   "lionel-taminiaux": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "l'article no té el camp ridertype"
+   "confidence": "unknown"
   },
   "loe-van-belle": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "lorenzo-finn": {
    "spec": "climber",
@@ -1345,9 +1195,7 @@
   },
   "louis-barre": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "louis-vervaeke": {
    "spec": "domestique",
@@ -1355,9 +1203,7 @@
   },
   "luca-van-boven": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "luca-vergallito": {
    "spec": "climber",
@@ -1392,11 +1238,8 @@
    "confidence": "probable"
   },
   "luke-tuckwell": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Luke_Tuckwell",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "madis-mihkels": {
    "spec": "sprinter",
@@ -1448,22 +1291,15 @@
   },
   "martin-svrcek": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "martin-tjotta": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Martin_Tjøtta",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "martin-urianstad": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "matej-mohoric": {
    "spec": "classics",
@@ -1483,9 +1319,7 @@
   },
   "mathieu-kockelmann": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "mathieu-van-der-poel": {
    "spec": "classics",
@@ -1509,9 +1343,7 @@
   },
   "matteo-milan": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "matteo-sobrero": {
    "spec": "tt",
@@ -1523,43 +1355,31 @@
   },
   "matthew-dinham": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "matthew-fox": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "matthew-riccitello": {
    "spec": "climber",
    "confidence": "probable"
   },
   "matthias-schwarzbacher": {
-   "spec": "classics",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Matthias_Schwarzbacher",
-   "evidence": "ridertype: Classics Specialist",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "mattia-agostinacchio": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "mattia-cattaneo": {
    "spec": "tt",
    "confidence": "probable"
   },
   "mattia-gaffuri": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Mattia_Gaffuri",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "mattias-skjelmose": {
    "spec": "gv",
@@ -1567,9 +1387,7 @@
   },
   "matys-grisel": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "l'article no té el camp ridertype"
+   "confidence": "unknown"
   },
   "mauri-vansevenant": {
    "spec": "puncheur",
@@ -1592,17 +1410,12 @@
    "confidence": "probable"
   },
   "max-van-der-meulen": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Max_van_der_Meulen",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "max-walker": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "max-walscheid": {
    "spec": "domestique",
@@ -1614,9 +1427,7 @@
   },
   "maxime-decomble": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "maximilian-schachmann": {
    "spec": "puncheur",
@@ -1624,9 +1435,7 @@
   },
   "menno-huising": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "michael-gogl": {
    "spec": "classics",
@@ -1677,11 +1486,8 @@
    "confidence": "probable"
   },
   "nadav-raisberg": {
-   "spec": "sprinter",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Nadav_Raisberg",
-   "evidence": "ridertype: Sprinter",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "nairo-quintana": {
    "spec": "gv",
@@ -1717,26 +1523,19 @@
   },
   "nicolas-vinokurov": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "nikias-arndt": {
    "spec": "domestique",
    "confidence": "sure"
   },
   "niklas-behrens": {
-   "spec": "sprinter",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Niklas_Behrens",
-   "evidence": "ridertype: Sprinter",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "niklas-markl": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "nils-eekhoff": {
    "spec": "classics",
@@ -1748,23 +1547,15 @@
   },
   "noa-isidore": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "noah-hobbs": {
-   "spec": "sprinter",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Noah_Hobbs",
-   "evidence": "ridertype: Sprinter (road), pursuitist (track)",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "oded-kogut": {
-   "spec": "sprinter",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Oded_Kogut",
-   "evidence": "ridertype: Sprinter",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "olav-kooij": {
    "spec": "sprinter",
@@ -1775,17 +1566,12 @@
    "confidence": "sure"
   },
   "oliver-peace": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Oliver_Peace",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "oliver-stockwell": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "olivier-le-gac": {
    "spec": "domestique",
@@ -1796,11 +1582,8 @@
    "confidence": "sure"
   },
   "oscar-chamberlain": {
-   "spec": "tt",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Oscar_Chamberlain",
-   "evidence": "ridertype: Time trialist",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "oscar-onley": {
    "spec": "gv",
@@ -1820,9 +1603,7 @@
   },
   "owain-doull": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "pablo-castrillo": {
    "spec": "climber",
@@ -1850,9 +1631,7 @@
   },
   "pau-marti": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "pau-miquel": {
    "spec": "puncheur",
@@ -1883,11 +1662,8 @@
    "confidence": "probable"
   },
   "pavel-novak": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Pavel_Novák",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "pavel-sivakov": {
    "spec": "climber",
@@ -1903,9 +1679,7 @@
   },
   "pepijn-reinderink": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "per-strand-hagenes": {
    "spec": "puncheur",
@@ -1913,9 +1687,7 @@
   },
   "peter-oxenberg": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "phil-bauhaus": {
    "spec": "sprinter",
@@ -1923,9 +1695,7 @@
   },
   "pier-andre-cote": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "pierre-gautherat": {
    "spec": "puncheur",
@@ -1933,9 +1703,7 @@
   },
   "pietro-mattio": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "primoz-roglic": {
    "spec": "gv",
@@ -1959,9 +1727,7 @@
   },
   "rasmus-sojberg-pedersen": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "rasmus-tiller": {
    "spec": "classics",
@@ -1997,9 +1763,7 @@
   },
   "robbe-dhondt": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "robbe-ghys": {
    "spec": "sprinter",
@@ -2007,26 +1771,19 @@
   },
   "robert-donaldson": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "robert-stannard": {
    "spec": "puncheur",
    "confidence": "probable"
   },
   "robin-orins": {
-   "spec": "tt",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Robin_Orins",
-   "evidence": "ridertype: Time trialist",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "roel-van-sintmaartensdijk": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "roger-adria": {
    "spec": "puncheur",
@@ -2038,9 +1795,7 @@
   },
   "roman-ermakov": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "rudy-molard": {
    "spec": "puncheur",
@@ -2064,9 +1819,7 @@
   },
   "sakarias-koller-loland": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "sam-oomen": {
    "spec": "domestique",
@@ -2078,9 +1831,7 @@
   },
   "samuel-watson": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "ambigu: sprinter, tt"
+   "confidence": "unknown"
   },
   "samuele-battistella": {
    "spec": "puncheur",
@@ -2100,26 +1851,19 @@
   },
   "sean-flynn": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "sean-quinn": {
    "spec": "puncheur",
    "confidence": "probable"
   },
   "sebastien-grignard": {
-   "spec": "tt",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Sébastien_Grignard",
-   "evidence": "ridertype: Time trialist",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "senna-remijn": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "sente-sentjens": {
    "spec": "sprinter",
@@ -2143,9 +1887,7 @@
   },
   "simon-dalby": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "simon-dehairs": {
    "spec": "domestique",
@@ -2156,11 +1898,8 @@
    "confidence": "probable"
   },
   "simone-gualdi": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Simone_Gualdi",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
+   "spec": null,
+   "confidence": "unknown"
   },
   "simone-velasco": {
    "spec": "puncheur",
@@ -2188,9 +1927,7 @@
   },
   "steffen-de-schuyteneer": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "stephen-williams": {
    "spec": "puncheur",
@@ -2206,15 +1943,11 @@
   },
   "storm-ingebrigtsen": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "su-haoyu": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "l'article no té el camp ridertype"
+   "confidence": "unknown"
   },
   "sven-erik-bystrom": {
    "spec": "domestique",
@@ -2238,9 +1971,7 @@
   },
   "thibaud-gruel": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "thymen-arensman": {
    "spec": "climber",
@@ -2268,15 +1999,11 @@
   },
   "tim-naberman": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "tim-rex": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "tim-torn-teutenberg": {
    "spec": "sprinter",
@@ -2292,15 +2019,11 @@
   },
   "timo-de-jong": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "timo-kielich": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "timo-roosen": {
    "spec": "domestique",
@@ -2308,9 +2031,7 @@
   },
   "titouan-fontaine": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "tobias-bayer": {
    "spec": "domestique",
@@ -2330,15 +2051,11 @@
   },
   "tobias-svarre": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "tom-donnenwirth": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "tom-van-asbroeck": {
    "spec": "domestique",
@@ -2354,9 +2071,7 @@
   },
   "tord-gudmestad": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "torstein-traeen": {
    "spec": "climber",
@@ -2396,9 +2111,7 @@
   },
   "vito-braet": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "vlad-van-mechelen": {
    "spec": "classics",
@@ -2406,9 +2119,7 @@
   },
   "warre-vangheluwe": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "warren-barguil": {
    "spec": "climber",
@@ -2428,9 +2139,7 @@
   },
   "yevgeniy-fedorov": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   },
   "yves-lampaert": {
    "spec": "classics",
@@ -2438,211 +2147,7 @@
   },
   "zak-erzen": {
    "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "guus-van-den-eijnden": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "michiel-lambrecht": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "morten-nortoft": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "matteo-scalco": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "nicolas-breuillard": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "tommaso-dati": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "seth-dunwoody": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "remi-arsac": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "gavin-sherry": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "juan-felipe-rodriguez": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Juan_Felipe_Rodríguez",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
-  },
-  "remi-daumas": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "victor-loulergue": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "adam-rafferty": {
-   "spec": "tt",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Adam_Rafferty_(cyclist)",
-   "evidence": "ridertype: Time trialist",
-   "checked": "2026-11-10"
-  },
-  "ben-wiggins": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "jed-smithson": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "oliver-bleddyn": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "ugo-fabries": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "wil-holmes": {
-   "spec": "tt",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Wil_Holmes",
-   "evidence": "ridertype: Time trialist",
-   "checked": "2026-11-10"
-  },
-  "hector-alvarez": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "brandon-fedrizzi": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "halvor-dolven": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "kamiel-eeman": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "milan-donie": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "victor-vaneeckhoutte": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "diego-uriarte": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "hugo-de-la-calle": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "ivan-cobo": {
-   "spec": "climber",
-   "confidence": "probable",
-   "source": "https://en.wikipedia.org/wiki/Iván_Cobo",
-   "evidence": "ridertype: Climber",
-   "checked": "2026-11-10"
-  },
-  "javier-cubillas": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "mads-landbo": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "mateo-ramirez": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
-  },
-  "jens-verbrugghe": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "sebastian-putz": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "sense article a la Viquipèdia anglesa"
-  },
-  "kristian-egholm": {
-   "spec": null,
-   "confidence": "unknown",
-   "checked": "2026-11-10",
-   "evidence": "el camp no correspon a cap categoria del joc"
+   "confidence": "unknown"
   }
  }
 }

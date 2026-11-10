@@ -317,8 +317,7 @@ def main():
                 "gtWins": gt.get(r["qid"], 0), "monuments": mon.get(r["qid"], 0),
             }
             rec.update(overrides.get("riders", {}).get(rid, {}))
-            rec["monuments"] += overrides.get("extraMonuments", {}).get(rid, 0)
-            rec["gtWins"] += overrides.get("extraGrandTours", {}).get(rid, 0)
+            # El palmarès definitiu el recalcula scripts/palmares.py a partir de winners.json.
             out.append(rec)
 
         by_team = defaultdict(int)

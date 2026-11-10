@@ -36,6 +36,8 @@ jobs:
       - run: pip install requests beautifulsoup4
       - name: Compara plantilles
         run: python scripts/roster_2027.py --season "${{ github.event.inputs.season || '2027' }}"
+      - name: Palmarès des de winners.json
+        run: python scripts/palmares.py
       - name: Valida les dades actuals
         run: python scripts/validate_data.py
       - name: Desa l'informe

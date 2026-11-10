@@ -23,8 +23,10 @@ for r in doc["riders"]:
     conf = CONF[s.get("confidence", "unknown")] if s.get("spec") else "pendent"
     rows.append({"id": r["id"], "nom": r["name"], "equip": r["team"],
                  "especialitat_proposada": SHORT.get(s.get("spec"), ""), "especialitat_app": s.get("spec") or "",
-                 "especialitat_confiança": conf, "justificacio": WHY[conf],
-                 "especialitat_font": SOURCE if conf != "pendent" else "",
+                 "especialitat_confiança": conf,
+                 "justificacio": (f"Viquipèdia anglesa, {s['evidence']}" if s.get("source") else
+                                  WHY[conf] + (f" ({s['evidence']})" if conf == "pendent" and s.get("evidence") else "")),
+                 "especialitat_font": s.get("source") or (SOURCE if conf != "pendent" else ""),
                  "especialitat_data_revisio": today, "cal_revisio_humana": "no" if conf == "alta" else "sí"})
 out = DATA / str(season) / f"specialty_review_{season}.csv"
 with open(out, "w", newline="", encoding="utf-8") as fh:

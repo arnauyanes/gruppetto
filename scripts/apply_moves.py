@@ -26,9 +26,20 @@ REGISTRATION_PENDING = {"jayco": "Registre UCI 2027 pendent (documents no presen
                         "picnic": "Registre UCI 2027 pendent (documents no presentats el 15/10/2026)"}
 
 
+# Webs oficials dels equips (comunicats propis). Una font d'aquests dominis compta com a oficial.
+OFFICIAL_DOMAINS = ("uci.org", "alpecin-premiertech.com", "bahraincyclingteam.com", "decathloncmacgmteam.com",
+                    "efprocycling.com", "equipecycliste-groupama-fdj.fr", "racing.trekbikes.com",
+                    "lotto-intermarche.be", "movistarteam.com", "netcompanyineos.com", "ineosgrenadiers.com",
+                    "nsncyclingteam.com", "redbullborahansgrohe.com", "soudal-quickstepteam.com",
+                    "greenedgecycling.com", "teamvismaleaseabike.com", "uaeteamemirates.com", "unoxteam.com",
+                    "tudorprocycling.com", "equipecofidis.com")
+
+
 def source_type(url):
     if "uci.org" in url:
         return "uci"
+    if any(d in url for d in OFFICIAL_DOMAINS):
+        return "oficial"
     if "wikipedia.org" in url:
         return "enciclopedia"
     return "premsa" if url else "pendent"
@@ -76,6 +87,12 @@ def main():
 
     with open(out_dir / f"moves_input_{season}.csv", encoding="utf-8") as fh:
         moves = list(csv.DictReader(fh))
+
+    official = {}
+    off_path = out_dir / f"official_sources_{season}.csv"
+    if off_path.exists():
+        with open(off_path, encoding="utf-8") as fh:
+            official = {r["id"]: r for r in csv.DictReader(fh)}
 
     changes, incidents, touched = [], [], {}
     altes = [m for m in moves if m["tipus"] == "alta"]
@@ -177,6 +194,14 @@ def main():
                           "font_url": ROSTER_2026_URL, "font_tipus": "enciclopedia", "data_verificacio": today,
                           "estat_confirmacio": "provisional",
                           "nota": "; ".join(x for x in ["Plantilla 2026 sense baixa coneguda", REGISTRATION_PENDING.get(r["team"], "")] if x)})
+    # Estat confirmat només amb comunicat oficial (equip, UCI o ciclista) que situï el corredor en aquest equip.
+    for row in trace:
+        o = official.get(row["id"])
+        if o and o["equip_2027"] == row["equip"]:
+            row.update(estat_confirmacio="confirmat", font_url=o["font_oficial"], font_tipus="oficial",
+                       nota="; ".join(x for x in [o.get("nota", ""), row["nota"]] if x))
+        elif o:
+            row["nota"] = "; ".join(x for x in [row["nota"], f"Discrepància: la font oficial el situa a {o['equip_2027']}"] if x)
     write(out_dir / f"riders_{season}_sources.csv", trace)
 
     c = Counter(x["moviment"] for x in changes)
@@ -185,7 +210,9 @@ def main():
              f"Corredors {prev_season}: {len(base['riders'])} → {season}: {len(out)}", "",
              "## Moviments aplicats", *[f"- {k}: {v}" for k, v in sorted(c.items())],
              f"- incidències: {len(incidents)}", "", "## Corredors per equip",
-             *[f"- {k}: {v}" for k, v in sorted(per_team.items())], "", "## Registre", *log]
+             *[f"- {k}: {v}" for k, v in sorted(per_team.items())], "",
+             "## Estat de confirmació", *[f"- {k}: {v}" for k, v in sorted(Counter(t['estat_confirmacio'] for t in trace).items())],
+             "", "## Registre", *log]
     (out_dir / f"apply_report_{season}.md").write_text("\n".join(lines) + "\n")
     print("\n".join(lines))
 

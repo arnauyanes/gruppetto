@@ -97,7 +97,7 @@ Abans de l'auditoria n'hi havia 163 de pendents: 139 amb `spec: null` i 24 altes
 - no canvia les especialitats que ja hi eren. Si la Viquipèdia en diu una altra, ho anota com a discrepància a `specialty_evidence_2027.csv`.
 
 **Resultat (534 corredors):**
-- 33 especialitats assignades amb font: 16 escaladors, 8 especialistes en contrarellotge, 4 esprintadors, 3 puncheurs i 2 especialistes en clàssiques. La llista és a `specialty_evidence_2027.csv`, filtrant per `accio = assignada`.
+- 33 especialitats assignades amb font: 16 escaladors, 9 especialistes en contrarellotge, 4 esprintadors, 2 puncheurs i 2 especialistes en clàssiques. La llista és a `specialty_evidence_2027.csv`, filtrant per `accio = assignada`.
 - **132 continuen pendents:** 113 tenen article però sense el camp, 15 no tenen article a la Viquipèdia anglesa, 2 tenen un terme que no és cap categoria i 2 són ambigus. No s'hi ha posat cap especialitat.
 - 43 discrepàncies amb especialitats existents, que no s'han canviat. Moltes són de criteri: la Viquipèdia diu *Climber* d'un líder que el joc classifica com a `gv` (Mas, Almeida, Yates, Vlasov), o diu *Climber* d'un gregari muntanyer. Les que convé revisar a mà: Simon Dehairs (joc: gregari / Viquipèdia: esprintador), Clément Venturini (clàssiques / esprintador), Søren Wærenskjold (esprintador / contrarellotge), Stian Fredheim (esprintador / clàssiques), Jake Stewart (esprintador / clàssiques) i Edward Theuns (gregari / clàssiques).
 - Les especialitats `probable` anteriors a l'auditoria no tenen font externa i consten així a `specialty_review_2027.csv`. Cap especialitat nova és `sure`, així que cap corredor nou pot ser corredor del dia. Els candidats passen de 126 a 121, per les retirades.

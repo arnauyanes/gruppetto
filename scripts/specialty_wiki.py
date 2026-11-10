@@ -44,10 +44,12 @@ def enwiki_titles(qids):
 
 
 def ridertype(title):
-    data = b.get("https://en.wikipedia.org/w/api.php", {
-        "action": "parse", "page": title, "prop": "wikitext", "section": 0, "format": "json", "redirects": 1}).json()
-    text = data.get("parse", {}).get("wikitext", {}).get("*", "")
-    m = re.search(r"\|\s*ridertype\s*=\s*(.+)", text)
+    data = b.get(b.WP, {"action": "parse", "page": title, "prop": "wikitext", "format": "json",
+                        "formatversion": 2, "redirects": 1}).json()
+    if "error" in data:
+        raise RuntimeError(data["error"].get("info", "error"))
+    text = data["parse"]["wikitext"]
+    m = re.search(r"\|\s*rider[ _]?type\s*=\s*(.+)", text, re.I)
     if not m:
         return None
     raw = m.group(1).split("\n")[0]
@@ -79,19 +81,21 @@ def main():
     for r in riders:
         cur = specs.get(r["id"], {})
         title = titles.get(r["qid"])
-        raw, cats, url = None, [], ""
+        raw, cats, url, err = None, [], "", ""
         if title:
             url = "https://en.wikipedia.org/wiki/" + title.replace(" ", "_")
             try:
                 raw = ridertype(title)
             except Exception as e:  # una pàgina que falla no atura la resta
-                raw = None
+                raw, err = None, str(e)[:80]
                 print("error", title, e)
             time.sleep(0.3)
         if raw:
             cats = classify(raw)
         if not title:
             result = "sense article a la Viquipèdia anglesa"
+        elif err:
+            result = f"error de lectura: {err}"
         elif not raw:
             result = "l'article no té el camp ridertype"
         elif not cats:

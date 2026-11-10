@@ -2,7 +2,7 @@
  "source": "wikipedia+wikidata+moviments-premsa",
  "season": 2027,
  "status": "provisional",
- "generated": "2026-11-08",
+ "generated": "2026-11-10",
  "riders": [
   {
    "id": "aaron-dockx",
@@ -241,6 +241,26 @@
    "country": "AUT",
    "team": "alpecin",
    "born": "1993-11-04",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "michiel-lambrecht",
+   "name": "Michiel Lambrecht",
+   "qid": "Q112726308",
+   "country": "BEL",
+   "team": "alpecin",
+   "born": "2003-02-10",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
+   "id": "morten-nortoft",
+   "name": "Morten Nørtøft",
+   "qid": "Q106522775",
+   "country": "DEN",
+   "team": "alpecin",
+   "born": "2002-09-05",
    "gtWins": 0,
    "monuments": 0
   },
@@ -715,16 +735,6 @@
    "monuments": 0
   },
   {
-   "id": "damiano-caruso",
-   "name": "Damiano Caruso",
-   "qid": "Q956604",
-   "country": "ITA",
-   "team": "bahrain",
-   "born": "1987-10-12",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
    "id": "daniel-skerl",
    "name": "Daniel Skerl",
    "qid": "Q113376353",
@@ -871,16 +881,6 @@
    "country": "ESP",
    "team": "bahrain",
    "born": "2000-08-20",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
-   "id": "pello-bilbao",
-   "name": "Pello Bilbao",
-   "qid": "Q1067547",
-   "country": "ESP",
-   "team": "bahrain",
-   "born": "1990-02-25",
    "gtWins": 0,
    "monuments": 0
   },
@@ -1845,26 +1845,6 @@
    "monuments": 0
   },
   {
-   "id": "ben-swift",
-   "name": "Ben Swift",
-   "qid": "Q545318",
-   "country": "GBR",
-   "team": "ineos",
-   "born": "1987-11-05",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
-   "id": "bob-jungels",
-   "name": "Bob Jungels",
-   "qid": "Q888024",
-   "country": "LUX",
-   "team": "ineos",
-   "born": "1992-09-22",
-   "gtWins": 0,
-   "monuments": 1
-  },
-  {
    "id": "brandon-rivera",
    "name": "Brandon Rivera",
    "qid": "Q48982129",
@@ -2195,16 +2175,6 @@
    "monuments": 0
   },
   {
-   "id": "asbjorn-hellemose",
-   "name": "Asbjørn Hellemose",
-   "qid": "Q98915714",
-   "country": "DEN",
-   "team": "jayco",
-   "born": "1999-01-15",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
    "id": "ben-wiggins",
    "name": "Ben Wiggins",
    "qid": "Q114567678",
@@ -2295,16 +2265,6 @@
    "monuments": 0
   },
   {
-   "id": "jasha-sutterlin",
-   "name": "Jasha Sütterlin",
-   "qid": "Q3162848",
-   "country": "GER",
-   "team": "jayco",
-   "born": "1992-11-04",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
    "id": "jed-smithson",
    "name": "Jed Smithson",
    "qid": "Q124128433",
@@ -2321,26 +2281,6 @@
    "country": "AUS",
    "team": "jayco",
    "born": "1998-05-22",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
-   "id": "koen-bouwman",
-   "name": "Koen Bouwman",
-   "qid": "Q20743580",
-   "country": "NED",
-   "team": "jayco",
-   "born": "1993-12-02",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
-   "id": "luka-mezgec",
-   "name": "Luka Mezgec",
-   "qid": "Q961199",
-   "country": "SLO",
-   "team": "jayco",
-   "born": "1988-06-27",
    "gtWins": 0,
    "monuments": 0
   },
@@ -2385,6 +2325,16 @@
    "monuments": 0
   },
   {
+   "id": "oliver-bleddyn",
+   "name": "Oliver Bleddyn",
+   "qid": "Q118124441",
+   "country": "AUS",
+   "team": "jayco",
+   "born": "2002-01-27",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
    "id": "pascal-ackermann",
    "name": "Pascal Ackermann",
    "qid": "Q15839596",
@@ -2421,16 +2371,6 @@
    "country": "GBR",
    "team": "jayco",
    "born": "2002-04-08",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
-   "id": "rudy-porter",
-   "name": "Rudy Porter",
-   "qid": "Q84541755",
-   "country": "AUS",
-   "team": "jayco",
-   "born": "2000-12-15",
    "gtWins": 0,
    "monuments": 0
   },
@@ -2483,16 +2423,6 @@
    "born": "1994-08-17",
    "gtWins": 0,
    "monuments": 0
-  },
-  {
-   "id": "bauke-mollema",
-   "name": "Bauke Mollema",
-   "qid": "Q380048",
-   "country": "NED",
-   "team": "lidl",
-   "born": "1986-11-26",
-   "gtWins": 0,
-   "monuments": 1
   },
   {
    "id": "carlos-verona",
@@ -2691,16 +2621,6 @@
    "country": "DEN",
    "team": "lidl",
    "born": "2000-09-26",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
-   "id": "max-walscheid",
-   "name": "Max Walscheid",
-   "qid": "Q17580397",
-   "country": "GER",
-   "team": "lidl",
-   "born": "1993-06-13",
    "gtWins": 0,
    "monuments": 0
   },
@@ -3275,6 +3195,16 @@
    "monuments": 0
   },
   {
+   "id": "mads-landbo",
+   "name": "Mads Landbo",
+   "qid": "Q111550161",
+   "country": "DEN",
+   "team": "movistar",
+   "born": "2004-09-30",
+   "gtWins": 0,
+   "monuments": 0
+  },
+  {
    "id": "manlio-moro",
    "name": "Manlio Moro",
    "qid": "Q111584847",
@@ -3302,16 +3232,6 @@
    "team": "movistar",
    "born": "2001-04-06",
    "gtWins": 0,
-   "monuments": 0
-  },
-  {
-   "id": "nairo-quintana",
-   "name": "Nairo Quintana",
-   "qid": "Q511856",
-   "country": "COL",
-   "team": "movistar",
-   "born": "1990-02-04",
-   "gtWins": 2,
    "monuments": 0
   },
   {
@@ -3411,16 +3331,6 @@
    "country": "ITA",
    "team": "nsn",
    "born": "2003-07-12",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
-   "id": "alexey-lutsenko",
-   "name": "Alexey Lutsenko",
-   "qid": "Q128239",
-   "country": "KAZ",
-   "team": "nsn",
-   "born": "1992-09-07",
    "gtWins": 0,
    "monuments": 0
   },
@@ -3681,16 +3591,6 @@
    "country": "COL",
    "team": "nsn",
    "born": "1999-09-26",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
-   "id": "simon-clarke",
-   "name": "Simon Clarke",
-   "qid": "Q713274",
-   "country": "AUS",
-   "team": "nsn",
-   "born": "1986-07-18",
    "gtWins": 0,
    "monuments": 0
   },
@@ -4233,6 +4133,16 @@
    "born": "2000-01-25",
    "gtWins": 1,
    "monuments": 2
+  },
+  {
+   "id": "sebastian-putz",
+   "name": "Sebastian Putz",
+   "qid": "Q114259132",
+   "country": "AUT",
+   "team": "redbull",
+   "born": "2003-08-26",
+   "gtWins": 0,
+   "monuments": 0
   },
   {
    "id": "tim-van-dijke",
@@ -4975,32 +4885,12 @@
    "monuments": 0
   },
   {
-   "id": "jonas-iversby-hvideberg",
-   "name": "Jonas Iversby Hvideberg",
-   "qid": "Q55740232",
-   "country": "NOR",
-   "team": "unox",
-   "born": "1999-02-09",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
    "id": "kristian-egholm",
    "name": "Kristian Egholm",
    "qid": "Q105747072",
    "country": "DEN",
    "team": "unox",
    "born": "2004-03-16",
-   "gtWins": 0,
-   "monuments": 0
-  },
-  {
-   "id": "magnus-cort",
-   "name": "Magnus Cort",
-   "qid": "Q12325722",
-   "country": "DEN",
-   "team": "unox",
-   "born": "1993-01-16",
    "gtWins": 0,
    "monuments": 0
   },
@@ -5392,16 +5282,6 @@
    "team": "visma",
    "born": "1994-09-13",
    "gtWins": 1,
-   "monuments": 0
-  },
-  {
-   "id": "steven-kruijswijk",
-   "name": "Steven Kruijswijk",
-   "qid": "Q523376",
-   "country": "NED",
-   "team": "visma",
-   "born": "1987-06-07",
-   "gtWins": 0,
    "monuments": 0
   },
   {

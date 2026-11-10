@@ -1,13 +1,6 @@
 {
- "_info": "Correccions manuals. 'riders': substitueix camps per id. 'extraMonuments' i 'extraGrandTours': victòries que se sumen a les de Wikidata.",
- "_flandes": "Wikidata no té bé els guanyadors del Tour de Flandes. Aquí hi ha els dels corredors actuals fins al 2026.",
+ "_info": "Correccions manuals sobre les dades generades. 'riders': substitueix camps per id. El palmarès (gtWins, monuments) ja no es corregeix aquí: es calcula amb scripts/palmares.py a partir de winners.json.",
  "riders": {},
- "extraMonuments": {
-  "tadej-pogacar": 3,
-  "mathieu-van-der-poel": 3,
-  "kasper-asgreen": 1,
-  "alberto-bettiol": 1
- },
- "extraGrandTours": {},
- "_pogacar": "Pogačar: 13 monuments (2026). A Wikidata hi falten els 3 Tours de Flandes."
+ "extraMonuments": {},
+ "extraGrandTours": {}
 }

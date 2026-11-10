@@ -5,116 +5,206 @@
    "id": "alpecin",
    "name": "Alpecin–Premier Tech",
    "short": "Alpecin",
-   "country": "BE"
+   "country": "BE",
+   "uci2027": {
+    "name": "Alpecin-Premier Tech",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "decathlon",
    "name": "Decathlon CMA CGM",
    "short": "Decathlon",
-   "country": "FR"
+   "country": "FR",
+   "uci2027": {
+    "name": "Decathlon CMA CGM Team",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "ef",
    "name": "EF Education–EasyPost",
    "short": "EF",
-   "country": "US"
+   "country": "US",
+   "uci2027": {
+    "name": "EF Education - EasyPost",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "groupama",
    "name": "Groupama–FDJ United",
    "short": "Groupama",
-   "country": "FR"
+   "country": "FR",
+   "uci2027": {
+    "name": "Groupama-FDJ United",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "lidl",
    "name": "Lidl–Trek",
    "short": "Lidl-Trek",
-   "country": "DE"
+   "country": "DE",
+   "uci2027": {
+    "name": "Lidl-Trek",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "lotto",
    "name": "Lotto–Intermarché",
    "short": "Lotto",
-   "country": "BE"
+   "country": "BE",
+   "uci2027": {
+    "name": "Lotto Intermarché",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "movistar",
    "name": "Movistar Team",
    "short": "Movistar",
-   "country": "ES"
+   "country": "ES",
+   "uci2027": {
+    "name": "Movistar Team",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "ineos",
    "name": "Netcompany INEOS",
    "short": "INEOS",
-   "country": "GB"
+   "country": "GB",
+   "uci2027": {
+    "name": "Netcompany Ineos",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "nsn",
    "name": "NSN Cycling Team",
    "short": "NSN",
-   "country": "CH"
+   "country": "CH",
+   "uci2027": {
+    "name": "NSN Cycling Team",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "redbull",
    "name": "Red Bull–Bora–Hansgrohe",
    "short": "Red Bull",
-   "country": "DE"
+   "country": "DE",
+   "uci2027": {
+    "name": "Red Bull - Bora - Hansgrohe",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "soudal",
    "name": "Soudal–Quick-Step",
    "short": "Soudal QS",
    "country": "BE",
-   "note2027": "Apareix com a 'Soudal-Safety Jogger' a la llista UCI de sol·licituds 2027."
+   "uci2027": {
+    "name": "Soudal - Safety Jogger",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "bahrain",
    "name": "Team Bahrain Victorious",
    "short": "Bahrain",
-   "country": "BH"
+   "country": "BH",
+   "uci2027": {
+    "name": "Bahrain Victorious",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "jayco",
    "name": "Team Jayco–AlUla",
    "short": "Jayco",
    "country": "AU",
-   "note2027": "Registre UCI 2027 pendent: no va presentar els documents el 15/10/2026."
+   "uci2027": {
+    "name": null,
+    "status": "pendent: no apareix a la llista UCI de documents presentats el 15/10/2026",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr",
+    "detail": "https://www.cyclingnews.com/pro-cycling/teams-riders/picnic-postnl-finalising-new-bike-supplier-amid-lapierre-woes-jayco-alula-hit-by-bank-transfer-issue-as-both-teams-explain-missed-deadline-for-2027-worldtour-registration/"
+   }
   },
   {
    "id": "picnic",
    "name": "Team Picnic–PostNL",
    "short": "Picnic",
    "country": "NL",
-   "note2027": "Registre UCI 2027 pendent: no va presentar els documents el 15/10/2026."
+   "uci2027": {
+    "name": null,
+    "status": "pendent: no apareix a la llista UCI de documents presentats el 15/10/2026",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr",
+    "detail": "https://www.cyclingnews.com/pro-cycling/teams-riders/picnic-postnl-finalising-new-bike-supplier-amid-lapierre-woes-jayco-alula-hit-by-bank-transfer-issue-as-both-teams-explain-missed-deadline-for-2027-worldtour-registration/"
+   }
   },
   {
    "id": "visma",
    "name": "Visma–Lease a Bike",
    "short": "Visma",
    "country": "NL",
-   "note2027": "Registrat per al 2027 com a 'Yellow B. Cycling' mentre busca un patrocinador que substitueixi Visma."
+   "uci2027": {
+    "name": "Yellow B. Cycling",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "uae",
    "name": "UAE Team Emirates XRG",
    "short": "UAE",
-   "country": "AE"
+   "country": "AE",
+   "uci2027": {
+    "name": "UAE Team Emirates XRG",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "unox",
    "name": "Uno-X Mobility",
    "short": "Uno-X",
-   "country": "NO"
+   "country": "NO",
+   "uci2027": {
+    "name": "Uno-X Mobility",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   },
   {
    "id": "astana",
    "name": "XDS Astana Team",
    "short": "Astana",
-   "country": "KZ"
+   "country": "KZ",
+   "uci2027": {
+    "name": "XDS Astana Team",
+    "status": "documents presentats (pendent de registre definitiu, 8/12/2026)",
+    "source": "https://www.uci.org/pressrelease/womens-and-mens-professional-road-cycling-48-teams-have-submitted-essential-documents-with-a-view-to-registration-in-2027/1sWR2XrL5SoXmKsnWA4RZr"
+   }
   }
  ],
  "status": "provisional",
  "source": "https://www.cyclingnews.com/pro-cycling/transfers/theres-still-hope-for-totalenergies-as-uci-announces-team-registrations-for-2027/",
- "checked": "2026-11-08"
+ "checked": "2026-11-08",
+ "checked2027": "2026-11-10",
+ "note2027": "Noms tal com figuren a la llista UCI de sol·licituds 2027. Els noms visibles al joc es mantenen com els de 2026 fins al registre definitiu (8/12/2026). Jayco AlUla i Picnic PostNL no hi figuren; els equips ho atribueixen a una transferència bancària i a un proveïdor de bicicletes pendent (Cyclingnews, 20/10/2026). No s'ha trobat cap comunicat posterior de la UCI fins al 10/11/2026."
 }

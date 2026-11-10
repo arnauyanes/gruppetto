@@ -1,3 +1,5 @@
+> **Informe arxivat (auditoria 10/11/2026).** Correspon a la construcció de la plantilla 2026 amb `build_data.py`. La línia «Tour of Flanders: 0» reflectia un error de consulta d'aquell script (les edicions de Wikidata es diuen «… (men's race)»); es va compensar amb `extraMonuments` a `overrides.json`. Des de l'auditoria, el palmarès es calcula amb `scripts/palmares.py` a partir de `data/winners.json` (110 edicions de Flandes, 1913–2026) i els ajustos manuals s'han eliminat. Vegeu `data/2027/palmares_2027.md` i `data/2027/auditoria_2027.md`.
+
 # Informe de dades · temporada 2026
 Generat: 2026-11-08 11:53 UTC
 

@@ -1,5 +1,28 @@
 # Canvis de dades · temporada 2027
 
+## 2026-11-10 · Auditoria de dades
+
+Detall complet a `data/2027/auditoria_2027.md`.
+
+### Palmarès
+- `gtWins` i `monuments` es calculen amb `scripts/palmares.py` a partir de `winners.json`. Dona 0 diferències amb els valors anteriors.
+- S'eliminen els 8 monuments afegits a mà per compensar l'error de Flandes de `build_data.py` (vegeu `data/archive/report_2026.md`). Així no es poden comptar dues vegades.
+
+### Equips
+- Noms i situació UCI 2027 de cada equip a `teams.json` (`uci2027`), amb font de la UCI. Jayco AlUla i Picnic PostNL continuen pendents de registre.
+
+### Corredors
+- Nou fitxer `official_sources_2027.csv`, amb 93 comunicats oficials. Els corredors que hi surten passen a `confirmat`.
+- 98 dels 146 moviments tenen font oficial. Els altres 48 continuen `provisional`.
+- 13 retirades noves (Quintana, Mollema, Kruijswijk, Bilbao, Caruso, Cort, entre d'altres).
+- 4 baixes de Jayco que no surten a la plantilla oficial 2027.
+- 5 moviments pendents resolts amb noms oficials (Bleddyn, Nørtøft, Lambrecht, Landbo i Putz).
+- Corredors: 546 → 534 (92 `confirmat`, 442 `provisional`). L'alta de Benjamín Noval queda pendent perquè a Wikidata hi ha dos ciclistes amb aquest nom.
+
+### Especialitats
+- Les pendents es busquen al camp *ridertype* de la Viquipèdia anglesa (`specialty_wiki.py`). Només se n'assigna una si l'evidència és inequívoca, i sempre amb confiança `probable` i la font.
+- 33 assignades i 132 encara pendents. Hi ha 43 discrepàncies amb especialitats existents, documentades i sense canviar.
+
 ## 2026-11-08 · Base provisional 2027
 
 **Corredors:** 521 (2026) → 546 (2027), als mateixos 18 WorldTeams.
